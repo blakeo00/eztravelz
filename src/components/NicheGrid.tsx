@@ -11,48 +11,48 @@ const niches = [
         subtitle: "Pet-Friendly Travel",
         href: "/pet-travel",
         image:
-            "https://images.unsplash.com/photo-1587300003388-59208cc962cb?q=80&w=2070&auto=format&fit=crop",
-        alt: "A happy golden retriever wearing a travel bandana on a scenic road trip",
+            "/images/Pet Airport.png",
+        alt: "A small dog at the airport ready for a trip",
     },
     {
         title: "Spirits & Specters",
         subtitle: "Haunted Destinations",
         href: "/haunted-tours",
         image:
-            "https://images.unsplash.com/photo-1520531158340-44015069e78e?q=80&w=2069&auto=format&fit=crop",
-        alt: "Moody, fog-covered historic architecture at dusk",
+            "/images/Spooky corodior.png",
+        alt: "A spooky corridor in a supposedly haunted location",
     },
     {
         title: "Vineyards & Vintages",
         subtitle: "Wine Tourism",
         href: "/wine-destinations",
         image:
-            "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2070&auto=format&fit=crop",
-        alt: "Sunlit vineyard rows stretching toward rolling hills",
+            "/images/Wine glasses.png",
+        alt: "Two wine glasses with a vineyard in the background",
     },
     {
         title: "Game Day Getaways",
         subtitle: "Sports & Event Travel",
         href: "/sports-travel",
         image:
-            "https://images.unsplash.com/photo-1459865264687-595d652de67e?q=80&w=2070&auto=format&fit=crop",
-        alt: "Energetic stadium crowd cheering during a live sports event",
+            "/images/Lambeau.png",
+        alt: "A view of Lambeau Field",
     },
     {
         title: "Set-Jetting",
         subtitle: "Cinematic Travel",
         href: "/cinematic-travel",
         image:
-            "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=2059&auto=format&fit=crop",
-        alt: "Vintage movie clapperboard on location",
+            "/images/Stanley Hotel.png",
+        alt: "A view of the historic Stanley Hotel",
     },
     {
         title: "Culinary Quests",
         subtitle: "Diet & Regional Eats",
         href: "/culinary-quests",
         image:
-            "https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop",
-        alt: "A vibrant spread of colorful local cuisine on a rustic table",
+            "/images/Toast.png",
+        alt: "A delicious and vibrant spread with toast",
     },
 ];
 

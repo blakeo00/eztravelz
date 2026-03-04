@@ -24,7 +24,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-b from-slate-900/60 via-slate-900/40 to-slate-900/70" />
 
             {/* ---- Content ---- */}
-            <div className="relative z-10 text-center text-white px-4 max-w-3xl mx-auto">
+            <div className="relative z-10 text-center text-white px-4 max-w-3xl mx-auto mt-24 md:mt-20">
                 <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold leading-tight tracking-tight mb-6">
                     Travel Made Easy.
                     <br />

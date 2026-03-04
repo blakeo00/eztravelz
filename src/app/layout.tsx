@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
@@ -8,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-    title: "EZTravelz — Travel Made Easy. Choose Your Adventure.",
+    title: "EZtravelZ — Travel Made Easy. Choose Your Adventure.",
     description:
         "Your hub for niche travel: pet-friendly trips, haunted tours, wine destinations, sports travel, cinematic adventures, and culinary quests.",
 };
@@ -35,6 +36,23 @@ export default function RootLayout({
                 }}
             >
                 {children}
+                <Script
+                    id="stay22-affiliate"
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                            (function (s, t, a, y, twenty, two) {
+                                s.Stay22 = s.Stay22 || {};
+                                s.Stay22.params = { lmaID: '69a52c19d34b72cb6db518dc' };
+                                twenty = t.createElement(a);
+                                two = t.getElementsByTagName(a)[0];
+                                twenty.async = 1;
+                                twenty.src = y;
+                                two.parentNode.insertBefore(twenty, two);
+                            })(window, document, 'script', 'https://scripts.stay22.com/letmeallez.js');
+                        `,
+                    }}
+                />
             </body>
         </html>
     );

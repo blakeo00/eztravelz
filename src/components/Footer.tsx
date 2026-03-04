@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 /**
  * Footer Component
@@ -15,11 +16,14 @@ export default function Footer() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     {/* Brand + Tagline */}
                     <div>
-                        <Link href="/" className="flex items-center gap-2 mb-4">
-                            <span className="w-9 h-9 rounded-lg bg-brand-500 text-white flex items-center justify-center font-bold text-sm">
-                                EZ
-                            </span>
-                            <span className="text-xl font-bold">EZTravelz</span>
+                        <Link href="/" className="flex items-center mb-4">
+                            <Image
+                                src="/images/Logo 3.png"
+                                alt="EZtravelZ Logo"
+                                width={160}
+                                height={40}
+                                className="object-contain"
+                            />
                         </Link>
                         <p className="text-slate-400 max-w-sm leading-relaxed">
                             Curated niche travel experiences for people who know what they
@@ -31,7 +35,7 @@ export default function Footer() {
                     <div className="bg-dark-800 rounded-2xl p-8">
                         <h3 className="text-lg font-bold mb-2">Stay in the Loop</h3>
                         <p className="text-slate-400 text-sm mb-6">
-                            Join the EZTravelz Club for exclusive travel guides and packing
+                            Join the EZtravelZ Club for exclusive travel guides and packing
                             lists.
                         </p>
                         <form
@@ -57,15 +61,15 @@ export default function Footer() {
             {/* ---- Bottom Bar ---- */}
             <div className="border-t border-slate-800">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
-                    <p>&copy; {new Date().getFullYear()} EZTravelz. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} EZtravelZ. All rights reserved.</p>
                     <nav className="flex items-center gap-6">
-                        <Link href="#" className="hover:text-white transition-colors">
+                        <Link href="/privacy-policy" className="hover:text-white transition-colors">
                             Privacy Policy
                         </Link>
-                        <Link href="#" className="hover:text-white transition-colors">
+                        <Link href="/terms-of-service" className="hover:text-white transition-colors">
                             Terms of Service
                         </Link>
-                        <Link href="#" className="hover:text-white transition-colors">
+                        <Link href="/affiliate-disclosure" className="hover:text-white transition-colors">
                             Affiliate Disclosure
                         </Link>
                     </nav>

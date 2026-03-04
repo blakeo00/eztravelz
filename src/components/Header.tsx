@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 /**
  * Niche navigation links used in both desktop nav and mobile menu.
@@ -17,7 +18,7 @@ const niches = [
 
 /**
  * Header Component
- * Sticky navigation bar with EZTravelz logo, desktop inline links,
+ * Sticky navigation bar with EZtravelZ logo, desktop inline links,
  * and a hamburger menu for mobile viewports.
  */
 export default function Header() {
@@ -33,17 +34,21 @@ export default function Header() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                    ? "bg-white/90 backdrop-blur-md shadow-sm"
-                    : "bg-white/60 backdrop-blur-sm"
+                ? "bg-white/90 backdrop-blur-md shadow-sm"
+                : "bg-white/60 backdrop-blur-sm"
                 }`}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-24 md:h-20">
                 {/* ---- Logo ---- */}
-                <Link href="/" className="flex items-center gap-2 group">
-                    <span className="w-9 h-9 rounded-lg bg-brand-600 text-white flex items-center justify-center font-bold text-sm tracking-tight group-hover:bg-brand-700 transition-colors">
-                        EZ
-                    </span>
-                    <span className="text-xl font-bold tracking-tight">EZTravelz</span>
+                <Link href="/" className="flex items-center group">
+                    <Image
+                        src="/images/Logo 3.png"
+                        alt="EZtravelZ Logo"
+                        width={160}
+                        height={40}
+                        className="object-contain"
+                        priority
+                    />
                 </Link>
 
                 {/* ---- Desktop Navigation ---- */}
