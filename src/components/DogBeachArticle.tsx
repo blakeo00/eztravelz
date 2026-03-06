@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function DogBeachArticle() {
     return (
@@ -165,6 +166,7 @@ export default function DogBeachArticle() {
                         <li>Head to Dog Beach Dog Wash immediately after your beach session so sandy fur does not become a road trip problem.</li>
                         <li>The calmer inlet near the river mouth is ideal for puppies or small breeds experiencing ocean waves for the first time.</li>
                         <li>Parking along Voltaire Street fills up fast on weekends. Arrive before 8 AM for the easiest spot.</li>
+                        <li>For a complete guide to traveling with your pet, including airline policies and road trip tips, read our <Link href="/blog/paws-and-away-pet-traveler-guide" className="text-[#e07b2a] hover:text-[#f3954a] underline font-bold">Paws &amp; Away</Link> guide.</li>
                     </ul>
                 </div>
 
