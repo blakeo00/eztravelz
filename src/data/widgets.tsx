@@ -138,21 +138,7 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                         isPrime={true}
                     />
                 </div>,
-                <div key="amazon-food-2" className="my-0">
-                    <AmazonProductCard
-                        compact
-                        title="TAGRY Bluetooth Headphones True Wireless Earbuds"
-                        description="60H Playback LED Power Display Earphones with Wireless Charging Case"
-                        imageUrl="/images/Paris.jpg"
-                        affiliateLink="https://amzn.to/4b7lZPh"
-                        price="$34.99"
-                        originalPrice="$49.99"
-                        rating={4.5}
-                        reviewCount={52948}
-                        isPrime={true}
-                        badge="best-seller"
-                    />
-                </div>,
+
                 <div key="amazon-food-3" className="my-0">
                     <AmazonProductCard
                         compact

@@ -107,13 +107,6 @@ export default function CulinaryQuestsPage() {
                                         Browse Paris Tours & Activities →
                                     </a>
                                     <p className="text-xs text-gray-500 mt-3">Powered by Viator</p>
-
-                                    {/* Paris Image */}
-                                    <img
-                                        src="/images/Paris.jpg"
-                                        alt="Paris cityscape"
-                                        className="w-full rounded-xl mt-6 object-cover h-64"
-                                    />
                                 </div>
 
                                 <DansLeNoirArticle />
