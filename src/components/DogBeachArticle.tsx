@@ -175,15 +175,23 @@ export default function DogBeachArticle() {
             </div>
 
             {/* Closing CTA */}
-            <div className="text-center bg-[#1a1c23]/80 border border-[#e07b2a]/50 text-white p-10 rounded-xl mt-12 mb-4 shadow-[0_0_30px_rgba(224,123,42,0.15)] relative overflow-hidden">
-                <div className="absolute inset-0 bg-[#e07b2a]/10 backdrop-blur-3xl z-0"></div>
-                <div className="relative z-10">
-                    <h2 className="font-serif text-3xl text-orange-50 font-bold mb-3">Ready to Plan Your Dog Beach Getaway?</h2>
-                    <p className="text-orange-100/80 mb-6 text-lg">Explore more pet-friendly destinations across the country in our growing travel guide collection.</p>
-                    <a href="/pet-travel" className="inline-block bg-[#e07b2a] text-white font-semibold py-3 px-8 rounded-full shadow-[0_0_15px_rgba(224,123,42,0.4)] hover:shadow-[0_0_25px_rgba(224,123,42,0.6)] hover:bg-[#f3954a] transition-all duration-300">
-                        Browse Pet Travel Guides
-                    </a>
-                </div>
+            <div className="mt-12 mb-4 text-center">
+                <a
+                    href="https://www.viator.com/tours/San-Diego/Whale-and-Dolphin-Watching-in-San-Diego-on-a-Semi-private-Boat/d736-413911P1?pid=P00291237&mcid=42383&medium=link&campaign=SanDiego"
+                    target="_blank"
+                    rel="nofollow sponsored"
+                    className="block group relative rounded-xl overflow-hidden shadow-2xl border-2 border-[#e07b2a]/30 hover:border-[#e07b2a] transition-all duration-300"
+                >
+                    <img
+                        src="/images/whale.png"
+                        alt="Whale and Dolphin Watching in San Diego"
+                        className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300"></div>
+                </a>
+                <p className="mt-3 text-sm italic text-slate-400">
+                    Click on image to start your San Diego experience
+                </p>
             </div>
 
         </article>
