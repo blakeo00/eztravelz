@@ -7,7 +7,7 @@ import { getCategoryWidgets } from "@/data/widgets";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Set-Jetting: Cinematic Travel — EZtravelZ",
+    title: "Cinematic Travel — EZtravelZ",
     description: "Travel to the real locations behind your favorite films and TV shows. Curated guides for the cinematic traveler.",
 };
 
@@ -27,7 +27,7 @@ export default function CinematicTravelPage() {
                     {/* Hero section */}
                     <section className="bg-yellow-900/90 text-white py-20 px-4 text-center">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
-                            Set-Jetting
+                            Cinematic Travel
                         </h1>
                         <p className="text-lg md:text-xl text-yellow-200 max-w-2xl mx-auto">
                             Stand where your favorite scenes were filmed. From haunted hotels to epic landscapes, these are the real places behind the reel magic.
