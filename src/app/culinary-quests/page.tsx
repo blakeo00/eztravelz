@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SidebarWidgets from "@/components/SidebarWidgets";
+import DansLeNoirArticle from "@/components/DansLeNoirArticle";
 
 import { getCategoryWidgets } from "@/data/widgets";
 import type { Metadata } from "next";
@@ -114,6 +115,8 @@ export default function CulinaryQuestsPage() {
                                         className="w-full rounded-xl mt-6 object-cover h-64"
                                     />
                                 </div>
+
+                                <DansLeNoirArticle />
                             </div>
 
                             {/* Right Sidebar Area */}
