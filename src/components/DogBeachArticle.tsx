@@ -179,7 +179,7 @@ export default function DogBeachArticle() {
                 <a
                     href="https://www.viator.com/tours/San-Diego/Whale-and-Dolphin-Watching-in-San-Diego-on-a-Semi-private-Boat/d736-413911P1?pid=P00291237&mcid=42383&medium=link&campaign=SanDiego"
                     target="_blank"
-                    rel="nofollow sponsored"
+                    rel="noopener noreferrer nofollow sponsored"
                     className="block group relative rounded-xl overflow-hidden shadow-2xl border-2 border-[#e07b2a]/30 hover:border-[#e07b2a] transition-all duration-300"
                 >
                     <img
