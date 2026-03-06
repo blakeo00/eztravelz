@@ -79,7 +79,7 @@ export default function DogBeachArticle() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
                     <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏨</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">Ocean Villa Inn on Dog Beach</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://oceanvillainn.com/" target="_blank" rel="noopener noreferrer">Ocean Villa Inn on Dog Beach</a></h3>
                         <p className="text-sm text-slate-400 mb-3">
                             Located directly across the street from Dog Beach, this property features a fenced dog run, grassy walking space, a luxurious dog wash, tile floors, and complimentary treats in the lobby.
                         </p>
@@ -88,7 +88,7 @@ export default function DogBeachArticle() {
 
                     <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌊</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">Ocean Beach Hotel</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://www.obhotel.com/" target="_blank" rel="noopener noreferrer">Ocean Beach Hotel</a></h3>
                         <p className="text-sm text-slate-400 mb-3">
                             Situated at 5080 Newport Avenue with beach access, all ground-floor patio rooms welcome up to two dogs at no extra fee. Expect stunning patio views of the Pacific.
                         </p>
@@ -97,7 +97,7 @@ export default function DogBeachArticle() {
 
                     <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">⛵</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">The Dana at Mission Bay</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://www.thedana.com/" target="_blank" rel="noopener noreferrer">The Dana at Mission Bay</a></h3>
                         <p className="text-sm text-slate-400 mb-3">
                             A short drive away, this waterfront resort welcomes up to two dogs per room with no weight restriction and offers serene walking paths along Mission Bay Aquatic Park.
                         </p>
@@ -106,7 +106,7 @@ export default function DogBeachArticle() {
 
                     <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌴</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">Bahia Resort Hotel</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://www.bahiahotel.com/" target="_blank" rel="noopener noreferrer">Bahia Resort Hotel</a></h3>
                         <p className="text-sm text-slate-400 mb-3">
                             A beloved Mission Bay resort that consistently earns top ratings for its dog-friendly atmosphere and generous amenities for guests traveling with pets.
                         </p>
