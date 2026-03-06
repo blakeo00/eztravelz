@@ -14,7 +14,7 @@ export default function HauntedToursPage() {
         <div className="min-h-screen font-sans flex flex-col relative">
             {/* Background Image with 50% transparency */}
             <div
-                className="fixed inset-0 z-0 bg-cover bg-center bg-gray-50 opacity-50"
+                className="fixed inset-0 z-0 bg-cover bg-center bg-gray-950 opacity-60"
                 style={{ backgroundImage: "url('/images/Spooky corodior.png')" }}
             ></div>
 
@@ -23,11 +23,11 @@ export default function HauntedToursPage() {
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="bg-brand-600/90 text-white py-20 px-4 text-center">
+                    <section className="bg-purple-900/90 text-white py-20 px-4 text-center">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
                             Haunted Tours
                         </h1>
-                        <p className="text-lg md:text-xl text-brand-100 max-w-2xl mx-auto">
+                        <p className="text-lg md:text-xl text-purple-200 max-w-2xl mx-auto">
                             Dare to explore the unknown? Discover the most chilling, historically rich haunted destinations across the country.
                         </p>
                     </section>
@@ -36,14 +36,84 @@ export default function HauntedToursPage() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="bg-white/95 rounded-3xl shadow-xl overflow-hidden border border-gray-100 p-8 md:p-12 text-center backdrop-blur-sm">
-                                    <h2 className="text-3xl font-bold text-gray-900 mb-6">Book Your Ghost Adventure</h2>
-                                    <p className="text-gray-600 mb-10 max-w-2xl mx-auto text-lg">
-                                        Ready for a spine-tingling experience? We've partnered with US Ghost Adventures to bring you the best and most terrifying tours available. Book your tour below and prepare for a night you won't forget.
+                                {/* Lizzie Borden Article */}
+                                <article className="bg-gray-900/90 rounded-3xl shadow-2xl overflow-hidden border border-purple-700/50 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(147, 51, 234, 0.15)' }}>
+
+                                    <span className="text-purple-400 uppercase tracking-widest text-sm font-semibold">
+                                        Haunted Tours
+                                    </span>
+
+                                    <h2 className="text-4xl font-extrabold mt-3 mb-4 leading-tight text-red-500" style={{ fontFamily: "var(--font-creepster)" }}>
+                                        Forty Whacks, And A House That Never Forgot
+                                    </h2>
+
+                                    <p className="text-purple-300/70 text-sm mb-8">
+                                        Fall River, Massachusetts · Est. 1892 · Open Year-Round
                                     </p>
 
-                                    {/* Affiliate Link Centerpiece */}
-                                    <div className="flex justify-center items-center py-6">
+                                    <img
+                                        src="/images/borden.jpg"
+                                        alt="The Lizzie Borden House — Fall River, Massachusetts"
+                                        className="w-full rounded-2xl mb-8 object-cover h-72"
+                                    />
+
+                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                        On the morning of August 4th, 1892, something unspeakable happened inside
+                                        a quiet Victorian home at 92 Second Street in Fall River, Massachusetts.
+                                        Andrew and Abby Borden were found brutally murdered, and their daughter
+                                        Lizzie, the most likely suspect, walked free. The case was never truly solved.
+                                        The axe was never conclusively traced. And the house? The house held onto
+                                        everything. More than 130 years later, the Lizzie Borden Bed &amp; Breakfast stands
+                                        exactly where the bodies fell, and guests still check in, lights off, hoping
+                                        to feel what the walls remember.
+                                    </p>
+
+                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                        What visitors report inside is difficult to explain away. Cold spots appear
+                                        without draft or ventilation shift. Disembodied footsteps echo on the staircase
+                                        at 3 a.m. The unmistakable feeling of being watched settles over Abby&apos;s guest
+                                        room, the very room where she was found face-down on the floor. Shadow figures
+                                        have been photographed in doorways. EMF meters spike near the sitting room where
+                                        Andrew Borden&apos;s body was discovered, still wearing his boots, still on the couch.
+                                        Paranormal investigators from across the country call this one of the most
+                                        legitimately active sites in New England, not because of legend, but because
+                                        of what their equipment keeps picking up.
+                                    </p>
+
+                                    <p className="text-lg leading-relaxed mb-8 text-gray-300">
+                                        You can sleep here. That&apos;s the part that separates Lizzie&apos;s house from every
+                                        haunted tour in America. You don&apos;t just walk through, you stay the night.
+                                        Book the Abby Borden room if you&apos;re serious. Lie in the dark. Listen. The house
+                                        has a way of making believers out of skeptics by morning. Whatever happened here,
+                                        whatever energy soaked into the floorboards that summer, it has never fully left.
+                                        Fall River remembers. And if you&apos;re brave enough to visit, you will too.
+                                    </p>
+
+                                    {/* CTA — US Ghost Adventures Affiliate */}
+                                    <div className="mt-8 text-center">
+                                        <a
+                                            href="https://usghostadventures.com?tap_a=149596-26ae1d&ref=mju3ytb"
+                                            target="_blank"
+                                            rel="nofollow noopener noreferrer"
+                                            className="inline-block transform hover:scale-105 transition-transform duration-300 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl"
+                                        >
+                                            <img
+                                                src="https://static.tapfiliate.com/676082e0abe2d313843644.jpg?a=149596-26ae1d"
+                                                alt="US Ghost Adventures"
+                                                className="w-full rounded-xl"
+                                            />
+                                        </a>
+                                    </div>
+
+                                </article>
+
+                                {/* Ghost Tour Widget — Compact */}
+                                <div className="bg-gray-900/90 rounded-2xl shadow-xl overflow-hidden border border-purple-700/50 p-4 md:p-6 mt-8 text-center backdrop-blur-sm">
+                                    <h3 className="text-xl font-bold text-purple-200 mb-4">Book Your Ghost Adventure</h3>
+                                    <p className="text-gray-400 mb-6 max-w-2xl mx-auto text-sm">
+                                        We&apos;ve partnered with US Ghost Adventures to bring you the most terrifying tours available.
+                                    </p>
+                                    <div className="flex justify-center items-center py-2">
                                         <a href="https://usghostadventures.com/?tap_a=151137-ec41b6&ref=mju3ytb" target="_BLANK" rel="nofollow" className="inline-block transform hover:scale-105 transition-transform duration-300 shadow-xl hover:shadow-2xl rounded-xl overflow-hidden">
                                             <img src="https://static.tapfiliate.com/67b8df97c1aa0267821125.jpg?a=151137-ec41b6" alt="US Ghost Adventures" />
                                         </a>

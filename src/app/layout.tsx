@@ -1,11 +1,28 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Creepster, Bebas_Neue, Cinzel } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
     subsets: ["latin"],
     variable: "--font-sans",
+});
+
+const creepster = Creepster({
+    weight: "400",
+    subsets: ["latin"],
+    variable: "--font-creepster",
+});
+
+const bebasNeue = Bebas_Neue({
+    weight: "400",
+    subsets: ["latin"],
+    variable: "--font-bebas",
+});
+
+const cinzel = Cinzel({
+    subsets: ["latin"],
+    variable: "--font-cinzel",
 });
 
 export const metadata: Metadata = {
@@ -24,7 +41,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={inter.variable}>
+        <html lang="en" className={`${inter.variable} ${creepster.variable} ${bebasNeue.variable} ${cinzel.variable}`}>
+            <head>
+                <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet" />
+            </head>
             <body
                 className="font-sans antialiased text-slate-900 min-h-screen"
                 style={{

@@ -32,7 +32,7 @@ export default function Hero() {
                 </h1>
                 <p className="text-lg sm:text-xl text-slate-200 mb-10 max-w-xl mx-auto leading-relaxed">
                     Stop settling for generic vacations. We curate unique travel
-                    experiences tailored to your passions — from pet-friendly stays to
+                    experiences tailored to your passions, from pet-friendly stays to
                     haunted history tours.
                 </p>
                 <button

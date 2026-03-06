@@ -28,14 +28,15 @@ export default function FeaturedArticles() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-md">From the Blog</h2>
                 <p className="text-white/80 mb-14 max-w-lg">
-                    Real stories, real logistics, real advice — written from experience, not a press release.
+                    Real stories, real logistics, real advice, written from experience, not a press release.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {featured.map((post) => (
-                        <article
+                        <Link
                             key={post.slug}
-                            className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col"
+                            href={`/blog/${post.slug}`}
+                            className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col"
                         >
                             {/* Thumbnail */}
                             <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">
@@ -43,7 +44,7 @@ export default function FeaturedArticles() {
                                 <img
                                     src={post.image}
                                     alt={post.alt}
-                                    className="absolute inset-0 w-full h-full object-cover hover:scale-105 transition-transform duration-500"
+                                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                                     loading="lazy"
                                 />
                             </div>
@@ -59,10 +60,7 @@ export default function FeaturedArticles() {
                                 <p className="text-slate-500 text-sm leading-relaxed mb-4 flex-1 line-clamp-3">
                                     {post.excerpt}
                                 </p>
-                                <Link
-                                    href={`/blog/${post.slug}`}
-                                    className="inline-flex items-center gap-1.5 text-brand-600 font-semibold text-sm hover:text-brand-700 transition-colors group"
-                                >
+                                <span className="inline-flex items-center gap-1.5 text-brand-600 font-semibold text-sm group-hover:text-brand-700 transition-colors">
                                     Read More
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -78,9 +76,9 @@ export default function FeaturedArticles() {
                                     >
                                         <path d="M5 12h14M12 5l7 7-7 7" />
                                     </svg>
-                                </Link>
+                                </span>
                             </div>
-                        </article>
+                        </Link>
                     ))}
                 </div>
 

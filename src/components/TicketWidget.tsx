@@ -34,7 +34,7 @@ export default function TicketWidget({ src, id }: TicketWidgetProps) {
     return (
         <div
             ref={containerRef}
-            className="w-full relative z-10 mx-auto min-h-[600px] block"
+            className="w-full relative z-10 mx-auto min-h-[200px] block"
         ></div>
     );
 }

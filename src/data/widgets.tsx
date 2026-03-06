@@ -23,27 +23,24 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-ghost-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="K-II EMF Meter — Deluxe Model for Ghost Hunting"
-                        description="The industry-standard EMF detector used by professional paranormal investigators"
-                        imageUrl="/images/Ghost Hunting.jpg"
-                        affiliateLink="https://amzn.to/4l4qdLW"
-                        price="$59.95"
-                        rating={4.5}
-                        reviewCount={4812}
+                        title="Ghost Hunters' Tool Kit Product Bundle"
+                        description="Essential paranormal investigation starter kit for ghost hunting adventures"
+                        imageUrl="https://m.media-amazon.com/images/I/71PBtmJcB0L._SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4b7wZfi"
+                        price="$33.37"
+                        rating={3.4}
                         isPrime={true}
-                        badge="best-seller"
                     />
                 </div>,
                 <div key="amazon-ghost-3" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="SBox Ghost Spirit Box — AM/FM Paranormal Scanner"
-                        description="Rapid-sweep radio scanner for real-time spirit communication"
-                        imageUrl="/images/Ghost Hunting.jpg"
-                        affiliateLink="https://amzn.to/4l4qdLW"
-                        price="$49.99"
-                        rating={4.2}
-                        reviewCount={346}
+                        title="P-SB7 Spirit Box, Latest Version, Ghost Hunting EVP"
+                        description="New and improved P-SB7 Spirit Box Rev 8 with Bluetooth, connect to a speaker for even better audio. No more cords!"
+                        imageUrl="https://m.media-amazon.com/images/I/81uAyAe7YKL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4u9UwF3"
+                        price="$94.90"
+                        rating={4.3}
                         isPrime={true}
                     />
                 </div>,
@@ -53,41 +50,35 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-sports-1" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="ororo Heated Stadium Seat with Back Support"
-                        description="Battery-powered heated seat with memory foam and dual heating zones"
-                        imageUrl="/images/Stadium seat.jpg"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$199"
-                        rating={4.5}
-                        reviewCount={2847}
+                        title="LEGO FIFA World Cup Official Trophy Building Set - 43020"
+                        description="Display-worthy collectible with World Cup 2026 minifigure, perfect for soccer fans"
+                        imageUrl="https://m.media-amazon.com/images/I/81C3y4Yjr4L._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4sr515s"
+                        price="$199.99"
                         isPrime={true}
-                        badge="amazons-choice"
                     />
                 </div>,
                 <div key="amazon-sports-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Stadium Approved Clear Bag — 12x6x12 Crossbody"
-                        description="NFL & NCAA-compliant transparent bag for hassle-free entry"
-                        imageUrl="/images/Stadium seat.jpg"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$14.99"
-                        rating={4.7}
-                        reviewCount={8523}
+                        title="adidas FIFA World Cup 26™ Trionda Soccer Ball"
+                        description="Official match ball design for the 2026 FIFA World Cup"
+                        imageUrl="https://m.media-amazon.com/images/I/71BirAZbzXL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/3N3GOTu"
+                        price="$34.98"
+                        rating={4.6}
                         isPrime={true}
-                        badge="best-seller"
                     />
                 </div>,
                 <div key="amazon-sports-3" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Portable Blanket Hoodie — Oversized Wearable Stadium Blanket"
-                        description="Stay warm at outdoor games with this fleece-lined wearable blanket"
-                        imageUrl="/images/Stadium seat.jpg"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$32.99"
-                        rating={4.6}
-                        reviewCount={15209}
+                        title="Official FIFA World Cup 2026 Edition - 30oz Insulated Tumbler"
+                        description="Premium stainless steel double-wall tumbler with handle & straw"
+                        imageUrl="https://m.media-amazon.com/images/I/615jXTMnH3L._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4l9TxR6"
+                        price="$39.99"
+                        rating={3.5}
                         isPrime={true}
                     />
                 </div>,
@@ -97,7 +88,7 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-pet-1" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Sherpa Original Deluxe Pet Carrier — Airline Approved"
+                        title="Sherpa Original Deluxe Pet Carrier, Airline Approved"
                         description="Fits under most airline seats. Mesh ventilation and machine-washable liner"
                         imageUrl="/images/Dog on vacation.png"
                         affiliateLink="https://amzn.to/4r4CCRp"
@@ -111,7 +102,7 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-pet-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Portable Dog Water Bottle — Leak-Proof Travel Bowl"
+                        title="Portable Dog Water Bottle, Leak-Proof Travel Bowl"
                         description="One-hand operation water dispenser for hiking and road trips"
                         imageUrl="/images/Dog on vacation.png"
                         affiliateLink="https://amzn.to/4r4CCRp"
@@ -125,7 +116,7 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-pet-3" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Dog Car Seat Cover — Waterproof Hammock for Back Seat"
+                        title="Dog Car Seat Cover, Waterproof Hammock for Back Seat"
                         description="Scratch-proof, waterproof rear seat protector with side flaps"
                         imageUrl="/images/Dog on vacation.png"
                         affiliateLink="https://amzn.to/4r4CCRp"
@@ -141,40 +132,36 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-food-1" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="ThermoPro Instant Read Meat Thermometer"
-                        description="Digital probe thermometer — essential for BBQ road trips"
-                        imageUrl="/images/BBQ.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$13.99"
+                        title="Coolife Luggage 3 Piece Set Suitcase Spinner Hardshell Lightweight TSA Lock"
+                        description="3 piece luggage set (20/24/28 inch), stores one into another. 100% ABS, lightweight yet extremely durable."
+                        imageUrl="https://m.media-amazon.com/images/I/81bk7xetwqL._AC_SL1200_.jpg"
+                        affiliateLink="https://amzn.to/4rg2BW1"
+                        price="$169.99"
                         rating={4.6}
-                        reviewCount={61234}
                         isPrime={true}
-                        badge="best-seller"
                     />
                 </div>,
                 <div key="amazon-food-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Moleskine Food & Travel Journal"
-                        description="Dedicated tasting journal to log every memorable meal on the road"
-                        imageUrl="/images/BBQ.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$22.95"
-                        rating={4.7}
-                        reviewCount={2145}
+                        title="Statik SmartCharge 5-in-1 Travel Power Bank with Wall Plug & Built in USB C Cables"
+                        description="10000mAh international travel charger & European portable charger, compatible with iPhone, iPad & Samsung"
+                        imageUrl="https://m.media-amazon.com/images/I/71Ick+fxhGL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4b7lZPh"
+                        price="$55.99"
+                        rating={4.2}
                         isPrime={true}
                     />
                 </div>,
                 <div key="amazon-food-3" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Collapsible Cooler Bag — Insulated Travel Lunch Tote"
-                        description="Keep leftovers and local finds fresh on the drive home"
-                        imageUrl="/images/BBQ.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$19.99"
-                        rating={4.5}
-                        reviewCount={7823}
+                        title="Cabeau Evolution S3, Airplane Travel Pillow for Long Flights"
+                        description="Supportive memory foam with seat straps to secure your head and neck, provides 360° support"
+                        imageUrl="https://m.media-amazon.com/images/I/51193RXQ1SL._AC_SL1080_.jpg"
+                        affiliateLink="https://amzn.to/4lcQIyU"
+                        price="$39.99"
+                        rating={4.2}
                         isPrime={true}
                     />
                 </div>,
@@ -184,7 +171,7 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-wine-1" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Wine Folly Magnum Edition — Master Guide to Wine"
+                        title="Wine Folly Magnum Edition, Master Guide to Wine"
                         description="The essential illustrated guide to wine regions, grapes, and tasting"
                         imageUrl="/images/Vineyard.png"
                         affiliateLink="https://amzn.to/4r4CCRp"
@@ -198,7 +185,7 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-wine-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Wine Aerator Pourer — Premium Decanter Spout"
+                        title="Wine Aerator Pourer, Premium Decanter Spout"
                         description="Instantly aerate any bottle for smoother, fuller flavor at tastings"
                         imageUrl="/images/Vineyard.png"
                         affiliateLink="https://amzn.to/4r4CCRp"
@@ -212,8 +199,8 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-wine-3" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Portable Wine Carrier — 2 Bottle Insulated Tote"
-                        description="Padded travel bag with corkscrew — perfect for vineyard hopping"
+                        title="Portable Wine Carrier, 2 Bottle Insulated Tote"
+                        description="Padded travel bag with corkscrew, perfect for vineyard hopping"
                         imageUrl="/images/Vineyard.png"
                         affiliateLink="https://amzn.to/4r4CCRp"
                         price="$18.99"
@@ -228,35 +215,43 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-film-1" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="1001 Movies You Must See Before You Die"
-                        description="The definitive guide to must-see films and the locations they were shot"
-                        imageUrl="/images/Movie.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$17.49"
-                        rating={4.6}
-                        reviewCount={3456}
+                        title="Cannes Cinema Paperback – July 1, 2011"
+                        description="by Serge Toubiana (Author), Gilles Traverso (Author)"
+                        imageUrl="https://m.media-amazon.com/images/I/71H7qj0Tq9L._SL1400_.jpg"
+                        affiliateLink="https://amzn.to/4ue1toA"
+                        price="$52.83"
+                        rating={4.7}
+                        isPrime={false}
+                    />
+                </div>,
+                <div key="amazon-film-imdb" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="Official IMDb Top 100 Movies Scratch Off Poster, Premium Bucket List, Made in USA"
+                        description="Scratch off your favorite films as you watch them. A must-have for any movie lover."
+                        imageUrl="https://m.media-amazon.com/images/I/81MLQ-+4DqL._AC_SL1422_.jpg"
+                        affiliateLink="https://amzn.to/4cuVA08"
+                        price="$21.99"
+                        rating={4.7}
                         isPrime={true}
-                        badge="best-seller"
                     />
                 </div>,
                 <div key="amazon-film-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="GoPro HERO12 Black — Waterproof Action Camera"
-                        description="Capture your set-jetting adventures in stunning 5.3K video"
-                        imageUrl="/images/Movie.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$299"
-                        rating={4.5}
-                        reviewCount={12890}
+                        title="Urban Accents Movie Night Popcorn Gift Set"
+                        description="Includes 3 Gourmet Popcorn Kernel Varieties & 5 Flavorful Seasonings – Perfect Snack Gift Box for Parties, Holidays, or Movie Lovers"
+                        imageUrl="https://m.media-amazon.com/images/I/818hCAEz0tL._SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4raA44f"
+                        price="$21.95"
+                        rating={4.6}
                         isPrime={true}
-                        badge="amazons-choice"
                     />
                 </div>,
                 <div key="amazon-film-3" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Movie Location Travel Map — Scratch Off Film Poster"
+                        title="Movie Location Travel Map, Scratch Off Film Poster"
                         description="Scratch off famous filming locations as you visit them worldwide"
                         imageUrl="/images/Movie.png"
                         affiliateLink="https://amzn.to/4r4CCRp"

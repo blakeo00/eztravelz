@@ -27,7 +27,7 @@ export default function BlogPage() {
                             The EZtravelZ Blog
                         </h1>
                         <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto">
-                            Real stories, real logistics, real advice — written from
+                            Real stories, real logistics, real advice, written from
                             experience.
                         </p>
                     </div>
@@ -128,7 +128,7 @@ export default function BlogPage() {
 
                     {filtered.length === 0 && (
                         <p className="text-center text-slate-400 py-12">
-                            No posts in this category yet — check back soon!
+                            No posts in this category yet, check back soon!
                         </p>
                     )}
                 </section>

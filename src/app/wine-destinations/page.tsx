@@ -29,7 +29,7 @@ export default function WineDestinationsPage() {
                             Vineyards &amp; Vintages
                         </h1>
                         <p className="text-lg md:text-xl text-brand-100 max-w-2xl mx-auto">
-                            Sip your way through the world&apos;s most storied wine regions — from sun-drenched California valleys to centuries-old European estates.
+                            Sip your way through the world&apos;s most storied wine regions, from sun-drenched California valleys to centuries-old European estates.
                         </p>
                     </section>
 
@@ -55,7 +55,7 @@ export default function WineDestinationsPage() {
 
                                         <h3>Willamette Valley, Oregon</h3>
                                         <p>
-                                            For lovers of Pinot Noir, Willamette Valley is a pilgrimage. Cool-climate vineyards draped across rolling hills produce some of the most expressive pinots outside of Burgundy. The town of McMinnville has become a food-and-wine destination in its own right — small, walkable, and packed with independent restaurants.
+                                            For lovers of Pinot Noir, Willamette Valley is a pilgrimage. Cool-climate vineyards draped across rolling hills produce some of the most expressive pinots outside of Burgundy. The town of McMinnville has become a food-and-wine destination in its own right, small, walkable, and packed with independent restaurants.
                                         </p>
 
                                         <h3>Hill Country, Texas</h3>

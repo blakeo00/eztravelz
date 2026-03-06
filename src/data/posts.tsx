@@ -162,11 +162,11 @@ function pawsAndAwayContent(): ReactNode {
             <div className="bg-brand-50 p-6 rounded-xl my-8 border border-brand-100">
                 <h3 className="text-brand-800 font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
                 <p className="text-brand-900 mb-4">
-                    If you are navigating a busy TSA checkpoint with an anxious or mature cat, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://www.amazon.com/s?k=Sleepypod+Air+In-Cabin+Pet+Carrier&tag=eztravelz-20" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-600 underline font-semibold">Sleepypod Air In-Cabin Pet Carrier</a>. It features a unique compressible design to fit under almost any airline seat and includes a dark privacy shield to block out stressful airport sights.
+                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-600 underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-700">$46.90</span> <span className="text-slate-400 line-through text-sm">$73.50</span>
                 </p>
                 <img
-                    src="/images/Cat Carrier.jpg"
-                    alt="Sleepypod Air In-Cabin Pet Carrier"
+                    src="https://m.media-amazon.com/images/I/81gqQnt7waL._AC_SL1500_.jpg"
+                    alt="Sherpa Original Deluxe Travel Pet Carrier, Airline Approved"
                     className="w-full h-auto rounded-lg shadow-md border border-brand-200"
                 />
             </div>

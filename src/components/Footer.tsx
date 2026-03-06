@@ -27,7 +27,7 @@ export default function Footer() {
                         </Link>
                         <p className="text-slate-400 max-w-sm leading-relaxed">
                             Curated niche travel experiences for people who know what they
-                            love — and want a trip that actually matches it.
+                            love, and want a trip that actually matches it.
                         </p>
                     </div>
 

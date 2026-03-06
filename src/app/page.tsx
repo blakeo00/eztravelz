@@ -1,5 +1,5 @@
 import Header from "@/components/Header";
-import Hero from "@/components/Hero";
+import HeroCarousel from "@/components/HeroCarousel";
 import NicheGrid from "@/components/NicheGrid";
 import FeaturedArticles from "@/components/FeaturedArticles";
 import Footer from "@/components/Footer";
@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <Header />
             <main>
-                <Hero />
+                <HeroCarousel />
                 <NicheGrid />
                 <FeaturedArticles />
             </main>
