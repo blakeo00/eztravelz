@@ -146,13 +146,13 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Weekend Brunch</span>
                     </a>
 
-                    <a href="https://www.lazyhummingbird.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
-                        <div className="text-3xl mb-2">☕</div>
-                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">Lazy Hummingbird Coffee</h3>
+                    <a href="https://www.sallyssandiego.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                        <div className="text-3xl mb-2">🍽️</div>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">Sally's Fish House &amp; Bar</h3>
                         <p className="text-sm text-slate-400 mb-3">
-                            A charming local coffee and tea house just blocks from Dog Beach, offering a dog-friendly patio ideal for a morning ritual before hitting the sand.
+                            Located on the waterfront with a dedicated dog menu featuring pupcakes and doggy beer. Enjoy spectacular views and fresh seafood with your furry friend.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Coffee Shop</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Dog Menu</span>
                     </a>
                 </div>
 
