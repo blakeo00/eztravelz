@@ -102,15 +102,13 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-pet-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Portable Dog Water Bottle, Leak-Proof Travel Bowl"
-                        description="One-hand operation water dispenser for hiking and road trips"
-                        imageUrl="/images/Dog on vacation.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$12.99"
-                        rating={4.6}
-                        reviewCount={42108}
+                        title="Cleverpup, Large 7-Piece Bistro Box Dog Food Travel Kit, 12-BPA-Free Cup Kibble Storage, 2 Silicone Bowls, Mat & Scoop"
+                        description="Portable Pet Food Kit for Weekends, Overnights, Daycare & Camping, Heather Grey"
+                        imageUrl="https://m.media-amazon.com/images/I/81SpnNPTodL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/3N9jHai"
+                        price="$82.00"
+                        rating={4.8}
                         isPrime={true}
-                        badge="best-seller"
                     />
                 </div>,
                 <div key="amazon-pet-3" className="my-0">
