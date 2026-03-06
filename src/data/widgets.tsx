@@ -141,13 +141,16 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-food-2" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Statik SmartCharge 5-in-1 Travel Power Bank with Wall Plug & Built in USB C Cables"
-                        description="10000mAh international travel charger & European portable charger, compatible with iPhone, iPad & Samsung"
-                        imageUrl="https://m.media-amazon.com/images/I/71Ick+fxhGL._AC_SL1500_.jpg"
+                        title="TAGRY Bluetooth Headphones True Wireless Earbuds"
+                        description="60H Playback LED Power Display Earphones with Wireless Charging Case"
+                        imageUrl="/images/Paris.jpg"
                         affiliateLink="https://amzn.to/4b7lZPh"
-                        price="$55.99"
-                        rating={4.2}
+                        price="$34.99"
+                        originalPrice="$49.99"
+                        rating={4.5}
+                        reviewCount={52948}
                         isPrime={true}
+                        badge="best-seller"
                     />
                 </div>,
                 <div key="amazon-food-3" className="my-0">
