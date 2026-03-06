@@ -114,13 +114,12 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-pet-3" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Dog Car Seat Cover, Waterproof Hammock for Back Seat"
-                        description="Scratch-proof, waterproof rear seat protector with side flaps"
-                        imageUrl="/images/Dog on vacation.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$35.99"
-                        rating={4.4}
-                        reviewCount={9876}
+                        title="Cat Carrier Soft-Sided & Foldable Travel Litter Box for Cats, Fit 20Lbs Pets"
+                        description="17.7' * 11.8 * 11.8 inches Cat Bag for Traveling & Camping, Indoor & Outdoor, Pet Carrier Kit, Blue"
+                        imageUrl="https://m.media-amazon.com/images/I/71w9tCbwg1L._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/3P7Dibr"
+                        price="$32.99"
+                        rating={4.6}
                         isPrime={true}
                     />
                 </div>,
