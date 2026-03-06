@@ -27,10 +27,10 @@ export default function PetTravelPage() {
                     {/* Hero section */}
                     <section className="bg-[#e07b2a]/90 text-white py-20 px-4 text-center border-b-4 border-[#c46922]">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 font-serif">
-                            The Original Dog Beach
+                            Pet Travel
                         </h1>
                         <p className="text-lg md:text-xl text-orange-100 max-w-2xl mx-auto">
-                            Ocean Beach, San Diego, CA. The nation's first off-leash beach.
+                            Discover dog-friendly destinations, accommodations, and adventures for you and your furry best friend.
                         </p>
                     </section>
 

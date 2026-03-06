@@ -33,7 +33,7 @@ export const posts: BlogPost[] = [
         slug: "holy-water-and-grape-bricks-prohibition-wine-trail",
         title: "Holy Water and Grape Bricks \u2014 How God (and a Few Creative Lies) Saved American Wine",
         excerpt: "On January 17, 1920, the U.S. outlawed wine. Some wineries survived on holy water, grape bricks with winking warning labels, and a quiet rail line to Al Capone\u2019s speakeasies. Here\u2019s where to visit them today.",
-        category: "Wine Destinations",
+        category: "Wine & Brewery Destinations",
         categorySlug: "wine-destinations",
         date: "2026-03-01",
         image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2070&auto=format&fit=crop",

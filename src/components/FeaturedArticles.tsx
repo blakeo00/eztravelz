@@ -13,7 +13,7 @@ export default function FeaturedArticles() {
     const categoryOrder = [
         "Pet Travel",
         "Haunted Tours",
-        "Wine Destinations",
+        "Wine & Brewery Destinations",
         "Sports Travel",
         "Cinematic Travel",
         "Culinary Quests",

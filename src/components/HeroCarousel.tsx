@@ -15,7 +15,7 @@ const slides = [
         image: "https://images.unsplash.com/photo-1508361727343-ca787442dcd7?w=1400&q=80",
     },
     {
-        category: "Wine Destinations",
+        category: "Wine & Brewery Destinations",
         image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1400&q=80",
     },
     {

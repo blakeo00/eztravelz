@@ -28,7 +28,7 @@ const cinzel = Cinzel({
 export const metadata: Metadata = {
     title: "EZtravelZ — Travel Made Easy. Choose Your Adventure.",
     description:
-        "Your hub for niche travel: pet-friendly trips, haunted tours, wine destinations, sports travel, cinematic adventures, and culinary quests.",
+        "Your hub for niche travel: pet-friendly trips, haunted tours, wine and brewery destinations, sports travel, cinematic adventures, and culinary quests.",
 };
 
 /**

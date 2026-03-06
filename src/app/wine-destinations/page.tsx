@@ -6,8 +6,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Wine Destinations & Vineyard Travel — EZtravelZ",
-    description: "Explore the world's most breathtaking wine regions. From Napa Valley to Tuscany, discover curated guides for the wine-loving traveler.",
+    title: "Wine & Brewery Destinations — EZtravelZ",
+    description: "Explore the world's most breathtaking wine regions and craft breweries. From Napa Valley to local taprooms, discover curated guides for the tasting traveler.",
 };
 
 export default function WineDestinationsPage() {
@@ -26,10 +26,10 @@ export default function WineDestinationsPage() {
                     {/* Hero section */}
                     <section className="bg-brand-600/90 text-white py-20 px-4 text-center">
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
-                            Vineyards &amp; Vintages
+                            Wine &amp; Brewery Destinations
                         </h1>
                         <p className="text-lg md:text-xl text-brand-100 max-w-2xl mx-auto">
-                            Sip your way through the world&apos;s most storied wine regions, from sun-drenched California valleys to centuries-old European estates.
+                            Sip your way through the world&apos;s most storied wine regions and craft breweries, from sun-drenched valleys to local taprooms.
                         </p>
                     </section>
 

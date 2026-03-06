@@ -10,7 +10,7 @@ import Image from "next/image";
 const niches = [
     { label: "Pet Travel", href: "/pet-travel" },
     { label: "Haunted Tours", href: "/haunted-tours" },
-    { label: "Wine Destinations", href: "/wine-destinations" },
+    { label: "Wine & Brewery Destinations", href: "/wine-destinations" },
     { label: "Sports Travel", href: "/sports-travel" },
     { label: "Cinematic Travel", href: "/cinematic-travel" },
     { label: "Culinary Quests", href: "/culinary-quests" },
