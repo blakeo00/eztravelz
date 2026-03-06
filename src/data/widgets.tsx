@@ -88,11 +88,11 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 <div key="amazon-pet-1" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Sherpa Original Deluxe Pet Carrier, Airline Approved"
+                        title="Sherpa Original Deluxe Travel Pet Carrier, Airline Approved & Guaranteed On Board - Black, Medium"
                         description="Fits under most airline seats. Mesh ventilation and machine-washable liner"
-                        imageUrl="/images/Dog on vacation.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$42.99"
+                        imageUrl="https://m.media-amazon.com/images/I/81gqQnt7waL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4syy1IA"
+                        price="$49.24"
                         rating={4.5}
                         reviewCount={24031}
                         isPrime={true}
