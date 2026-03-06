@@ -77,41 +77,41 @@ export default function DogBeachArticle() {
 
                 {/* Lodging Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://oceanvillainn.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏨</div>
-                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://oceanvillainn.com/" target="_blank" rel="noopener noreferrer">Ocean Villa Inn on Dog Beach</a></h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">Ocean Villa Inn on Dog Beach</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             Located directly across the street from Dog Beach, this property features a fenced dog run, grassy walking space, a luxurious dog wash, tile floors, and complimentary treats in the lobby.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Directly on Beach</span>
-                    </div>
+                    </a>
 
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://www.obhotel.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌊</div>
-                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://www.obhotel.com/" target="_blank" rel="noopener noreferrer">Ocean Beach Hotel</a></h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">Ocean Beach Hotel</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             Situated at 5080 Newport Avenue with beach access, all ground-floor patio rooms welcome up to two dogs at no extra fee. Expect stunning patio views of the Pacific.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">No Pet Fee</span>
-                    </div>
+                    </a>
 
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://www.thedana.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">⛵</div>
-                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://www.thedana.com/" target="_blank" rel="noopener noreferrer">The Dana at Mission Bay</a></h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">The Dana at Mission Bay</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             A short drive away, this waterfront resort welcomes up to two dogs per room with no weight restriction and offers serene walking paths along Mission Bay Aquatic Park.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">No Weight Limit</span>
-                    </div>
+                    </a>
 
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://www.bahiahotel.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌴</div>
-                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 hover:text-[#f3954a] transition-colors"><a href="https://www.bahiahotel.com/" target="_blank" rel="noopener noreferrer">Bahia Resort Hotel</a></h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">Bahia Resort Hotel</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             A beloved Mission Bay resort that consistently earns top ratings for its dog-friendly atmosphere and generous amenities for guests traveling with pets.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Top Rated</span>
-                    </div>
+                    </a>
                 </div>
 
                 <h2 className="text-2xl mt-10 mb-3 pb-1.5 border-b-2 border-[#e07b2a]/30">Where to Eat With Your Pup</h2>
@@ -119,41 +119,41 @@ export default function DogBeachArticle() {
 
                 {/* Dining Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://southbeachob.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🍔</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">South Beach Bar &amp; Grille</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">South Beach Bar &amp; Grille</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             Sits right on the beach and serves seafood, burgers, and local favorites from a dog-friendly patio with direct ocean views.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Oceanfront Patio</span>
-                    </div>
+                    </a>
 
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://obsurflodge.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏄</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">OB Surf Lodge</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">OB Surf Lodge</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             A spacious dog-friendly patio with a direct view of the surf. The perfect spot to decompress after a big beach session with your pup.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Surf Views</span>
-                    </div>
+                    </a>
 
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://www.breakfastrepublic.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🥞</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">Breakfast Republic</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">Breakfast Republic</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             A popular brunch destination with a dog-friendly upstairs patio, perfect for a post-beach Bloody Mary and a well-earned meal.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Weekend Brunch</span>
-                    </div>
+                    </a>
 
-                    <div className="bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://www.lazyhummingbird.com/" target="_blank" rel="noopener noreferrer" className="block group bg-slate-900/80 border border-[#e07b2a]/30 rounded-xl p-5 hover:bg-slate-800/80 hover:border-[#e07b2a] hover:shadow-[0_0_15px_rgba(224,123,42,0.2)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">☕</div>
-                        <h3 className="font-serif text-lg text-orange-50 font-bold mb-1">Lazy Hummingbird Coffee</h3>
+                        <h3 className="font-serif text-lg text-[#e07b2a] font-bold mb-1 group-hover:text-[#f3954a] transition-colors">Lazy Hummingbird Coffee</h3>
                         <p className="text-sm text-slate-400 mb-3">
                             A charming local coffee and tea house just blocks from Dog Beach, offering a dog-friendly patio ideal for a morning ritual before hitting the sand.
                         </p>
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#e07b2a]/10 border border-[#e07b2a]/30 text-[#e07b2a] py-1 px-3 rounded-full">Coffee Shop</span>
-                    </div>
+                    </a>
                 </div>
 
                 {/* Tips Box */}
