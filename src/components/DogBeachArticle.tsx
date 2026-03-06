@@ -17,8 +17,6 @@ export default function DogBeachArticle() {
 
             {/* Meta Bar */}
             <div className="flex flex-wrap items-center gap-4 text-sm text-slate-400 border-b border-[#e07b2a]/30 pb-5 mb-8">
-                <span>By Niche Travel Staff</span>
-                <span className="opacity-40">|</span>
                 <span>Ocean Beach, San Diego, CA</span>
                 <span className="opacity-40">|</span>
                 <span>Pet Travel</span>
