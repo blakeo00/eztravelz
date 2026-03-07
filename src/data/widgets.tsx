@@ -131,7 +131,7 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
 
             return sportsWidgets;
         case "pet-travel":
-            return [
+            const petWidgets = [
                 <div key="amazon-pet-1" className="my-0">
                     <AmazonProductCard
                         compact
@@ -171,6 +171,39 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                     />
                 </div>,
             ];
+
+            if (postSlug === 'paws-and-away-pet-traveler-guide') {
+                petWidgets.splice(1, 0, (
+                    <div key="amazon-pet-kurgo" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Kurgo Tru-Fit Smart Dog Walking Harness"
+                            description="Comfortable Fit - Adjustable Harness - Reflective Pet Wear - Quick Strap Release - Daily Walk Accessory"
+                            imageUrl="https://m.media-amazon.com/images/I/B1cE2pM4fxS._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/3MSkH2x"
+                            price="$26.95"
+                            rating={4.3}
+                            isPrime={true}
+                        />
+                    </div>
+                ));
+                petWidgets.splice(2, 0, (
+                    <div key="amazon-pet-seat-cover" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Dog Seat Cover for Back Seat, Hard Bottom Back Seat Extender Holds 500 lbs, Waterproof & Nonslip Car Hammock for Large Pets, Comfortable Travel Seat Protector for SUV and Sedan"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81D-nm4mx1L._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/40VZk3r"
+                            price="$79.01"
+                            rating={4.6}
+                            isPrime={true}
+                        />
+                    </div>
+                ));
+            }
+
+            return petWidgets;
         case "culinary-quests":
             return [
                 <div key="amazon-food-1" className="my-0">
