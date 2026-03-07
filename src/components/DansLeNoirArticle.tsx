@@ -59,11 +59,11 @@ const DansLeNoirArticle = () => {
                         The restaurant also promises to accommodate dietary restrictions. Before you enter the dark room, you choose a broad category of menu such as meat, fish, vegetarian, or vegan, and list any allergies or strong dislikes. From there, the team builds a mystery plate around your boundaries. Only when you return to the light at the end of the meal do you see photos and descriptions of what you actually ate, often with a few surprises compared to your guesses.
                     </p>
 
-                    {/* Inline image: close-up of restaurant table and wine */}
+                    {/* Inline image: Paris */}
                     <figure className="my-10 rounded-xl overflow-hidden shadow-[0_4px_24px_rgba(0,0,0,0.18)]">
                         <img
-                            src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?w=1200&q=80"
-                            alt="Close up of a restaurant table with wine glasses and plates in soft light"
+                            src="/images/Paris.jpg"
+                            alt="Paris"
                             className="w-full object-cover max-h-[420px]"
                             loading="lazy"
                         />

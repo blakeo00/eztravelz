@@ -23,13 +23,18 @@ export default function HauntedToursPage() {
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="bg-purple-900/90 text-white py-20 px-4 text-center">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
-                            Haunted Tours
-                        </h1>
-                        <p className="text-lg md:text-xl text-purple-200 max-w-2xl mx-auto">
-                            Dare to explore the unknown? Discover the most chilling, historically rich haunted destinations across the country.
-                        </p>
+                    <section className="bg-black/95 text-red-600 pt-24 pb-20 px-4 text-center relative border-b border-red-900/50 overflow-hidden">
+                        <div className="relative z-10">
+                            <h1
+                                className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest mb-6"
+                                style={{ fontFamily: "var(--font-creepster)", textShadow: "3px 3px 6px rgba(185, 28, 28, 0.4)" }}
+                            >
+                                Haunted Tours
+                            </h1>
+                            <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-medium">
+                                Dare to explore the unknown? Discover the most chilling, historically rich haunted destinations across the country.
+                            </p>
+                        </div>
                     </section>
 
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-20">

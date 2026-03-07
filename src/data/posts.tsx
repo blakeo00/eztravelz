@@ -69,8 +69,8 @@ export const posts: BlogPost[] = [
         category: "Haunted Tours",
         categorySlug: "haunted-tours",
         date: "2026-03-01",
-        image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop",
-        alt: "A grand historic hotel at twilight with warm lights glowing from its windows",
+        image: "/images/Spooky corodior.png",
+        alt: "A spooky corridor in an old historic hotel.",
         content: stanleyHotelContent,
     },
     {
@@ -458,8 +458,8 @@ function pawsAndAwayContent(): ReactNode {
 
 function stanleyHotelContent(): ReactNode {
     return (
-        <div className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
-            <p className="text-sm text-slate-500 font-medium uppercase tracking-wide">
+        <div className="prose prose-invert max-w-none prose-headings:text-red-500 prose-p:text-gray-300 prose-a:text-red-400 hover:prose-a:text-red-300 prose-strong:text-white prose-p:leading-relaxed">
+            <p className="text-sm text-red-500/70 font-medium uppercase tracking-wide">
                 Estes Park, Colorado
             </p>
 
@@ -1086,8 +1086,8 @@ function reelRoadsContent(): ReactNode {
 
 function lambeauFieldContent(): ReactNode {
     return (
-        <div className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
-            <p className="text-sm text-slate-500 font-medium uppercase tracking-wide">
+        <div className="prose prose-slate max-w-none prose-headings:text-white prose-p:text-slate-200 prose-strong:text-white prose-p:leading-relaxed">
+            <p className="text-sm text-[#FFB612]/80 font-medium uppercase tracking-wide">
                 Game Day Getaways | Green Bay, Wisconsin
             </p>
 
@@ -1108,7 +1108,7 @@ function lambeauFieldContent(): ReactNode {
             </p>
             <p>
                 When you walk through the gates at{" "}
-                <a href="https://www.packers.com/lambeau-field" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Lambeau Field</a>{" "}
+                <a href="https://www.packers.com/lambeau-field" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">Lambeau Field</a>{" "}
                 for the first time, you feel the weight of all of it. This is not a stadium. It
                 is a cathedral, and the congregation has been showing up, faithfully, through
                 blizzards and heartbreak and decades of Wisconsin winters, since before your
@@ -1197,15 +1197,15 @@ function lambeauFieldContent(): ReactNode {
                 honesty about what you{"\u2019"}re working with. The official season ticket waiting
                 list has been building since 1960, and the current wait for standard bowl seats is
                 measured in decades, not years. You can add your name at{" "}
-                <a href="https://www.packers.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">packers.com</a>,
+                <a href="https://www.packers.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">packers.com</a>,
                 but do not plan a trip around that route unless you are genuinely playing the
                 long game.
             </p>
             <p>
                 The practical path is the secondary market.{" "}
-                <a href="https://www.stubhub.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">StubHub</a>,{" "}
-                <a href="https://www.seatgeek.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">SeatGeek</a>, and{" "}
-                <a href="https://www.ticketmaster.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Ticketmaster</a>{" "}
+                <a href="https://www.stubhub.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">StubHub</a>,{" "}
+                <a href="https://www.seatgeek.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">SeatGeek</a>, and{" "}
+                <a href="https://www.ticketmaster.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">Ticketmaster</a>{" "}
                 resale all list Packers tickets throughout the season. Prices vary significantly
                 based on opponent and timing. A mid-season game against a non-division rival in
                 October will run considerably less than a late-season divisional matchup with
@@ -1233,7 +1233,7 @@ function lambeauFieldContent(): ReactNode {
             <h2>The Titletown District</h2>
             <p>
                 The Packers built the{" "}
-                <a href="https://www.titletown.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Titletown District</a>{" "}
+                <a href="https://www.titletown.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">Titletown District</a>{" "}
                 directly across from the stadium, and it changed the gameday experience for
                 visitors significantly. The district is free to enter and open year-round, though
                 game days are when it comes alive. Festivities start four hours before kickoff.
@@ -1301,7 +1301,7 @@ function lambeauFieldContent(): ReactNode {
             <p>
                 If you are visiting on a non-game day, or want to go deeper than the stands allow
                 on game day, the{" "}
-                <a href="https://www.packershofandtours.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Packers Hall of Fame and Stadium Tours</a>{" "}
+                <a href="https://www.packershofandtours.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">Packers Hall of Fame and Stadium Tours</a>{" "}
                 offers several options. The Classic Tour takes you through the team{"\u2019"}s
                 history and into the stadium{"\u2019"}s most iconic areas. The Legendary Tour goes
                 further, adding the locker room, the press box, and field-level access where you
@@ -1348,18 +1348,18 @@ function lambeauFieldContent(): ReactNode {
                 Some pilgrimages are worth the journey. This is one of them.
             </p>
 
-            <hr />
+            <hr className="border-[#FFB612]/30 my-8" />
 
-            <p className="text-sm text-slate-500 italic">
+            <p className="text-sm text-slate-300 italic">
                 Lambeau Field is located at 1265 Lombardi Avenue, Green Bay, WI 54304. Stadium
                 tours and Hall of Fame tickets:{" "}
-                <a href="https://www.packershofandtours.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">packershofandtours.com</a>.
+                <a href="https://www.packershofandtours.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">packershofandtours.com</a>.
                 Titletown District information:{" "}
-                <a href="https://www.titletown.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">titletown.com</a>.
+                <a href="https://www.titletown.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">titletown.com</a>.
                 Secondary market tickets:{" "}
-                <a href="https://www.stubhub.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">StubHub</a>,{" "}
-                <a href="https://www.seatgeek.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">SeatGeek</a>,{" "}
-                <a href="https://www.ticketmaster.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Ticketmaster</a>{" "}
+                <a href="https://www.stubhub.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">StubHub</a>,{" "}
+                <a href="https://www.seatgeek.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">SeatGeek</a>,{" "}
+                <a href="https://www.ticketmaster.com" target="_blank" rel="noopener noreferrer" className="text-[#FFB612] hover:text-[#FFB612]/80 transition-colors underline">Ticketmaster</a>{" "}
                 resale.
             </p>
         </div>

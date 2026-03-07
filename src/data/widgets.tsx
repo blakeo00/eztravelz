@@ -1,7 +1,7 @@
 import React, { ReactNode } from "react";
 import AmazonProductCard from "@/components/AmazonProductCard";
 
-export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
+export const getCategoryWidgets = (categorySlug: string, postSlug?: string): ReactNode[] => {
     switch (categorySlug) {
         case "haunted-tours":
             return [
@@ -46,7 +46,7 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                 </div>,
             ];
         case "sports-travel":
-            return [
+            const sportsWidgets = [
                 <div key="amazon-sports-1" className="my-0">
                     <AmazonProductCard
                         compact
@@ -83,6 +83,53 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                     />
                 </div>,
             ];
+
+            if (postSlug === 'titletown-usa-lambeau-field-nfl-pilgrimage') {
+                sportsWidgets[0] = (
+                    <div key="amazon-sports-helmet" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Riddell NFL Unisex-Adult Riddell Full Size Replica Speed Helmet"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81e7TBeXXbL._AC_SX679_.jpg"
+                            affiliateLink="https://amzn.to/3MRBaUG"
+                            price="$169.95"
+                            rating={4.6}
+                            isPrime={false}
+                        />
+                    </div>
+                );
+                sportsWidgets[1] = (
+                    <div key="amazon-sports-football" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="WILSON NFL Authentic Footballs - The Duke"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/71gWTT486TL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4ugvaWi"
+                            price="$159.95"
+                            rating={4.7}
+                            isPrime={true}
+                        />
+                    </div>
+                );
+                sportsWidgets[2] = (
+                    <div key="amazon-sports-cards" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="2024 Panini Donruss Elite NFL Football Trading Cards Blaster Box"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81kb3uM0c4L._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4bup1hK"
+                            price="$47.99"
+                            rating={4.7}
+                            isPrime={true}
+                        />
+                    </div>
+                );
+            }
+
+            return sportsWidgets;
         case "pet-travel":
             return [
                 <div key="amazon-pet-1" className="my-0">
@@ -151,35 +198,57 @@ export const getCategoryWidgets = (categorySlug: string): ReactNode[] => {
                         isPrime={true}
                     />
                 </div>,
+
+                <div key="amazon-food-4" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="Statik SmartCharge 5-in-1 Travel Power Bank with Wall Plug & Built in USB C Cables, 10000mAh International Travel Charger & European Portable Charger, Compatible with iPhone, iPad & Samsung"
+                        description="10000mAh International Travel Charger with built-in USB-C cables and wall plug"
+                        imageUrl="https://m.media-amazon.com/images/I/71Ick+fxhGL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4byq6nN"
+                        price="$55.99"
+                        rating={4.0}
+                        isPrime={true}
+                    />
+                </div>,
             ];
         case "wine-destinations":
             return [
-                <div key="amazon-wine-1" className="my-0">
+                <div key="amazon-wine-suitcase" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Wine Folly Magnum Edition, Master Guide to Wine"
-                        description="The essential illustrated guide to wine regions, grapes, and tasting"
-                        imageUrl="/images/Vineyard.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$20.49"
-                        rating={4.8}
-                        reviewCount={5678}
+                        title="boldworks Wine Suitcase for Airplanes 12 Bottle Wine Luggage for Airplane Travel with TSA Approved Lock and Removable Insert to Carry Liquor Black Color Case"
+                        description="12 bottle wine luggage with TSA approved lock and removable insert."
+                        imageUrl="https://m.media-amazon.com/images/I/71iT4FikoFL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/40P2FBr"
+                        price="$169.99"
+                        rating={4.7}
                         isPrime={true}
-                        badge="best-seller"
                     />
                 </div>,
-                <div key="amazon-wine-2" className="my-0">
+                <div key="amazon-wine-bag" className="my-0">
                     <AmazonProductCard
                         compact
-                        title="Wine Aerator Pourer, Premium Decanter Spout"
-                        description="Instantly aerate any bottle for smoother, fuller flavor at tastings"
-                        imageUrl="/images/Vineyard.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$14.97"
-                        rating={4.5}
-                        reviewCount={34210}
+                        title="ALLCAMP Wine Bag - Insulated Cooler Bag with Wine Glasses, Bottle Opener & Wine Accessories for Wine Lovers - Portable Wine Gift Bag for Travel, Picnics, and Gift Ideas(Black)"
+                        description="Insulated wine cooler bag with accessories for travel and picnics."
+                        imageUrl="https://m.media-amazon.com/images/I/71S1EVka1pL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/40Lp9mS"
+                        price="$23.69"
+                        rating={4.7}
                         isPrime={true}
-                        badge="amazons-choice"
+                    />
+                </div>,
+                <div key="amazon-wine-chiller" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="EUHOMY Wine Chiller Electric, Portable Wine Bottle Chiller for 750ml Wine & Champagne, Single Bottle Wine Cooler"
+                        description="Portable electric wine bottle chiller for 750ml wine and champagne."
+                        imageUrl="https://m.media-amazon.com/images/I/71OrSafO6JL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4ugtkES"
+                        price="$79.94"
+                        originalPrice="$99.99"
+                        rating={4.2}
+                        isPrime={true}
                     />
                 </div>,
                 <div key="amazon-wine-3" className="my-0">
