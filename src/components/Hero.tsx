@@ -35,25 +35,6 @@ export default function Hero() {
                     experiences tailored to your passions, from pet-friendly stays to
                     haunted history tours.
                 </p>
-                <button
-                    onClick={scrollToNiches}
-                    className="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-600 text-white font-bold text-lg px-10 py-4 rounded-full shadow-lg shadow-brand-500/30 hover:shadow-brand-500/50 transition-all duration-300 hover:scale-105 cursor-pointer"
-                >
-                    Start Exploring
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2.5"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                    >
-                        <path d="M12 5v14M19 12l-7 7-7-7" />
-                    </svg>
-                </button>
             </div>
 
             {/* ---- Bottom fade ---- */}

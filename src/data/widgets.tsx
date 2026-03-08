@@ -4,7 +4,7 @@ import AmazonProductCard from "@/components/AmazonProductCard";
 export const getCategoryWidgets = (categorySlug: string, postSlug?: string): ReactNode[] => {
     switch (categorySlug) {
         case "haunted-tours":
-            return [
+            const hauntedWidgets = [
                 <div key="amazon-ghost-1" className="my-0">
                     <AmazonProductCard
                         compact
@@ -45,6 +45,49 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                     />
                 </div>,
             ];
+
+            if (postSlug === 'stanley-hotel-where-the-nightmare-became-the-novel') {
+                return [
+                    <div key="amazon-ghost-stanley-1" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="The Big Book of Pennsylvania Ghost Stories (Big Book of Ghost Stories)"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81XJtE1f0AL._SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4rWoECm"
+                            price="$18.59"
+                            rating={4.6}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-ghost-stanley-2" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Professional Ghost Hunting Equipment, Accurate Paranormal Instrument, Sensitive Temperature Detection and Electromagnetic Field, Individual Investigators and Paranormal Explorers"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/71SfVThCSIL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4bvdZc4"
+                            price="$99.99"
+                            rating={5.0}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-ghost-stanley-3" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Crossbody Sling Bag for Women Leather Shoulder Chest Bag Small Fanny Pack for Hiking Travel | Leather, Shoulder, Chest Bag, for Hiking, Travel"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/71HfZtl+giL._AC_SY695_.jpg"
+                            affiliateLink="https://amzn.to/3OY5A8g"
+                            price="$28.99"
+                            rating={4.6}
+                            isPrime={true}
+                        />
+                    </div>,
+                ];
+            }
+
+            return hauntedWidgets;
         case "sports-travel":
             const sportsWidgets = [
                 <div key="amazon-sports-1" className="my-0">
@@ -205,7 +248,7 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
 
             return petWidgets;
         case "culinary-quests":
-            return [
+            const culinaryWidgets = [
                 <div key="amazon-food-1" className="my-0">
                     <AmazonProductCard
                         compact
@@ -245,8 +288,51 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                     />
                 </div>,
             ];
+
+            if (postSlug === 'smoke-patience-butcher-paper-texas-bbq-road-trip') {
+                return [
+                    <div key="amazon-bbq-1" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Nomad Portable Charcoal Grill – Ultra-Slim Folding BBQ for Outdoor Cooking, Camping & Travel | 304 Stainless Steel, Heat-Resistant Wood Handles, Quick Setup"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81xtlCiKLEL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4cyvxVR"
+                            price="$69.99"
+                            rating={4.6}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-bbq-2" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Hap Tim Picnic Backpack Bag for 4 Person with Cooler Compartment, Detachable Bottle/Wine Holder, Fleece Blanket, Plates and Cutlery Set Perfect for Outdoor, Sports, Hiking, Camping, BBQs(Coffee)"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81A1cxvsakL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4rXlbUf"
+                            price="$59.99"
+                            rating={4.8}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-bbq-3" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="VEVOR Camping Kitchen Table, Folding Outdoor Cooking Table, 3 Adjustable Height, Aluminum Lightweight Portable Cook Station with Storage Organizer, Carry Handle, for BBQ Party Picnic RV Travel, Blue"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81y+m9M-l-L._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4sx35bB"
+                            price="$59.99"
+                            rating={4.0}
+                            isPrime={true}
+                        />
+                    </div>,
+                ];
+            }
+
+            return culinaryWidgets;
         case "wine-destinations":
-            return [
+            const wineWidgets = [
                 <div key="amazon-wine-suitcase" className="my-0">
                     <AmazonProductCard
                         compact
@@ -298,8 +384,51 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                     />
                 </div>,
             ];
+
+            if (postSlug === 'holy-water-and-grape-bricks-prohibition-wine-trail') {
+                return [
+                    <div key="amazon-wine-prohibition-1" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Wine Box, 2 Bottle Leatherette Top Handle with 4 Wine Accessory Travel Wine Gift Box, Handmade Premium Wine Carrier Case"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81WyYSBOW0L._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4sx3FpQ"
+                            price="$33.99"
+                            rating={4.8}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-wine-prohibition-2" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="STANLEY The Reserve Textured Wine Tumbler | 11oz | Splash-Proof Lid | Cold Drinks & Cocktail Cup | Insulated Stainless Steel Wine Glass | Cream Gloss"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/51wdoPVD1lL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/3OR9waZ"
+                            price="$25.00"
+                            rating={4.6}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-wine-prohibition-3" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Electric Wine Saver & Preserver Pump with Vacuum Wine Bottle Stopper, Rechargeable, 4 Reusable Wine Bottle Stoppers, Wine Sealer, Keep Wine Fresh for Days"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/811-SrvDCKL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/3OWHF9h"
+                            price="$25.99"
+                            rating={4.5}
+                            isPrime={true}
+                        />
+                    </div>,
+                ];
+            }
+
+            return wineWidgets;
         case "cinematic-travel":
-            return [
+            const cinematicWidgets = [
                 <div key="amazon-film-1" className="my-0">
                     <AmazonProductCard
                         compact
@@ -350,6 +479,49 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                     />
                 </div>,
             ];
+
+            if (postSlug === 'reel-roads-room-217-the-shining') {
+                return [
+                    <div key="amazon-shining-collection-1" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Stephen King Collection 4 Books Set (Pet Sematary, The Shining, It, Doctor Sleep)"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/61dZYfRv7-L._SL1000_.jpg"
+                            affiliateLink="https://amzn.to/4bdB9CD"
+                            price="$69.59"
+                            rating={4.8}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-shining-collection-2" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Ultimate King of Horror Stephen King Limited Collection: Salem's Lot/ The Shining/ Cat's Eye/ The Green Mile/ Misery/ Children of the Corn/ It: Original 1990/ It: New Version 2017/ Carrie/ The Dark Tower & Sleepwalkers [Blu-ray] Region A"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/61S0+B7tq8L.jpg"
+                            affiliateLink="https://amzn.to/4b1MQvO"
+                            price="$75.00"
+                            rating={4.0}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-shining-collection-3" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Horror Films of the 1980s,( VOL. 1 & 2 ) Paperback –"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/611SXMXNFXL._SL1197_.jpg"
+                            affiliateLink="https://amzn.to/3NfpdYO"
+                            price="$59.95"
+                            rating={4.2}
+                            isPrime={true}
+                        />
+                    </div>,
+                ];
+            }
+
+            return cinematicWidgets;
         default:
             return [];
     }

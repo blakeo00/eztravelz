@@ -25,7 +25,7 @@ export default function SportsTravelPage() {
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
                     <section className="bg-brand-600 text-white py-20 px-4 text-center">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
+                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
                             Sports Travel & Events
                         </h1>
                         <p className="text-lg md:text-xl text-brand-100 max-w-2xl mx-auto">

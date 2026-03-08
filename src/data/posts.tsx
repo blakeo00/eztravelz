@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import Image from 'next/image';
 
 export interface BlogPost {
     slug: string;
@@ -98,7 +99,7 @@ export function getCategories(): string[] {
 
 function pawsAndAwayContent(): ReactNode {
     return (
-        <div className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
+        <div className="prose prose-invert max-w-none prose-headings:text-sky-400 prose-p:text-gray-300 prose-a:text-sky-400 hover:prose-a:text-sky-300 prose-strong:text-white prose-p:leading-relaxed">
             <p>
                 There{"\u2019"}s a moment every devoted pet parent knows {"\u2014"} the one where
                 you{"\u2019"}re packing your bag and your dog is watching you with{" "}
@@ -150,19 +151,19 @@ function pawsAndAwayContent(): ReactNode {
                 room available. It{"\u2019"}s best to call or book online before you even think
                 about packing. Every major airline has a dedicated pet travel portal on their
                 website {"\u2014"} here are direct links to the biggest carriers: {" "}
-                <a href="https://www.delta.com/us/en/pet-travel/overview" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Delta</a>,{" "}
-                <a href="https://www.united.com/en/us/fly/travel/traveling-with-pets.html" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">United</a>,{" "}
-                <a href="https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">American</a>,{" "}
-                <a href="https://www.southwest.com/help/baggage/pet-policy" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Southwest</a>,{" "}
-                <a href="https://www.jetblue.com/travel-with-us/our-policies/traveling-with-pets" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">JetBlue</a>, and{" "}
-                <a href="https://www.alaskaair.com/content/travel-info/policies/pets-traveling-with-pets" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Alaska Airlines</a>.
+                <a href="https://www.delta.com/us/en/pet-travel/overview" target="_blank" rel="noopener noreferrer">Delta</a>,{" "}
+                <a href="https://www.united.com/en/us/fly/travel/traveling-with-pets.html" target="_blank" rel="noopener noreferrer">United</a>,{" "}
+                <a href="https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp" target="_blank" rel="noopener noreferrer">American</a>,{" "}
+                <a href="https://www.southwest.com/help/baggage/pet-policy" target="_blank" rel="noopener noreferrer">Southwest</a>,{" "}
+                <a href="https://www.jetblue.com/travel-with-us/our-policies/traveling-with-pets" target="_blank" rel="noopener noreferrer">JetBlue</a>, and{" "}
+                <a href="https://www.alaskaair.com/content/travel-info/policies/pets-traveling-with-pets" target="_blank" rel="noopener noreferrer">Alaska Airlines</a>.
                 Use them early!
             </p>
 
-            <div className="bg-brand-50 p-6 rounded-xl my-8 border border-brand-100">
-                <h3 className="text-brand-800 font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
-                <p className="text-brand-900 mb-4">
-                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-600 underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-700">$46.90</span> <span className="text-slate-400 line-through text-sm">$73.50</span>
+            <div className="bg-slate-800 p-6 rounded-xl my-8 border border-slate-700">
+                <h3 className="text-sky-400 font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
+                <p className="text-gray-300 mb-4">
+                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-400 hover:text-sky-300 underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-400">$46.90</span> <span className="text-slate-500 line-through text-sm">$73.50</span>
                 </p>
                 <img
                     src="https://m.media-amazon.com/images/I/81gqQnt7waL._AC_SL1500_.jpg"
@@ -254,7 +255,7 @@ function pawsAndAwayContent(): ReactNode {
                 federal forms you{"\u2019"}ll need to know about:
             </p>
             <p>
-                <strong><a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Air_Transportation_Form" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">The DOT Service Animal Air Transportation Form</a></strong> (updated
+                <strong><a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Air_Transportation_Form" target="_blank" rel="noopener noreferrer">The DOT Service Animal Air Transportation Form</a></strong> (updated
                 September 2024) is the primary document needed. It attests to your
                 animal{"\u2019"}s training, health, vaccination status, and behavioral history.
                 Every airline that requires documentation uses this form, though some airlines
@@ -264,7 +265,7 @@ function pawsAndAwayContent(): ReactNode {
             </p>
             <p>
                 If your flight is eight hours or longer, you{"\u2019"}ll also need the{" "}
-                <strong><a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Relief_Form" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">DOT Service Animal Relief Attestation Form</a></strong>, which confirms
+                <strong><a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Relief_Form" target="_blank" rel="noopener noreferrer">DOT Service Animal Relief Attestation Form</a></strong>, which confirms
                 the animal will not relieve itself in the cabin or can do so in a sanitary manner
                 during a long flight, or that it can comfortably wait until landing. Both forms
                 are fillable PDFs, and both should be submitted to the airline, not to the DOT
@@ -349,7 +350,7 @@ function pawsAndAwayContent(): ReactNode {
             <p>
                 If flying feels like too much for your animal {"\u2014"} or for you {"\u2014"} trains
                 are genuinely worth considering, and for many pets, this is a far more humane
-                experience. <a href="https://www.amtrak.com/pets" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Amtrak{"\u2019"}s pet program</a> allows small dogs and cats (up to 20
+                experience. <a href="https://www.amtrak.com/pets" target="_blank" rel="noopener noreferrer">Amtrak{"\u2019"}s pet program</a> allows small dogs and cats (up to 20
                 pounds, carrier included) on most routes for a fee of around $29 each way. The
                 train is limited to five to seven pets per train, so booking early matters.
                 Trips have to be under seven hours under the current policy, which rules out
@@ -370,10 +371,10 @@ function pawsAndAwayContent(): ReactNode {
                 preventable mistakes happen. Here{"\u2019"}s what actually makes a difference:
             </p>
 
-            <div className="bg-brand-50 p-6 rounded-xl my-8 border border-brand-100">
-                <h3 className="text-brand-800 font-bold mb-2 mt-0">Essential Road Trip Gear</h3>
-                <p className="text-brand-900 mb-4">
-                    A pet roaming free in the backseat is a major safety hazard on a long road trip. You need a heavy-duty, crash-tested travel harness that clips directly into your car{"'"}s seatbelt system. The <a href="https://www.amazon.com/s?k=Kurgo+Tru-Fit+Smart+Harness&tag=eztravelz-20" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-600 underline font-semibold">Kurgo Tru-Fit Smart Harness</a> is fully adjustable and rigorously tested to keep your dog secure during sudden stops.
+            <div className="bg-slate-800 p-6 rounded-xl my-8 border border-slate-700">
+                <h3 className="text-sky-400 font-bold mb-2 mt-0">Essential Road Trip Gear</h3>
+                <p className="text-gray-300 mb-4">
+                    A pet roaming free in the backseat is a major safety hazard on a long road trip. You need a heavy-duty, crash-tested travel harness that clips directly into your car{"'"}s seatbelt system. The <a href="https://www.amazon.com/s?k=Kurgo+Tru-Fit+Smart+Harness&tag=eztravelz-20" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-400 hover:text-sky-300 underline font-semibold">Kurgo Tru-Fit Smart Harness</a> is fully adjustable and rigorously tested to keep your dog secure during sudden stops.
                 </p>
                 <img
                     src="/images/Dog car harness.jpg"
@@ -421,9 +422,9 @@ function pawsAndAwayContent(): ReactNode {
             </p>
             <p>
                 If you{"\u2019"}re flying with a service animal, download and complete the{" "}
-                <a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Air_Transportation_Form" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">DOT Service Animal Air Transportation Form</a> and submit it to your airline at least
+                <a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Air_Transportation_Form" target="_blank" rel="noopener noreferrer">DOT Service Animal Air Transportation Form</a> and submit it to your airline at least
                 48 hours before departure. For flights over eight hours, have the{" "}
-                <a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Relief_Form" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">DOT Relief Attestation Form</a> ready as well. If you{"\u2019"}re flying with a pet under the
+                <a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals/Relief_Form" target="_blank" rel="noopener noreferrer">DOT Relief Attestation Form</a> ready as well. If you{"\u2019"}re flying with a pet under the
                 standard program, go directly to your airline{"\u2019"}s website and find their
                 pet reservation portal.
             </p>
@@ -446,9 +447,9 @@ function pawsAndAwayContent(): ReactNode {
             <p className="text-sm text-slate-500 italic">
                 Policies for service animals, ESAs, and standard pet travel are subject to
                 change. Always verify current requirements directly with your airline,{" "}
-                <a href="https://www.amtrak.com/pets" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Amtrak</a>,
+                <a href="https://www.amtrak.com/pets" target="_blank" rel="noopener noreferrer">Amtrak</a>,
                 and the DOT{"\u2019"}s official{" "}
-                <a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">service animal resource page</a> before booking. Your
+                <a href="https://www.transportation.gov/individuals/aviation-consumer-protection/service-animals" target="_blank" rel="noopener noreferrer">service animal resource page</a> before booking. Your
                 veterinarian is your best first call for health certificates, travel anxiety,
                 and any destination-specific requirements.
             </p>
@@ -458,7 +459,7 @@ function pawsAndAwayContent(): ReactNode {
 
 function stanleyHotelContent(): ReactNode {
     return (
-        <div className="prose prose-invert max-w-none prose-headings:text-red-500 prose-p:text-gray-300 prose-a:text-red-400 hover:prose-a:text-red-300 prose-strong:text-white prose-p:leading-relaxed">
+        <div className="prose prose-invert max-w-none prose-headings:text-red-500 prose-headings:font-[family:var(--font-creepster)] prose-headings:tracking-widest prose-p:text-gray-300 prose-a:text-red-400 hover:prose-a:text-red-300 prose-strong:text-white prose-p:leading-relaxed">
             <p className="text-sm text-red-500/70 font-medium uppercase tracking-wide">
                 Estes Park, Colorado
             </p>
@@ -482,6 +483,11 @@ function stanleyHotelContent(): ReactNode {
                 him. Completely. He gained 29 pounds that first summer and returned every year
                 afterward, living to 91 and outlasting his own prognosis by nearly four decades.
             </p>
+
+            <figure className="my-10 lg:my-14">
+                <Image src="/images/Stanley Hotel.png" alt="The historic Stanley Hotel in Estes Park, Colorado" width={1200} height={800} className="w-full h-auto rounded-3xl shadow-2xl shadow-black/40 border border-white/10" />
+            </figure>
+
             <p>
                 Grateful to the valley that saved his life, Stanley decided to give something
                 back. What he built was a white Georgian Revival hotel on a hillside at 7,800
@@ -609,6 +615,9 @@ function stanleyHotelContent(): ReactNode {
             </p>
 
             <h2>Two Films, One Hotel, and a Director Who Never Visited</h2>
+            <figure className="my-10 lg:my-14">
+                <Image src="/images/Movie2.png" alt="Vintage film reels and cinematic equipment" width={1200} height={800} className="w-full h-auto rounded-3xl shadow-2xl shadow-black/40 border border-white/10" />
+            </figure>
             <p>
                 The story of <em>The Shining</em> on film is itself a study in two very different
                 visions.
@@ -755,8 +764,8 @@ function stanleyHotelContent(): ReactNode {
 
 function reelRoadsContent(): ReactNode {
     return (
-        <div className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
-            <p className="text-sm text-slate-500 font-medium uppercase tracking-wide">
+        <div className="prose prose-invert max-w-none prose-headings:text-red-500 prose-headings:font-[family:var(--font-creepster)] prose-headings:tracking-widest prose-p:text-gray-300 prose-a:text-red-400 hover:prose-a:text-red-300 prose-strong:text-white prose-p:leading-relaxed">
+            <p className="text-sm text-red-500/70 font-medium uppercase tracking-wide">
                 Estes Park, Colorado {"\u2014"} A Cinematic Pilgrimage to the Most Famous Haunted
                 Hotel in American Literature
             </p>
@@ -792,6 +801,21 @@ function reelRoadsContent(): ReactNode {
                 ways that are genuinely difficult to explain once you{"\u2019"}ve stood inside it.
             </p>
 
+            <figure className="my-10 overflow-hidden rounded-xl border border-gray-800 bg-gray-900/50 p-2 shadow-2xl">
+                <div className="relative aspect-[16/9] w-full overflow-hidden rounded-lg">
+                    <Image
+                        src="/images/Stanley Hotel 2.png"
+                        alt="The Stanley Hotel exterior"
+                        fill
+                        className="object-cover transition-transform duration-700 hover:scale-105"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw"
+                    />
+                </div>
+                <figcaption className="mt-3 text-center text-sm font-medium italic text-gray-500">
+                    The inspiration for the Overlook Hotel
+                </figcaption>
+            </figure>
+
             <h2>Two Films, One Hotel, and a Director Who Never Visited</h2>
             <p>
                 Here is something every cinematic traveler should know before they book their
@@ -824,6 +848,21 @@ function reelRoadsContent(): ReactNode {
                 after the building itself. Walking past it on the ghost tour is one of those
                 small moments that catches you sideways.
             </p>
+
+            <figure className="my-10 overflow-hidden rounded-xl border border-gray-800 bg-gray-900/50 p-2 shadow-2xl">
+                <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+                    <Image
+                        src="/images/Movie2.png"
+                        alt="Cinematic atmosphere"
+                        fill
+                        className="object-cover transition-transform duration-700 hover:scale-105"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 75vw, 60vw"
+                    />
+                </div>
+                <figcaption className="mt-3 text-center text-sm font-medium italic text-gray-500">
+                    The corridors of the Stanley Hotel retain a cinematic, eerie quality.
+                </figcaption>
+            </figure>
             <p>
                 So what you{"\u2019"}re actually visiting at the Stanley is the place that started
                 everything. Not the filming location of the famous movie, but the location that
@@ -1230,6 +1269,16 @@ function lambeauFieldContent(): ReactNode {
                 seeing green and gold on every other car, you know you are close.
             </p>
 
+            <div className="my-10">
+                <Image
+                    src="/images/Lambeau.png"
+                    alt="Lambeau Field Exterior"
+                    width={800}
+                    height={500}
+                    className="rounded-xl shadow-2xl mx-auto"
+                />
+            </div>
+
             <h2>The Titletown District</h2>
             <p>
                 The Packers built the{" "}
@@ -1283,6 +1332,16 @@ function lambeauFieldContent(): ReactNode {
                 about Rodgers or Favre or the {"\u2019"}96 season and then hand you another beer.
                 The tailgate scene at Lambeau is as welcoming to first-timers as any in the NFL.
             </p>
+            <div className="my-10">
+                <Image
+                    src="/images/santa.png"
+                    alt="Santa at Lambeau Field"
+                    width={800}
+                    height={500}
+                    className="rounded-xl shadow-2xl mx-auto"
+                />
+            </div>
+
             <h2>Packing for the Frozen Tundra</h2>
             <p>
                 Weather demands preparation. Green Bay in September can be genuinely beautiful.
@@ -1368,8 +1427,8 @@ function lambeauFieldContent(): ReactNode {
 
 function prohibitionWineContent(): ReactNode {
     return (
-        <div className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
-            <p className="text-sm text-slate-500 font-medium uppercase tracking-wide">
+        <div className="prose prose-invert max-w-none prose-headings:text-rose-200 prose-p:text-gray-200 prose-a:text-rose-300 hover:prose-a:text-rose-200 prose-strong:text-white prose-p:leading-relaxed">
+            <p className="text-sm text-rose-300 font-medium uppercase tracking-wide">
                 Vine & Wander | The Wineries That Survived Prohibition
             </p>
 
@@ -1435,6 +1494,19 @@ function prohibitionWineContent(): ReactNode {
                 by appointment, and the Georges de Latour Private Reserve Cabernet, still bearing
                 the founder{"\u2019"}s name, remains one of the benchmarks of Napa winemaking.
             </p>
+
+            <figure className="my-10">
+                <Image
+                    src="/images/Napa.png"
+                    alt="Scenic view of Napa Valley vineyards"
+                    width={800}
+                    height={500}
+                    className="rounded-xl w-full object-cover shadow-lg border border-rose-900/30"
+                />
+                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+                    The rolling hills of Napa Valley, where some historic vines survived Prohibition.
+                </figcaption>
+            </figure>
 
             <h2>The Saint and the Speakeasy</h2>
             <p>
@@ -1507,6 +1579,19 @@ function prohibitionWineContent(): ReactNode {
                 Beringer is now one of the most visited wine estates in Napa Valley, offering
                 tastings in their 1876 Rhine House mansion.
             </p>
+
+            <figure className="my-10">
+                <Image
+                    src="/images/Vineyard2.png"
+                    alt="A vineyard with ripe grapes ready for harvest"
+                    width={800}
+                    height={500}
+                    className="rounded-xl w-full object-cover shadow-lg border border-rose-900/30"
+                />
+                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+                    The thick-skinned Alicante Bouschet grape became dominant during Prohibition due to its durability.
+                </figcaption>
+            </figure>
 
             <h2>Irish Rabbis and the Fraud That Grew Too Large to Hide</h2>
             <p>
@@ -1672,6 +1757,21 @@ function prohibitionWineContent(): ReactNode {
                 wine trail while you{"\u2019"}re there.
             </p>
 
+            <div className="my-10 text-center bg-[#4a091e]/50 border border-rose-900/50 rounded-2xl p-8 shadow-xl">
+                <h3 className="text-2xl font-bold text-rose-100 mb-4 mt-0">Taste the History</h3>
+                <p className="text-rose-200/90 mb-6 max-w-lg mx-auto">
+                    Ready to explore these legendary vineyards yourself? Discover the best exclusive tastings and guided tours in the region.
+                </p>
+                <a
+                    href="https://www.viator.com/Napa-and-Sonoma/d914-ttd?pid=P00291237&mcid=42383&medium=link&campaign=Napa"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="inline-flex items-center justify-center bg-rose-700 hover:bg-rose-600 text-white font-semibold py-3.5 px-8 rounded-full transition-all duration-300 shadow-lg hover:shadow-rose-900/50 hover:-translate-y-0.5 no-underline"
+                >
+                    Book Napa & Sonoma Tours on Viator
+                </a>
+            </div>
+
             <hr />
 
             <p className="text-sm text-slate-500 italic">
@@ -1689,8 +1789,8 @@ function prohibitionWineContent(): ReactNode {
 
 function texasBbqContent(): ReactNode {
     return (
-        <div className="prose prose-slate max-w-none prose-headings:text-slate-900 prose-p:text-slate-700 prose-p:leading-relaxed">
-            <p className="text-sm text-slate-500 font-medium uppercase tracking-wide">
+        <div className="prose prose-invert max-w-none prose-headings:text-orange-400 prose-p:text-gray-300 prose-a:text-orange-500 hover:prose-a:text-orange-400 prose-strong:text-white prose-p:leading-relaxed">
+            <p className="text-sm text-amber-500 font-medium uppercase tracking-wide">
                 Fork & Wander | Central Texas
             </p>
 
@@ -1753,6 +1853,19 @@ function texasBbqContent(): ReactNode {
                 completely into the meat. A bad brisket is dry, grey, and slightly bitter. Most
                 briskets are bad brisket. The places on this trip do not serve bad brisket.
             </p>
+
+            <figure className="my-10">
+                <Image
+                    src="/images/BBQ.png"
+                    alt="A spread of slow-smoked Texas barbecue on butcher paper"
+                    width={800}
+                    height={500}
+                    className="rounded-xl w-full object-cover shadow-lg border border-orange-900/30"
+                />
+                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+                    The reward for patience: perfectly smoked brisket and sausage served on butcher paper.
+                </figcaption>
+            </figure>
 
             <h2>Stop One: Austin {"\u2014"} Franklin Barbecue</h2>
             <p>
@@ -1875,6 +1988,19 @@ function texasBbqContent(): ReactNode {
                 Split plates if you{"\u2019"}re traveling with a partner. Pace yourself.
             </p>
 
+            <figure className="my-10">
+                <Image
+                    src="/images/smokehouse.png"
+                    alt="A rustic Texas smokehouse with plumes of oak smoke"
+                    width={800}
+                    height={500}
+                    className="rounded-xl w-full object-cover shadow-lg border border-orange-900/30"
+                />
+                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+                    The unmistakable sight (and smell) of an authentic Central Texas smokehouse at work.
+                </figcaption>
+            </figure>
+
             <h2>Stop Four: Luling {"\u2014"} City Market</h2>
             <p>
                 Twenty miles south of Lockhart on Highway 183, Luling is a small oil town that
@@ -1952,6 +2078,29 @@ function texasBbqContent(): ReactNode {
                 off butcher paper, with whoever happened to be there that day. Show up with an
                 appetite and an open table.
             </p>
+
+            <div className="my-12 p-1 border-2 border-orange-900/30 rounded-2xl bg-[#0c0a09]/50 shadow-2xl relative overflow-hidden group">
+                <a
+                    href="https://www.viator.com/tours/Austin/Locals-Know-BBQ-Food-Tour-Austin-Texas/d5021-5580780P1?pid=P00291237&mcid=42383&medium=link&campaign=BBQ"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    className="block"
+                >
+                    <figure className="m-0 relative">
+                        <Image
+                            src="/images/brisket.png"
+                            alt="Book a Locals Know BBQ Food Tour in Austin"
+                            width={800}
+                            height={500}
+                            className="rounded-xl w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                        />
+                        <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6">
+                            <span className="text-orange-400 font-bold uppercase tracking-widest text-sm mb-1">Authentic Experience</span>
+                            <span className="text-white text-2xl font-serif">Book the Locals Know BBQ Food Tour on Viator &rarr;</span>
+                        </div>
+                    </figure>
+                </a>
+            </div>
 
             <hr />
 

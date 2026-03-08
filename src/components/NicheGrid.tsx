@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 /**
  * Niche card data — each card acts as a portal to its spoke page.
@@ -64,10 +65,24 @@ export default function NicheGrid() {
     return (
         <section id="niches" className="relative py-20 sm:py-28">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 text-white drop-shadow-md">
+                {/* Viator Affiliate Banner */}
+                <div className="flex justify-center mb-10 w-full overflow-hidden">
+                    <div
+                        data-id="viator-banner"
+                        data-partner-id="P00291237"
+                        data-url="https://www.viator.com/"
+                        data-banner-width="728"
+                        data-banner-height="90"
+                        data-banner-language="en"
+                        data-banner-selection="banner1"
+                    ></div>
+                    <Script src="https://partners.vtrcdn.com/static/scripts/banners/banners.js" strategy="lazyOnload" />
+                </div>
+
+                <h2 className="section-heading text-3xl sm:text-4xl font-bold text-center mb-4 text-white drop-shadow-md">
                     Choose Your Passion
                 </h2>
-                <p className="text-white/80 text-center mb-14 max-w-lg mx-auto">
+                <p className="hero-subtitle text-white/80 text-center mb-14 max-w-lg mx-auto">
                     Every trip should match your vibe. Pick a niche and explore curated
                     guides built for the way you actually travel.
                 </p>
@@ -91,7 +106,7 @@ export default function NicheGrid() {
                             {/* Overlay + Text */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                             <div className="absolute bottom-0 left-0 right-0 p-6">
-                                <h3 className="text-white text-2xl font-bold leading-tight">
+                                <h3 className="section-heading text-white text-2xl font-bold leading-tight">
                                     {niche.title}
                                 </h3>
                                 <p className="text-slate-200 text-sm mt-1">{niche.subtitle}</p>

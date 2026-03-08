@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroCarousel from "@/components/HeroCarousel";
 import NicheGrid from "@/components/NicheGrid";
 import FeaturedArticles from "@/components/FeaturedArticles";
+import FlightSearchWidget from "@/components/FlightSearchWidget";
 import Footer from "@/components/Footer";
 
 /**
@@ -15,6 +16,7 @@ export default function Home() {
             <main>
                 <HeroCarousel />
                 <NicheGrid />
+                <FlightSearchWidget />
                 <FeaturedArticles />
             </main>
             <Footer />

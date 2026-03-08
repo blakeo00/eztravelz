@@ -27,7 +27,7 @@ export default function WineDestinationsPage() {
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
                     <section className="bg-rose-950/95 text-white py-20 px-4 text-center border-b border-rose-900/50">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
+                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
                             Wine &amp; Brewery Destinations
                         </h1>
                         <p className="text-lg md:text-xl text-rose-200 max-w-2xl mx-auto">

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap');
 @plugin "@tailwindcss/typography";
 
 @theme {
@@ -37,4 +38,36 @@
     color: #64748b !important;
     /* Lighter slate gray for placeholder */
     opacity: 1 !important;
+}
+
+/* Main Hero Headline */
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    /* Adjust based on your layout */
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    /* Playfair looks better slightly tighter */
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    text-transform: capitalize;
+}
+
+/* Category Titles (Navigation and Buttons) */
+.nav-link,
+.category-btn,
+.section-heading {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    /* A little extra space for readability on smaller text */
+}
+
+/* Specific fix for the Hero Subtitle to match the vibe */
+.hero-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    /* Keeping sub-text clean and modern */
+    font-weight: 400;
+    max-width: 700px;
+    margin: 0 auto;
 }

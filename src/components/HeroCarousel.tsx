@@ -4,8 +4,30 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
+import Link from "next/link";
+
+const categoryLinks: Record<string, string> = {
+    "Pet Travel": "/pet-travel",
+    "Haunted Tours": "/haunted-tours",
+    "Wine & Brewery Destinations": "/wine-destinations",
+    "Sports Travel": "/sports-travel",
+    "Cinematic Travel": "/cinematic-travel",
+    "Culinary Quests": "/culinary-quests",
+};
 
 const slides = [
+    {
+        category: "Scenic Nature",
+        image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1400&q=80",
+    },
+    {
+        category: "Tropical Escapes",
+        image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&q=80",
+    },
+    {
+        category: "Epic Road Trips",
+        image: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1400&q=80",
+    },
     {
         category: "Pet Travel",
         image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1400&q=80",
@@ -55,27 +77,38 @@ export default function HeroCarousel() {
                             className="absolute inset-0 w-full h-full object-cover"
                         />
                         {/* Blue gradient overlay — preserves brand colour */}
-                        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/60 via-blue-800/55 to-blue-950/85" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-blue-900/75 via-blue-800/75 to-blue-950/75" />
                     </SwiperSlide>
                 ))}
             </Swiper>
 
             {/* ── Hero text — centred, floating above the slides ── */}
-            <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6 pointer-events-none">
+            <div className="absolute inset-0 z-20 flex flex-col items-center justify-center text-center px-6 pt-24 md:pt-20 pointer-events-none">
                 {/* Category pills */}
-                <div className="mb-6 flex gap-2 flex-wrap justify-center">
-                    {slides.map((slide, i) => (
-                        <span
-                            key={i}
-                            className="text-blue-200 uppercase tracking-widest text-xs font-semibold px-3 py-1 rounded-full border border-blue-400/40"
-                        >
-                            {slide.category}
-                        </span>
-                    ))}
+                <div className="mb-6 flex gap-2 flex-wrap justify-center pointer-events-auto">
+                    {slides
+                        .filter(
+                            (slide) =>
+                                !["Scenic Nature", "Tropical Escapes", "Epic Road Trips"].includes(
+                                    slide.category
+                                )
+                        )
+                        .map((slide) => {
+                            const href = categoryLinks[slide.category] || "#";
+                            return (
+                                <Link
+                                    key={slide.category}
+                                    href={href}
+                                    className="category-btn text-blue-200 uppercase tracking-widest text-xs font-semibold px-3 py-1 rounded-full border border-blue-400/40 hover:bg-white/10 hover:border-white/50 transition-colors"
+                                >
+                                    {slide.category}
+                                </Link>
+                            );
+                        })}
                 </div>
 
                 <h1
-                    className="text-white font-extrabold leading-tight mb-6"
+                    className="hero-title text-white font-extrabold leading-tight mb-6"
                     style={{ fontSize: "clamp(2.5rem, 7vw, 5rem)" }}
                 >
                     Travel Made Easy.
@@ -83,28 +116,12 @@ export default function HeroCarousel() {
                     Choose Your Adventure.
                 </h1>
 
-                <p className="text-blue-100 text-lg md:text-xl max-w-2xl mb-10 opacity-90 leading-relaxed">
+                <p className="hero-subtitle text-blue-100 text-lg md:text-xl max-w-2xl mb-10 opacity-90 leading-relaxed">
                     Stop settling for generic vacations. We curate unique travel
                     experiences tailored to your passions, from pet-friendly stays to
                     haunted history tours.
                 </p>
 
-                <button
-                    onClick={scrollToNiches}
-                    className="pointer-events-auto inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white font-bold px-10 py-4 rounded-full text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-blue-900/50 cursor-pointer"
-                >
-                    Start Exploring
-                    <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="w-5 h-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        strokeWidth={2}
-                    >
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-                    </svg>
-                </button>
             </div>
         </section>
     );

@@ -28,7 +28,7 @@ export default function CulinaryQuestsPage() {
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
                     <section className="bg-gray-900/90 text-white py-20 px-4 text-center">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
+                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
                             Culinary Quests
                         </h1>
                         <p className="text-lg md:text-xl text-blue-200 max-w-2xl mx-auto">

@@ -26,8 +26,8 @@ export default function FeaturedArticles() {
     return (
         <section id="articles" className="relative py-20 sm:py-28">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-md">From the Blog</h2>
-                <p className="text-white/80 mb-14 max-w-lg">
+                <h2 className="section-heading text-3xl sm:text-4xl font-bold mb-4 text-white drop-shadow-md">From the Blog</h2>
+                <p className="hero-subtitle text-white/80 mb-14 max-w-lg">
                     Real stories, real logistics, real advice, written from experience, not a press release.
                 </p>
 
@@ -51,10 +51,10 @@ export default function FeaturedArticles() {
 
                             {/* Content */}
                             <div className="p-5 flex flex-col flex-1">
-                                <span className="text-brand-600 font-semibold text-xs uppercase tracking-wider mb-1.5">
+                                <span className="category-btn text-brand-600 font-semibold text-xs uppercase tracking-wider mb-1.5">
                                     {post.category}
                                 </span>
-                                <h3 className="text-base font-bold leading-snug mb-2 line-clamp-2">
+                                <h3 className="section-heading text-base font-bold leading-snug mb-2 line-clamp-2">
                                     {post.title}
                                 </h3>
                                 <p className="text-slate-500 text-sm leading-relaxed mb-4 flex-1 line-clamp-3">
@@ -86,7 +86,7 @@ export default function FeaturedArticles() {
                 <div className="mt-12 text-center">
                     <Link
                         href="/blog"
-                        className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-xl border border-white/20 hover:bg-white/20 transition-colors"
+                        className="category-btn inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white font-semibold px-8 py-3 rounded-xl border border-white/20 hover:bg-white/20 transition-colors"
                     >
                         View All Posts
                         <svg

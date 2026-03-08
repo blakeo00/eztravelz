@@ -57,7 +57,7 @@ export default function Header() {
                         <Link
                             key={n.href}
                             href={n.href}
-                            className="text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors"
+                            className="nav-link text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors"
                         >
                             {n.label}
                         </Link>
@@ -96,7 +96,7 @@ export default function Header() {
                             key={n.href}
                             href={n.href}
                             onClick={() => setMobileOpen(false)}
-                            className="py-2 px-3 rounded-lg text-slate-700 hover:bg-brand-50 hover:text-brand-600 font-medium transition-colors"
+                            className="nav-link py-2 px-3 rounded-lg text-slate-700 hover:bg-brand-50 hover:text-brand-600 font-medium transition-colors"
                         >
                             {n.label}
                         </Link>

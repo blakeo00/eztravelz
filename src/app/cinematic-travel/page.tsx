@@ -26,7 +26,7 @@ export default function CinematicTravelPage() {
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
                     <section className="bg-yellow-900/90 text-white py-20 px-4 text-center">
-                        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
+                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
                             Cinematic Travel
                         </h1>
                         <p className="text-lg md:text-xl text-yellow-200 max-w-2xl mx-auto">
