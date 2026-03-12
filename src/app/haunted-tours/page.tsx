@@ -85,6 +85,12 @@ export default function HauntedToursPage() {
                                         of what their equipment keeps picking up.
                                     </p>
 
+                                    <img
+                                        src="/images/Lizzie2.jpg"
+                                        alt="Inside the Lizzie Borden House"
+                                        className="w-full rounded-2xl mb-8 object-cover h-72"
+                                    />
+
                                     <p className="text-lg leading-relaxed mb-8 text-gray-300">
                                         You can sleep here. That&apos;s the part that separates Lizzie&apos;s house from every
                                         haunted tour in America. You don&apos;t just walk through, you stay the night.

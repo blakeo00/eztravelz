@@ -18,7 +18,7 @@ export default function Footer() {
                     <div>
                         <Link href="/" className="flex items-center mb-4">
                             <Image
-                                src="/images/Logo 3.png"
+                                src="/images/logo5.jpg"
                                 alt="EZtravelZ Logo"
                                 width={160}
                                 height={40}
@@ -32,28 +32,21 @@ export default function Footer() {
                     </div>
 
                     {/* Newsletter Signup */}
-                    <div className="bg-dark-800 rounded-2xl p-8">
-                        <h3 className="text-lg font-bold mb-2">Stay in the Loop</h3>
+                    <div className="bg-dark-800 rounded-2xl p-8 text-center">
+                        <h3 className="text-lg font-bold mb-2">Stay in the Loop!</h3>
                         <p className="text-slate-400 text-sm mb-6">
-                            Join the EZtravelZ Club for exclusive travel guides and packing
-                            lists.
+                            Subscribe to the EZtravelZ newsletter for exclusive guides exploring the world.
                         </p>
-                        <form
-                            onSubmit={(e) => e.preventDefault()}
-                            className="flex flex-col sm:flex-row gap-3"
-                        >
-                            <input
-                                type="email"
-                                placeholder="you@example.com"
-                                className="flex-1 px-4 py-3 rounded-xl bg-dark-950 border border-slate-700 text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 focus:ring-brand-500 transition"
-                            />
-                            <button
-                                type="submit"
-                                className="bg-brand-500 hover:bg-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-colors whitespace-nowrap"
+                        <div className="flex justify-center my-8">
+                            <a 
+                                href="https://newsletter.eztravelz.com" 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
                             >
-                                Subscribe
-                            </button>
-                        </form>
+                                Join the EZtravelZ Insider
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

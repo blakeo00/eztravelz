@@ -1,0 +1,17 @@
+﻿HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 263
+Cache-Control: max-age=3600
+Content-Type: application/xml
+Etag: "286bedc891ef4c65287a6e7fdbad5bbdfdf8b1401e78eeba8233fc354352d714"
+Last-Modified: Mon, 09 Mar 2026 15:20:51 GMT
+Strict-Transport-Security: max-age=31556926
+Accept-Ranges: bytes
+Date: Mon, 09 Mar 2026 17:33:05 GMT
+X-Served-By: cache-lax-kwhp1940142-LAX
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1773077585.143860,VS0,VE1
+Vary: x-fh-requested-host, accept-encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
