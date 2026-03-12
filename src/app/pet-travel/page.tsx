@@ -28,10 +28,10 @@ export default function PetTravelPage() {
                     <section className="relative overflow-hidden bg-sky-700/95 text-white pt-32 pb-20 px-4 text-center border-b-4 border-sky-800">
                         {/* Paw Prints Background Overlay */}
                         <div className="absolute inset-0 z-0 pointer-events-none">
-                            <Image src="/images/paw.png" alt="Paw print" width={64} height={64} className="absolute top-28 left-[10%] transform -rotate-12 opacity-90 invert" />
-                            <Image src="/images/paw.png" alt="Paw print" width={48} height={48} className="absolute bottom-10 left-[20%] transform rotate-12 opacity-90 invert" />
-                            <Image src="/images/paw.png" alt="Paw print" width={56} height={56} className="absolute top-32 right-[20%] transform rotate-45 opacity-90 invert" />
-                            <Image src="/images/paw.png" alt="Paw print" width={72} height={72} className="absolute bottom-8 right-[10%] transform -rotate-45 opacity-90 invert" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={64} height={64} className="absolute top-28 left-[10%] transform -rotate-12 opacity-90 invert" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={48} height={48} className="absolute bottom-10 left-[20%] transform rotate-12 opacity-90 invert" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={56} height={56} className="absolute top-32 right-[20%] transform rotate-45 opacity-90 invert" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={72} height={72} className="absolute bottom-8 right-[10%] transform -rotate-45 opacity-90 invert" />
                         </div>
                         <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
                             <h1 className="hero-title text-white font-extrabold mb-6 font-serif">
