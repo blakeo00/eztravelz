@@ -42,7 +42,7 @@ export default function Header() {
                 {/* ---- Logo ---- */}
                 <Link href="/" className="flex items-center group">
                     <Image
-                        src="/images/logo5.jpg"
+                        src="/images/Logo5.jpg"
                         alt="EZtravelZ Logo"
                         width={160}
                         height={40}
