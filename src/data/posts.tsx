@@ -1990,7 +1990,7 @@ function texasBbqContent(): ReactNode {
 
             <figure className="my-10">
                 <Image
-                    src="/images/smokehouse.png"
+                    src="/images/Smokehouse.png"
                     alt="A rustic Texas smokehouse with plumes of oak smoke"
                     width={800}
                     height={500}
@@ -2088,7 +2088,7 @@ function texasBbqContent(): ReactNode {
                 >
                     <figure className="m-0 relative">
                         <Image
-                            src="/images/brisket.png"
+                            src="/images/Brisket.png"
                             alt="Book a Locals Know BBQ Food Tour in Austin"
                             width={800}
                             height={500}
