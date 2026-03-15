@@ -14,10 +14,10 @@ export const metadata: Metadata = {
 export default function CulinaryQuestsPage() {
     return (
         <div className="min-h-screen font-sans flex flex-col relative">
-            {/* Background Image with 50% transparency */}
+            {/* Background Gradient */}
             <div
-                className="fixed inset-0 z-0 bg-cover bg-center opacity-50"
-                style={{ backgroundImage: "url('/images/Paris Night.png')" }}
+                className="fixed inset-0 z-0 opacity-50"
+                style={{ backgroundImage: "linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)" }}
             ></div>
             {/* Dark overlay for dark mode */}
             <div className="fixed inset-0 z-0 bg-black/40"></div>
@@ -27,11 +27,11 @@ export default function CulinaryQuestsPage() {
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="bg-gray-900/90 text-white py-20 px-4 text-center">
-                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
+                    <section className="bg-[#ff6f61]/95 text-slate-900 py-20 px-4 text-center border-2 border-black">
+                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 text-slate-900">
                             Culinary Quests
                         </h1>
-                        <p className="text-lg md:text-xl text-blue-200 max-w-2xl mx-auto">
+                        <p className="text-lg md:text-xl text-slate-800 font-medium max-w-2xl mx-auto">
                             Some trips are planned around the sights. The best ones are planned around the food. These are the journeys worth traveling hungry.
                         </p>
                     </section>
@@ -40,13 +40,13 @@ export default function CulinaryQuestsPage() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <article className="bg-gray-900/90 rounded-3xl shadow-2xl overflow-hidden border border-blue-700/50 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(59, 130, 246, 0.15)' }}>
+                                <article className="bg-[#ff6f61]/95 rounded-3xl shadow-2xl overflow-hidden border-2 border-black p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(255, 111, 97, 0.25)' }}>
 
-                                    <span className="text-blue-400 uppercase tracking-widest text-sm font-semibold">
+                                    <span className="text-slate-800 uppercase tracking-widest text-sm font-bold">
                                         Culinary Quests
                                     </span>
 
-                                    <h2 className="text-4xl font-extrabold mt-3 mb-8 leading-tight text-white">
+                                    <h2 className="text-4xl font-extrabold mt-3 mb-8 leading-tight text-slate-900">
                                         Paris On A Plate. Where Every Meal Feels Like A Memory
                                     </h2>
 
@@ -54,10 +54,10 @@ export default function CulinaryQuestsPage() {
                                     <img
                                         src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&q=80"
                                         alt="Elegant Paris bistro dining"
-                                        className="w-full rounded-2xl mb-8 object-cover h-72"
+                                        className="w-full rounded-2xl mb-8 object-cover h-72 border-2 border-black"
                                     />
 
-                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-6 text-slate-900 font-medium">
                                         Paris doesn&apos;t just feed you. It seduces you, one course at a time. From the
                                         first crack of a perfectly lacquered duck confit at a candlelit bistro on the
                                         Left Bank, to the unhurried ritual of a café au lait and a still-warm croissant
@@ -66,7 +66,7 @@ export default function CulinaryQuestsPage() {
                                         French didn&apos;t invent cuisine. They turned it into a philosophy.
                                     </p>
 
-                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-6 text-slate-900 font-medium">
                                         The city rewards the curious and the unhurried. Skip the tourist traps draped
                                         in chalkboard menus written in broken English, and instead duck into the narrow
                                         arrondissements where locals have been eating at the same tables for generations.
@@ -79,10 +79,10 @@ export default function CulinaryQuestsPage() {
                                     <img
                                         src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=900&q=80"
                                         alt="Fresh croissants at a Paris café"
-                                        className="w-full rounded-2xl mb-8 object-cover h-72"
+                                        className="w-full rounded-2xl mb-8 object-cover h-72 border-2 border-black"
                                     />
 
-                                    <p className="text-lg leading-relaxed text-gray-300">
+                                    <p className="text-lg leading-relaxed text-slate-900 font-medium">
                                         And then there&apos;s the market culture. The Marché d&apos;Aligre on a Saturday morning
                                         is nothing short of a religious experience, vendors calling out over towers of
                                         aged cheese, loose-leaf herbs, and blood oranges stacked like small suns. Buy
@@ -95,18 +95,18 @@ export default function CulinaryQuestsPage() {
                                 </article>
 
                                 {/* Viator Paris Experiences Link */}
-                                <div className="bg-gray-900/90 rounded-2xl shadow-2xl overflow-hidden border border-blue-700/50 p-6 md:p-8 mt-8 backdrop-blur-sm text-center">
-                                    <h3 className="text-2xl font-bold text-white mb-2">Explore Paris Experiences</h3>
-                                    <p className="text-gray-400 mb-5 text-base">Curated food tours, cooking classes, and culinary adventures in the City of Light.</p>
+                                <div className="bg-[#ff6f61]/95 rounded-2xl shadow-2xl overflow-hidden border-2 border-black p-6 md:p-8 mt-8 backdrop-blur-sm text-center">
+                                    <h3 className="text-2xl font-bold text-slate-900 mb-2">Explore Paris Experiences</h3>
+                                    <p className="text-slate-800 font-medium mb-5 text-base">Curated food tours, cooking classes, and culinary adventures in the City of Light.</p>
                                     <a
                                         href="https://www.viator.com/partner-shop/eztravelz/Paris-2026?medium=link&medium_version=shop&campaign=Paris"
                                         target="_blank"
                                         rel="sponsored noopener noreferrer"
-                                        className="inline-block bg-blue-600 hover:bg-blue-500 text-white font-bold px-8 py-3 rounded-full transition-colors duration-200 text-lg shadow-md hover:shadow-lg"
+                                        className="inline-block bg-slate-900 hover:bg-slate-800 text-white font-bold px-8 py-3 rounded-full transition-colors duration-200 text-lg shadow-md hover:shadow-lg"
                                     >
                                         Browse Paris Tours & Activities →
                                     </a>
-                                    <p className="text-xs text-gray-500 mt-3">Powered by Viator</p>
+                                    <p className="text-xs text-slate-700 font-medium mt-3">Powered by Viator</p>
                                 </div>
 
                                 <DansLeNoirArticle />

@@ -50,7 +50,13 @@ export default async function BlogPostPage({
                 ></div>
             )}
             {post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' && (
-                <div className="fixed inset-0 z-0 bg-[#0c0a09] bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-zinc-700/40 via-[#1c1917]/90 to-black opacity-95"></div>
+                <>
+                    <div className="fixed inset-0 z-0 opacity-50" style={{ backgroundImage: "linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)" }}></div>
+                    <div className="fixed inset-0 z-0 bg-black/40"></div>
+                </>
+            )}
+            {post.slug === 'paws-and-away-pet-traveler-guide' && (
+                <div className="fixed inset-0 z-0 opacity-70" style={{ backgroundImage: "linear-gradient(45deg, #ff00ff 0%, #ffff00 50%, #ff4500 100%)" }}></div>
             )}
 
             <div className="relative z-10 flex flex-col flex-grow w-full">
@@ -115,11 +121,11 @@ export default async function BlogPostPage({
                                 <div className={`backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
                                     ? 'bg-gray-900/90 border border-red-900/50'
                                     : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip'
-                                        ? 'bg-stone-900/80 border border-stone-800'
+                                        ? 'bg-[#ff6f61]/95 text-slate-900 border-2 border-black shadow-[0_0_15px_rgba(255,111,97,0.3)]'
                                         : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage'
                                             ? 'bg-[#203731]/95 text-white border border-[#FFB612]/30'
                                             : post.slug === 'paws-and-away-pet-traveler-guide'
-                                                ? 'bg-slate-900/90 border border-slate-700'
+                                                ? 'bg-[#aaffcc]/95 text-slate-900 border-2 border-black shadow-[0_0_15px_rgba(0,0,0,0.2)]'
                                                 : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
                                                     ? 'bg-[#4a091e]/90 border border-rose-900/50'
                                                     : 'bg-white/80 text-slate-800'

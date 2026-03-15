@@ -7,7 +7,7 @@ import Image from "next/image";
 /**
  * Niche navigation links used in both desktop nav and mobile menu.
  */
-const niches = [
+export const niches = [
     { label: "Pet Travel", href: "/pet-travel" },
     { label: "Haunted Tours", href: "/haunted-tours" },
     { label: "Wine & Brewery Destinations", href: "/wine-destinations" },
@@ -34,8 +34,8 @@ export default function Header() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                ? "bg-white/90 backdrop-blur-md shadow-sm"
-                : "bg-white/60 backdrop-blur-sm"
+                ? "bg-[#0e6e9e]/95 backdrop-blur-md shadow-sm"
+                : "bg-[#0e6e9e]/80 backdrop-blur-sm"
                 }`}
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-24 md:h-20">
@@ -57,7 +57,7 @@ export default function Header() {
                         <Link
                             key={n.href}
                             href={n.href}
-                            className="nav-link text-sm font-medium text-slate-600 hover:text-brand-600 transition-colors"
+                            className="nav-link text-sm font-medium text-slate-200 hover:text-white transition-colors"
                         >
                             {n.label}
                         </Link>
@@ -71,15 +71,15 @@ export default function Header() {
                     onClick={() => setMobileOpen((prev) => !prev)}
                 >
                     <span
-                        className={`block w-6 h-0.5 bg-slate-800 transition-transform duration-300 ${mobileOpen ? "translate-y-2 rotate-45" : ""
+                        className={`block w-6 h-0.5 bg-slate-200 transition-transform duration-300 ${mobileOpen ? "translate-y-2 rotate-45" : ""
                             }`}
                     />
                     <span
-                        className={`block w-6 h-0.5 bg-slate-800 transition-opacity duration-200 ${mobileOpen ? "opacity-0" : ""
+                        className={`block w-6 h-0.5 bg-slate-200 transition-opacity duration-200 ${mobileOpen ? "opacity-0" : ""
                             }`}
                     />
                     <span
-                        className={`block w-6 h-0.5 bg-slate-800 transition-transform duration-300 ${mobileOpen ? "-translate-y-2 -rotate-45" : ""
+                        className={`block w-6 h-0.5 bg-slate-200 transition-transform duration-300 ${mobileOpen ? "-translate-y-2 -rotate-45" : ""
                             }`}
                     />
                 </button>
@@ -87,7 +87,7 @@ export default function Header() {
 
             {/* ---- Mobile Slide-Down Menu ---- */}
             <div
-                className={`md:hidden overflow-hidden transition-all duration-300 bg-white/95 backdrop-blur-md ${mobileOpen ? "max-h-96 border-b border-slate-200" : "max-h-0"
+                className={`md:hidden overflow-hidden transition-all duration-300 bg-[#0e6e9e]/95 backdrop-blur-md ${mobileOpen ? "max-h-96 border-b border-[#0b5c85]" : "max-h-0"
                     }`}
             >
                 <nav className="flex flex-col gap-1 px-4 py-4">
@@ -96,7 +96,7 @@ export default function Header() {
                             key={n.href}
                             href={n.href}
                             onClick={() => setMobileOpen(false)}
-                            className="nav-link py-2 px-3 rounded-lg text-slate-700 hover:bg-brand-50 hover:text-brand-600 font-medium transition-colors"
+                            className="nav-link py-2 px-3 rounded-lg text-slate-300 hover:bg-white/10 hover:text-white font-medium transition-colors"
                         >
                             {n.label}
                         </Link>

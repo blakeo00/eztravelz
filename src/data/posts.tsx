@@ -99,7 +99,7 @@ export function getCategories(): string[] {
 
 function pawsAndAwayContent(): ReactNode {
     return (
-        <div className="prose prose-invert max-w-none prose-headings:text-sky-400 prose-p:text-gray-300 prose-a:text-sky-400 hover:prose-a:text-sky-300 prose-strong:text-white prose-p:leading-relaxed">
+        <div className="prose max-w-none prose-headings:text-slate-900 prose-p:text-slate-800 prose-a:text-sky-700 hover:prose-a:text-sky-600 prose-strong:text-slate-900 prose-p:leading-relaxed">
             <p>
                 There{"\u2019"}s a moment every devoted pet parent knows {"\u2014"} the one where
                 you{"\u2019"}re packing your bag and your dog is watching you with{" "}
@@ -160,15 +160,15 @@ function pawsAndAwayContent(): ReactNode {
                 Use them early!
             </p>
 
-            <div className="bg-slate-800 p-6 rounded-xl my-8 border border-slate-700">
-                <h3 className="text-sky-400 font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
-                <p className="text-gray-300 mb-4">
-                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-400 hover:text-sky-300 underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-400">$46.90</span> <span className="text-slate-500 line-through text-sm">$73.50</span>
+            <div className="bg-white/50 p-6 rounded-xl my-8 border-2 border-black shadow-sm">
+                <h3 className="text-slate-900 font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
+                <p className="text-slate-800 mb-4">
+                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-700 hover:text-sky-600 underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-600">$46.90</span> <span className="text-slate-500 line-through text-sm">$73.50</span>
                 </p>
                 <img
                     src="https://m.media-amazon.com/images/I/81gqQnt7waL._AC_SL1500_.jpg"
                     alt="Sherpa Original Deluxe Travel Pet Carrier, Airline Approved"
-                    className="w-full h-auto rounded-lg shadow-md border border-brand-200"
+                    className="w-full h-auto rounded-lg shadow-md border-2 border-black"
                 />
             </div>
 
@@ -1789,7 +1789,7 @@ function prohibitionWineContent(): ReactNode {
 
 function texasBbqContent(): ReactNode {
     return (
-        <div className="prose prose-invert max-w-none prose-headings:text-orange-400 prose-p:text-gray-300 prose-a:text-orange-500 hover:prose-a:text-orange-400 prose-strong:text-white prose-p:leading-relaxed">
+        <div className="prose max-w-none prose-headings:text-slate-900 prose-p:text-slate-800 prose-a:text-blue-700 prose-a:underline hover:prose-a:text-blue-800 prose-strong:text-slate-900 prose-p:leading-relaxed">
             <p className="text-sm text-amber-500 font-medium uppercase tracking-wide">
                 Fork & Wander | Central Texas
             </p>
@@ -1860,9 +1860,9 @@ function texasBbqContent(): ReactNode {
                     alt="A spread of slow-smoked Texas barbecue on butcher paper"
                     width={800}
                     height={500}
-                    className="rounded-xl w-full object-cover shadow-lg border border-orange-900/30"
+                    className="rounded-xl w-full object-cover shadow-sm border-2 border-black"
                 />
-                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+                <figcaption className="text-center text-sm text-slate-800 mt-3 italic">
                     The reward for patience: perfectly smoked brisket and sausage served on butcher paper.
                 </figcaption>
             </figure>
@@ -1994,9 +1994,9 @@ function texasBbqContent(): ReactNode {
                     alt="A rustic Texas smokehouse with plumes of oak smoke"
                     width={800}
                     height={500}
-                    className="rounded-xl w-full object-cover shadow-lg border border-orange-900/30"
+                    className="rounded-xl w-full object-cover shadow-sm border-2 border-black"
                 />
-                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+                <figcaption className="text-center text-sm text-slate-800 mt-3 italic">
                     The unmistakable sight (and smell) of an authentic Central Texas smokehouse at work.
                 </figcaption>
             </figure>
@@ -2079,7 +2079,7 @@ function texasBbqContent(): ReactNode {
                 appetite and an open table.
             </p>
 
-            <div className="my-12 p-1 border-2 border-orange-900/30 rounded-2xl bg-[#0c0a09]/50 shadow-2xl relative overflow-hidden group">
+            <div className="my-12 p-1 border-2 border-black rounded-2xl bg-white/30 shadow-sm relative overflow-hidden group">
                 <a
                     href="https://www.viator.com/tours/Austin/Locals-Know-BBQ-Food-Tour-Austin-Texas/d5021-5580780P1?pid=P00291237&mcid=42383&medium=link&campaign=BBQ"
                     target="_blank"
@@ -2092,9 +2092,9 @@ function texasBbqContent(): ReactNode {
                             alt="Book a Locals Know BBQ Food Tour in Austin"
                             width={800}
                             height={500}
-                            className="rounded-xl w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                            className="rounded-xl w-full object-cover transition-transform duration-700 group-hover:scale-[1.02] border-2 border-black"
                         />
-                        <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6">
+                        <div className="absolute inset-0 rounded-xl bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-6 border-2 border-black">
                             <span className="text-orange-400 font-bold uppercase tracking-widest text-sm mb-1">Authentic Experience</span>
                             <span className="text-white text-2xl font-serif">Book the Locals Know BBQ Food Tour on Viator &rarr;</span>
                         </div>

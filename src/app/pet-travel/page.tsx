@@ -17,27 +17,27 @@ export default function PetTravelPage() {
         <div className="min-h-screen font-sans flex flex-col relative bg-slate-950">
             {/* Background Image with transparency */}
             <div
-                className="fixed inset-0 z-0 bg-cover bg-center bg-slate-950 opacity-40 mix-blend-overlay"
-                style={{ backgroundImage: "url('https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=1400&q=80')" }}
+                className="fixed inset-0 z-0 opacity-70"
+                style={{ backgroundImage: "linear-gradient(45deg, #ff00ff 0%, #ffff00 50%, #ff4500 100%)" }}
             ></div>
             {/* Content Container */}
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="relative overflow-hidden bg-sky-700/95 text-white pt-32 pb-20 px-4 text-center border-b-4 border-sky-800">
+                    <section className="relative overflow-hidden bg-[#aaffcc]/95 text-slate-900 pt-32 pb-20 px-4 text-center border-2 border-black">
                         {/* Paw Prints Background Overlay */}
                         <div className="absolute inset-0 z-0 pointer-events-none">
-                            <Image src="/images/Paw.png" alt="Paw print" width={64} height={64} className="absolute top-28 left-[10%] transform -rotate-12 opacity-90 invert" />
-                            <Image src="/images/Paw.png" alt="Paw print" width={48} height={48} className="absolute bottom-10 left-[20%] transform rotate-12 opacity-90 invert" />
-                            <Image src="/images/Paw.png" alt="Paw print" width={56} height={56} className="absolute top-32 right-[20%] transform rotate-45 opacity-90 invert" />
-                            <Image src="/images/Paw.png" alt="Paw print" width={72} height={72} className="absolute bottom-8 right-[10%] transform -rotate-45 opacity-90 invert" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={64} height={64} className="absolute top-28 left-[10%] transform -rotate-12 opacity-50" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={48} height={48} className="absolute bottom-10 left-[20%] transform rotate-12 opacity-50" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={56} height={56} className="absolute top-32 right-[20%] transform rotate-45 opacity-50" />
+                            <Image src="/images/Paw.png" alt="Paw print" width={72} height={72} className="absolute bottom-8 right-[10%] transform -rotate-45 opacity-50" />
                         </div>
                         <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
-                            <h1 className="hero-title text-white font-extrabold mb-6 font-serif">
+                            <h1 className="hero-title text-slate-900 font-extrabold mb-6 font-serif">
                                 Paws & Passports
                             </h1>
-                            <p className="text-lg md:text-xl text-sky-100 break-words max-w-2xl mx-auto font-medium">
+                            <p className="text-lg md:text-xl text-slate-800 break-words max-w-2xl mx-auto font-medium">
                                 Discover dog-friendly destinations, accommodations, and adventures for you and your furry best friend.
                             </p>
                         </div>
