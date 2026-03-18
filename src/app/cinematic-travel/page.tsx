@@ -13,25 +13,28 @@ export const metadata: Metadata = {
 
 export default function CinematicTravelPage() {
     return (
-        <div className="min-h-screen font-sans flex flex-col relative">
-            {/* Background Image with 50% transparency */}
-            <div
-                className="fixed inset-0 z-0 bg-cover bg-center bg-gray-950 opacity-60"
-                style={{ backgroundImage: "url('/images/Movie.png')" }}
-            ></div>
-
+        <div className="min-h-screen font-sans flex flex-col relative bg-[#b8bcc8]">
             {/* Content Container */}
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="bg-yellow-900/90 text-white py-20 px-4 text-center">
-                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
-                            Cinematic Travel
-                        </h1>
-                        <p className="text-lg md:text-xl text-yellow-200 max-w-2xl mx-auto">
-                            Stand where your favorite scenes were filmed. From haunted hotels to epic landscapes, these are the real places behind the reel magic.
-                        </p>
+                    <section className="relative py-20 px-4 text-center overflow-hidden bg-black">
+                        {/* Background Image with 75% transparency */}
+                        <div
+                            className="absolute inset-0 z-0 bg-cover bg-center opacity-75"
+                            style={{ backgroundImage: "url('/images/Movie.png')" }}
+                        ></div>
+                        <div className="absolute inset-0 z-0 bg-black/40"></div>
+
+                        <div className="relative z-10 text-white">
+                            <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 drop-shadow-lg">
+                                Cinematic Travel
+                            </h1>
+                            <p className="text-lg md:text-xl text-yellow-100 max-w-2xl mx-auto drop-shadow-md">
+                                Stand where your favorite scenes were filmed. From haunted hotels to epic landscapes, these are the real places behind the reel magic.
+                            </p>
+                        </div>
                     </section>
 
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-20">

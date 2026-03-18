@@ -27,13 +27,23 @@ export default function CulinaryQuestsPage() {
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="bg-[#ff6f61]/95 text-slate-900 py-20 px-4 text-center border-2 border-black">
-                        <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 text-slate-900">
-                            Culinary Quests
-                        </h1>
-                        <p className="text-lg md:text-xl text-slate-800 font-medium max-w-2xl mx-auto">
-                            Some trips are planned around the sights. The best ones are planned around the food. These are the journeys worth traveling hungry.
-                        </p>
+                    <section className="relative text-white py-20 px-4 min-h-[300px] flex flex-col justify-center items-center text-center border-b-2 border-black overflow-hidden">
+                        {/* Background Image with 75% Opacity */}
+                        <div 
+                            className="absolute inset-0 z-0 opacity-75 bg-center bg-cover"
+                            style={{ backgroundImage: "url('/images/Dinner.png')" }}
+                        ></div>
+                        {/* Dark Overlay for better text readability */}
+                        <div className="absolute inset-0 z-10 bg-black/40"></div>
+                        
+                        <div className="relative z-20 w-full">
+                            <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 drop-shadow-lg">
+                                Culinary Quests
+                            </h1>
+                            <p className="text-lg md:text-xl font-medium max-w-2xl mx-auto drop-shadow-md">
+                                Some trips are planned around the sights. The best ones are planned around the food. These are the journeys worth traveling hungry.
+                            </p>
+                        </div>
                     </section>
 
                     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 mb-20">

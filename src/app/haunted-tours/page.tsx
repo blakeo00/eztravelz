@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SidebarWidgets from "@/components/SidebarWidgets";
+import SixHauntedCities from "@/components/SixHauntedCities";
 import { getCategoryWidgets } from "@/data/widgets";
 import type { Metadata } from "next";
 
@@ -12,10 +13,9 @@ export const metadata: Metadata = {
 export default function HauntedToursPage() {
     return (
         <div className="min-h-screen font-sans flex flex-col relative">
-            {/* Background Image with 50% transparency */}
+            {/* Solid Color Background */}
             <div
-                className="fixed inset-0 z-0 bg-cover bg-center bg-gray-950 opacity-60"
-                style={{ backgroundImage: "url('/images/Spooky corodior.png')" }}
+                className="fixed inset-0 z-0 bg-[#f44336]"
             ></div>
 
             {/* Content Container */}
@@ -23,15 +23,23 @@ export default function HauntedToursPage() {
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="bg-black/95 text-red-600 pt-24 pb-20 px-4 text-center relative border-b border-red-900/50 overflow-hidden">
-                        <div className="relative z-10">
+                    <section className="relative text-red-600 pt-24 pb-20 px-4 text-center border-b border-red-900/50 overflow-hidden">
+                        {/* Background Image with 75% Opacity */}
+                        <div 
+                            className="absolute inset-0 z-0 opacity-75 bg-center bg-cover"
+                            style={{ backgroundImage: "url('/images/Spooky corodior.png')" }}
+                        ></div>
+                        {/* Dark Overlay for better text readability */}
+                        <div className="absolute inset-0 z-10 bg-black/60"></div>
+                        
+                        <div className="relative z-20 w-full">
                             <h1
-                                className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest mb-6"
-                                style={{ fontFamily: "var(--font-creepster)", textShadow: "3px 3px 6px rgba(185, 28, 28, 0.4)" }}
+                                className="text-5xl md:text-6xl lg:text-7xl font-extrabold tracking-widest mb-6 drop-shadow-lg"
+                                style={{ fontFamily: "var(--font-creepster)", textShadow: "3px 3px 6px rgba(185, 28, 28, 0.8)" }}
                             >
                                 Haunted Tours
                             </h1>
-                            <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto font-medium">
+                            <p className="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto font-medium drop-shadow-md">
                                 Dare to explore the unknown? Discover the most chilling, historically rich haunted destinations across the country.
                             </p>
                         </div>
@@ -41,6 +49,9 @@ export default function HauntedToursPage() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
+                                {/* Six Haunted Cities Guide */}
+                                <SixHauntedCities />
+
                                 {/* Lizzie Borden Article */}
                                 <article className="bg-gray-900/90 rounded-3xl shadow-2xl overflow-hidden border border-purple-700/50 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(147, 51, 234, 0.15)' }}>
 

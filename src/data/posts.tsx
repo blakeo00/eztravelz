@@ -59,7 +59,7 @@ export const posts: BlogPost[] = [
         category: "Cinematic Travel",
         categorySlug: "cinematic-travel",
         date: "2026-03-01",
-        image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?q=80&w=2070&auto=format&fit=crop",
+        image: "/images/Stanley Hotel 2.png",
         alt: "A dramatic film reel and movie theater corridor with moody cinematic lighting",
         content: reelRoadsContent,
     },
@@ -70,8 +70,8 @@ export const posts: BlogPost[] = [
         category: "Haunted Tours",
         categorySlug: "haunted-tours",
         date: "2026-03-01",
-        image: "/images/Spooky corodior.png",
-        alt: "A spooky corridor in an old historic hotel.",
+        image: "/images/Stanley Hotel.png",
+        alt: "The historic Stanley Hotel in Estes Park, Colorado",
         content: stanleyHotelContent,
     },
     {
@@ -99,7 +99,7 @@ export function getCategories(): string[] {
 
 function pawsAndAwayContent(): ReactNode {
     return (
-        <div className="prose max-w-none prose-headings:text-slate-900 prose-p:text-slate-800 prose-a:text-sky-700 hover:prose-a:text-sky-600 prose-strong:text-slate-900 prose-p:leading-relaxed">
+        <div className="prose max-w-none prose-headings:text-[#1B2E22] prose-p:text-[#1B2E22] prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-strong:text-[#1B2E22] prose-p:leading-relaxed">
             <p>
                 There{"\u2019"}s a moment every devoted pet parent knows {"\u2014"} the one where
                 you{"\u2019"}re packing your bag and your dog is watching you with{" "}
@@ -1427,8 +1427,8 @@ function lambeauFieldContent(): ReactNode {
 
 function prohibitionWineContent(): ReactNode {
     return (
-        <div className="prose prose-invert max-w-none prose-headings:text-rose-200 prose-p:text-gray-200 prose-a:text-rose-300 hover:prose-a:text-rose-200 prose-strong:text-white prose-p:leading-relaxed">
-            <p className="text-sm text-rose-300 font-medium uppercase tracking-wide">
+        <div className="prose max-w-none text-slate-300 prose-headings:text-[#fcd34d] prose-headings:font-[family:var(--font-cinzel)] prose-p:text-slate-300 prose-a:text-amber-500 hover:prose-a:text-amber-400 prose-strong:text-white prose-p:leading-relaxed">
+            <p className="text-sm text-[#fcd34d] font-medium uppercase tracking-wide">
                 Vine & Wander | The Wineries That Survived Prohibition
             </p>
 
@@ -1495,15 +1495,17 @@ function prohibitionWineContent(): ReactNode {
                 the founder{"\u2019"}s name, remains one of the benchmarks of Napa winemaking.
             </p>
 
-            <figure className="my-10">
-                <Image
-                    src="/images/Napa.png"
-                    alt="Scenic view of Napa Valley vineyards"
-                    width={800}
-                    height={500}
-                    className="rounded-xl w-full object-cover shadow-lg border border-rose-900/30"
-                />
-                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+            <figure className="my-10 rounded-xl overflow-hidden shadow-[0_4px_24px_rgba(0,0,0,0.18)] border-2 border-black not-prose">
+                <div className="relative w-full border-b-2 border-black">
+                    <Image
+                        src="/images/Napa.png"
+                        alt="Scenic view of Napa Valley vineyards"
+                        width={800}
+                        height={500}
+                        className="w-full object-cover"
+                    />
+                </div>
+                <figcaption className="text-[0.8125rem] text-slate-900 font-bold text-center bg-white/70 py-2.5 px-4 font-mono uppercase tracking-wider m-0">
                     The rolling hills of Napa Valley, where some historic vines survived Prohibition.
                 </figcaption>
             </figure>
@@ -1562,7 +1564,9 @@ function prohibitionWineContent(): ReactNode {
                 in a jug away in the cupboard for twenty days, because then it would turn into
                 wine.{"\u201D"}
             </p>
-            <p>Read that again. The warning was actually the instruction manual.</p>
+            <p>
+                <em>Read that again. The warning was actually the instruction manual.</em>
+            </p>
             <p>
                 Nobody in government seemed particularly motivated to challenge the logic, and
                 wine bricks sold by the millions. Varieties that could hold up to the month-long
@@ -1580,15 +1584,17 @@ function prohibitionWineContent(): ReactNode {
                 tastings in their 1876 Rhine House mansion.
             </p>
 
-            <figure className="my-10">
-                <Image
-                    src="/images/Vineyard2.png"
-                    alt="A vineyard with ripe grapes ready for harvest"
-                    width={800}
-                    height={500}
-                    className="rounded-xl w-full object-cover shadow-lg border border-rose-900/30"
-                />
-                <figcaption className="text-center text-sm text-gray-400 mt-3 italic">
+            <figure className="my-10 rounded-xl overflow-hidden shadow-[0_4px_24px_rgba(0,0,0,0.18)] border-2 border-black not-prose">
+                <div className="relative w-full border-b-2 border-black">
+                    <Image
+                        src="/images/Vineyard2.png"
+                        alt="A vineyard with ripe grapes ready for harvest"
+                        width={800}
+                        height={500}
+                        className="w-full object-cover"
+                    />
+                </div>
+                <figcaption className="text-[0.8125rem] text-slate-900 font-bold text-center bg-white/70 py-2.5 px-4 font-mono uppercase tracking-wider m-0">
                     The thick-skinned Alicante Bouschet grape became dominant during Prohibition due to its durability.
                 </figcaption>
             </figure>

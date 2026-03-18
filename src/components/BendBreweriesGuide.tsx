@@ -45,7 +45,7 @@ const breweries = [
 
 export default function BendBreweriesGuide() {
     return (
-        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-slate-300 bg-slate-900/90 rounded-3xl shadow-xl overflow-hidden border border-slate-800 backdrop-blur-md mt-12">
+        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-slate-300 bg-[#4a091e]/90 rounded-3xl shadow-xl overflow-hidden border border-rose-900/50 backdrop-blur-md mt-12">
 
             {/* Category Label */}
             <span className="text-amber-500 uppercase tracking-widest text-sm font-semibold">

@@ -4,39 +4,39 @@ import Link from 'next/link';
 
 export default function DogBeachArticle() {
     return (
-        <article className="bg-[#aaffcc]/95 text-slate-900 rounded-3xl shadow-2xl overflow-hidden border-2 border-black p-8 md:p-12 mb-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.15)' }}>
+        <article className="bg-[#aaffcc]/95 text-[#1B2E22] rounded-3xl shadow-2xl overflow-hidden border-2 border-black p-8 md:p-12 mb-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.15)' }}>
             {/* Category Tag */}
-            <span className="inline-block bg-white/40 border border-slate-900/20 text-slate-900 text-xs font-semibold tracking-widest uppercase py-1 px-3 rounded-full mb-5">
+            <span className="inline-block bg-white/40 border border-slate-900/20 text-[#1B2E22] text-xs font-semibold tracking-widest uppercase py-1 px-3 rounded-full mb-5">
                 Pet Travel
             </span>
 
             {/* Article Title */}
-            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight text-slate-900 font-bold mb-4">
+            <h1 className="font-serif text-3xl md:text-4xl lg:text-5xl leading-tight text-[#1B2E22] font-bold mb-4">
                 Paws, Waves &amp; Freedom: A Complete Guide to The Original Dog Beach in San Diego
             </h1>
 
             {/* Meta Bar */}
-            <div className="flex flex-wrap items-center gap-4 text-sm text-slate-800 font-medium border-b border-slate-900/20 pb-5 mb-8">
+            <div className="flex flex-wrap items-center gap-4 text-sm text-[#1B2E22] font-medium border-b border-slate-900/20 pb-5 mb-8">
                 <span>Ocean Beach, San Diego, CA</span>
                 <span className="opacity-40">|</span>
                 <span>Pet Travel</span>
             </div>
 
-            <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-slate-900 prose-headings:font-bold prose-a:text-slate-800 hover:prose-a:text-slate-600 text-slate-900">
-                <p className="lead text-xl text-slate-800 font-medium">
+            <div className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-[#1B2E22] prose-headings:font-bold prose-a:text-blue-600 hover:prose-a:text-blue-800 text-[#1B2E22]">
+                <p className="lead text-xl text-[#1B2E22] font-medium">
                     If there is one destination that every dog-owning traveler needs to add to their bucket list, it is The Original Dog Beach in San Diego, California. This iconic stretch of sand is nationally famous and recognized as one of the first official leash-free beaches in the entire United States, and it is unlike anywhere else you and your dog will ever visit together.
                 </p>
 
                 <h2 className="text-2xl mt-10 mb-3 pb-1.5 border-b-2 border-slate-900/20">A Legendary Patch of Sand</h2>
                 <p>
-                    Tucked into the laid-back neighborhood of Ocean Beach at the northern end of the community, Dog Beach sits at the end of Interstate 8 at the mouth of the San Diego River. What makes this place extraordinary is its deeply rooted community spirit. In 1972, passionate local residents petitioned the city and claimed this stretch of sand. It was officially adopted by the Ocean Beach Town Council{"'"}s Dog Beach Committee to protect it as a community asset for future generations.
+                    Tucked into the laid-back neighborhood of <a href="https://www.expedia.com/Hotel-Search?adults=2&numRoom=1&regionId=177689&clickref=1101lD8wxb2g&affcid=US.DIRECT.PHG.1011l45458.0&ref_id=1101lD8wxb2g&my_ad=AFF.US.DIRECT.PHG.1011l45458.0&afflid=1101lD8wxb2g&affdtl=PHG.1101lD8wxb2g.&button_referral_source=other&useRewards=false&categorySearch=any_option&semdtl=&userIntent=&theme=&destination=Ocean%20Beach%2C%20San%20Diego%2C%20California%2C%20United%20States%20of%20America&endDate=2026-04-01&startDate=2026-03-31&sort=RECOMMENDED" target="_blank" rel="sponsored noopener noreferrer">Ocean Beach</a> at the northern end of the community, Dog Beach sits at the end of Interstate 8 at the mouth of the San Diego River. What makes this place extraordinary is its deeply rooted community spirit. In 1972, passionate local residents petitioned the city and claimed this stretch of sand. It was officially adopted by the Ocean Beach Town Council{"'"}s Dog Beach Committee to protect it as a community asset for future generations.
                 </p>
                 <p>
                     Unlike most beaches that squeeze dogs into restricted windows of time, Dog Beach is open 24 hours a day, seven days a week, making it San Diego{"'"}s only around-the-clock off-leash beach. On any given morning, you will find dogs of every size charging into the Pacific surf, surfers catching the Dog Beach break, and pet owners swapping stories in that easygoing, salty-air way that only happens in a true beach town.
                 </p>
 
                 <div className="border-2 border-black bg-white/40 p-5 my-8 rounded-xl">
-                    <p className="font-serif text-xl text-slate-900 m-0 italic">
+                    <p className="font-serif text-xl text-[#1B2E22] m-0 italic">
                         "The community here has long embraced a melting pot mentality, welcoming people and dogs of all sizes, shapes, colors, creeds, and breeds."
                     </p>
                 </div>
@@ -61,7 +61,7 @@ export default function DogBeachArticle() {
                             unoptimized
                         />
                     </div>
-                    <figcaption className="text-[0.8125rem] text-slate-800 font-bold text-center bg-white/40 py-2.5 px-4 font-mono uppercase tracking-wider m-0">
+                    <figcaption className="text-[0.8125rem] text-[#1B2E22] font-bold text-center bg-white/40 py-2.5 px-4 font-mono uppercase tracking-wider m-0">
                         The serene Pacific shoreline near Ocean Beach, San Diego. A beach town unlike any other.
                     </figcaption>
                 </figure>
@@ -78,38 +78,38 @@ export default function DogBeachArticle() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
                     <a href="https://oceanvillainn.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏨</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">Ocean Villa Inn on Dog Beach</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Ocean Villa Inn on Dog Beach</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             Located directly across the street from Dog Beach, this property features a fenced dog run, grassy walking space, a luxurious dog wash, tile floors, and complimentary treats in the lobby.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">Directly on Beach</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">Directly on Beach</span>
                     </a>
 
                     <a href="https://www.obhotel.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌊</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">Ocean Beach Hotel</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Ocean Beach Hotel</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             Situated at 5080 Newport Avenue with beach access, all ground-floor patio rooms welcome up to two dogs at no extra fee. Expect stunning patio views of the Pacific.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">No Pet Fee</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">No Pet Fee</span>
                     </a>
 
                     <a href="https://www.thedana.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">⛵</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">The Dana at Mission Bay</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">The Dana at Mission Bay</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             A short drive away, this waterfront resort welcomes up to two dogs per room with no weight restriction and offers serene walking paths along Mission Bay Aquatic Park.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">No Weight Limit</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">No Weight Limit</span>
                     </a>
 
                     <a href="https://www.bahiahotel.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌴</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">Bahia Resort Hotel</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Bahia Resort Hotel</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             A beloved Mission Bay resort that consistently earns top ratings for its dog-friendly atmosphere and generous amenities for guests traveling with pets.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">Top Rated</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">Top Rated</span>
                     </a>
                 </div>
 
@@ -120,51 +120,51 @@ export default function DogBeachArticle() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
                     <a href="https://southbeachob.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🍔</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">South Beach Bar &amp; Grille</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">South Beach Bar &amp; Grille</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             Sits right on the beach and serves seafood, burgers, and local favorites from a dog-friendly patio with direct ocean views.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">Oceanfront Patio</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">Oceanfront Patio</span>
                     </a>
 
                     <a href="https://obsurflodge.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏄</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">OB Surf Lodge</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">OB Surf Lodge</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             A spacious dog-friendly patio with a direct view of the surf. The perfect spot to decompress after a big beach session with your pup.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">Surf Views</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">Surf Views</span>
                     </a>
 
                     <a href="https://www.breakfastrepublic.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🥞</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">Breakfast Republic</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Breakfast Republic</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             A popular brunch destination with a dog-friendly upstairs patio, perfect for a post-beach Bloody Mary and a well-earned meal.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">Weekend Brunch</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">Weekend Brunch</span>
                     </a>
 
                     <a href="https://www.sallyssandiego.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🍽️</div>
-                        <h3 className="font-serif text-lg text-slate-900 font-bold mb-1 group-hover:text-slate-700 transition-colors">Sally's Fish House &amp; Bar</h3>
-                        <p className="text-[0.875rem] text-slate-800 mb-3 font-medium">
+                        <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Sally's Fish House &amp; Bar</h3>
+                        <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
                             Located on the waterfront with a dedicated dog menu featuring pupcakes and doggy beer. Enjoy spectacular views and fresh seafood with your furry friend.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-slate-900 py-1 px-3 rounded-full">Dog Menu</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">Dog Menu</span>
                     </a>
                 </div>
 
                 {/* Tips Box */}
                 <div className="bg-white/40 border-2 border-black rounded-xl p-6 my-10 not-prose">
-                    <h3 className="font-serif text-xl text-slate-900 font-bold mb-3">🐾 Tips for Your Visit</h3>
-                    <ul className="list-disc pl-5 space-y-2 text-slate-900 text-base font-medium">
+                    <h3 className="font-serif text-xl text-[#1B2E22] font-bold mb-3">🐾 Tips for Your Visit</h3>
+                    <ul className="list-disc pl-5 space-y-2 text-[#1B2E22] text-base font-medium">
                         <li>Weekends get crowded. Early mornings on weekdays offer the most open space and the best experience for shy or reactive dogs.</li>
                         <li>Bring fresh water for your dog. Ocean water and sand create a fast recipe for a very thirsty pup.</li>
                         <li>Head to Dog Beach Dog Wash immediately after your beach session so sandy fur does not become a road trip problem.</li>
                         <li>The calmer inlet near the river mouth is ideal for puppies or small breeds experiencing ocean waves for the first time.</li>
                         <li>Parking along Voltaire Street fills up fast on weekends. Arrive before 8 AM for the easiest spot.</li>
-                        <li>For a complete guide to traveling with your pet, including airline policies and road trip tips, read our <Link href="/blog/paws-and-away-pet-traveler-guide" className="text-slate-900 hover:text-slate-600 underline font-bold">Paws &amp; Away</Link> guide.</li>
+                        <li>For a complete guide to traveling with your pet, including airline policies and road trip tips, read our <Link href="/blog/paws-and-away-pet-traveler-guide" className="text-blue-600 hover:text-blue-800 underline font-bold">Paws &amp; Away</Link> guide.</li>
                     </ul>
                 </div>
 
@@ -189,7 +189,7 @@ export default function DogBeachArticle() {
                     />
                     <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-300"></div>
                 </a>
-                <p className="mt-3 text-[0.875rem] font-bold italic text-slate-800">
+                <p className="mt-3 text-[0.875rem] font-bold italic text-[#1B2E22]">
                     Click on image to start your San Diego experience
                 </p>
             </div>

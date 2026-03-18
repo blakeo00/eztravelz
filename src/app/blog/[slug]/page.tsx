@@ -39,16 +39,9 @@ export default async function BlogPostPage({
     if (!post) notFound();
 
     return (
-        <div className={`min-h-screen flex flex-col relative ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining', 'titletown-usa-lambeau-field-nfl-pilgrimage', 'paws-and-away-pet-traveler-guide', 'holy-water-and-grape-bricks-prohibition-wine-trail', 'smoke-patience-butcher-paper-texas-bbq-road-trip'].includes(post.slug) ? 'bg-slate-950' : 'bg-slate-50'}`}>
+        <div className={`min-h-screen flex flex-col relative ${['paws-and-away-pet-traveler-guide', 'smoke-patience-butcher-paper-texas-bbq-road-trip'].includes(post.slug) ? 'bg-slate-950' : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-[#848484]' : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'bg-[#A57C00]' : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail' ? 'bg-[#f9c1c0]' : 'bg-slate-50'}`}>
             {/* Conditional Background Images */}
-            {(['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) || post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage') && (
-                <div
-                    className={`fixed inset-0 z-0 bg-cover bg-center bg-gray-950 ${post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'opacity-50' : 'opacity-60'}`}
-                    style={{
-                        backgroundImage: `url('/images/${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'Stanley Hotel.png' : 'Lambeau.png'}')`
-                    }}
-                ></div>
-            )}
+
             {post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' && (
                 <>
                     <div className="fixed inset-0 z-0 opacity-50" style={{ backgroundImage: "linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)" }}></div>

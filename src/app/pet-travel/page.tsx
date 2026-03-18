@@ -25,19 +25,27 @@ export default function PetTravelPage() {
                 <Header />
                 <main className="flex-grow pb-20">
                     {/* Hero section */}
-                    <section className="relative overflow-hidden bg-[#aaffcc]/95 text-slate-900 pt-32 pb-20 px-4 text-center border-2 border-black">
+                    <section className="relative overflow-hidden text-white pt-32 pb-20 px-4 text-center border-2 border-black">
+                        {/* Background Image with 75% Opacity */}
+                        <div 
+                            className="absolute inset-0 z-0 opacity-75 bg-center bg-cover"
+                            style={{ backgroundImage: "url('/images/Dog on hike.png')" }}
+                        ></div>
+                        {/* Dark Overlay for better text readability */}
+                        <div className="absolute inset-0 z-10 bg-black/50"></div>
+
                         {/* Paw Prints Background Overlay */}
-                        <div className="absolute inset-0 z-0 pointer-events-none">
+                        <div className="absolute inset-0 z-20 pointer-events-none">
                             <Image src="/images/Paw.png" alt="Paw print" width={64} height={64} className="absolute top-28 left-[10%] transform -rotate-12 opacity-50" />
                             <Image src="/images/Paw.png" alt="Paw print" width={48} height={48} className="absolute bottom-10 left-[20%] transform rotate-12 opacity-50" />
                             <Image src="/images/Paw.png" alt="Paw print" width={56} height={56} className="absolute top-32 right-[20%] transform rotate-45 opacity-50" />
                             <Image src="/images/Paw.png" alt="Paw print" width={72} height={72} className="absolute bottom-8 right-[10%] transform -rotate-45 opacity-50" />
                         </div>
-                        <div className="relative z-10 flex flex-col items-center justify-center text-center px-4">
-                            <h1 className="hero-title text-slate-900 font-extrabold mb-6 font-serif">
+                        <div className="relative z-30 flex flex-col items-center justify-center text-center px-4">
+                            <h1 className="hero-title text-white font-extrabold mb-6 font-serif drop-shadow-lg">
                                 Paws & Passports
                             </h1>
-                            <p className="text-lg md:text-xl text-slate-800 break-words max-w-2xl mx-auto font-medium">
+                            <p className="text-lg md:text-xl text-gray-100 break-words max-w-2xl mx-auto font-medium drop-shadow-md">
                                 Discover dog-friendly destinations, accommodations, and adventures for you and your furry best friend.
                             </p>
                         </div>
