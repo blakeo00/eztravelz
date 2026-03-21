@@ -14,12 +14,7 @@ export const metadata: Metadata = {
 
 export default function PetTravelPage() {
     return (
-        <div className="min-h-screen font-sans flex flex-col relative bg-slate-950">
-            {/* Background Image with transparency */}
-            <div
-                className="fixed inset-0 z-0 opacity-70"
-                style={{ backgroundImage: "linear-gradient(45deg, #ff00ff 0%, #ffff00 50%, #ff4500 100%)" }}
-            ></div>
+        <div className="min-h-screen font-sans flex flex-col relative bg-[#fff89A]">
             {/* Content Container */}
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />

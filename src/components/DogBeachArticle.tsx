@@ -76,7 +76,7 @@ export default function DogBeachArticle() {
 
                 {/* Lodging Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
-                    <a href="https://oceanvillainn.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/uYRP1KxA9c" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏨</div>
                         <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Ocean Villa Inn on Dog Beach</h3>
                         <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
@@ -85,7 +85,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">Directly on Beach</span>
                     </a>
 
-                    <a href="https://www.obhotel.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/KKRpHdsq_O" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌊</div>
                         <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Ocean Beach Hotel</h3>
                         <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
@@ -94,7 +94,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">No Pet Fee</span>
                     </a>
 
-                    <a href="https://www.thedana.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/yrB6Y7TElT" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">⛵</div>
                         <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">The Dana at Mission Bay</h3>
                         <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
@@ -103,7 +103,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-900/10 border border-slate-900/20 text-[#1B2E22] py-1 px-3 rounded-full">No Weight Limit</span>
                     </a>
 
-                    <a href="https://www.bahiahotel.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/hT2oUhxn6H" target="_blank" rel="noopener noreferrer" className="block group bg-white/40 border-2 border-black rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.1)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌴</div>
                         <h3 className="font-serif text-lg text-[#1B2E22] font-bold mb-1 group-hover:text-[#132018] transition-colors">Bahia Resort Hotel</h3>
                         <p className="text-[0.875rem] text-[#1B2E22] mb-3 font-medium">
