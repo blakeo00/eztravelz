@@ -17,6 +17,7 @@ export default function FeaturedArticles() {
         "Sports Travel",
         "Cinematic Travel",
         "Culinary Quests",
+        "Vegas Baby",
     ];
 
     const featured = categoryOrder
@@ -32,11 +33,13 @@ export default function FeaturedArticles() {
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {featured.map((post) => (
+                    {featured.map((post, index) => (
                         <Link
                             key={post.slug}
                             href={`/blog/${post.slug}`}
-                            className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col"
+                            className={`group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col ${
+                                index === 6 ? "sm:col-span-2 sm:max-w-sm sm:mx-auto lg:col-span-1 lg:max-w-none lg:mx-0 lg:col-start-2" : ""
+                            }`}
                         >
                             {/* Thumbnail */}
                             <div className="relative aspect-[16/9] overflow-hidden bg-slate-100">

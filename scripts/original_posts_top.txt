@@ -1,0 +1,200 @@
+﻿import { ReactNode } from "react";
+import Image from 'next/image';
+
+export interface BlogPost {
+    slug: string;
+    title: string;
+    excerpt: string;
+    category: string;
+    categorySlug: string;
+    date: string;
+    image: string;
+    alt: string;
+    content: () => ReactNode;
+}
+
+/**
+ * Centralized blog post registry.
+ * Ordered newest-first. Both the homepage "From the Blog" cards
+ * and the /blog listing page pull from this array.
+ */
+export const posts: BlogPost[] = [
+    {
+        slug: "smoke-patience-butcher-paper-texas-bbq-road-trip",
+        title: "Smoke, Patience, and Butcher Paper: A Texas BBQ Road Trip Worth Every Mile",
+        excerpt: "Three days. Five stops. A few hundred miles of Hill Country. From Franklin\u2019s legendary brisket to the century-old pits at Smitty\u2019s, this is the road trip that earns every bite.",
+        category: "Culinary Quests",
+        categorySlug: "culinary-quests",
+        date: "2026-03-01",
+        image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=2070&auto=format&fit=crop",
+        alt: "Smoked brisket sliced on butcher paper with a dark peppery bark",
+        content: texasBbqContent,
+    },
+    {
+        slug: "holy-water-and-grape-bricks-prohibition-wine-trail",
+        title: "Holy Water and Grape Bricks \u2014 How God (and a Few Creative Lies) Saved American Wine",
+        excerpt: "On January 17, 1920, the U.S. outlawed wine. Some wineries survived on holy water, grape bricks with winking warning labels, and a quiet rail line to Al Capone\u2019s speakeasies. Here\u2019s where to visit them today.",
+        category: "Wine & Brewery Destinations",
+        categorySlug: "wine-destinations",
+        date: "2026-03-01",
+        image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2070&auto=format&fit=crop",
+        alt: "Rows of aged wine barrels in a dimly lit stone cellar",
+        content: prohibitionWineContent,
+    },
+    {
+        slug: "titletown-usa-lambeau-field-nfl-pilgrimage",
+        title: "Titletown, USA: Why a Trip to Lambeau Field Is the NFL\u2019s Most Sacred Pilgrimage",
+        excerpt: "Green Bay has 106,000 people, 13 NFL championships, and a stadium that hasn\u2019t had an empty seat since 1960. Some pilgrimages are worth the journey. This is one of them.",
+        category: "Sports Travel",
+        categorySlug: "sports-travel",
+        date: "2026-03-01",
+        image: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=2070&auto=format&fit=crop",
+        alt: "A packed football stadium under dramatic lights on a crisp game night",
+        content: lambeauFieldContent,
+    },
+    {
+        slug: "reel-roads-room-217-the-shining",
+        title: "Reel Roads: Room 217 and the Hotel That Dreamed Up The Shining",
+        excerpt: "A cinematic pilgrimage to the Stanley Hotel in Estes Park \u2014 the building where Stephen King\u2019s nightmare became America\u2019s most famous horror novel.",
+        category: "Cinematic Travel",
+        categorySlug: "cinematic-travel",
+        date: "2026-03-01",
+        image: "/images/Stanley Hotel 2.png",
+        alt: "A dramatic film reel and movie theater corridor with moody cinematic lighting",
+        content: reelRoadsContent,
+    },
+    {
+        slug: "stanley-hotel-where-the-nightmare-became-the-novel",
+        title: "Ghost Trails / Reel Roads: The Stanley Hotel \u2014 Where the Nightmare Became the Novel",
+        excerpt: "The white Georgian Revival hotel at 7,800 feet that cured its builder\u2019s tuberculosis, inspired Stephen King\u2019s most famous nightmare, and has been collecting ghosts ever since.",
+        category: "Haunted Tours",
+        categorySlug: "haunted-tours",
+        date: "2026-03-01",
+        image: "/images/Stanley Hotel.png",
+        alt: "The historic Stanley Hotel in Estes Park, Colorado",
+        content: stanleyHotelContent,
+    },
+    {
+        slug: "paws-and-away-pet-traveler-guide",
+        title: "Paws & Away: What Every Pet Traveler Needs to Know Before They Book That Ticket",
+        excerpt: "From airline rules and service animal regulations to road trip safety and Amtrak policies \u2014 the complete, no-fluff guide to traveling with your pet in 2026.",
+        category: "Pet Travel",
+        categorySlug: "pet-travel",
+        date: "2026-03-01",
+        image: "/images/Dog on vacation.png",
+        alt: "A happy dog on vacation looking out a car window",
+        content: pawsAndAwayContent,
+    },
+];
+
+export function getPostBySlug(slug: string): BlogPost | undefined {
+    return posts.find((p) => p.slug === slug);
+}
+
+export function getCategories(): string[] {
+    return Array.from(new Set(posts.map((p) => p.category)));
+}
+
+
+
+function pawsAndAwayContent(): ReactNode {
+    return (
+        <div className="prose max-w-none prose-headings:text-[#1B2E22] prose-p:text-[#1B2E22] prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-strong:text-[#1B2E22] prose-p:leading-relaxed">
+            <p>
+                There{"\u2019"}s a moment every devoted pet parent knows {"\u2014"} the one where
+                you{"\u2019"}re packing your bag and your dog is watching you with{" "}
+                <em>those eyes</em>, the one that says <em>please don{"\u2019"}t leave me</em>.
+                For a lot of us, the answer stopped being {"\u201C"}I have to{"\u201D"} a long time
+                ago. We just take them with us.
+            </p>
+            <p>
+                But traveling with a pet isn{"\u2019"}t simply a matter of love and good
+                intentions. It{"\u2019"}s logistics, paperwork, timing, and a genuine
+                understanding of the rules {"\u2014"} rules that, if you don{"\u2019"}t know them
+                before you get to the airport, can unravel your entire trip in ways you
+                won{"\u2019"}t see coming.
+            </p>
+            <p>
+                Case in point: in early February 2026, a woman named Germirah Bryson arrived
+                at the JetBlue counter inside Harry Reid International Airport in Las Vegas.
+                She had her dog with her. What she didn{"\u2019"}t have was her dog registered as
+                a passenger {"\u2014"} a step that has to be completed online, in advance, not at
+                the counter. When a JetBlue agent explained this to her, she reportedly
+                responded by tying the dog{"\u2019"}s leash to a luggage measurement device and
+                said, {"\u201C"}Call animal control. I{"\u2019"}m not going to miss my flight.{"\u201D"}{" "}
+                Walking toward security, she was arrested. The dog {"\u2014"} who quickly came to
+                be named {"\u201C"}JetBlue{"\u201D"} by the ever-present internet {"\u2014"} was later
+                adopted by one of the officers who responded to the scene.
+            </p>
+            <p>
+                It{"\u2019"}s a story that{"\u2019"}s easy to react to with disbelief. But tucked
+                inside the chaos is a warning that applies to all of us: not knowing the rules
+                is not the same as being exempt from them. The good news is they{"\u2019"}re not
+                complicated once you know where to look.
+            </p>
+
+            <h2>Flying with Your Pet: The Real Rules</h2>
+            <p>
+                Airlines separate pets into a few distinct categories, and the category your
+                animal falls into determines everything {"\u2014"} which forms you fill out, how
+                much you pay, and where your pet actually sits on the plane.
+            </p>
+            <p>
+                <strong>Pets flying in the cabin</strong> are generally small animals, usually
+                dogs or cats that fit in an approved soft-sided carrier under the seat in front
+                of you. Most airlines cap this at around 20 pounds including the carrier,
+                though policies vary. You{"\u2019"}ll pay a one-way fee that typically runs
+                between $95 and $150 depending on the airline. You have to reserve the spot in
+                advance, because there{"\u2019"}s a limit to how many pets are allowed in the
+                cabin per flight {"\u2014"} usually two to four. This is the detail most people
+                miss. You can{"\u2019"}t just show up with a carrier and assume that there is
+                room available. It{"\u2019"}s best to call or book online before you even think
+                about packing. Every major airline has a dedicated pet travel portal on their
+                website {"\u2014"} here are direct links to the biggest carriers: {" "}
+                <a href="https://www.delta.com/us/en/pet-travel/overview" target="_blank" rel="noopener noreferrer">Delta</a>,{" "}
+                <a href="https://www.united.com/en/us/fly/travel/traveling-with-pets.html" target="_blank" rel="noopener noreferrer">United</a>,{" "}
+                <a href="https://www.aa.com/i18n/travel-info/special-assistance/pets.jsp" target="_blank" rel="noopener noreferrer">American</a>,{" "}
+                <a href="https://www.southwest.com/help/baggage/pet-policy" target="_blank" rel="noopener noreferrer">Southwest</a>,{" "}
+                <a href="https://www.jetblue.com/travel-with-us/our-policies/traveling-with-pets" target="_blank" rel="noopener noreferrer">JetBlue</a>, and{" "}
+                <a href="https://www.alaskaair.com/content/travel-info/policies/pets-traveling-with-pets" target="_blank" rel="noopener noreferrer">Alaska Airlines</a>.
+                Use them early!
+            </p>
+
+            <div className="bg-white/50 p-6 rounded-xl my-8 border-2 border-black shadow-sm">
+                <h3 className="text-slate-900 font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
+                <p className="text-slate-800 mb-4">
+                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-700 hover:text-sky-600 underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-600">$46.90</span> <span className="text-slate-500 line-through text-sm">$73.50</span>
+                </p>
+                <img
+                    src="https://m.media-amazon.com/images/I/81gqQnt7waL._AC_SL1500_.jpg"
+                    alt="Sherpa Original Deluxe Travel Pet Carrier, Airline Approved"
+                    className="w-full h-auto rounded-lg shadow-md border-2 border-black"
+                />
+            </div>
+
+            <p>
+                <strong>Pets flying as cargo</strong> travel in the pressurized,
+                temperature-controlled belly of the plane in an airline-approved hard crate.
+                This is the option for larger dogs who can{"\u2019"}t fly in the cabin. It costs
+                more, requires more documentation, and is not offered by every airline on every
+                route {"\u2014"} especially during extreme heat or cold, which matters a great
+                deal if you{"\u2019"}re flying into or out of a desert city in summer or an
+                extremely cold area. Some airlines have suspended live animal cargo programs
+                entirely, so confirming this directly with your carrier before you book is
+                non-negotiable.
+            </p>
+            <p>
+                One non-negotiable across the board: your pet needs to be current on
+                vaccinations and you{"\u2019"}ll need documentation. Most airlines ask for a
+                health certificate from your vet issued within ten days of travel. Some
+                destinations {"\u2014"} especially international ones {"\u2014"} require additional
+                testing, microchipping, and waiting periods that can span months. If
+                you{"\u2019"}re planning a trip abroad with your pet, start researching at least
+                six months out. Hawaii, the UK, Australia, and New Zealand have some of the
+                strictest import rules in the world.
+            </p>
+
+            <h2>Service Animals, Emotional Support Animals, and the Gap Between Them</h2>
+            <p>
+                Service animals operate under a different framework entirely, and if you travel
+                with one, or think you might, the rules have shifted significantly enough in

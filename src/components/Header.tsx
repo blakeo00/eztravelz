@@ -14,6 +14,7 @@ export const niches = [
     { label: "Sports Travel", href: "/sports-travel" },
     { label: "Cinematic Travel", href: "/cinematic-travel" },
     { label: "Culinary Quests", href: "/culinary-quests" },
+    { label: "Vegas Baby", href: "/vegas-locals" },
 ];
 
 /**

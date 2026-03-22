@@ -13,6 +13,7 @@ const categoryLinks: Record<string, string> = {
     "Sports Travel": "/sports-travel",
     "Cinematic Travel": "/cinematic-travel",
     "Culinary Quests": "/culinary-quests",
+    "Vegas Baby": "/vegas-locals",
 };
 
 const slides = [
@@ -51,6 +52,10 @@ const slides = [
     {
         category: "Culinary Quests",
         image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&q=80",
+    },
+    {
+        category: "Vegas Baby",
+        image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=1400&q=80",
     },
 ];
 

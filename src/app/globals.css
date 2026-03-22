@@ -43,13 +43,8 @@
 /* Main Hero Headline */
 .hero-title {
     font-family: 'Playfair Display', serif;
-    font-size: 4rem;
-    /* Adjust based on your layout */
-    font-weight: 700;
     letter-spacing: -0.02em;
     /* Playfair looks better slightly tighter */
-    line-height: 1.2;
-    margin-bottom: 0.5rem;
     text-transform: capitalize;
 }
 
@@ -70,4 +65,44 @@
     font-weight: 400;
     max-width: 700px;
     margin: 0 auto;
+}
+
+/* Container to handle the layout */
+.antigravity-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    perspective: 1000px; /* Adds depth */
+}
+
+/* The Image and the Animation */
+.vegas-card {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 20px;
+    border: 4px solid #0055ff;
+    box-shadow: 0 0 20px rgba(0, 85, 255, 0.6), 0 0 40px rgba(0, 85, 255, 0.4);
+    
+    /* Antigravity Animation */
+    animation: float 6s ease-in-out infinite;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect to make it interactive */
+.vegas-card:hover {
+    transform: scale(1.05) rotateX(5deg);
+    box-shadow: 0 0 30px rgba(0, 85, 255, 0.8), 0 0 60px rgba(0, 85, 255, 0.6);
+}
+
+/* Keyframes for the floating motion */
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px); /* The "lift" */
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }

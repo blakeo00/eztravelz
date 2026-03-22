@@ -39,7 +39,7 @@ export default async function BlogPostPage({
     if (!post) notFound();
 
     return (
-        <div className={`min-h-screen flex flex-col relative ${post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' ? 'bg-slate-950' : post.slug === 'paws-and-away-pet-traveler-guide' ? 'bg-[#fff89A]' : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-[#848484]' : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'bg-[#A57C00]' : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail' ? 'bg-[#f9c1c0]' : 'bg-slate-50'}`}>
+        <div className={`min-h-screen flex flex-col relative ${post.slug === 'vegas-locals-guide' ? 'bg-[#7d12ff]' : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' ? 'bg-slate-950' : post.slug === 'paws-and-away-pet-traveler-guide' ? 'bg-[#fff89A]' : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-[#848484]' : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'bg-[#A57C00]' : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail' ? 'bg-[#f9c1c0]' : 'bg-slate-50'}`}>
             {/* Conditional Background Images */}
 
             {post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' && (
@@ -79,8 +79,8 @@ export default async function BlogPostPage({
                             )}
 
                             <h1
-                                className={`text-3xl sm:text-4xl lg:text-5xl mb-4 leading-tight ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
-                                    ? 'text-red-600 tracking-widest font-extrabold'
+                                className={`text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight mb-6 drop-shadow-lg ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
+                                    ? 'text-red-600'
                                     : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip'
                                         ? 'hero-title text-orange-500'
                                         : 'hero-title'
@@ -88,7 +88,9 @@ export default async function BlogPostPage({
                                 style={
                                     ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
                                         ? { fontFamily: "var(--font-creepster)", textShadow: "3px 3px 6px rgba(185, 28, 28, 0.4)" }
-                                        : {}
+                                        : post.slug === 'vegas-locals-guide'
+                                            ? { fontFamily: "'Playfair Display', serif" }
+                                            : {}
                                 }
                             >
                                 {post.title}
@@ -108,7 +110,10 @@ export default async function BlogPostPage({
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className={`backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
+                                <div className={`backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 ${
+                                    post.slug === 'vegas-locals-guide'
+                                        ? 'bg-[#fdfe02]/95 text-slate-900 border-2 border-black shadow-[0_0_20px_rgba(253,254,2,0.5)]'
+                                        : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
                                     ? 'bg-gray-900/90 border border-red-900/50'
                                     : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip'
                                         ? 'bg-[#ff6f61]/95 text-slate-900 border-2 border-black shadow-[0_0_15px_rgba(255,111,97,0.3)]'
@@ -133,11 +138,13 @@ export default async function BlogPostPage({
                                                 ? 'text-orange-500 hover:text-orange-400'
                                                 : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage'
                                                     ? 'text-[#FFB612] hover:text-[#FFB612]/80'
-                                                    : post.slug === 'paws-and-away-pet-traveler-guide'
-                                                        ? 'text-sky-400 hover:text-sky-300'
-                                                        : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
-                                                            ? 'text-rose-300 hover:text-rose-200'
-                                                            : 'text-brand-600 hover:text-brand-700'
+                                                    : post.slug === 'vegas-locals-guide'
+                                                        ? 'text-[#7d12ff] hover:text-[#4b0b99]'
+                                                        : post.slug === 'paws-and-away-pet-traveler-guide'
+                                                            ? 'text-sky-400 hover:text-sky-300'
+                                                            : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
+                                                                ? 'text-rose-300 hover:text-rose-200'
+                                                                : 'text-brand-600 hover:text-brand-700'
                                             }`}
                                     >
                                         <svg

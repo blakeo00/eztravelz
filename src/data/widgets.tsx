@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import AmazonProductCard from "@/components/AmazonProductCard";
+import Script from "next/script";
 
 export const getCategoryWidgets = (categorySlug: string, postSlug?: string): ReactNode[] => {
     switch (categorySlug) {
@@ -86,6 +87,8 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                     </div>,
                 ];
             }
+
+
 
             return hauntedWidgets;
         case "sports-travel":
@@ -522,6 +525,23 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
             }
 
             return cinematicWidgets;
+            
+        case "vegas-locals":
+            return [
+                <div key="gyg-widget-vegas" className="my-0 w-full max-w-[280px] mx-auto" style={{ zoom: 0.8 }}>
+                    <div 
+                        data-gyg-href="https://widget.getyourguide.com/default/city.frame" 
+                        data-gyg-location-id="58" 
+                        data-gyg-locale-code="en-US" 
+                        data-gyg-widget="city" 
+                        data-gyg-partner-id="8LNIBCT"
+                    ></div>
+                    <Script src="https://widget.getyourguide.com/v2/widget.js" strategy="lazyOnload" />
+                </div>,
+                <React.Fragment key="empty-gyg-1" />,
+                <React.Fragment key="empty-gyg-2" />
+            ];
+
         default:
             return [];
     }

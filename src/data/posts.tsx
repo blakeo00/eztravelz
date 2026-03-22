@@ -20,6 +20,17 @@ export interface BlogPost {
  */
 export const posts: BlogPost[] = [
     {
+        slug: "vegas-locals-guide",
+        title: "Six Haunted Hotspots in Las Vegas Worth Losing Sleep Over",
+        excerpt: "Las Vegas has been burying its history under neon since 1905. The mob. The fires. The deaths that never made headlines. These are the six haunted locations the locals know about and the tour buses mostly miss.",
+        category: "Vegas Baby",
+        categorySlug: "vegas-locals",
+        date: "2026-03-22",
+        image: "/images/Vegas Strip.png",
+        alt: "Vegas Strip at Night",
+        content: vegasBabyContent,
+    },
+    {
         slug: "smoke-patience-butcher-paper-texas-bbq-road-trip",
         title: "Smoke, Patience, and Butcher Paper: A Texas BBQ Road Trip Worth Every Mile",
         excerpt: "Three days. Five stops. A few hundred miles of Hill Country. From Franklin\u2019s legendary brisket to the century-old pits at Smitty\u2019s, this is the road trip that earns every bite.",
@@ -761,6 +772,8 @@ function stanleyHotelContent(): ReactNode {
         </div>
     );
 }
+
+
 
 function reelRoadsContent(): ReactNode {
     return (
@@ -2126,5 +2139,671 @@ function texasBbqContent(): ReactNode {
                 206 W. 2nd St., Taylor.
             </p>
         </div>
+    );
+}
+
+const vegasHotspots = [
+    {
+        emoji: "🎲",
+        name: "Zak Bagans' Haunted Museum",
+        meta: "Year-Round \u00b7 Best Evenings  \u00b7  600 E. Charleston Blvd, Downtown Las Vegas",
+        body: [
+            "If you know the name Zak Bagans, you already know this one. If you don't, the short version is that he is the host of Ghost Adventures, the paranormal investigation series that has been running since 2008, and he has spent the better part of two decades acquiring artifacts with documented connections to death, tragedy, and genuine evil. He then put all of them in a single building in Downtown Las Vegas and opened it to the public.",
+            "The museum occupies a 1938 mansion with 35 rooms, and the contents range from the morbid to the genuinely disturbing. The Dybbuk Box, a wine cabinet said to have been haunted since the 1930s and which has reportedly sent multiple visitors to the hospital, is here. A jacket belonging to Ted Bundy is here. Artifacts from the Sharon Tate murder house are here. A chair from the set of The Exorcist that director William Friedkin reportedly refused to sit in during filming is here.",
+            "The museum now requires guests to sign a liability waiver before entering. They are not being dramatic. Guests have fainted, reported feeling physically ill, and left in tears within the first ten minutes. Book well in advance on weekends.",
+        ],
+        linkText: "Get Tickets at Haunted Museum \u2192",
+        linkHref: "https://hauntedmuseum.com",
+        affiliate: false,
+    },
+    {
+        emoji: "\u2696\ufe0f",
+        name: "The Mob Museum",
+        meta: "Open Daily  \u00b7  300 Stewart Ave, Fremont Street, Las Vegas",
+        body: [
+            "The official name is the National Museum of Organized Crime and Law Enforcement, but nobody calls it that. What everyone calls it is the Mob Museum, and it occupies a building that carries its own history independently of anything inside it.",
+            "The building is the former Las Vegas Post Office and Federal Courthouse, where the Kefauver Committee held its 1950 hearings into organized crime, bringing some of the most powerful figures in American criminal history into a room where federal prosecutors tried to dismantle them. The hearings were nationally televised. They happened in this specific building, in a hearing room that still exists inside the museum today.",
+            "The execution chamber in the basement, a functioning electric chair and gas chamber imported from actual prisons, is where the building's energy becomes something most visitors feel rather than just observe. It is not theatrical. It is simply the kind of room where something irreversible happened many times, and rooms like that tend to hold onto that.",
+        ],
+        linkText: "Plan Your Visit at themobmuseum.org \u2192",
+        linkHref: "https://themobmuseum.org",
+        affiliate: false,
+    },
+    {
+        emoji: "\ud83d\udd25",
+        name: "The Former MGM Grand Site (Now The Horseshoe)",
+        meta: "Year-Round  \u00b7  3645 Las Vegas Blvd S, The Strip",
+        body: [
+            "On November 21, 1980, a fire broke out in a deli inside the MGM Grand Hotel and Casino on the Las Vegas Strip. Fueled by flammable materials and a lack of sprinkler systems, the fire killed 85 people and injured more than 700. It remains one of the deadliest hotel fires in American history.",
+            "The hotel was rebuilt and eventually sold, passing through several names before becoming The Horseshoe Las Vegas. The building that stands there today is not the same structure, but it occupies the same footprint, and decades of renovation have not entirely erased what happened. Hotel employees have reported cold corridors with no architectural explanation, elevator behavior that maintenance cannot account for, and guests on specific floors who check out early without explanation.",
+            "This is not a haunted attraction. There are no tours. It is simply a large hotel on the Strip where 85 people died, and where the staff has quietly developed their own understanding of which areas of the building feel different from others. The 26th floor is mentioned more than any other.",
+        ],
+        linkText: "Book a Room at The Horseshoe \u2192",
+        linkHref: "https://expedia.stay22.com/eztravelz/x-4qCb4YCQ",
+        affiliate: true,
+    },
+    {
+        emoji: "\ud83c\udfdc\ufe0f",
+        name: "The Boulder Dam Hotel",
+        meta: "Year-Round \u00b7 Overnight Stays Available  \u00b7  1305 Arizona St, Boulder City, NV",
+        body: [
+            "Thirty miles southeast of the Strip, Boulder City is the town the federal government built in 1931 to house the workers constructing Hoover Dam. Over one hundred workers died during the dam's construction, some in accidents, some in the brutal heat, and some under circumstances worth reading when you have a strong stomach.",
+            "The Boulder Dam Hotel opened in 1933 to house the engineers and executives overseeing the project. It is a Dutch Colonial building that has been carefully preserved, and it is one of the most consistently reported paranormal locations in the state of Nevada. Guests in specific rooms have described voices, temperature shifts, and the distinct sensation of being watched in a building that is otherwise quiet.",
+            "Boulder City itself is worth a few hours regardless. It is the only city in Nevada where gambling is illegal, which gives it an atmosphere entirely unlike anywhere else in the state. The hotel still operates as a bed and breakfast. Overnight stays are available.",
+        ],
+        linkText: "Book a Room at The Boulder Dam Hotel \u2192",
+        linkHref: "https://expedia.stay22.com/eztravelz/t-19kDjv6V",
+        affiliate: true,
+    },
+    {
+        emoji: "\ud83c\udfb8",
+        name: "The Westgate Las Vegas",
+        meta: "Year-Round  \u00b7  3000 Paradise Rd, Las Vegas",
+        body: [
+            "From 1969 to 1976, Elvis Presley performed 837 consecutive sold-out shows at what was then the International Hotel. He held the record for the longest-running headline performance in Las Vegas history for decades. He also died in 1977, one year after his final Vegas residency, at 42 years old.",
+            "Guests on the 26th floor of the Westgate have reported music coming from rooms confirmed empty, a man in a white jumpsuit seen briefly near the elevators, and an energy in the areas adjacent to the showroom that several staff members have described, over the years, as not entirely explainable.",
+            "The hotel's history with these reports is something management neither confirms nor actively disputes. The showroom where Elvis performed still exists, still books acts, and still carries something in its walls that people who work there long enough tend to notice.",
+        ],
+        linkText: "Book a Room at The Westgate \u2192",
+        linkHref: "https://expedia.stay22.com/eztravelz/mFNd19aDiF",
+        affiliate: true,
+    },
+    {
+        emoji: "\ud83c\udf35",
+        name: "Goodsprings Pioneer Saloon",
+        meta: "Open Daily  \u00b7  310 W. Spring St, Goodsprings, NV \u00b7 45 min from the Strip",
+        body: [
+            "This one requires a forty-five minute drive south into the desert, and it is worth every mile. The Pioneer Saloon opened in 1913 and is the oldest bar in Nevada. The building is pressed tin over wood and has not been substantially altered since the 1930s. The bullet holes in the wall near the back are original.",
+            "On January 16, 1942, a TWA flight carrying actress Carole Lombard, her mother, and 20 other passengers crashed into Mount Potosi, twelve miles south of the saloon. Her husband Clark Gable, then the biggest movie star in the world, sat at the bar at the Pioneer Saloon for three days while search parties went up the mountain looking for survivors. There were none. Gable had to be physically escorted from the building when the news came.",
+            "Staff have reported for decades that the bar does not feel empty after closing. A presence near the back booth, a woman's perfume in the air when no one is there, glasses moved overnight. Whether that is Carole Lombard, Clark Gable's grief, or something the desert simply absorbed in those three January days, the saloon carries it still.",
+        ],
+        linkText: "Visit pioneersaloon.us \u2192",
+        linkHref: "https://pioneersaloon.us",
+        affiliate: false,
+    },
+];
+
+const vegasAmazonProducts = [
+    {
+        image: "https://eztravelz.com/images/Ghost Hunting.jpg",
+        title: "Dunzy 11 Pcs Ghost Hunting Equipment Kit",
+        badge: "Limited time deal",
+        price: "$110.99",
+        originalPrice: "$125.99",
+        prime: true,
+        href: "https://amzn.to/4l4qdLW",
+    },
+    {
+        image: "https://m.media-amazon.com/images/I/71PBtmJcB0L._SL1500_.jpg",
+        title: "Ghost Hunters' Tool Kit Product Bundle",
+        badge: null,
+        price: "$33.37",
+        originalPrice: null,
+        prime: true,
+        href: "https://amzn.to/4b7wZfi",
+    },
+    {
+        image: "https://m.media-amazon.com/images/I/81uAyAe7YKL._AC_SL1500_.jpg",
+        title: "P-SB7 Spirit Box, Latest Version, Ghost Hunting EVP",
+        badge: null,
+        price: "$94.90",
+        originalPrice: null,
+        prime: false,
+        href: "https://amzn.to/4u9UwF3",
+    },
+];
+
+export function sphereLasVegasContent(): ReactNode {
+    return (
+        <>
+            <style>{`
+                @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+
+                /* ── Article container ─────────────────────────────── */
+                .ht-article {
+                    max-width: 860px;
+                    margin: 0 auto;
+                    padding: 48px 24px;
+                }
+
+                /* section heading block */
+                .ht-section-title {
+                    font-family: 'Playfair Display', serif;
+                    font-size: clamp(1.6rem, 4vw, 2.4rem);
+                    color: #1a1a2e;
+                    margin: 0 0 6px;
+                    letter-spacing: 0.02em;
+                }
+                .ht-intro {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 1.15rem;
+                    line-height: 1.8;
+                    color: #1a1a2e;
+                    margin: 0 0 48px;
+                }
+                /* ── Location entries ────────────────────────────────── */
+                .ht-location {
+                    margin-bottom: 52px;
+                    padding-bottom: 52px;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+                }
+                .ht-location:last-of-type {
+                    border-bottom: none;
+                    margin-bottom: 0;
+                }
+                .ht-location-name {
+                    font-family: 'Playfair Display', serif;
+                    font-size: clamp(1.4rem, 3.5vw, 2rem);
+                    color: #1a1a2e;
+                    margin: 0 0 16px;
+                    letter-spacing: 0.02em;
+                }
+                .ht-location p {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 1.1rem;
+                    line-height: 1.82;
+                    color: #1a1a2e;
+                    margin: 0 0 16px;
+                }
+                .ht-location p:last-of-type {
+                    margin-bottom: 0;
+                }
+                .ht-location ul {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 1.1rem;
+                    line-height: 1.82;
+                    color: #1a1a2e;
+                    margin: 0 0 16px;
+                    padding-left: 24px;
+                    list-style-type: disc;
+                }
+                .ht-location li {
+                    margin-bottom: 8px;
+                }
+                /* ── Closing paragraph & Quick details ────────────── */
+                .ht-closing {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 1.1rem;
+                    line-height: 1.82;
+                    color: #1a1a2e;
+                    margin: 48px 0 36px;
+                    padding-top: 48px;
+                    border-top: 1px solid rgba(0, 0, 0, 0.15);
+                }
+                .ht-quicklinks {
+                    background: #7d12ff;
+                    color: #ffffff;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    padding: 32px;
+                    margin-top: 48px;
+                    border-radius: 12px;
+                }
+                .ht-quicklinks h3 {
+                    font-family: 'Playfair Display', serif;
+                    font-size: 1.4rem;
+                    margin: 0 0 16px;
+                    color: #ffffff;
+                }
+                .ht-quicklinks ul {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.95rem;
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                    color: rgba(255, 255, 255, 0.9);
+                }
+                .ht-quicklinks li {
+                    margin-bottom: 8px;
+                }
+            `}</style>
+
+            <div className="ht-article">
+
+                <p className="ht-intro">
+                    It sits just east of the Strip, glowing behind the Venetian like a
+                    366-foot-tall architectural hallucination. The Sphere cost $2.3
+                    billion to build, took five years to finish, and opened in late 2023 
+                    with a U2 residency that immediately redefined what live entertainment
+                    looked like. 
+                </p>
+
+                <p className="ht-intro">
+                    It is not a stadium. It is not an arena. It is an entirely new 
+                    medium—a 160,000-square-foot wraparound interior LED screen paired 
+                    with 167,000 individual speaker drivers that can deliver distinct 
+                    audio to specific seats in a room holding 18,600 people. 
+                </p>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">The Idea Behind It</h2>
+                    <p>
+                        The Sphere began as a vision belonging to James Dolan, the executive 
+                        chairman of Madison Square Garden Entertainment. He wanted to build a 
+                        venue that didn’t just host performances, but enveloped the audience 
+                        inside them. The project broke ground in 2018. It faced massive 
+                        supply chain delays, a global pandemic, and cost overruns that saw 
+                        the total budget balloon by more than a billion dollars. 
+                    </p>
+                    <p>
+                        By the time the exterior screen—the Exosphere, the largest LED screen 
+                        in the world—was illuminated on the Fourth of July in 2023, the city 
+                        was divided. Some saw it as the future; others saw it as a massive, 
+                        expensive novelty. Then U2 played the opening night of their <i>Achtung 
+                        Baby Live at Sphere</i> residency in September, and the debate ended. 
+                        The venue was a triumph.
+                    </p>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">Inside the Bowl: The Technology</h2>
+                    <p>
+                        When you walk into the main bowl, the scale of the interior screen 
+                        is difficult to process. It wraps up, over, and around the seating 
+                        area in a 16K by 16K resolution continuum. It is so sharp and massive 
+                        that artists can use it to completely alter the perceived geometry 
+                        of the room.
+                    </p>
+                    <p>
+                        The audio system is arguably more impressive than the screen. Utilizing 
+                        beamforming technology, the venue can deliver localized audio to 
+                        specific sections of the audience. Someone in section 100 could hear 
+                        a language translation or a specific instrumental track while someone 
+                        in section 400 hears something completely different, without either 
+                        sound bleeding into the other. 
+                    </p>
+                    <p>
+                        Add to this the haptic seats in the lower sections and environmental 
+                        effects like wind, scent, and temperature control used during the 
+                        daily <i>Postcard from Earth</i> showings, and the claim that it’s a 
+                        &quot;4D&quot; venue feels, for the first time, not like marketing hyperbole, 
+                        but an accurate description.
+                    </p>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">2026 Residency Calendar</h2>
+                    <p>
+                        The 2026 concert schedule for the Sphere in Las Vegas features major residencies from legendary rock bands, pop icons, and electronic artists. Key headliners include Eagles, Phish, No Doubt, and Metallica.
+                    </p>
+                    
+                    <div className="overflow-x-auto my-8">
+                        <table className="min-w-full text-left border-collapse">
+                            <thead>
+                                <tr className="border-b-2 border-slate-900">
+                                    <th className="py-2 pr-4 font-bold">Artist</th>
+                                    <th className="py-2 pr-4 font-bold min-w-[140px]">Dates</th>
+                                    <th className="py-2 pr-4 font-bold whitespace-nowrap">Time</th>
+                                    <th className="py-2 font-bold">Description</th>
+                                </tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-800/20">
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold">Eagles</td>
+                                    <td className="py-3 pr-4">Jan 23 – Apr 11</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
+                                    <td className="py-3">The final leg of their extended residency featuring hits like "Hotel California".</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold">Illenium</td>
+                                    <td className="py-3 pr-4">Mar 5 – Apr 4</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">9:00 PM</td>
+                                    <td className="py-3">A six-show run of his "Odyssey" show, blending melodic bass with cinematic visuals.</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold">Phish</td>
+                                    <td className="py-3 pr-4">Apr 16 – May 2</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
+                                    <td className="py-3">A 9-night return residency for the legendary jam band.</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">No Doubt</td>
+                                    <td className="py-3 pr-4">May 6 – Jun 13</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
+                                    <td className="py-3">An 18-show reunion residency, marking the first female-fronted headliner at the venue.</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Kenny Chesney</td>
+                                    <td className="py-3 pr-4">Jun 19 – Jul 11</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
+                                    <td className="py-3">Summer residency bringing "No Shoes Nation" to the Sphere's immersive realm.</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Backstreet Boys</td>
+                                    <td className="py-3 pr-4">Jul 16 – Aug 29</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
+                                    <td className="py-3">The "Into the Millennium" residency featuring high-energy pop choreography.</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Carín León</td>
+                                    <td className="py-3 pr-4">Sep 4 – Sep 13</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
+                                    <td className="py-3">A milestone multi-night residency by the leading Regional Mexican artist.</td>
+                                </tr>
+                                <tr>
+                                    <td className="py-3 pr-4 font-bold">Metallica</td>
+                                    <td className="py-3 pr-4">Oct 1 – Nov 7</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
+                                    <td className="py-3">The "Life Burns Faster" residency featuring their "No Repeat Weekend" format.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Recurring Immersive Experiences</h3>
+                    <p className="mb-8">
+                        <strong>The Wizard of Oz:</strong> This family-friendly immersive film experience runs throughout the year with multiple daily showings.
+                    </p>
+
+                    <h3 className="text-2xl font-bold mb-4">Ticketing & Planning</h3>
+                    <ul className="mb-8">
+                        <li>
+                            <strong>Official Tickets:</strong> You can find primary tickets through the Sphere at The Venetian Official Site.
+                        </li>
+                        <li>
+                            <strong>Packages:</strong> Hotel and ticket bundles are frequently available through Vibee for major residencies like the Eagles and Backstreet Boys.
+                        </li>
+                        <li>
+                            <strong>Secondary Market:</strong> Resale platforms such as SeatGeek and StubHub offer additional inventory and 3-day pass options for bands like Phish.
+                        </li>
+                    </ul>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">What to Know Before You Go</h2>
+                    <p>
+                        If you’re planning to attend an event at the Sphere, a few practical 
+                        details matter. First, there are no bad sightlines for the screen in 
+                        the 200 and 300 levels. However, the upper rows of the 100 level 
+                        (specifically rows 20 and higher) suffer from overhang blockage; you 
+                        can see the stage, but the top portion of the screen is obstructed. 
+                    </p>
+                    <p>
+                        Getting in and out can be a bottleneck. The pedestrian bridge connecting 
+                        the Sphere to the Venetian expo center is efficient, but post-show, it 
+                        absorbs all 18,000 exiting guests. If you don’t want to be caught in 
+                        a massive shuffle, wait 15 minutes in your seat after the show ends. 
+                    </p>
+                </div>
+
+                <div className="ht-quicklinks">
+                    <h3>Quick Details</h3>
+                    <ul>
+                        <li><strong>Location:</strong> 255 Sands Ave, Las Vegas, NV 89169</li>
+                        <li><strong>Capacity:</strong> 18,600 seated</li>
+                        <li><strong>Screen:</strong> 160,000 sq ft, 16K x 16K wrap-around interior LED</li>
+                        <li><strong>Access:</strong> Pedestrian bridge via The Venetian Resort</li>
+                    </ul>
+                </div>
+
+            </div>
+        </>
+    );
+}
+
+function vegasBabyContent(): ReactNode {
+    return (
+        <>
+            <style>{`
+                @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
+
+                /* ── Article container ─────────────────────────────── */
+                .ht-article {
+                    max-width: 860px;
+                    margin: 0 auto;
+                    padding: 48px 24px;
+                }
+
+                /* section heading block */
+                .ht-section-title {
+                    font-family: 'Playfair Display', serif;
+                    font-size: clamp(1.6rem, 4vw, 2.4rem);
+                    color: #1a1a2e;
+                    margin: 0 0 6px;
+                    letter-spacing: 0.02em;
+                }
+                .ht-section-meta {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.78rem;
+                    color: rgba(0, 0, 0, 0.6);
+                    letter-spacing: 0.04em;
+                    margin: 0 0 24px;
+                }
+                .ht-intro {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 1.15rem;
+                    line-height: 1.8;
+                    color: #1a1a2e;
+                    margin: 0 0 48px;
+                }
+                /* ── Location entries ────────────────────────────────── */
+                .ht-location {
+                    margin-bottom: 52px;
+                    padding-bottom: 52px;
+                    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+                }
+                .ht-location:last-of-type {
+                    border-bottom: none;
+                    margin-bottom: 0;
+                }
+
+                .ht-location-emoji {
+                    font-size: 1.6rem;
+                    display: block;
+                    margin-bottom: 8px;
+                }
+                .ht-location-name {
+                    font-family: 'Playfair Display', serif;
+                    font-size: clamp(1.4rem, 3.5vw, 2rem);
+                    color: #1a1a2e;
+                    margin: 0 0 4px;
+                    letter-spacing: 0.02em;
+                }
+                .ht-location-meta {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.75rem;
+                    color: rgba(0, 0, 0, 0.6);
+                    letter-spacing: 0.05em;
+                    margin: 0 0 20px;
+                }
+                .ht-location p {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 1.1rem;
+                    line-height: 1.82;
+                    color: #1a1a2e;
+                    margin: 0 0 16px;
+                }
+                .ht-location p:last-of-type {
+                    margin-bottom: 0;
+                }
+                .ht-location-link {
+                    display: inline-block;
+                    margin-top: 18px;
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.8rem;
+                    font-weight: 700;
+                    letter-spacing: 0.12em;
+                    text-transform: uppercase;
+                    color: #7d12ff;
+                    text-decoration: none;
+                    border-bottom: 1px solid rgba(125,18,255,0.4);
+                    padding-bottom: 2px;
+                    transition: border-color 0.2s ease, opacity 0.2s ease;
+                }
+                .ht-location-link:hover {
+                    opacity: 0.8;
+                    border-color: #7d12ff;
+                }
+                /* ── Closing paragraph ────────────────────────────────── */
+                .ht-closing {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 1.1rem;
+                    line-height: 1.82;
+                    color: #1a1a2e;
+                    margin: 48px 0 36px;
+                    padding-top: 48px;
+                    border-top: 1px solid rgba(0, 0, 0, 0.15);
+                }
+                /* \u2500\u2500 US Ghost Adventures affiliate block \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */
+                .ht-affiliate {
+                    background: #1a1a2e;
+                    padding: 36px 32px;
+                    text-align: center;
+                    margin: 0 0 48px;
+                }
+                .ht-affiliate-title {
+                    font-family: 'Creepster', cursive;
+                    font-size: 1.4rem;
+                    color: #e8e0d0;
+                    margin: 0 0 6px;
+                    letter-spacing: 0.02em;
+                }
+                .ht-affiliate-sub {
+                    font-family: 'Crimson Pro', serif;
+                    font-size: 0.95rem;
+                    color: #7a7a8a;
+                    margin: 0 0 20px;
+                }
+                .ht-affiliate-banner {
+                    display: block;
+                    max-width: 100%;
+                    margin: 0 auto;
+                }
+
+                /* \u2500\u2500 Amazon products \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */
+                .ht-products {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 16px;
+                    margin: 0 auto;
+                    max-width: 860px;
+                    padding: 0 24px 64px;
+                }
+                @media (max-width: 680px) {
+                    .ht-products { grid-template-columns: 1fr; }
+                }
+
+                .ht-product {
+                    border: 1px solid #e8e0d0;
+                    padding: 16px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    text-decoration: none;
+                    transition: border-color 0.2s ease;
+                }
+                .ht-product:hover { border-color: #c0392b; }
+                .ht-product-img {
+                    width: 100%;
+                    height: 160px;
+                    object-fit: contain;
+                    background: #f8f6f2;
+                    padding: 8px;
+                }
+                .ht-product-badge {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.65rem;
+                    font-weight: 700;
+                    letter-spacing: 0.1em;
+                    text-transform: uppercase;
+                    color: #c0392b;
+                }
+                .ht-product-title {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.82rem;
+                    font-weight: 700;
+                    color: #1a1a1a;
+                    line-height: 1.4;
+                    flex: 1;
+                }
+                .ht-product-price {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.9rem;
+                    font-weight: 700;
+                    color: #1a1a1a;
+                    display: flex;
+                    align-items: baseline;
+                    gap: 6px;
+                }
+                .ht-product-original {
+                    font-size: 0.76rem;
+                    font-weight: 400;
+                    color: #aaa;
+                    text-decoration: line-through;
+                }
+                .ht-product-prime {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.65rem;
+                    font-weight: 700;
+                    color: #00a8cc;
+                    letter-spacing: 0.06em;
+                }
+                .ht-product-cta {
+                    font-family: 'Lato', sans-serif;
+                    font-size: 0.72rem;
+                    font-weight: 700;
+                    letter-spacing: 0.14em;
+                    text-transform: uppercase;
+                    color: #c0392b;
+                    border-top: 1px solid #e8e0d0;
+                    padding-top: 10px;
+                    margin-top: 4px;
+                }
+            `}</style>
+
+            {/* \u2500\u2500 ARTICLE BODY \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */}
+            <div className="ht-article">
+
+                <h2 className="ht-section-title">
+                    What Vegas Locals Know and the Tour Buses Mostly Miss
+                </h2>
+
+                <p className="ht-intro">
+                    Las Vegas has spent over a century perfecting the art of distraction.
+                    The lights are calibrated to keep your eyes moving. The casinos have
+                    no clocks. The entire geography of the Strip is engineered so that
+                    nothing unpleasant has anywhere to land. What that means, practically
+                    speaking, is that the city has gotten very good at burying things. The
+                    mob hits. The fires. The overdoses in penthouse suites. The glamour is
+                    genuine. So is everything underneath it. Las Vegas is one of the most
+                    haunted cities in America. It just doesn't look like one.
+                </p>
+
+                {/* \u2500\u2500 SIX LOCATIONS \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */}
+                {vegasHotspots.map((spot) => (
+                    <div key={spot.name} className="ht-location">
+                        <span className="ht-location-emoji">{spot.emoji}</span>
+                        <h3 className="ht-location-name">{spot.name}</h3>
+                        <p className="ht-location-meta">{spot.meta}</p>
+                        {spot.body.map((para, i) => (
+                            <p key={i}>{para}</p>
+                        ))}
+                        {spot.linkHref && (
+                            <a
+                                href={spot.linkHref}
+                                className="ht-location-link"
+                                target="_blank"
+                                rel="sponsored noopener noreferrer"
+                            >
+                                {spot.linkText}
+                            </a>
+                        )}
+                    </div>
+                ))}
+
+                {/* \u2500\u2500 CLOSING \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */}
+                <p className="ht-closing">
+                    Every location on this list has layers that a single visit won't
+                    exhaust. The best haunted experiences are the ones that send you home
+                    with more questions than you arrived with, and all six of these
+                    deliver exactly that. The Mob Museum and Zak Bagans require advance
+                    tickets. The Pioneer Saloon requires only a full tank of gas and a
+                    willingness to drive into the desert at night. Boulder City is worth
+                    an overnight. And if you find yourself standing in the 26th floor
+                    corridor of the Westgate at 2 a.m. and the music starts, that is not
+                    the hotel sound system.
+                </p>
+
+            </div>
+        </>
     );
 }

@@ -131,6 +131,45 @@ export default function NicheGrid() {
                         </Link>
                     ))}
                 </div>
+
+                {/* Vegas Baby 7th Niche Option */}
+                <div className="mt-8 flex justify-center w-full antigravity-container">
+                    <Link href="/vegas-locals" className="group relative block vegas-card overflow-hidden h-[250px] md:h-[300px] lg:h-[320px] cursor-pointer" style={{ borderRadius: '100px' }}>
+                        {/* Card Image */}
+                        <Image
+                            src="/images/Vegas Strip.png"
+                            alt="Vegas Baby - What Vegas Locals Know"
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-700"
+                        />
+
+                        {/* Overlay + Text */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col justify-end h-full">
+                            <h3 className="section-heading text-white text-3xl font-bold leading-tight origin-left">
+                                Vegas Baby
+                            </h3>
+                            <p className="text-slate-200 text-lg mt-1">What Vegas Locals Know</p>
+                        </div>
+
+                        {/* Hover indicator */}
+                        <div className="absolute top-1/2 right-8 -translate-y-1/2 w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-[opacity,transform] duration-300 group-hover:scale-110">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="white"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                            >
+                                <path d="M7 17l9.2-9.2M17 17V7H7" />
+                            </svg>
+                        </div>
+                    </Link>
+                </div>
             </div>
         </section>
     );
