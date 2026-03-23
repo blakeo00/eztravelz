@@ -39,15 +39,10 @@ export default async function BlogPostPage({
     if (!post) notFound();
 
     return (
-        <div className={`min-h-screen flex flex-col relative ${post.slug === 'vegas-locals-guide' ? 'bg-[#7d12ff]' : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' ? 'bg-slate-950' : post.slug === 'paws-and-away-pet-traveler-guide' ? 'bg-[#fff89A]' : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-[#848484]' : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'bg-[#A57C00]' : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail' ? 'bg-[#f9c1c0]' : 'bg-slate-50'}`}>
+        <div className={`min-h-screen flex flex-col relative ${post.slug === 'vegas-locals-guide' ? 'bg-[#7d12ff]' : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug) ? 'bg-[#fff0d4]' : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-[#848484]' : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'bg-[#A57C00]' : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail' ? 'bg-[#f9c1c0]' : 'bg-slate-50'}`}>
             {/* Conditional Background Images */}
 
-            {post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' && (
-                <>
-                    <div className="fixed inset-0 z-0 opacity-50" style={{ backgroundImage: "linear-gradient(-20deg, #00cdac 0%, #8ddad5 100%)" }}></div>
-                    <div className="fixed inset-0 z-0 bg-black/40"></div>
-                </>
-            )}
+
 
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />
@@ -65,7 +60,7 @@ export default async function BlogPostPage({
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/50 to-black/30" />
 
                         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                            <span className={`inline-block text-white text-xs font-bold uppercase tracking-wider px-4 py-1.5 rounded-full mb-6 ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-red-800' : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip' ? 'bg-amber-700' : 'bg-brand-500'
+                            <span className={`inline-block text-white text-xs font-bold uppercase tracking-wider px-4 py-1.5 rounded-full mb-6 ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-red-800' : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug) ? 'bg-[#2c4875]' : 'bg-brand-500'
                                 }`}>
                                 {post.category}
                             </span>
@@ -81,8 +76,8 @@ export default async function BlogPostPage({
                             <h1
                                 className={`text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight mb-6 drop-shadow-lg ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
                                     ? 'text-red-600'
-                                    : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip'
-                                        ? 'hero-title text-orange-500'
+                                    : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug)
+                                        ? 'hero-title text-[#fff0d4]'
                                         : 'hero-title'
                                     }`}
                                 style={
@@ -115,15 +110,13 @@ export default async function BlogPostPage({
                                         ? 'bg-[#fdfe02]/95 text-slate-900 border-2 border-black shadow-[0_0_20px_rgba(253,254,2,0.5)]'
                                         : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
                                     ? 'bg-gray-900/90 border border-red-900/50'
-                                    : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip'
-                                        ? 'bg-[#ff6f61]/95 text-slate-900 border-2 border-black shadow-[0_0_15px_rgba(255,111,97,0.3)]'
+                                    : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug)
+                                        ? 'bg-[#2c4875]/95 text-slate-50 border-2 border-slate-700 shadow-[0_0_30px_rgba(44,72,117,0.25)]'
                                         : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage'
                                             ? 'bg-[#203731]/95 text-white border border-[#FFB612]/30'
-                                            : post.slug === 'paws-and-away-pet-traveler-guide'
-                                                ? 'bg-[#aaffcc]/95 text-slate-900 border-2 border-black shadow-[0_0_15px_rgba(0,0,0,0.2)]'
-                                                : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
-                                                    ? 'bg-[#4a091e]/90 border border-rose-900/50'
-                                                    : 'bg-white/80 text-slate-800'
+                                            : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
+                                                ? 'bg-[#4a091e]/90 border border-rose-900/50'
+                                                : 'bg-white/80 text-slate-800'
                                     }`}>
                                     {post.content()}
                                 </div>
@@ -134,15 +127,13 @@ export default async function BlogPostPage({
                                         href="/blog"
                                         className={`inline-flex items-center gap-2 font-semibold transition-colors ${['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
                                             ? 'text-red-500 hover:text-red-400'
-                                            : post.slug === 'smoke-patience-butcher-paper-texas-bbq-road-trip'
-                                                ? 'text-orange-500 hover:text-orange-400'
+                                            : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug)
+                                                ? 'text-[#2c4875] hover:text-[#1e3459]'
                                                 : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage'
                                                     ? 'text-[#FFB612] hover:text-[#FFB612]/80'
                                                     : post.slug === 'vegas-locals-guide'
                                                         ? 'text-[#7d12ff] hover:text-[#4b0b99]'
-                                                        : post.slug === 'paws-and-away-pet-traveler-guide'
-                                                            ? 'text-sky-400 hover:text-sky-300'
-                                                            : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
+                                                        : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
                                                                 ? 'text-rose-300 hover:text-rose-200'
                                                                 : 'text-brand-600 hover:text-brand-700'
                                             }`}

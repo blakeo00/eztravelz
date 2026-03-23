@@ -20,8 +20,8 @@ export default function VegasLocalsPage() {
                 <main className="flex-grow pb-20">
                     <section className="relative text-white py-32 px-4 min-h-[400px] flex flex-col justify-center items-center text-center overflow-hidden">
                         <Image
-                            src="/images/Sphere.png"
-                            alt="The Sphere"
+                            src="/images/Night.png"
+                            alt="Las Vegas Night"
                             fill
                             className="object-cover opacity-80"
                             priority
@@ -32,13 +32,13 @@ export default function VegasLocalsPage() {
                                 className="hero-title text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 drop-shadow-lg text-[#fdfe02]"
                                 style={{ fontFamily: "'Playfair Display', serif" }}
                             >
-                                The Sphere Experience
+                                Vegas Baby
                             </h1>
                             <p 
                                 className="text-lg md:text-xl font-medium max-w-2xl mx-auto drop-shadow-md text-white"
                                 style={{ fontFamily: "'Playfair Display', serif" }}
                             >
-                                Inside Las Vegas' Most Ambitious Entertainment Venue yet.
+                                Discover Las Vegas through the eyes of the Vegas Locals. They Know!
                             </p>
                         </div>
                     </section>
@@ -47,7 +47,7 @@ export default function VegasLocalsPage() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="backdrop-blur-md rounded-3xl p-8 sm:p-12 bg-[#fdfe02]/95 text-slate-900 border-2 border-black shadow-[0_0_20px_rgba(253,254,2,0.5)]">
+                                <div className="rounded-3xl p-8 sm:p-12 bg-[#fdfe02] text-slate-900 border-2 border-black shadow-lg">
                                     <div className="prose prose-lg max-w-none prose-p:leading-relaxed prose-headings:font-bold prose-headings:text-slate-900 prose-a:text-[#7d12ff] hover:prose-a:text-[#4b0b99]">
                                         {sphereLasVegasContent()}
                                     </div>

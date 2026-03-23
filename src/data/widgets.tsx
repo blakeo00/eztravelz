@@ -527,11 +527,12 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
             return cinematicWidgets;
             
         case "vegas-locals":
+            const locationId = postSlug === 'vegas-locals-guide' ? "58" : "222425";
             return [
                 <div key="gyg-widget-vegas" className="my-0 w-full max-w-[280px] mx-auto" style={{ zoom: 0.8 }}>
                     <div 
                         data-gyg-href="https://widget.getyourguide.com/default/city.frame" 
-                        data-gyg-location-id="58" 
+                        data-gyg-location-id={locationId} 
                         data-gyg-locale-code="en-US" 
                         data-gyg-widget="city" 
                         data-gyg-partner-id="8LNIBCT"

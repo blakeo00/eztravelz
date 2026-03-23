@@ -110,7 +110,7 @@ export function getCategories(): string[] {
 
 function pawsAndAwayContent(): ReactNode {
     return (
-        <div className="prose max-w-none prose-headings:text-[#1B2E22] prose-p:text-[#1B2E22] prose-a:text-blue-600 hover:prose-a:text-blue-800 prose-strong:text-[#1B2E22] prose-p:leading-relaxed">
+        <div className="prose max-w-none prose-headings:text-[#fff0d4] prose-p:text-slate-100 prose-a:text-[#fff0d4] hover:prose-a:text-white prose-strong:text-white prose-p:leading-relaxed">
             <p>
                 There{"\u2019"}s a moment every devoted pet parent knows {"\u2014"} the one where
                 you{"\u2019"}re packing your bag and your dog is watching you with{" "}
@@ -171,10 +171,10 @@ function pawsAndAwayContent(): ReactNode {
                 Use them early!
             </p>
 
-            <div className="bg-white/50 p-6 rounded-xl my-8 border-2 border-black shadow-sm">
-                <h3 className="text-slate-900 font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
-                <p className="text-slate-800 mb-4">
-                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-700 hover:text-sky-600 underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-600">$46.90</span> <span className="text-slate-500 line-through text-sm">$73.50</span>
+            <div className="bg-slate-800/50 p-6 rounded-xl my-8 border border-slate-700">
+                <h3 className="text-[#fff0d4] font-bold mb-2 mt-0">Top Pick for Cabin Travel</h3>
+                <p className="text-slate-200 mb-4">
+                    If you are navigating a busy TSA checkpoint with an anxious pet, a standard carrier won{"'"}t cut it. We highly recommend the <a href="https://amzn.to/4l6fBMC" target="_blank" rel="sponsored noopener noreferrer" className="text-[#fff0d4] hover:text-white underline font-semibold">Sherpa Original Deluxe Travel Pet Carrier</a>. It{"'"}s airline approved and part of Sherpa{"'"}s Guaranteed On Board program, so you can fly with confidence knowing your carrier meets requirements. <span className="font-semibold text-green-400">$46.90</span> <span className="text-slate-400 line-through text-sm">$73.50</span>
                 </p>
                 <img
                     src="https://m.media-amazon.com/images/I/81gqQnt7waL._AC_SL1500_.jpg"
@@ -382,10 +382,10 @@ function pawsAndAwayContent(): ReactNode {
                 preventable mistakes happen. Here{"\u2019"}s what actually makes a difference:
             </p>
 
-            <div className="bg-slate-800 p-6 rounded-xl my-8 border border-slate-700">
-                <h3 className="text-sky-400 font-bold mb-2 mt-0">Essential Road Trip Gear</h3>
-                <p className="text-gray-300 mb-4">
-                    A pet roaming free in the backseat is a major safety hazard on a long road trip. You need a heavy-duty, crash-tested travel harness that clips directly into your car{"'"}s seatbelt system. The <a href="https://www.amazon.com/s?k=Kurgo+Tru-Fit+Smart+Harness&tag=eztravelz-20" target="_blank" rel="sponsored noopener noreferrer" className="text-sky-400 hover:text-sky-300 underline font-semibold">Kurgo Tru-Fit Smart Harness</a> is fully adjustable and rigorously tested to keep your dog secure during sudden stops.
+            <div className="bg-slate-800/50 p-6 rounded-xl my-8 border border-slate-700">
+                <h3 className="text-[#fff0d4] font-bold mb-2 mt-0">Essential Road Trip Gear</h3>
+                <p className="text-slate-200 mb-4">
+                    A pet roaming free in the backseat is a major safety hazard on a long road trip. You need a heavy-duty, crash-tested travel harness that clips directly into your car{"'"}s seatbelt system. The <a href="https://www.amazon.com/s?k=Kurgo+Tru-Fit+Smart+Harness&tag=eztravelz-20" target="_blank" rel="sponsored noopener noreferrer" className="text-[#fff0d4] hover:text-white underline font-semibold">Kurgo Tru-Fit Smart Harness</a> is fully adjustable and rigorously tested to keep your dog secure during sudden stops.
                 </p>
                 <img
                     src="/images/Dog car harness.jpg"
@@ -455,7 +455,7 @@ function pawsAndAwayContent(): ReactNode {
 
             <hr />
 
-            <p className="text-sm text-slate-500 italic">
+            <p className="text-sm text-slate-300 italic">
                 Policies for service animals, ESAs, and standard pet travel are subject to
                 change. Always verify current requirements directly with your airline,{" "}
                 <a href="https://www.amtrak.com/pets" target="_blank" rel="noopener noreferrer">Amtrak</a>,
@@ -1808,7 +1808,7 @@ function prohibitionWineContent(): ReactNode {
 
 function texasBbqContent(): ReactNode {
     return (
-        <div className="prose max-w-none prose-headings:text-slate-900 prose-p:text-slate-800 prose-a:text-blue-700 prose-a:underline hover:prose-a:text-blue-800 prose-strong:text-slate-900 prose-p:leading-relaxed">
+        <div className="prose max-w-none prose-headings:text-[#fff0d4] prose-p:text-slate-100 prose-a:text-[#fff0d4] hover:prose-a:text-white prose-strong:text-white prose-p:leading-relaxed">
             <p className="text-sm text-amber-500 font-medium uppercase tracking-wide">
                 Fork & Wander | Central Texas
             </p>
@@ -1881,14 +1881,14 @@ function texasBbqContent(): ReactNode {
                     height={500}
                     className="rounded-xl w-full object-cover shadow-sm border-2 border-black"
                 />
-                <figcaption className="text-center text-sm text-slate-800 mt-3 italic">
+                <figcaption className="text-center text-sm text-slate-200 mt-3 italic">
                     The reward for patience: perfectly smoked brisket and sausage served on butcher paper.
                 </figcaption>
             </figure>
 
             <h2>Stop One: Austin {"\u2014"} Franklin Barbecue</h2>
             <p>
-                <a href="https://franklinbbq.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Franklin Barbecue</a>{" "}
+                <a href="https://franklinbbq.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Franklin Barbecue</a>{" "}
                 at 900 E. 11th Street is where this road trip begins, not because it{"\u2019"}s the
                 oldest or most historically significant stop, but because it is the conversation
                 everyone is having right now, and that conversation is worth joining.
@@ -1933,7 +1933,7 @@ function texasBbqContent(): ReactNode {
             <h2>Stop Two: Lexington {"\u2014"} Snow{"\u2019"}s BBQ</h2>
             <p>
                 If Franklin is the current champion,{" "}
-                <a href="https://snowsbbq.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Snow{"\u2019"}s</a>{" "}
+                <a href="https://snowsbbq.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Snow{"\u2019"}s</a>{" "}
                 is the legend who held the belt before him, and the story behind it is the better
                 one.
             </p>
@@ -1977,7 +1977,7 @@ function texasBbqContent(): ReactNode {
                 one represents a distinct lineage.
             </p>
             <p>
-                <a href="https://kreuzmarket.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Kreuz Market</a>{" "}
+                <a href="https://kreuzmarket.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Kreuz Market</a>{" "}
                 (619 N. Colorado St.) is the origin point. Charles Kreuz Sr. cemented the
                 no-sauce, meat-first ethos that defines Central Texas barbecue, a legacy
                 influencing generations of pitmasters. In 1999, the operation moved to a larger
@@ -1987,7 +1987,7 @@ function texasBbqContent(): ReactNode {
                 not oversights.
             </p>
             <p>
-                <a href="https://smittysmarket.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Smitty{"\u2019"}s Market</a>{" "}
+                <a href="https://smittysmarket.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Smitty{"\u2019"}s Market</a>{" "}
                 (208 S. Commerce St.) operates in the original Kreuz building, which means it has
                 the original pits, including one that has been burning continuously for over a
                 century. Walking into the pit room at Smitty{"\u2019"}s is unlike anything else on
@@ -1996,7 +1996,7 @@ function texasBbqContent(): ReactNode {
                 Central Texas BBQ is, before any of it reaches your plate.
             </p>
             <p>
-                <a href="https://blacksbbq.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Black{"\u2019"}s Barbecue</a>{" "}
+                <a href="https://blacksbbq.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Black{"\u2019"}s Barbecue</a>{" "}
                 (215 N. Main St.) has been family-owned since 1932, making it the oldest
                 continuously family-owned barbecue restaurant in Texas. The beef ribs at Black
                 {"\u2019"}s are genuinely stunning. Order them if they{"\u2019"}re available.
@@ -2015,7 +2015,7 @@ function texasBbqContent(): ReactNode {
                     height={500}
                     className="rounded-xl w-full object-cover shadow-sm border-2 border-black"
                 />
-                <figcaption className="text-center text-sm text-slate-800 mt-3 italic">
+                <figcaption className="text-center text-sm text-slate-200 mt-3 italic">
                     The unmistakable sight (and smell) of an authentic Central Texas smokehouse at work.
                 </figcaption>
             </figure>
@@ -2051,7 +2051,7 @@ function texasBbqContent(): ReactNode {
             <h2>Stop Five: Taylor {"\u2014"} Louie Mueller Barbecue</h2>
             <p>
                 The road trip ends about an hour north of Austin in Taylor, at{" "}
-                <a href="https://louiemuellerbarbecue.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Louie Mueller Barbecue</a>{" "}
+                <a href="https://louiemuellerbarbecue.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Louie Mueller Barbecue</a>{" "}
                 on 206 W. 2nd Street, which may be the single most atmospheric BBQ joint in
                 Texas.
             </p>
@@ -2123,19 +2123,19 @@ function texasBbqContent(): ReactNode {
 
             <hr />
 
-            <p className="text-sm text-slate-500 italic">
-                <a href="https://franklinbbq.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Franklin Barbecue</a>:
+            <p className="text-sm text-slate-300 italic">
+                <a href="https://franklinbbq.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Franklin Barbecue</a>:
                 900 E. 11th St., Austin, Tues{"\u2013"}Sun until sold out.{" "}
-                <a href="https://snowsbbq.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Snow{"\u2019"}s BBQ</a>:
+                <a href="https://snowsbbq.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Snow{"\u2019"}s BBQ</a>:
                 516 Main St., Lexington, Saturdays 8 a.m. until sold out.{" "}
-                <a href="https://kreuzmarket.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Kreuz Market</a>:
+                <a href="https://kreuzmarket.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Kreuz Market</a>:
                 619 N. Colorado St., Lockhart.{" "}
-                <a href="https://smittysmarket.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Smitty{"\u2019"}s Market</a>:
+                <a href="https://smittysmarket.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Smitty{"\u2019"}s Market</a>:
                 208 S. Commerce St., Lockhart.{" "}
-                <a href="https://blacksbbq.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Black{"\u2019"}s Barbecue</a>:
+                <a href="https://blacksbbq.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Black{"\u2019"}s Barbecue</a>:
                 215 N. Main St., Lockhart.{" "}
                 City Market: 633 E. Davis St., Luling.{" "}
-                <a href="https://louiemuellerbarbecue.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Louie Mueller Barbecue</a>:
+                <a href="https://louiemuellerbarbecue.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] hover:text-white underline">Louie Mueller Barbecue</a>:
                 206 W. 2nd St., Taylor.
             </p>
         </div>
@@ -2277,9 +2277,9 @@ export function sphereLasVegasContent(): ReactNode {
                 .ht-intro {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.15rem;
-                    line-height: 1.8;
+                    line-height: 1.5;
                     color: #1a1a2e;
-                    margin: 0 0 48px;
+                    margin: 0 0 24px;
                 }
                 /* ── Location entries ────────────────────────────────── */
                 .ht-location {
@@ -2358,6 +2358,8 @@ export function sphereLasVegasContent(): ReactNode {
             `}</style>
 
             <div className="ht-article">
+                <h1 className="ht-section-title text-center mb-2">Sphere: The Ultimate Experience</h1>
+                <p className="text-center font-serif text-lg mb-8 text-[#1a1a2e]">Inside Las Vegas' Most Ambitious Entertainment Venue yet.</p>
 
                 <p className="ht-intro">
                     It sits just east of the Strip, glowing behind the Venetian like a
@@ -2366,6 +2368,14 @@ export function sphereLasVegasContent(): ReactNode {
                     with a U2 residency that immediately redefined what live entertainment
                     looked like. 
                 </p>
+
+                <Image 
+                    src="/images/Sphere.png" 
+                    alt="The Sphere" 
+                    width={860} 
+                    height={400} 
+                    className="w-full rounded-xl object-cover my-6" 
+                />
 
                 <p className="ht-intro">
                     It is not a stadium. It is not an arena. It is an entirely new 
@@ -2429,57 +2439,57 @@ export function sphereLasVegasContent(): ReactNode {
                     <div className="overflow-x-auto my-8">
                         <table className="min-w-full text-left border-collapse">
                             <thead>
-                                <tr className="border-b-2 border-slate-900">
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <th className="py-2 pr-4 font-bold">Artist</th>
                                     <th className="py-2 pr-4 font-bold min-w-[140px]">Dates</th>
                                     <th className="py-2 pr-4 font-bold whitespace-nowrap">Time</th>
                                     <th className="py-2 font-bold">Description</th>
                                 </tr>
                             </thead>
-                            <tbody className="divide-y divide-slate-800/20">
-                                <tr>
+                            <tbody>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Eagles</td>
                                     <td className="py-3 pr-4">Jan 23 – Apr 11</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
                                     <td className="py-3">The final leg of their extended residency featuring hits like "Hotel California".</td>
                                 </tr>
-                                <tr>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Illenium</td>
                                     <td className="py-3 pr-4">Mar 5 – Apr 4</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">9:00 PM</td>
                                     <td className="py-3">A six-show run of his "Odyssey" show, blending melodic bass with cinematic visuals.</td>
                                 </tr>
-                                <tr>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Phish</td>
                                     <td className="py-3 pr-4">Apr 16 – May 2</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">A 9-night return residency for the legendary jam band.</td>
                                 </tr>
-                                <tr>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">No Doubt</td>
                                     <td className="py-3 pr-4">May 6 – Jun 13</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
                                     <td className="py-3">An 18-show reunion residency, marking the first female-fronted headliner at the venue.</td>
                                 </tr>
-                                <tr>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Kenny Chesney</td>
                                     <td className="py-3 pr-4">Jun 19 – Jul 11</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">Summer residency bringing "No Shoes Nation" to the Sphere's immersive realm.</td>
                                 </tr>
-                                <tr>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Backstreet Boys</td>
                                     <td className="py-3 pr-4">Jul 16 – Aug 29</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">The "Into the Millennium" residency featuring high-energy pop choreography.</td>
                                 </tr>
-                                <tr>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Carín León</td>
                                     <td className="py-3 pr-4">Sep 4 – Sep 13</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">A milestone multi-night residency by the leading Regional Mexican artist.</td>
                                 </tr>
-                                <tr>
+                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Metallica</td>
                                     <td className="py-3 pr-4">Oct 1 – Nov 7</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
@@ -2490,20 +2500,38 @@ export function sphereLasVegasContent(): ReactNode {
                     </div>
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Recurring Immersive Experiences</h3>
+                    <Image 
+                        src="/images/OZ 2.png" 
+                        alt="The Wizard of Oz Immersive Experience" 
+                        width={860} 
+                        height={400} 
+                        className="w-full rounded-xl object-cover my-6" 
+                    />
                     <p className="mb-8">
                         <strong>The Wizard of Oz:</strong> This family-friendly immersive film experience runs throughout the year with multiple daily showings.
                     </p>
 
-                    <h3 className="text-2xl font-bold mb-4">Ticketing & Planning</h3>
+                    <h3 className="text-2xl font-bold mb-4">Planning Your Stay</h3>
                     <ul className="mb-8">
                         <li>
-                            <strong>Official Tickets:</strong> You can find primary tickets through the Sphere at The Venetian Official Site.
+                            <strong>Official Tickets:</strong> You can find primary tickets through the Sphere at <a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer">https://www.thesphere.com/</a>
                         </li>
                         <li>
-                            <strong>Packages:</strong> Hotel and ticket bundles are frequently available through Vibee for major residencies like the Eagles and Backstreet Boys.
-                        </li>
-                        <li>
-                            <strong>Secondary Market:</strong> Resale platforms such as SeatGeek and StubHub offer additional inventory and 3-day pass options for bands like Phish.
+                            <strong>Nearby Hotels:</strong>
+                            <ul className="mt-2 ml-6 space-y-2">
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/_hdD_cbuKB" target="_blank" rel="noopener noreferrer">The Wynn</a>
+                                </li>
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/ug_-qqnr1M" target="_blank" rel="noopener noreferrer">The Venetian Resort Las Vegas</a>
+                                </li>
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/oV7P34dtFP" target="_blank" rel="noopener noreferrer">The Palazzo at the Venetian</a>
+                                </li>
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/JQI4u1jVjm" target="_blank" rel="noopener noreferrer">Encore at Wynn Las Vegas</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -2802,6 +2830,19 @@ function vegasBabyContent(): ReactNode {
                     corridor of the Westgate at 2 a.m. and the music starts, that is not
                     the hotel sound system.
                 </p>
+
+                <div className="ht-affiliate">
+                    <h4 className="ht-affiliate-title" style={{ color: '#ff0000' }}>Ready for Your Own Haunted Experience?</h4>
+                    <p className="ht-affiliate-sub">Explore the dark history of Las Vegas on a guided ghost tour.</p>
+                    <a 
+                        href="https://usghostadventures.com/las-vegas-ghost-tour/?ref=mju3ytb" 
+                        target="_blank" 
+                        rel="sponsored noopener noreferrer"
+                        className="inline-block mt-4 px-6 py-3 border border-[#e8e0d0] text-[#e8e0d0] font-bold uppercase tracking-widest text-sm transition-colors hover:bg-[#e8e0d0] hover:text-[#1a1a2e]"
+                    >
+                        Book a Las Vegas Ghost Tour Here
+                    </a>
+                </div>
 
             </div>
         </>
