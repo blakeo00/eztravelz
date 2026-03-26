@@ -114,7 +114,7 @@ export default function HauntedToursPage() {
                                     {/* CTA — US Ghost Adventures Affiliate */}
                                     <div className="mt-8 text-center">
                                         <a
-                                            href="https://usghostadventures.com?tap_a=149596-26ae1d&ref=mju3ytb"
+                                            href="https://usghostadventures.com/haunted-houses/lizzie-borden-house/?tap_a=149596-26ae1d&ref=mju3ytb"
                                             target="_blank"
                                             rel="nofollow noopener noreferrer"
                                             className="inline-block transform hover:scale-105 transition-transform duration-300 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl"
