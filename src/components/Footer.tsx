@@ -10,7 +10,7 @@ import Image from "next/image";
  */
 export default function Footer() {
     return (
-        <footer className="bg-dark-900 text-white">
+        <footer style={{ backgroundColor: '#152238' }} className="text-white">
             {/* ---- Upper Footer ---- */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -18,7 +18,7 @@ export default function Footer() {
                     <div>
                         <Link href="/" className="flex items-center mb-4">
                             <Image
-                                src="/images/Logo5.jpg"
+                                src="/images/Logo 3.png"
                                 alt="EZtravelZ Logo"
                                 width={160}
                                 height={40}

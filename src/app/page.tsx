@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
-import HeroCarousel from "@/components/HeroCarousel";
+import HeroSection from "@/components/HeroSection";
+import WhoWeAre from "@/components/WhoWeAre";
 import NicheGrid from "@/components/NicheGrid";
 import FeaturedArticles from "@/components/FeaturedArticles";
 import Footer from "@/components/Footer";
@@ -13,7 +14,8 @@ export default function Home() {
         <>
             <Header />
             <main>
-                <HeroCarousel />
+                <HeroSection />
+                <WhoWeAre />
                 <NicheGrid />
                 <FeaturedArticles />
             </main>

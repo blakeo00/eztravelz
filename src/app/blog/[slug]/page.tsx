@@ -39,7 +39,7 @@ export default async function BlogPostPage({
     if (!post) notFound();
 
     return (
-        <div className={`min-h-screen flex flex-col relative ${post.slug === 'vegas-locals-guide' ? 'bg-[#7d12ff]' : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug) ? 'bg-[#fff0d4]' : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-[#848484]' : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'bg-[#A57C00]' : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail' ? 'bg-[#f9c1c0]' : 'bg-slate-50'}`}>
+        <div className={`min-h-screen flex flex-col relative ${post.slug === 'vegas-locals-guide' ? 'bg-[#89D4FF]' : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug) ? 'bg-[#fff0d4]' : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug) ? 'bg-[#848484]' : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage' ? 'bg-[#A57C00]' : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail' ? 'bg-[#f9c1c0]' : 'bg-slate-50'}`}>
             {/* Conditional Background Images */}
 
 
@@ -105,19 +105,28 @@ export default async function BlogPostPage({
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className={`backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 ${
-                                    post.slug === 'vegas-locals-guide'
-                                        ? 'bg-[#fdfe02]/95 text-slate-900 border-2 border-black shadow-[0_0_20px_rgba(253,254,2,0.5)]'
-                                        : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
-                                    ? 'bg-gray-900/90 border border-red-900/50'
-                                    : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug)
-                                        ? 'bg-[#2c4875]/95 text-slate-50 border-2 border-slate-700 shadow-[0_0_30px_rgba(44,72,117,0.25)]'
-                                        : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage'
-                                            ? 'bg-[#203731]/95 text-white border border-[#FFB612]/30'
-                                            : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
-                                                ? 'bg-[#4a091e]/90 border border-rose-900/50'
-                                                : 'bg-white/80 text-slate-800'
-                                    }`}>
+                                <div
+                                    className={`backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 ${
+                                        post.slug === 'vegas-locals-guide'
+                                            ? 'text-slate-900'
+                                            : ['stanley-hotel-where-the-nightmare-became-the-novel', 'reel-roads-room-217-the-shining'].includes(post.slug)
+                                        ? 'bg-gray-900/90 border border-red-900/50'
+                                        : ['smoke-patience-butcher-paper-texas-bbq-road-trip', 'paws-and-away-pet-traveler-guide'].includes(post.slug)
+                                            ? 'bg-[#2c4875]/95 text-slate-50 border-2 border-slate-700 shadow-[0_0_30px_rgba(44,72,117,0.25)]'
+                                            : post.slug === 'titletown-usa-lambeau-field-nfl-pilgrimage'
+                                                ? 'bg-[#203731]/95 text-white border border-[#FFB612]/30'
+                                                : post.slug === 'holy-water-and-grape-bricks-prohibition-wine-trail'
+                                                    ? 'bg-[#4a091e]/90 border border-rose-900/50'
+                                                    : 'bg-white/80 text-slate-800'
+                                        }`}
+                                    style={post.slug === 'vegas-locals-guide' ? {
+                                        border: '5px solid transparent',
+                                        backgroundImage: 'linear-gradient(rgba(253,255,182,0.95), rgba(253,255,182,0.95)), linear-gradient(135deg, #00e5ff, #ff00ff, #00e5ff, #ff00ff, #00e5ff)',
+                                        backgroundOrigin: 'border-box',
+                                        backgroundClip: 'padding-box, border-box',
+                                        boxShadow: '0 0 8px #00e5ff, 0 0 20px rgba(255, 0, 255, 0.5), 0 0 40px rgba(0, 229, 255, 0.25), inset 0 0 12px rgba(0, 229, 255, 0.08)',
+                                    } : undefined}
+                                >
                                     {post.content()}
                                 </div>
 

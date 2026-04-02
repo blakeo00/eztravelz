@@ -35,18 +35,18 @@ export default function Header() {
     return (
         <header
             className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                ? "bg-[#0e6e9e]/95 backdrop-blur-md shadow-sm"
-                : "bg-[#0e6e9e]/80 backdrop-blur-sm"
+                ? "bg-[#152238]/60 backdrop-blur-xl shadow-lg border-b border-white/10"
+                : "bg-[#152238]/30 backdrop-blur-md"
                 }`}
         >
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-24 md:h-20">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-14">
                 {/* ---- Logo ---- */}
                 <Link href="/" className="flex items-center group">
                     <Image
-                        src="/images/Logo5.jpg"
+                        src="/images/Logo 3.png"
                         alt="EZtravelZ Logo"
-                        width={160}
-                        height={40}
+                        width={100}
+                        height={24}
                         className="object-contain"
                         priority
                     />
@@ -88,7 +88,7 @@ export default function Header() {
 
             {/* ---- Mobile Slide-Down Menu ---- */}
             <div
-                className={`md:hidden overflow-hidden transition-all duration-300 bg-[#0e6e9e]/95 backdrop-blur-md ${mobileOpen ? "max-h-96 border-b border-[#0b5c85]" : "max-h-0"
+                className={`md:hidden overflow-hidden transition-all duration-300 bg-[#152238]/60 backdrop-blur-xl ${mobileOpen ? "max-h-96 border-b border-white/10" : "max-h-0"
                     }`}
             >
                 <nav className="flex flex-col gap-1 px-4 py-4">

@@ -2144,35 +2144,53 @@ function texasBbqContent(): ReactNode {
 
 const vegasHotspots = [
     {
-        emoji: "🎲",
+        image: "/images/Zak.jpg",
         name: "Zak Bagans' Haunted Museum",
-        meta: "Year-Round \u00b7 Best Evenings  \u00b7  600 E. Charleston Blvd, Downtown Las Vegas",
+        meta: "Year-Round · Best Evenings  ·  600 E. Charleston Blvd, Downtown Las Vegas",
         body: [
             "If you know the name Zak Bagans, you already know this one. If you don't, the short version is that he is the host of Ghost Adventures, the paranormal investigation series that has been running since 2008, and he has spent the better part of two decades acquiring artifacts with documented connections to death, tragedy, and genuine evil. He then put all of them in a single building in Downtown Las Vegas and opened it to the public.",
             "The museum occupies a 1938 mansion with 35 rooms, and the contents range from the morbid to the genuinely disturbing. The Dybbuk Box, a wine cabinet said to have been haunted since the 1930s and which has reportedly sent multiple visitors to the hospital, is here. A jacket belonging to Ted Bundy is here. Artifacts from the Sharon Tate murder house are here. A chair from the set of The Exorcist that director William Friedkin reportedly refused to sit in during filming is here.",
             "The museum now requires guests to sign a liability waiver before entering. They are not being dramatic. Guests have fainted, reported feeling physically ill, and left in tears within the first ten minutes. Book well in advance on weekends.",
         ],
         linkText: "Get Tickets at Haunted Museum \u2192",
-        linkHref: "https://hauntedmuseum.com",
+        linkHref: "https://thehauntedmuseum.com/",
         affiliate: false,
+        nearbyHotels: [
+            { name: "The ENGLISH Hotel, Las Vegas (21+)", href: "https://expedia.stay22.com/eztravelz/OBHh80bstl" },
+            { name: "The D Las Vegas", href: "https://expedia.stay22.com/eztravelz/ogCKMOy-zw" },
+            { name: "Circa Resort & Casino (Adults Only)", href: "https://expedia.stay22.com/eztravelz/TdkUSIqnm9" },
+        ],
+        nearbyTours: [
+            { name: "The Shadows of Sin City Adults-Only Ghost Tour", href: "https://gyg.me/rKmIS4fo" },
+            { name: "Gangsters, Glitz, and Gore Las Vegas Ghost Tour", href: "https://gyg.me/5kWWyqov" },
+        ],
     },
     {
-        emoji: "\u2696\ufe0f",
+        image: "/images/Mob.jpg",
         name: "The Mob Museum",
-        meta: "Open Daily  \u00b7  300 Stewart Ave, Fremont Street, Las Vegas",
+        meta: "Open Daily  ·  300 Stewart Ave, Fremont Street, Las Vegas",
         body: [
             "The official name is the National Museum of Organized Crime and Law Enforcement, but nobody calls it that. What everyone calls it is the Mob Museum, and it occupies a building that carries its own history independently of anything inside it.",
             "The building is the former Las Vegas Post Office and Federal Courthouse, where the Kefauver Committee held its 1950 hearings into organized crime, bringing some of the most powerful figures in American criminal history into a room where federal prosecutors tried to dismantle them. The hearings were nationally televised. They happened in this specific building, in a hearing room that still exists inside the museum today.",
             "The execution chamber in the basement, a functioning electric chair and gas chamber imported from actual prisons, is where the building's energy becomes something most visitors feel rather than just observe. It is not theatrical. It is simply the kind of room where something irreversible happened many times, and rooms like that tend to hold onto that.",
         ],
-        linkText: "Plan Your Visit at themobmuseum.org \u2192",
-        linkHref: "https://themobmuseum.org",
-        affiliate: false,
+        linkText: "Plan Your Visit at The Mob Museum \u2192",
+        linkHref: "https://gyg.me/YebhuvGh",
+        affiliate: true,
+        nearbyHotels: [
+            { name: "El Cortez Hotel and Casino (21+)", href: "https://expedia.stay22.com/eztravelz/S33zgjTBtj" },
+            { name: "Main Street Station Hotel, Casino and Brewery", href: "https://expedia.stay22.com/eztravelz/9ISvepHl4y" },
+            { name: "Hotel Apache", href: "https://expedia.stay22.com/eztravelz/SMXjMtjLs6" },
+        ],
+        nearbyTours: [
+            { name: "Downtown Las Vegas - True Crime Walking Tour", href: "https://gyg.me/UgPTD6lK" },
+            { name: "Las Vegas: Mobsters, Casinos, and Speakeasy Bar Crawl", href: "https://gyg.me/vZgbLYh3" },
+        ],
     },
     {
-        emoji: "\ud83d\udd25",
+        image: "/images/Horseshoe.jpg",
         name: "The Former MGM Grand Site (Now The Horseshoe)",
-        meta: "Year-Round  \u00b7  3645 Las Vegas Blvd S, The Strip",
+        meta: "Year-Round  ·  3645 Las Vegas Blvd S, The Strip",
         body: [
             "On November 21, 1980, a fire broke out in a deli inside the MGM Grand Hotel and Casino on the Las Vegas Strip. Fueled by flammable materials and a lack of sprinkler systems, the fire killed 85 people and injured more than 700. It remains one of the deadliest hotel fires in American history.",
             "The hotel was rebuilt and eventually sold, passing through several names before becoming The Horseshoe Las Vegas. The building that stands there today is not the same structure, but it occupies the same footprint, and decades of renovation have not entirely erased what happened. Hotel employees have reported cold corridors with no architectural explanation, elevator behavior that maintenance cannot account for, and guests on specific floors who check out early without explanation.",
@@ -2181,24 +2199,43 @@ const vegasHotspots = [
         linkText: "Book a Room at The Horseshoe \u2192",
         linkHref: "https://expedia.stay22.com/eztravelz/x-4qCb4YCQ",
         affiliate: true,
+        nearbyHotels: [
+            { name: "Horseshoe Las Vegas", href: "https://expedia.stay22.com/eztravelz/26H6B9vo3P" },
+            { name: "Paris Las Vegas Resort & Casino", href: "https://expedia.stay22.com/eztravelz/2IAaynAbzk" },
+            { name: "Bellagio", href: "https://expedia.stay22.com/eztravelz/EiFR_sTO9E" },
+        ],
+        nearbyTours: [
+            { name: "Universal Horror Unleashed at AREA15 in Las Vegas", href: "https://www.viator.com/tours/Las-Vegas/Universal-Horror-Unleashed-at-AREA15-in-Las-Vegas/d684-5612911P2?pid=P00291237&mcid=42383&medium=link&campaign=Vegas" },
+            { name: "Las Vegas: Entry to Madame Tussauds with a Gondola Cruise", href: "https://gyg.me/Og6Iw9o6" },
+        ],
     },
     {
-        emoji: "\ud83c\udfdc\ufe0f",
+        image: "/images/Boulder.jpg",
         name: "The Boulder Dam Hotel",
-        meta: "Year-Round \u00b7 Overnight Stays Available  \u00b7  1305 Arizona St, Boulder City, NV",
+        meta: "Year-Round · Overnight Stays Available  ·  1305 Arizona St, Boulder City, NV",
         body: [
             "Thirty miles southeast of the Strip, Boulder City is the town the federal government built in 1931 to house the workers constructing Hoover Dam. Over one hundred workers died during the dam's construction, some in accidents, some in the brutal heat, and some under circumstances worth reading when you have a strong stomach.",
             "The Boulder Dam Hotel opened in 1933 to house the engineers and executives overseeing the project. It is a Dutch Colonial building that has been carefully preserved, and it is one of the most consistently reported paranormal locations in the state of Nevada. Guests in specific rooms have described voices, temperature shifts, and the distinct sensation of being watched in a building that is otherwise quiet.",
             "Boulder City itself is worth a few hours regardless. It is the only city in Nevada where gambling is illegal, which gives it an atmosphere entirely unlike anywhere else in the state. The hotel still operates as a bed and breakfast. Overnight stays are available.",
+            "What is the haunted story at the Boulder Dam Hotel? Guests and staff have reported feelings of being touched, pushed, and grabbed by unseen forces. Phantom smells of cigar smoke linger in the room where a reclusive millionaire stayed nearly a century ago. The ghost of a former desk clerk is believed to still haunt the hotel.",
         ],
         linkText: "Book a Room at The Boulder Dam Hotel \u2192",
         linkHref: "https://expedia.stay22.com/eztravelz/t-19kDjv6V",
         affiliate: true,
+        nearbyHotels: [
+            { name: "The Boulder Dam Hotel", href: "https://expedia.stay22.com/eztravelz/qodTT47VTI" },
+            { name: "Hoover Dam Lodge", href: "https://expedia.stay22.com/eztravelz/YT68FiQiQP" },
+            { name: "Lake Mead Inn", href: "https://expedia.stay22.com/eztravelz/cyl2YAyqsY" },
+        ],
+        nearbyTours: [
+            { name: "Haunted Boulder City Ghost and UFO Tour", href: "https://www.viator.com/tours/Las-Vegas/Haunted-Boulder-City-Ghost-and-UFO-Tour/d684-322196P1?pid=P00291237&mcid=42383&medium=link&campaign=Vegas" },
+            { name: "Boulder City Historic District Self-guided Tour from Las Vegas", href: "https://vi.me/myH9l" },
+        ],
     },
     {
-        emoji: "\ud83c\udfb8",
+        image: "/images/Westgate.jpg",
         name: "The Westgate Las Vegas",
-        meta: "Year-Round  \u00b7  3000 Paradise Rd, Las Vegas",
+        meta: "Year-Round  ·  3000 Paradise Rd, Las Vegas",
         body: [
             "From 1969 to 1976, Elvis Presley performed 837 consecutive sold-out shows at what was then the International Hotel. He held the record for the longest-running headline performance in Las Vegas history for decades. He also died in 1977, one year after his final Vegas residency, at 42 years old.",
             "Guests on the 26th floor of the Westgate have reported music coming from rooms confirmed empty, a man in a white jumpsuit seen briefly near the elevators, and an energy in the areas adjacent to the showroom that several staff members have described, over the years, as not entirely explainable.",
@@ -2207,19 +2244,32 @@ const vegasHotspots = [
         linkText: "Book a Room at The Westgate \u2192",
         linkHref: "https://expedia.stay22.com/eztravelz/mFNd19aDiF",
         affiliate: true,
+        nearbyHotels: [
+            { name: "The Westgate Las Vegas", href: "https://expedia.stay22.com/eztravelz/tSu0m9TQoy" },
+        ],
+        nearbyTours: [
+            { name: "Ghost Town Wild West Adventures Day Trip - From Las Vegas", href: "https://gyg.me/f0LrRy12" },
+            { name: "Haunted Vegas Tour and Ghost Hunt in Las Vegas", href: "https://www.viator.com/tours/Las-Vegas/Haunted-Vegas-Tour-and-Ghost-Hunt/d684-2434HAUNT?pid=P00291237&mcid=42383&medium=link&campaign=Vegas" },
+        ],
     },
     {
-        emoji: "\ud83c\udf35",
+        image: "/images/Goodsprings.jpg",
         name: "Goodsprings Pioneer Saloon",
-        meta: "Open Daily  \u00b7  310 W. Spring St, Goodsprings, NV \u00b7 45 min from the Strip",
+        meta: "Open Daily  ·  310 W. Spring St, Goodsprings, NV · 45 min from the Strip",
         body: [
             "This one requires a forty-five minute drive south into the desert, and it is worth every mile. The Pioneer Saloon opened in 1913 and is the oldest bar in Nevada. The building is pressed tin over wood and has not been substantially altered since the 1930s. The bullet holes in the wall near the back are original.",
             "On January 16, 1942, a TWA flight carrying actress Carole Lombard, her mother, and 20 other passengers crashed into Mount Potosi, twelve miles south of the saloon. Her husband Clark Gable, then the biggest movie star in the world, sat at the bar at the Pioneer Saloon for three days while search parties went up the mountain looking for survivors. There were none. Gable had to be physically escorted from the building when the news came.",
             "Staff have reported for decades that the bar does not feel empty after closing. A presence near the back booth, a woman's perfume in the air when no one is there, glasses moved overnight. Whether that is Carole Lombard, Clark Gable's grief, or something the desert simply absorbed in those three January days, the saloon carries it still.",
+            "The Pioneer Saloon in Goodsprings, Nevada (near Las Vegas), built in 1913, is renowned as one of the state's most haunted locations. Famous for its Old West history, visitors and staff report paranormal activity including shadowy figures, cold spots, phantom footsteps, and a notoriously haunted women's restroom.",
+            'Rent a Harley in Vegas at <a href="https://www.lasvegasharleydavidson.com/About/Rentals" target="_blank" rel="noopener noreferrer" style="color:#7d12ff;text-decoration:underline;text-underline-offset:3px">Harley Davidson Las Vegas</a> and enjoy the leisurely 45 minute ride to Goodsprings.',
         ],
-        linkText: "Visit pioneersaloon.us \u2192",
-        linkHref: "https://pioneersaloon.us",
+        linkText: "Visit Pioneer Saloon \u2192",
+        linkHref: "https://pioneersaloonnv.com/",
         affiliate: false,
+        nearbyTours: [
+            { name: "Pioneer Saloon Goodsprings, NV", href: "https://pioneersaloonnv.com/" },
+            { name: "Ghost Hunt in Goodsprings from Las Vegas", href: "https://vi.me/WqfyP" },
+        ],
     },
 ];
 
@@ -2331,9 +2381,9 @@ export function sphereLasVegasContent(): ReactNode {
                     border-top: 1px solid rgba(0, 0, 0, 0.15);
                 }
                 .ht-quicklinks {
-                    background: #7d12ff;
-                    color: #ffffff;
-                    border: 1px solid rgba(255, 255, 255, 0.2);
+                    background: #04FFF7;
+                    color: #000000;
+                    border: 1px solid rgba(0, 0, 0, 0.2);
                     padding: 32px;
                     margin-top: 48px;
                     border-radius: 12px;
@@ -2342,7 +2392,7 @@ export function sphereLasVegasContent(): ReactNode {
                     font-family: 'Playfair Display', serif;
                     font-size: 1.4rem;
                     margin: 0 0 16px;
-                    color: #ffffff;
+                    color: #000000;
                 }
                 .ht-quicklinks ul {
                     font-family: 'Lato', sans-serif;
@@ -2350,7 +2400,7 @@ export function sphereLasVegasContent(): ReactNode {
                     list-style: none;
                     padding: 0;
                     margin: 0;
-                    color: rgba(255, 255, 255, 0.9);
+                    color: rgba(0, 0, 0, 0.9);
                 }
                 .ht-quicklinks li {
                     margin-bottom: 8px;
@@ -2645,21 +2695,24 @@ function vegasBabyContent(): ReactNode {
                 }
                 .ht-location-link {
                     display: inline-block;
-                    margin-top: 18px;
+                    margin-top: 22px;
                     font-family: 'Lato', sans-serif;
                     font-size: 0.8rem;
                     font-weight: 700;
                     letter-spacing: 0.12em;
                     text-transform: uppercase;
-                    color: #7d12ff;
+                    color: #ffffff;
                     text-decoration: none;
-                    border-bottom: 1px solid rgba(125,18,255,0.4);
-                    padding-bottom: 2px;
-                    transition: border-color 0.2s ease, opacity 0.2s ease;
+                    background: linear-gradient(135deg, #7d12ff, #00e5ff);
+                    padding: 12px 28px;
+                    border-radius: 50px;
+                    box-shadow: 0 4px 15px rgba(125, 18, 255, 0.4), 0 0 20px rgba(0, 229, 255, 0.15);
+                    transition: transform 0.2s ease, box-shadow 0.2s ease;
                 }
                 .ht-location-link:hover {
-                    opacity: 0.8;
-                    border-color: #7d12ff;
+                    transform: translateY(-2px);
+                    box-shadow: 0 6px 25px rgba(125, 18, 255, 0.55), 0 0 30px rgba(0, 229, 255, 0.3);
+                    color: #ffffff;
                 }
                 /* ── Closing paragraph ────────────────────────────────── */
                 .ht-closing {
@@ -2799,12 +2852,37 @@ function vegasBabyContent(): ReactNode {
                 {/* \u2500\u2500 SIX LOCATIONS \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */}
                 {vegasHotspots.map((spot) => (
                     <div key={spot.name} className="ht-location">
-                        <span className="ht-location-emoji">{spot.emoji}</span>
-                        <h3 className="ht-location-name">{spot.name}</h3>
+                        {/* Image or emoji header */}
+                        {spot.image ? (
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '16px', marginBottom: '8px' }}>
+                                <img
+                                    src={spot.image}
+                                    alt={spot.name}
+                                    style={{
+                                        width: '80px',
+                                        height: '80px',
+                                        borderRadius: '12px',
+                                        objectFit: 'cover',
+                                        flexShrink: 0,
+                                        boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
+                                    }}
+                                />
+                                <h3 className="ht-location-name" style={{ margin: 0 }}>{spot.name}</h3>
+                            </div>
+                        ) : (
+                            <>
+                                {(spot as any).emoji && <span className="ht-location-emoji">{(spot as any).emoji}</span>}
+                                <h3 className="ht-location-name">{spot.name}</h3>
+                            </>
+                        )}
                         <p className="ht-location-meta">{spot.meta}</p>
-                        {spot.body.map((para, i) => (
-                            <p key={i}>{para}</p>
-                        ))}
+                        {spot.body.map((para, i) =>
+                            para.includes('<a ') ? (
+                                <p key={i} dangerouslySetInnerHTML={{ __html: para }} />
+                            ) : (
+                                <p key={i}>{para}</p>
+                            )
+                        )}
                         {spot.linkHref && (
                             <a
                                 href={spot.linkHref}
@@ -2814,6 +2892,48 @@ function vegasBabyContent(): ReactNode {
                             >
                                 {spot.linkText}
                             </a>
+                        )}
+
+                        {/* Nearby Hotels */}
+                        {spot.nearbyHotels && (
+                            <div style={{ marginTop: '24px', padding: '16px 20px', backgroundColor: 'rgba(0,0,0,0.04)', borderRadius: '12px' }}>
+                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>🏨 Nearby Hotels</h4>
+                                <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                                    {spot.nearbyHotels.map((hotel) => (
+                                        <li key={hotel.name} style={{ marginBottom: '6px' }}>
+                                            <a
+                                                href={hotel.href}
+                                                target="_blank"
+                                                rel="sponsored noopener noreferrer"
+                                                style={{ color: '#7d12ff', fontFamily: "'Crimson Pro', serif", fontSize: '1rem', textDecoration: 'underline', textUnderlineOffset: '3px' }}
+                                            >
+                                                {hotel.name}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        )}
+
+                        {/* Nearby Tours */}
+                        {spot.nearbyTours && (
+                            <div style={{ marginTop: '12px', padding: '16px 20px', backgroundColor: 'rgba(0,0,0,0.04)', borderRadius: '12px' }}>
+                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>👻 Nearby Ghost Tours</h4>
+                                <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                                    {spot.nearbyTours.map((tour) => (
+                                        <li key={tour.name} style={{ marginBottom: '6px' }}>
+                                            <a
+                                                href={tour.href}
+                                                target="_blank"
+                                                rel="sponsored noopener noreferrer"
+                                                style={{ color: '#7d12ff', fontFamily: "'Crimson Pro', serif", fontSize: '1rem', textDecoration: 'underline', textUnderlineOffset: '3px' }}
+                                            >
+                                                {tour.name}
+                                            </a>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
                         )}
                     </div>
                 ))}

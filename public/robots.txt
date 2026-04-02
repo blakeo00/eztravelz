@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /_next/static/
+
+Sitemap: https://eztravelz.com/sitemap.xml

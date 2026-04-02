@@ -44,7 +44,7 @@ const niches = [
         subtitle: "Cinematic Travel",
         href: "/cinematic-travel",
         image:
-            "/images/Stanley Hotel.png",
+            "/images/Stanley Hotel 3.jpg",
         alt: "A view of the historic Stanley Hotel",
     },
     {

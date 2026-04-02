@@ -13,7 +13,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/contact',
         '/blog',
         '/privacy-policy',
-        '/terms-of-service'
+        '/terms-of-service',
+        '/affiliate-disclosure'
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
@@ -28,7 +29,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
         "/wine-destinations", 
         "/sports-travel", 
         "/cinematic-travel", 
-        "/culinary-quests"
+        "/culinary-quests",
+        "/vegas-locals"
     ];
     
     const nicheRoutes = niches.map((niche) => ({
