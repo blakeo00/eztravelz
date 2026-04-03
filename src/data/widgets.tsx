@@ -4,6 +4,45 @@ import Script from "next/script";
 
 export const getCategoryWidgets = (categorySlug: string, postSlug?: string): ReactNode[] => {
     switch (categorySlug) {
+        case "beyond-the-neon":
+            return [
+                <div key="amazon-ranch-1" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="Hap Tim Picnic Backpack Bag for 4 Person with Cooler Compartment"
+                        description=""
+                        imageUrl="https://m.media-amazon.com/images/I/81A1cxvsakL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4rXlbUf"
+                        price="$59.99"
+                        rating={4.8}
+                        isPrime={true}
+                    />
+                </div>,
+                <div key="amazon-ranch-2" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="Venture Pal 40L Lightweight Packable Travel Hiking Backpack"
+                        description="Water resistant daypack for travel, camping, and outdoor activities"
+                        imageUrl="https://m.media-amazon.com/images/I/71R2QrdwFkL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4bcPQ4S"
+                        price="$25.99"
+                        rating={4.6}
+                        isPrime={true}
+                    />
+                </div>,
+                <div key="amazon-ranch-3" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="S'well Stainless Steel Water Bottle - 17 Fl Oz"
+                        description="Triple-layered vacuum-insulated container keeps drinks cold for 36 hours"
+                        imageUrl="https://m.media-amazon.com/images/I/61s8zHqJ5iL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/3P1eN0j"
+                        price="$35.00"
+                        rating={4.7}
+                        isPrime={true}
+                    />
+                </div>,
+            ];
         case "haunted-tours":
             const hauntedWidgets = [
                 <div key="amazon-ghost-1" className="my-0">

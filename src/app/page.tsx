@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import WhoWeAre from "@/components/WhoWeAre";
 import NicheGrid from "@/components/NicheGrid";
-import FeaturedArticles from "@/components/FeaturedArticles";
+import FromTheBlog from "@/components/FromTheBlog";
 import Footer from "@/components/Footer";
 
 /**
@@ -17,7 +17,7 @@ export default function Home() {
                 <HeroSection />
                 <WhoWeAre />
                 <NicheGrid />
-                <FeaturedArticles />
+                <FromTheBlog />
             </main>
             <Footer />
         </>

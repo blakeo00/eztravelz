@@ -16,13 +16,13 @@ export default function WhoWeAre() {
           <div className="flex flex-col gap-4 w-full lg:w-2/5 flex-shrink-0">
             <img
               src="/images/Mountain.jpg"
-              alt="Scenic mountain landscape representing EZTravelZ niche travel experiences"
+              alt="Scenic mountain landscape representing EZtravelZ niche travel experiences"
               className="w-full rounded-sm object-cover shadow-lg"
               style={{ height: '240px' }}
             />
             <img
               src="/images/Fountain.jpg"
-              alt="Beautiful fountain representing EZTravelZ travel destinations"
+              alt="Beautiful fountain representing EZtravelZ travel destinations"
               className="w-full rounded-sm object-cover shadow-lg"
               style={{ height: '240px' }}
             />
@@ -46,11 +46,11 @@ export default function WhoWeAre() {
               className="font-bold mb-5 text-center"
               style={{ color: '#ffffff', fontSize: 'clamp(1.5rem, 3vw, 2rem)' }}
             >
-              About EZTravelZ
+              About EZtravelZ
             </h2>
 
             <p className="text-white/90 leading-relaxed mb-4" style={{ fontSize: '1rem' }}>
-              EZTravelZ is a niche travel magazine for travelers who are longing for meaningful travel
+              EZtravelZ is a niche travel magazine for travelers who are longing for meaningful travel
               experiences rather than just dealing with surface level tourism. While many of our
               recommendations include well known destinations, we go deeper, exploring the soul of each
               place to uncover the one of a kind lifetime experiences that lives in your memories well
@@ -94,7 +94,7 @@ export default function WhoWeAre() {
             </p>
 
             <p className="text-white/90 leading-relaxed mb-6" style={{ fontSize: '1rem' }}>
-              Whatever your passion, EZTravelZ goes the extra mile to make sure your adventure starts
+              Whatever your passion, EZtravelZ goes the extra mile to make sure your adventure starts
               informed, prepared, and ready for something real.
             </p>
 

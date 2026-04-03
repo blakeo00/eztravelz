@@ -8,7 +8,7 @@ export default function HeroSection() {
       {/* Hero Image */}
       <img
         src="/images/Sunset 1.jpg"
-        alt="Scenic mountain landscape representing niche travel experiences with EZTravelZ"
+        alt="Scenic mountain landscape representing niche travel experiences with EZtravelZ"
         className="absolute inset-0 w-full h-full object-cover object-center"
       />
 
@@ -20,10 +20,10 @@ export default function HeroSection() {
 
         {/* Niche label above headline */}
         <span
-          className="uppercase tracking-widest font-bold mb-3"
+          className="tracking-widest font-bold mb-3"
           style={{ color: '#FFD700', letterSpacing: '0.1em', fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}
         >
-          EZTravelZ
+          EZtravelZ
         </span>
 
         {/* Main headline */}
@@ -38,7 +38,7 @@ export default function HeroSection() {
         <p className="hero-subtitle text-white/80 mb-7 italic"
           style={{ fontSize: 'clamp(0.95rem, 2vw, 1.15rem)', maxWidth: '650px' }}
         >
-          &ldquo;Do not follow where the path may lead. Go instead where there is no path and leave a trail.&rdquo; <br className="hidden md:block" />- Ralph Waldo Emerson
+          &ldquo;Travel far enough, you meet yourself.&rdquo; <br className="hidden md:block" />- David Mitchell
         </p>
 
         {/* CTA button */}
