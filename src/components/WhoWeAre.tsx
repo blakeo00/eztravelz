@@ -65,7 +65,7 @@ export default function WhoWeAre() {
             <p className="text-white/90 leading-relaxed mb-4" style={{ fontSize: '1rem' }}>
               We&rsquo;re based in Las Vegas, Nevada. If you think you already know{' '}
               <a href="/vegas-locals" className="underline hover:no-underline" style={{ color: '#FFD700', fontWeight: '700' }}>Vegas Baby</a>, think
-              again. Beyond the glitz of the Strip lies destinations worth discovering on their own
+              again. <a href="/beyond-the-neon/spring-mountain-ranch" className="underline hover:no-underline" style={{ color: '#FFD700', fontWeight: '700' }}>Beyond the Neon</a> of the Strip lies destinations worth discovering on their own
               merits. We cover it all, from hidden local gems to the iconic landmarks that draw millions
               every year.
             </p>

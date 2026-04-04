@@ -1,0 +1,27 @@
+Authentication Error: Your credentials are no longer valid. Please run [1mfirebase login --reauth[22m
+
+For CI servers and headless environments, generate a new token with [1mfirebase login:ci[22m
+
+[1m[37m===[39m Deploying to 'eztravelz-travel-portal'...[22m
+
+[36m[1mi [22m[39m deploying [1mhosting[22m
+[36m[1mi  hosting[eztravelz-travel-portal]:[22m[39m beginning deploy...
+[36m[1mi  hosting[eztravelz-travel-portal]:[22m[39m found 195 files in [1mout[22m
+[32m[1m+  hosting[eztravelz-travel-portal]:[22m[39m file upload complete
+[36m[1mi  hosting[eztravelz-travel-portal]:[22m[39m finalizing version...
+[32m[1m+  hosting[eztravelz-travel-portal]:[22m[39m version finalized
+[36m[1mi  hosting[eztravelz-travel-portal]:[22m[39m releasing new version...
+[32m[1m+  hosting[eztravelz-travel-portal]:[22m[39m release complete
+
+[32m[1m+ [22m[39m [1m[4mDeploy complete![24m[22m
+
+[1mProject Console:[22m https://console.firebase.google.com/project/eztravelz-travel-portal/overview
+[1mHosting URL:[22m https://eztravelz-travel-portal.web.app
+┌───────────────────────────────────────────────────────────┐
+│            firebase-tools update check failed             │
+│            Try running with sudo or get access            │
+│           to the local update config store via            │
+│ sudo chown -R $USER:$(id -gn $USER) C:\Users\USER\.config │
+└───────────────────────────────────────────────────────────┘
+
+[1m[31mError:[39m[22m An unexpected error has occurred.

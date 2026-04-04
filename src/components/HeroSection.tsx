@@ -21,7 +21,7 @@ export default function HeroSection() {
         {/* Niche label above headline */}
         <span
           className="tracking-widest font-bold mb-3"
-          style={{ color: '#FFD700', letterSpacing: '0.1em', fontSize: 'clamp(2rem, 5vw, 3.5rem)' }}
+          style={{ color: '#FFD700', letterSpacing: '0.1em', fontSize: 'clamp(2rem, 5vw, 3.5rem)', fontFamily: 'var(--font-playfair), serif' }}
         >
           EZtravelZ
         </span>

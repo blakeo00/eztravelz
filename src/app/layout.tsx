@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Creepster, Bebas_Neue, Cinzel } from "next/font/google";
+import { Inter, Creepster, Bebas_Neue, Cinzel, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
@@ -25,6 +25,11 @@ const cinzel = Cinzel({
     variable: "--font-cinzel",
 });
 
+const playfair = Playfair_Display({
+    subsets: ["latin"],
+    variable: "--font-playfair",
+});
+
 export const metadata: Metadata = {
     title: "EZtravelZ — Travel Made Easy. Choose Your Adventure.",
     description:
@@ -41,8 +46,9 @@ export default function RootLayout({
     children: React.ReactNode;
 }) {
     return (
-        <html lang="en" className={`${inter.variable} ${creepster.variable} ${bebasNeue.variable} ${cinzel.variable}`}>
+        <html lang="en" className={`${inter.variable} ${creepster.variable} ${bebasNeue.variable} ${cinzel.variable} ${playfair.variable}`}>
             <head>
+                <meta name="impact-site-verification" content="b6939536-6263-4f28-ad81-77285c027b6e" />
                 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet" />
             </head>
             <body

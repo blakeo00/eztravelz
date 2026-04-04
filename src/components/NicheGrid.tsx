@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Script from "next/script";
+import ExpediaWidget from "./ExpediaWidget";
 
 /**
  * Niche card data — each card acts as a portal to its spoke page.
@@ -65,19 +65,9 @@ export default function NicheGrid() {
     return (
         <section id="niches" className="relative py-20 sm:py-28">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                {/* Viator Affiliate Banner */}
-                <div className="flex justify-center mb-10 w-full overflow-hidden">
-                    <div
-                        data-id="viator-banner"
-                        data-partner-id="P00291237"
-                        data-url="https://www.viator.com/"
-                        data-banner-width="728"
-                        data-banner-height="90"
-                        data-banner-language="en"
-                        data-banner-selection="banner1"
-                    ></div>
-                    <Script src="https://partners.vtrcdn.com/static/scripts/banners/banners.js" strategy="lazyOnload" />
-                </div>
+
+                {/* Expedia Search Widget */}
+                <ExpediaWidget />
 
                 <h2 className="section-heading text-3xl sm:text-4xl font-bold text-center mb-4 text-white drop-shadow-md">
                     Choose Your Passion
@@ -92,7 +82,7 @@ export default function NicheGrid() {
                         <Link
                             key={niche.href}
                             href={niche.href}
-                            className="group relative block rounded-2xl overflow-hidden aspect-[4/3] shadow-md hover:shadow-2xl transition-shadow duration-300"
+                            className="group relative block rounded-2xl overflow-hidden aspect-[4/3] shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10"
                         >
                             {/* Card Image */}
                             <Image
@@ -132,43 +122,61 @@ export default function NicheGrid() {
                     ))}
                 </div>
 
-                {/* Vegas Baby 7th Niche Option */}
-                <div className="mt-8 flex justify-center w-full antigravity-container">
-                    <Link href="/vegas-locals" className="group relative block vegas-card overflow-hidden h-[250px] md:h-[300px] lg:h-[320px] cursor-pointer" style={{ borderRadius: '100px' }}>
-                        {/* Card Image */}
+                {/* Vegas split band — Vegas Baby + Beyond the Neon */}
+                <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+                    {/* Vegas Baby */}
+                    <Link
+                        href="/vegas-locals"
+                        className="group relative block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10"
+                        style={{ height: '280px' }}
+                    >
                         <Image
                             src="/images/Vegas Strip.png"
-                            alt="Vegas Baby - What Vegas Locals Know"
+                            alt="Las Vegas Strip lit up at night"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-700"
+                            sizes="(max-width: 640px) 100vw, 50vw"
                         />
-
-                        {/* Overlay + Text */}
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                        <div className="absolute bottom-0 left-0 right-0 p-8 flex flex-col justify-end h-full">
-                            <h3 className="section-heading text-white text-3xl font-bold leading-tight origin-left">
-                                Vegas Baby
-                            </h3>
-                            <p className="text-slate-200 text-lg mt-1">What Vegas Locals Know</p>
+                        <div className="absolute bottom-0 left-0 right-0 p-6">
+                            <p className="text-[10px] uppercase tracking-widest text-white/55 mb-1">Las Vegas</p>
+                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Vegas Baby</h3>
+                            <p className="text-slate-200 text-sm mt-1">What Vegas Locals Know</p>
                         </div>
-
-                        {/* Hover indicator */}
-                        <div className="absolute top-1/2 right-8 -translate-y-1/2 w-12 h-12 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-[opacity,transform] duration-300 group-hover:scale-110">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="20"
-                                height="20"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="white"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            >
+                        <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                                 <path d="M7 17l9.2-9.2M17 17V7H7" />
                             </svg>
                         </div>
                     </Link>
+
+                    {/* Beyond the Neon */}
+                    <Link
+                        href="/beyond-the-neon/spring-mountain-ranch"
+                        className="group relative block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10"
+                        style={{ height: '280px' }}
+                    >
+                        <Image
+                            src="/images/Redrock.jpg"
+                            alt="Red Rock Canyon — Beyond the Neon, off the Vegas Strip"
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-700"
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-6">
+                            <p className="text-[10px] uppercase tracking-widest text-white/55 mb-1">Las Vegas</p>
+                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Beyond the Neon</h3>
+                            <p className="text-slate-200 text-sm mt-1">Off the Vegas Strip</p>
+                        </div>
+                        <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M7 17l9.2-9.2M17 17V7H7" />
+                            </svg>
+                        </div>
+                    </Link>
+
                 </div>
             </div>
         </section>
