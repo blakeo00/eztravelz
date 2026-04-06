@@ -153,13 +153,13 @@ export default function NicheGrid() {
 
                     {/* Beyond the Neon */}
                     <Link
-                        href="/beyond-the-neon/spring-mountain-ranch"
+                        href="/beyond-the-neon/six-free-things"
                         className="group relative block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10"
                         style={{ height: '280px' }}
                     >
                         <Image
-                            src="/images/Redrock.jpg"
-                            alt="Red Rock Canyon — Beyond the Neon, off the Vegas Strip"
+                            src="/images/Downtown.jpg"
+                            alt="Downtown Las Vegas that is Beyond the Neon, off the Vegas Strip"
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-700"
                             sizes="(max-width: 640px) 100vw, 50vw"
@@ -167,7 +167,7 @@ export default function NicheGrid() {
                         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                         <div className="absolute bottom-0 left-0 right-0 p-6">
                             <p className="text-[10px] uppercase tracking-widest text-white/55 mb-1">Las Vegas</p>
-                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Beyond the Neon</h3>
+                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Six Free Things</h3>
                             <p className="text-slate-200 text-sm mt-1">Off the Vegas Strip</p>
                         </div>
                         <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
