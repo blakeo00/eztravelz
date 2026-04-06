@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+﻿import { ReactNode } from "react";
 import Image from 'next/image';
 
 export interface BlogPost {
@@ -819,7 +819,7 @@ function springMountainRanchContent(): ReactNode {
                     width="100%"
                     height="500"
                     src="https://www.youtube.com/embed/W_CtWAd_c0I?si=1Gh9iTTDvduT9Twm"
-                    title="NV State Parks — Spring Mountain Ranch"
+                    title="NV State Parks ΓÇö Spring Mountain Ranch"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerPolicy="strict-origin-when-cross-origin"
@@ -917,7 +917,7 @@ function springMountainRanchContent(): ReactNode {
                     While you are out there
                 </p>
                 <h3 className="text-xl font-bold text-white mb-3 mt-0">
-                    Explore Red Rock Canyon — Guided Tours Available
+                    Explore Red Rock Canyon ΓÇö Guided Tours Available
                 </h3>
                 <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
                     Spring Mountain Ranch sits right on the Red Rock scenic drive.
@@ -930,7 +930,7 @@ function springMountainRanchContent(): ReactNode {
                     rel="sponsored noopener noreferrer"
                     className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
                 >
-                    Browse Red Rock Tours on GetYourGuide →
+                    Browse Red Rock Tours on GetYourGuide ΓåÆ
                 </a>
             </div>
 
@@ -953,7 +953,7 @@ function springMountainRanchContent(): ReactNode {
                     rel="sponsored noopener noreferrer"
                     className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
                 >
-                    Browse Las Vegas Day Trips on GetYourGuide →
+                    Browse Las Vegas Day Trips on GetYourGuide ΓåÆ
                 </a>
             </div>
 
@@ -2123,7 +2123,7 @@ function texasBbqContent(): ReactNode {
             </p>
             <p>
                 What to order: fatty brisket, beef rib if it{"\u2019"}s on that day, and the
-                jalapeño cheddar sausage. The turkey surprises people. Get a slice of pie for
+                jalape├▒o cheddar sausage. The turkey surprises people. Get a slice of pie for
                 dessert.
             </p>
 
@@ -2343,7 +2343,7 @@ const vegasHotspots = [
     {
         image: "/images/Zak.jpg",
         name: "Zak Bagans' Haunted Museum",
-        meta: "Year-Round · Best Evenings  ·  600 E. Charleston Blvd, Downtown Las Vegas",
+        meta: "Year-Round ┬╖ Best Evenings  ┬╖  600 E. Charleston Blvd, Downtown Las Vegas",
         body: [
             "If you know the name Zak Bagans, you already know this one. If you don't, the short version is that he is the host of Ghost Adventures, the paranormal investigation series that has been running since 2008, and he has spent the better part of two decades acquiring artifacts with documented connections to death, tragedy, and genuine evil. He then put all of them in a single building in Downtown Las Vegas and opened it to the public.",
             "The museum occupies a 1938 mansion with 35 rooms, and the contents range from the morbid to the genuinely disturbing. The Dybbuk Box, a wine cabinet said to have been haunted since the 1930s and which has reportedly sent multiple visitors to the hospital, is here. A jacket belonging to Ted Bundy is here. Artifacts from the Sharon Tate murder house are here. A chair from the set of The Exorcist that director William Friedkin reportedly refused to sit in during filming is here.",
@@ -2365,7 +2365,7 @@ const vegasHotspots = [
     {
         image: "/images/Mob.jpg",
         name: "The Mob Museum",
-        meta: "Open Daily  ·  300 Stewart Ave, Fremont Street, Las Vegas",
+        meta: "Open Daily  ┬╖  300 Stewart Ave, Fremont Street, Las Vegas",
         body: [
             "The official name is the National Museum of Organized Crime and Law Enforcement, but nobody calls it that. What everyone calls it is the Mob Museum, and it occupies a building that carries its own history independently of anything inside it.",
             "The building is the former Las Vegas Post Office and Federal Courthouse, where the Kefauver Committee held its 1950 hearings into organized crime, bringing some of the most powerful figures in American criminal history into a room where federal prosecutors tried to dismantle them. The hearings were nationally televised. They happened in this specific building, in a hearing room that still exists inside the museum today.",
@@ -2387,7 +2387,7 @@ const vegasHotspots = [
     {
         image: "/images/Horseshoe.jpg",
         name: "The Former MGM Grand Site (Now The Horseshoe)",
-        meta: "Year-Round  ·  3645 Las Vegas Blvd S, The Strip",
+        meta: "Year-Round  ┬╖  3645 Las Vegas Blvd S, The Strip",
         body: [
             "On November 21, 1980, a fire broke out in a deli inside the MGM Grand Hotel and Casino on the Las Vegas Strip. Fueled by flammable materials and a lack of sprinkler systems, the fire killed 85 people and injured more than 700. It remains one of the deadliest hotel fires in American history.",
             "The hotel was rebuilt and eventually sold, passing through several names before becoming The Horseshoe Las Vegas. The building that stands there today is not the same structure, but it occupies the same footprint, and decades of renovation have not entirely erased what happened. Hotel employees have reported cold corridors with no architectural explanation, elevator behavior that maintenance cannot account for, and guests on specific floors who check out early without explanation.",
@@ -2409,7 +2409,7 @@ const vegasHotspots = [
     {
         image: "/images/Boulder.jpg",
         name: "The Boulder Dam Hotel",
-        meta: "Year-Round · Overnight Stays Available  ·  1305 Arizona St, Boulder City, NV",
+        meta: "Year-Round ┬╖ Overnight Stays Available  ┬╖  1305 Arizona St, Boulder City, NV",
         body: [
             "Thirty miles southeast of the Strip, Boulder City is the town the federal government built in 1931 to house the workers constructing Hoover Dam. Over one hundred workers died during the dam's construction, some in accidents, some in the brutal heat, and some under circumstances worth reading when you have a strong stomach.",
             "The Boulder Dam Hotel opened in 1933 to house the engineers and executives overseeing the project. It is a Dutch Colonial building that has been carefully preserved, and it is one of the most consistently reported paranormal locations in the state of Nevada. Guests in specific rooms have described voices, temperature shifts, and the distinct sensation of being watched in a building that is otherwise quiet.",
@@ -2432,7 +2432,7 @@ const vegasHotspots = [
     {
         image: "/images/Westgate.jpg",
         name: "The Westgate Las Vegas",
-        meta: "Year-Round  ·  3000 Paradise Rd, Las Vegas",
+        meta: "Year-Round  ┬╖  3000 Paradise Rd, Las Vegas",
         body: [
             "From 1969 to 1976, Elvis Presley performed 837 consecutive sold-out shows at what was then the International Hotel. He held the record for the longest-running headline performance in Las Vegas history for decades. He also died in 1977, one year after his final Vegas residency, at 42 years old.",
             "Guests on the 26th floor of the Westgate have reported music coming from rooms confirmed empty, a man in a white jumpsuit seen briefly near the elevators, and an energy in the areas adjacent to the showroom that several staff members have described, over the years, as not entirely explainable.",
@@ -2452,7 +2452,7 @@ const vegasHotspots = [
     {
         image: "/images/Goodsprings.jpg",
         name: "Goodsprings Pioneer Saloon",
-        meta: "Open Daily  ·  310 W. Spring St, Goodsprings, NV · 45 min from the Strip",
+        meta: "Open Daily  ┬╖  310 W. Spring St, Goodsprings, NV ┬╖ 45 min from the Strip",
         body: [
             "This one requires a forty-five minute drive south into the desert, and it is worth every mile. The Pioneer Saloon opened in 1913 and is the oldest bar in Nevada. The building is pressed tin over wood and has not been substantially altered since the 1930s. The bullet holes in the wall near the back are original.",
             "On January 16, 1942, a TWA flight carrying actress Carole Lombard, her mother, and 20 other passengers crashed into Mount Potosi, twelve miles south of the saloon. Her husband Clark Gable, then the biggest movie star in the world, sat at the bar at the Pioneer Saloon for three days while search parties went up the mountain looking for survivors. There were none. Gable had to be physically escorted from the building when the news came.",
@@ -2506,7 +2506,7 @@ export function sphereLasVegasContent(): ReactNode {
             <style>{`
                 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
 
-                /* ── Article container ─────────────────────────────── */
+                /* ΓöÇΓöÇ Article container ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ */
                 .ht-article {
                     max-width: 860px;
                     margin: 0 auto;
@@ -2528,7 +2528,7 @@ export function sphereLasVegasContent(): ReactNode {
                     color: #1a1a2e;
                     margin: 0 0 24px;
                 }
-                /* ── Location entries ────────────────────────────────── */
+                /* ΓöÇΓöÇ Location entries ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ */
                 .ht-location {
                     margin-bottom: 52px;
                     padding-bottom: 52px;
@@ -2567,7 +2567,7 @@ export function sphereLasVegasContent(): ReactNode {
                 .ht-location li {
                     margin-bottom: 8px;
                 }
-                /* ── Closing paragraph & Quick details ────────────── */
+                /* ΓöÇΓöÇ Closing paragraph & Quick details ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ */
                 .ht-closing {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.1rem;
@@ -2626,7 +2626,7 @@ export function sphereLasVegasContent(): ReactNode {
 
                 <p className="ht-intro">
                     It is not a stadium. It is not an arena. It is an entirely new 
-                    medium—a 160,000-square-foot wraparound interior LED screen paired 
+                    mediumΓÇöa 160,000-square-foot wraparound interior LED screen paired 
                     with 167,000 individual speaker drivers that can deliver distinct 
                     audio to specific seats in a room holding 18,600 people. 
                 </p>
@@ -2636,14 +2636,14 @@ export function sphereLasVegasContent(): ReactNode {
                     <p>
                         The Sphere began as a vision belonging to James Dolan, the executive 
                         chairman of Madison Square Garden Entertainment. He wanted to build a 
-                        venue that didn’t just host performances, but enveloped the audience 
+                        venue that didnΓÇÖt just host performances, but enveloped the audience 
                         inside them. The project broke ground in 2018. It faced massive 
                         supply chain delays, a global pandemic, and cost overruns that saw 
                         the total budget balloon by more than a billion dollars. 
                     </p>
                     <p>
-                        By the time the exterior screen—the Exosphere, the largest LED screen 
-                        in the world—was illuminated on the Fourth of July in 2023, the city 
+                        By the time the exterior screenΓÇöthe Exosphere, the largest LED screen 
+                        in the worldΓÇöwas illuminated on the Fourth of July in 2023, the city 
                         was divided. Some saw it as the future; others saw it as a massive, 
                         expensive novelty. Then U2 played the opening night of their <i>Achtung 
                         Baby Live at Sphere</i> residency in September, and the debate ended. 
@@ -2671,7 +2671,7 @@ export function sphereLasVegasContent(): ReactNode {
                     <p>
                         Add to this the haptic seats in the lower sections and environmental 
                         effects like wind, scent, and temperature control used during the 
-                        daily <i>Postcard from Earth</i> showings, and the claim that it’s a 
+                        daily <i>Postcard from Earth</i> showings, and the claim that itΓÇÖs a 
                         &quot;4D&quot; venue feels, for the first time, not like marketing hyperbole, 
                         but an accurate description.
                     </p>
@@ -2696,49 +2696,49 @@ export function sphereLasVegasContent(): ReactNode {
                             <tbody>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Eagles</td>
-                                    <td className="py-3 pr-4">Jan 23 – Apr 11</td>
+                                    <td className="py-3 pr-4">Jan 23 ΓÇô Apr 11</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
                                     <td className="py-3">The final leg of their extended residency featuring hits like "Hotel California".</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Illenium</td>
-                                    <td className="py-3 pr-4">Mar 5 – Apr 4</td>
+                                    <td className="py-3 pr-4">Mar 5 ΓÇô Apr 4</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">9:00 PM</td>
                                     <td className="py-3">A six-show run of his "Odyssey" show, blending melodic bass with cinematic visuals.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Phish</td>
-                                    <td className="py-3 pr-4">Apr 16 – May 2</td>
+                                    <td className="py-3 pr-4">Apr 16 ΓÇô May 2</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">A 9-night return residency for the legendary jam band.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">No Doubt</td>
-                                    <td className="py-3 pr-4">May 6 – Jun 13</td>
+                                    <td className="py-3 pr-4">May 6 ΓÇô Jun 13</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
                                     <td className="py-3">An 18-show reunion residency, marking the first female-fronted headliner at the venue.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Kenny Chesney</td>
-                                    <td className="py-3 pr-4">Jun 19 – Jul 11</td>
+                                    <td className="py-3 pr-4">Jun 19 ΓÇô Jul 11</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">Summer residency bringing "No Shoes Nation" to the Sphere's immersive realm.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Backstreet Boys</td>
-                                    <td className="py-3 pr-4">Jul 16 – Aug 29</td>
+                                    <td className="py-3 pr-4">Jul 16 ΓÇô Aug 29</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">The "Into the Millennium" residency featuring high-energy pop choreography.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Carín León</td>
-                                    <td className="py-3 pr-4">Sep 4 – Sep 13</td>
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Car├¡n Le├│n</td>
+                                    <td className="py-3 pr-4">Sep 4 ΓÇô Sep 13</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
                                     <td className="py-3">A milestone multi-night residency by the leading Regional Mexican artist.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Metallica</td>
-                                    <td className="py-3 pr-4">Oct 1 – Nov 7</td>
+                                    <td className="py-3 pr-4">Oct 1 ΓÇô Nov 7</td>
                                     <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
                                     <td className="py-3">The "Life Burns Faster" residency featuring their "No Repeat Weekend" format.</td>
                                 </tr>
@@ -2786,7 +2786,7 @@ export function sphereLasVegasContent(): ReactNode {
                 <div className="ht-location">
                     <h2 className="ht-location-name">What to Know Before You Go</h2>
                     <p>
-                        If you’re planning to attend an event at the Sphere, a few practical 
+                        If youΓÇÖre planning to attend an event at the Sphere, a few practical 
                         details matter. First, there are no bad sightlines for the screen in 
                         the 200 and 300 levels. However, the upper rows of the 100 level 
                         (specifically rows 20 and higher) suffer from overhang blockage; you 
@@ -2795,7 +2795,7 @@ export function sphereLasVegasContent(): ReactNode {
                     <p>
                         Getting in and out can be a bottleneck. The pedestrian bridge connecting 
                         the Sphere to the Venetian expo center is efficient, but post-show, it 
-                        absorbs all 18,000 exiting guests. If you don’t want to be caught in 
+                        absorbs all 18,000 exiting guests. If you donΓÇÖt want to be caught in 
                         a massive shuffle, wait 15 minutes in your seat after the show ends. 
                     </p>
                 </div>
@@ -2821,7 +2821,7 @@ function vegasBabyContent(): ReactNode {
             <style>{`
                 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Lato:wght@300;400;700&display=swap');
 
-                /* ── Article container ─────────────────────────────── */
+                /* ΓöÇΓöÇ Article container ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ */
                 .ht-article {
                     max-width: 860px;
                     margin: 0 auto;
@@ -2850,7 +2850,7 @@ function vegasBabyContent(): ReactNode {
                     color: #1a1a2e;
                     margin: 0 0 48px;
                 }
-                /* ── Location entries ────────────────────────────────── */
+                /* ΓöÇΓöÇ Location entries ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ */
                 .ht-location {
                     margin-bottom: 52px;
                     padding-bottom: 52px;
@@ -2911,7 +2911,7 @@ function vegasBabyContent(): ReactNode {
                     box-shadow: 0 6px 25px rgba(125, 18, 255, 0.55), 0 0 30px rgba(0, 229, 255, 0.3);
                     color: #ffffff;
                 }
-                /* ── Closing paragraph ────────────────────────────────── */
+                /* ΓöÇΓöÇ Closing paragraph ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ */
                 .ht-closing {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.1rem;
@@ -3094,7 +3094,7 @@ function vegasBabyContent(): ReactNode {
                         {/* Nearby Hotels */}
                         {spot.nearbyHotels && (
                             <div style={{ marginTop: '24px', padding: '16px 20px', backgroundColor: 'rgba(0,0,0,0.04)', borderRadius: '12px' }}>
-                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>🏨 Nearby Hotels</h4>
+                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>≡ƒÅ¿ Nearby Hotels</h4>
                                 <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                                     {spot.nearbyHotels.map((hotel) => (
                                         <li key={hotel.name} style={{ marginBottom: '6px' }}>
@@ -3115,7 +3115,7 @@ function vegasBabyContent(): ReactNode {
                         {/* Nearby Tours */}
                         {spot.nearbyTours && (
                             <div style={{ marginTop: '12px', padding: '16px 20px', backgroundColor: 'rgba(0,0,0,0.04)', borderRadius: '12px' }}>
-                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>👻 Nearby Ghost Tours</h4>
+                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>≡ƒæ╗ Nearby Ghost Tours</h4>
                                 <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                                     {spot.nearbyTours.map((tour) => (
                                         <li key={tour.name} style={{ marginBottom: '6px' }}>

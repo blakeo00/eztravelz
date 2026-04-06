@@ -65,15 +65,15 @@ const gridArticles = [
     title: 'Six Haunted Hotspots in Las Vegas Worth Losing Sleep Over',
   },
   // -----------------------------------------------------------------------
-  // Beyond the Neon — Six Free Things
+  // Beyond the Neon — Spring Mountain Ranch
   // -----------------------------------------------------------------------
   {
-    href: '/beyond-the-neon/six-free-things',
-    img: '/images/Downtown.jpg',
-    alt: 'Fremont Street in Downtown Las Vegas',
+    href: '/beyond-the-neon/spring-mountain-ranch',
+    img: '/images/Ranch 7.jpg',
+    alt: 'The historic Spring Mountain Ranch house nestled against the Wilson Range',
     niche: 'Beyond the Neon',
     nicheColor: 'bg-teal-100 text-teal-800',
-    title: 'Six or More Free (Or Nearly Free) Things to Do in Las Vegas',
+    title: 'Spring Mountain Ranch: The Las Vegas Day Trip Worth Every Degree of Cool Air',
   },
 ];
 
