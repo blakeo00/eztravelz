@@ -114,7 +114,7 @@ export default function SixFreeThingsArticle() {
 
                                     <figure className="my-10">
                                         <Image 
-                                            src="/images/PM.jpg" 
+                                            src="/images/PM2.jpg" 
                                             alt="Praying Mantis Sculpture" 
                                             width={1200} 
                                             height={675} 
@@ -140,24 +140,32 @@ export default function SixFreeThingsArticle() {
                                     </figure>
 
                                     {/* CTA BLOCK 1 */}
-                                    <div className="my-8 rounded-2xl bg-white/10 border border-white/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose">
-                                        <p className="text-xs text-[#89D4FF] uppercase tracking-widest font-bold mb-2">
-                                            While you're out there
-                                        </p>
-                                        <h3 className="text-xl font-bold text-white mb-3 mt-0">
-                                            Explore Downtown Las Vegas & The Fremont Experience
-                                        </h3>
-                                        <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
-                                            Discover incredible street art, fantastic food, and local culture on a guided tour of the Downtown and Arts District.
-                                        </p>
-                                        <a
-                                            href="https://gyg.me/ETgD7E4R"
-                                            target="_blank"
-                                            rel="sponsored noopener noreferrer"
-                                            className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
-                                        >
-                                            Book Downtown Las Vegas Tour on GetYourGuide →
-                                        </a>
+                                    <div className="relative my-8 rounded-2xl bg-slate-900 border border-white/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose overflow-hidden group">
+                                        <Image
+                                            src="/images/Crawl.jpg"
+                                            alt="Downtown Las Vegas Tour"
+                                            fill
+                                            className="object-cover object-center opacity-25"
+                                        />
+                                        <div className="relative z-10">
+                                            <p className="text-xs text-[#89D4FF] uppercase tracking-widest font-bold mb-2 drop-shadow-md">
+                                                While you're out there
+                                            </p>
+                                            <h3 className="text-xl font-bold text-white mb-3 mt-0 drop-shadow-md">
+                                                Explore Downtown Las Vegas & The Fremont Experience
+                                            </h3>
+                                            <p className="text-slate-200 mb-6 max-w-2xl mx-auto drop-shadow-md">
+                                                Discover incredible street art, fantastic food, and local culture on a guided tour of the Downtown and Arts District.
+                                            </p>
+                                            <a
+                                                href="https://gyg.me/ETgD7E4R"
+                                                target="_blank"
+                                                rel="sponsored noopener noreferrer"
+                                                className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
+                                            >
+                                                Book Downtown Las Vegas Tour on GetYourGuide →
+                                            </a>
+                                        </div>
                                     </div>
 
                                     <h2 className="text-2xl font-bold mt-12 mb-6 text-white">The Fremont Street Experience, Where the Night Has No Ceiling</h2>
@@ -207,24 +215,32 @@ export default function SixFreeThingsArticle() {
                                     </div>
 
                                     {/* CTA BLOCK 2 */}
-                                    <div className="my-8 rounded-2xl bg-white/10 border border-white/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose">
-                                        <p className="text-xs text-[#89D4FF] uppercase tracking-widest font-bold mb-2">
-                                            Experience the Glow
-                                        </p>
-                                        <h3 className="text-xl font-bold text-white mb-3 mt-0">
-                                            Las Vegas Night Helicopter Flight & Neon Museum
-                                        </h3>
-                                        <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
-                                            Pair your trip through Las Vegas history with a view of the original neon signs and an amazing helicopter tour.
-                                        </p>
-                                        <a
-                                            href="https://www.getyourguide.com/las-vegas-l58/las-vegas-night-helicopter-flight-with-neon-museum-ticket-t425051/?partner_id=8LNIBCT&utm_medium=online_publisher&cmp=Vegas"
-                                            target="_blank"
-                                            rel="sponsored noopener noreferrer"
-                                            className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
-                                        >
-                                            Book Helicopter Tour & Neon Museum →
-                                        </a>
+                                    <div className="relative my-8 rounded-2xl bg-slate-900 border border-white/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose overflow-hidden group">
+                                        <Image
+                                            src="/images/helicopter.jpg"
+                                            alt="Las Vegas Night Helicopter Flight"
+                                            fill
+                                            className="object-cover object-center opacity-25"
+                                        />
+                                        <div className="relative z-10">
+                                            <p className="text-xs text-[#89D4FF] uppercase tracking-widest font-bold mb-2 drop-shadow-md">
+                                                Experience the Glow
+                                            </p>
+                                            <h3 className="text-xl font-bold text-white mb-3 mt-0 drop-shadow-md">
+                                                Las Vegas Night Helicopter Flight & Neon Museum
+                                            </h3>
+                                            <p className="text-slate-200 mb-6 max-w-2xl mx-auto drop-shadow-md">
+                                                Pair your trip through Las Vegas history with a view of the original neon signs and an amazing helicopter tour.
+                                            </p>
+                                            <a
+                                                href="https://www.getyourguide.com/las-vegas-l58/las-vegas-night-helicopter-flight-with-neon-museum-ticket-t425051/?partner_id=8LNIBCT&utm_medium=online_publisher&cmp=Vegas"
+                                                target="_blank"
+                                                rel="sponsored noopener noreferrer"
+                                                className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
+                                            >
+                                                Book Helicopter Tour & Neon Museum →
+                                            </a>
+                                        </div>
                                     </div>
 
                                     <h2 className="text-2xl font-bold mt-12 mb-6 text-white">The Bellagio Conservatory and Caesars Forum Shops</h2>

@@ -8,13 +8,14 @@ import Image from "next/image";
  * Niche navigation links used in both desktop nav and mobile menu.
  */
 export const niches = [
+    { label: "Vegas Baby", href: "/vegas-locals" },
+    { label: "Beyond The Neon", href: "/beyond-the-neon/six-free-things" },
     { label: "Pet Travel", href: "/pet-travel" },
     { label: "Haunted Tours", href: "/haunted-tours" },
     { label: "Wine & Brewery Destinations", href: "/wine-destinations" },
     { label: "Sports Travel", href: "/sports-travel" },
     { label: "Cinematic Travel", href: "/cinematic-travel" },
     { label: "Culinary Quests", href: "/culinary-quests" },
-    { label: "Vegas Baby", href: "/vegas-locals" },
 ];
 
 /**
@@ -41,7 +42,7 @@ export default function Header() {
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16 md:h-14">
                 {/* ---- Logo ---- */}
-                <Link href="/" className="flex items-center group">
+                <Link href="/" className="flex items-center group shrink-0">
                     <Image
                         src="/images/Logo 3.png"
                         alt="EZtravelZ Logo"
@@ -53,12 +54,12 @@ export default function Header() {
                 </Link>
 
                 {/* ---- Desktop Navigation ---- */}
-                <nav className="hidden md:flex items-center gap-6">
+                <nav className="hidden md:flex items-center gap-3 lg:gap-4 xl:gap-6 flex-wrap justify-center overflow-hidden h-full">
                     {niches.map((n) => (
                         <Link
                             key={n.href}
                             href={n.href}
-                            className="nav-link text-sm font-medium text-slate-200 hover:text-white transition-colors"
+                            className="nav-link text-[11px] lg:text-xs xl:text-sm font-medium text-slate-200 hover:text-white transition-colors whitespace-nowrap"
                         >
                             {n.label}
                         </Link>

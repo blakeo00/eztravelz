@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 /**
  * ExpediaWidget — iframe-isolated affiliate search widget.
@@ -46,7 +47,17 @@ export default function ExpediaWidget() {
     if (!iframeSrc) return null;
 
     return (
-        <div className="w-full mb-10">
+        <div className="w-full mb-10 flex flex-col items-center">
+            <Image 
+                src="/images/Expedia logo.png" 
+                alt="Expedia" 
+                width={150} 
+                height={40} 
+                className="mb-2 object-contain"
+            />
+            <p className="text-white text-lg font-medium mb-6 drop-shadow-md">
+                Find Your Flight and Book Your Stay.
+            </p>
             <iframe
                 src={iframeSrc}
                 className="w-full border-0"

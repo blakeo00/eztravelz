@@ -5,7 +5,7 @@ import Script from "next/script";
 export const getCategoryWidgets = (categorySlug: string, postSlug?: string): ReactNode[] => {
     switch (categorySlug) {
         case "beyond-the-neon":
-            return [
+            const beyondWidgets = [
                 <div key="amazon-ranch-1" className="my-0">
                     <AmazonProductCard
                         compact
@@ -43,6 +43,90 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                     />
                 </div>,
             ];
+
+            if (postSlug === 'spring-mountain-ranch') {
+                return [
+                    <div key="amazon-spring-mountain-1" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="PICNIC TIME Heart Picnic Basket for 2, Wicker Basket with Handle, Complete Deluxe Service for Two"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/91caDzaMdkL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/41hju8A"
+                            price="$128.93"
+                            rating={4.6}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-spring-mountain-2" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="N NEVO RHINO Hydration Backpack, 18L Multipurpose Hiking Backpack with 3L Water Bladder, Water Backpack Insulated Hydration Pack Ideal for Hiking and Cycling"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81zPzyo1pPL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4cieDZU"
+                            price="$39.99"
+                            rating={4.6}
+                            isPrime={false}
+                        />
+                    </div>,
+                    <div key="amazon-spring-mountain-3" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Canon EOS Rebel T7 DSLR Camera | 24.1MP APS-C CMOS Sensor with DIGIC 4+ Image Processor | Built-in Wi-Fi & NFC | EF Lens Compatible Beginner Photography Camera Kit with Shoulder Bag and 64GB Card"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/71cSOlKHBEL._AC_SL1498_.jpg"
+                            affiliateLink="https://amzn.to/4mmqx9G"
+                            price="$579.99"
+                            rating={4.7}
+                            isPrime={true}
+                        />
+                    </div>,
+                ];
+            }
+
+            if (postSlug === 'six-free-things') {
+                return [
+                    <div key="amazon-six-free-1" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Ray-Ban Meta (Gen 1), Wayfarer, Shiny Black | Smart AI Glasses for Men, Women — 12 MP Ultra-Wide Camera, Open-Ear Speakers for Audio, Video Recording and Bluetooth — Green Lenses — Wearable Technology"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/61EMsYRC0wL._SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4sizBOc"
+                            price="$299.00"
+                            rating={4.2}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-six-free-2" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="4K Digital Camera for Photography Autofocus, 64MP WiFi Vlogging Camera for YouTube with 3'' 180° Flip Screen,16X Zoom Anti-Shake, 32GB Card, Compact Travel Point and Shoot Digital Camera"
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81B6ClsZ5oL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4c4I41e"
+                            price="$69.99"
+                            rating={5.0}
+                            isPrime={true}
+                        />
+                    </div>,
+                    <div key="amazon-six-free-3" className="my-0">
+                        <AmazonProductCard
+                            compact
+                            title="Occer 12x50 Bird Watching Binoculars for Adults - High Powered Binoculars with Clear Image - Easy Focus HD Binocular for Cruise Ship Hunting Travel Concert Stargazing."
+                            description=""
+                            imageUrl="https://m.media-amazon.com/images/I/81aiCLe-lWL._AC_SL1500_.jpg"
+                            affiliateLink="https://amzn.to/4ceXG2h"
+                            price="$55.69"
+                            rating={4.5}
+                            isPrime={true}
+                        />
+                    </div>,
+                ];
+            }
+
+            return beyondWidgets;
         case "haunted-tours":
             const hauntedWidgets = [
                 <div key="amazon-ghost-1" className="my-0">

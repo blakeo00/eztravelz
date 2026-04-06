@@ -77,6 +77,59 @@ export default function NicheGrid() {
                     guides built for the way you actually travel.
                 </p>
 
+                {/* Vegas split band — Vegas Baby + Beyond the Neon */}
+                <div className="mb-6 grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+                    {/* Vegas Baby */}
+                    <Link
+                        href="/vegas-locals"
+                        className="group relative block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10 min-h-[300px] sm:min-h-[320px]"
+                    >
+                        <Image
+                            src="/images/Vegas Strip.png"
+                            alt="Las Vegas Strip lit up at night"
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-700"
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Vegas Baby</h3>
+                            <p className="text-slate-200 text-sm mt-1">What Vegas Locals Know</p>
+                        </div>
+                        <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M7 17l9.2-9.2M17 17V7H7" />
+                            </svg>
+                        </div>
+                    </Link>
+
+                    {/* Beyond the Neon */}
+                    <Link
+                        href="/beyond-the-neon/six-free-things"
+                        className="group relative block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10 min-h-[300px] sm:min-h-[320px]"
+                    >
+                        <Image
+                            src="/images/Downtown.jpg"
+                            alt="Downtown Las Vegas that is Beyond the Neon, off the Vegas Strip"
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-700"
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-6">
+                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Beyond The Neon</h3>
+                            <p className="text-slate-200 text-sm mt-1">Off the Vegas Strip</p>
+                        </div>
+                        <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                                <path d="M7 17l9.2-9.2M17 17V7H7" />
+                            </svg>
+                        </div>
+                    </Link>
+
+                </div>
+
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {niches.map((niche) => (
                         <Link
@@ -120,63 +173,6 @@ export default function NicheGrid() {
                             </div>
                         </Link>
                     ))}
-                </div>
-
-                {/* Vegas split band — Vegas Baby + Beyond the Neon */}
-                <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-6">
-
-                    {/* Vegas Baby */}
-                    <Link
-                        href="/vegas-locals"
-                        className="group relative block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10"
-                        style={{ height: '280px' }}
-                    >
-                        <Image
-                            src="/images/Vegas Strip.png"
-                            alt="Las Vegas Strip lit up at night"
-                            fill
-                            className="object-cover group-hover:scale-105 transition-transform duration-700"
-                            sizes="(max-width: 640px) 100vw, 50vw"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                        <div className="absolute bottom-0 left-0 right-0 p-6">
-                            <p className="text-[10px] uppercase tracking-widest text-white/55 mb-1">Las Vegas</p>
-                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Vegas Baby</h3>
-                            <p className="text-slate-200 text-sm mt-1">What Vegas Locals Know</p>
-                        </div>
-                        <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M7 17l9.2-9.2M17 17V7H7" />
-                            </svg>
-                        </div>
-                    </Link>
-
-                    {/* Beyond the Neon */}
-                    <Link
-                        href="/beyond-the-neon/six-free-things"
-                        className="group relative block rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-shadow duration-300 bg-slate-900 ring-1 ring-inset ring-white/10"
-                        style={{ height: '280px' }}
-                    >
-                        <Image
-                            src="/images/Downtown.jpg"
-                            alt="Downtown Las Vegas that is Beyond the Neon, off the Vegas Strip"
-                            fill
-                            className="object-cover group-hover:scale-105 transition-transform duration-700"
-                            sizes="(max-width: 640px) 100vw, 50vw"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-                        <div className="absolute bottom-0 left-0 right-0 p-6">
-                            <p className="text-[10px] uppercase tracking-widest text-white/55 mb-1">Las Vegas</p>
-                            <h3 className="section-heading text-white text-2xl font-bold leading-tight">Six Free Things</h3>
-                            <p className="text-slate-200 text-sm mt-1">Off the Vegas Strip</p>
-                        </div>
-                        <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                <path d="M7 17l9.2-9.2M17 17V7H7" />
-                            </svg>
-                        </div>
-                    </Link>
-
                 </div>
             </div>
         </section>
