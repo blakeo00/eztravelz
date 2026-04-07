@@ -18,12 +18,12 @@ export default function VegasLocalsPage() {
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />
                 <main className="flex-grow pb-20">
-                    <section className="relative text-white py-32 px-4 min-h-[400px] flex flex-col justify-center items-center text-center overflow-hidden">
+                    <section className="relative text-white py-32 px-4 min-h-[400px] flex flex-col justify-center items-center text-center overflow-hidden bg-black">
                         <Image
-                            src="/images/Night.png"
+                            src="/images/Welcome.jpg"
                             alt="Las Vegas Night"
                             fill
-                            className="object-cover opacity-80"
+                            className="object-contain opacity-90"
                             priority
                         />
                         <div className="absolute inset-0 bg-black/40"></div>

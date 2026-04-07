@@ -14,16 +14,13 @@ export default function SidebarWidgets({ widgets = [] }: SidebarWidgetsProps) {
         </div>
     );
 
+    const displayWidgets = widgets.length > 0 ? widgets : [defaultWidget, defaultWidget, defaultWidget];
+
     return (
-        <aside className="w-full flex flex-col gap-3 sticky top-24">
-            {/* Widget 1 */}
-            {widgets[0] || defaultWidget}
-
-            {/* Widget 2 */}
-            {widgets[1] || defaultWidget}
-
-            {/* Widget 3 */}
-            {widgets[2] || defaultWidget}
+        <aside className="w-full flex flex-col gap-3 sticky top-4" style={{ maxHeight: 'calc(100vh - 2rem)', overflowY: 'auto', scrollbarWidth: 'none' }}>
+            {displayWidgets.map((widget, i) => (
+                <div key={i}>{widget}</div>
+            ))}
         </aside>
     );
 }

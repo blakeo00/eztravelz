@@ -650,20 +650,52 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
             return cinematicWidgets;
             
         case "vegas-locals":
-            const locationId = postSlug === 'vegas-locals-guide' ? "58" : "222425";
             return [
-                <div key="gyg-widget-vegas" className="my-0 w-full max-w-[280px] mx-auto" style={{ zoom: 0.8 }}>
-                    <div 
-                        data-gyg-href="https://widget.getyourguide.com/default/city.frame" 
-                        data-gyg-location-id={locationId} 
-                        data-gyg-locale-code="en-US" 
-                        data-gyg-widget="city" 
+                <div key="gyg-widget-vegas" className="my-0 w-full">
+                    <div
+                        data-gyg-href="https://widget.getyourguide.com/default/city.frame"
+                        data-gyg-location-id="222425"
+                        data-gyg-locale-code="en-US"
+                        data-gyg-widget="city"
                         data-gyg-partner-id="8LNIBCT"
                     ></div>
-                    <Script src="https://widget.getyourguide.com/v2/widget.js" strategy="lazyOnload" />
                 </div>,
-                <React.Fragment key="empty-gyg-1" />,
-                <React.Fragment key="empty-gyg-2" />
+                <div key="amazon-vegas-1" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="Ray-Ban Meta (Gen 1), Wayfarer, Shiny Black | Smart AI Glasses for Men, Women — 12 MP Ultra-Wide Camera, Open-Ear Speakers for Audio, Video Recording and Bluetooth — Green Lenses"
+                        description=""
+                        imageUrl="https://m.media-amazon.com/images/I/61EMsYRC0wL._SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4sizBOc"
+                        price="$299.00"
+                        rating={4.2}
+                        isPrime={true}
+                    />
+                </div>,
+                <div key="amazon-vegas-2" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="4K Digital Camera for Photography Autofocus, 64MP WiFi Vlogging Camera for YouTube with 3'' 180° Flip Screen, 16X Zoom Anti-Shake, 32GB Card, Compact Travel Point and Shoot Digital Camera"
+                        description=""
+                        imageUrl="https://m.media-amazon.com/images/I/81B6ClsZ5oL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4c4I41e"
+                        price="$69.99"
+                        rating={5.0}
+                        isPrime={true}
+                    />
+                </div>,
+                <div key="amazon-vegas-3" className="my-0">
+                    <AmazonProductCard
+                        compact
+                        title="Occer 12x50 Bird Watching Binoculars for Adults - High Powered Binoculars with Clear Image - Easy Focus HD Binocular for Cruise Ship Hunting Travel Concert Stargazing"
+                        description=""
+                        imageUrl="https://m.media-amazon.com/images/I/81aiCLe-lWL._AC_SL1500_.jpg"
+                        affiliateLink="https://amzn.to/4ceXG2h"
+                        price="$55.69"
+                        rating={4.5}
+                        isPrime={true}
+                    />
+                </div>,
             ];
 
         default:

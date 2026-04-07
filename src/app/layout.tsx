@@ -50,6 +50,8 @@ export default function RootLayout({
             <head>
                 <meta name="impact-site-verification" content="b6939536-6263-4f28-ad81-77285c027b6e" />
                 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet" />
+                {/* GetYourGuide Analytics */}
+                <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="8LNIBCT"></script>
             </head>
             <body
                 className="font-sans antialiased text-slate-900 min-h-screen"

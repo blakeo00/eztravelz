@@ -2748,7 +2748,7 @@ export function sphereLasVegasContent(): ReactNode {
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Recurring Immersive Experiences</h3>
                     <Image
-                        src="/images/OZ 2.png"
+                        src="/images/OZ 3.jpg"
                         alt="The Wizard of Oz Immersive Experience at the Sphere Las Vegas"
                         width={860}
                         height={400}
@@ -2786,13 +2786,18 @@ export function sphereLasVegasContent(): ReactNode {
                         like the future arrived ahead of schedule.
                     </p>
 
-                    <Image
-                        src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
-                        alt="Aura the AI humanoid robot greeting guests in the Sphere Las Vegas grand atrium"
-                        width={860}
-                        height={480}
-                        className="w-full rounded-xl object-cover my-6"
-                    />
+                    <div className="my-6 w-full aspect-video rounded-xl overflow-hidden">
+                        <iframe
+                            width="100%"
+                            height="100%"
+                            src="https://www.youtube.com/embed/XfRo2qLMcUw?si=E8L3AFQgyOEqPmK4"
+                            title="YouTube video player"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
 
                     <p>
                         Her name is Aura, and she is the Sphere&apos;s official spokesbot. Developed using advanced
