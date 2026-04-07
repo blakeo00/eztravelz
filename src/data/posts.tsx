@@ -2747,56 +2747,287 @@ export function sphereLasVegasContent(): ReactNode {
                     </div>
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Recurring Immersive Experiences</h3>
-                    <Image 
-                        src="/images/OZ 2.png" 
-                        alt="The Wizard of Oz Immersive Experience" 
-                        width={860} 
-                        height={400} 
-                        className="w-full rounded-xl object-cover my-6" 
+                    <Image
+                        src="/images/OZ 2.png"
+                        alt="The Wizard of Oz Immersive Experience at the Sphere Las Vegas"
+                        width={860}
+                        height={400}
+                        className="w-full rounded-xl object-cover my-6"
                     />
                     <p className="mb-8">
                         <strong>The Wizard of Oz:</strong> This family-friendly immersive film experience runs throughout the year with multiple daily showings.
                     </p>
 
-                    <h3 className="text-2xl font-bold mb-4">Planning Your Stay</h3>
-                    <ul className="mb-8">
-                        <li>
-                            <strong>Official Tickets:</strong> You can find primary tickets through the Sphere at <a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer">https://www.thesphere.com/</a>
-                        </li>
-                        <li>
-                            <strong>Nearby Hotels:</strong>
-                            <ul className="mt-2 ml-6 space-y-2">
-                                <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/_hdD_cbuKB" target="_blank" rel="noopener noreferrer">The Wynn</a>
-                                </li>
-                                <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/ug_-qqnr1M" target="_blank" rel="noopener noreferrer">The Venetian Resort Las Vegas</a>
-                                </li>
-                                <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/oV7P34dtFP" target="_blank" rel="noopener noreferrer">The Palazzo at the Venetian</a>
-                                </li>
-                                <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/JQI4u1jVjm" target="_blank" rel="noopener noreferrer">Encore at Wynn Las Vegas</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
+                    <Image
+                        src="https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?auto=format&fit=crop&w=1200&q=80"
+                        alt="Sweeping earth landscape representing the Postcard from Earth immersive film experience at the Sphere Las Vegas"
+                        width={860}
+                        height={480}
+                        className="w-full rounded-xl object-cover my-6"
+                    />
+
+                    <p className="mb-8">
+                        <strong>Postcard from Earth:</strong> Directed by Darren Aronofsky, this is the most purely
+                        immersive thing you can do in the building outside of a concert. It uses the full environmental
+                        system including scent, temperature, and haptic seating. For roughly $100 in the 400 level it
+                        delivers the same sensory experience as any concert in those seats. For anyone who wants to
+                        understand what the Sphere is actually capable of before committing to a concert ticket, this
+                        is where to start.
+                    </p>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">Meet Aura: The AI Robot Who Lives at the Sphere</h2>
+                    <p>
+                        Before the show begins, before you take your seat, and before the first note of anything
+                        plays, you will walk through the grand atrium and come face to face with something you have
+                        not quite encountered anywhere else. Five humanoid robots are stationed in the atrium, each one
+                        capable of holding a real conversation, reading a room, and making you feel, just for a moment,
+                        like the future arrived ahead of schedule.
+                    </p>
+
+                    <Image
+                        src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=80"
+                        alt="Aura the AI humanoid robot greeting guests in the Sphere Las Vegas grand atrium"
+                        width={860}
+                        height={480}
+                        className="w-full rounded-xl object-cover my-6"
+                    />
+
+                    <p>
+                        Her name is Aura, and she is the Sphere&apos;s official spokesbot. Developed using advanced
+                        robotics mechanics and artificial intelligence, Aura is designed to be one of the most
+                        expressive and life-like humanoid robots ever built. She moves her hands while she talks. She
+                        tilts her head. She reads your question, processes it, and responds with a specificity that
+                        catches people genuinely off guard. Ask her how far you traveled to get to Las Vegas and she
+                        will calculate the linear distance, account for road routing, and tell you the approximate
+                        mileage while maintaining eye contact the whole time.
+                    </p>
+                    <p>
+                        Aura was built to serve as more than a novelty. She knows the engineering behind every system
+                        in the building: the number of speaker drivers, the pixel count of the interior screen, the
+                        story of how the Sphere came to exist. She knows that day&apos;s show schedule and can answer
+                        specific questions about performances, seating, and logistics. Ask her something philosophical.
+                        She will handle it with more grace than you expect, and then she will shrug her shoulders when
+                        you laugh, because she has learned that too.
+                    </p>
+                    <p>
+                        Her technical capabilities are designed to grow, continuing to advance as she learns more
+                        about humans from each guest interaction. She appeared in a Sphere commercial during the
+                        Academy Awards and has served as brand ambassador across the venue&apos;s social channels since
+                        opening day. She is, in other words, an employee who works every shift, never calls in sick, and
+                        never runs out of things to say. Budget at least thirty minutes in the atrium before any show.
+                        Stand in front of one of the Aura units and ask her something specific. Whatever you throw at her,
+                        she will handle it with more grace than you expect.
+                    </p>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">What It Actually Feels Like to Be There</h2>
+                    <p>
+                        The experience of the Sphere is sequential, and understanding that sequence helps you get the
+                        most out of it. It begins before you enter the building, with the exterior Exosphere displaying
+                        whatever image or animation the venue has chosen for that evening. If you can, approach on foot
+                        from the Venetian so the building reveals itself gradually. Standing on Sands Avenue as that
+                        surface shifts and pulses is itself a full sensory moment, and one most guests who arrive by
+                        Uber directly to the door miss entirely.
+                    </p>
+                    <p>
+                        Inside the atrium, the scale is different from what photographs suggest. Lighter, airier, and
+                        more intentionally designed as a transitional space than most venues of this size. Holographic
+                        installations run along the approach corridors. Human staff, who Sphere calls &quot;lab
+                        technicians,&quot; work alongside the Aura units to help guests navigate and answer questions
+                        the AI cannot.
+                    </p>
+
+                    <Image
+                        src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1200&q=80"
+                        alt="View from the 200 level at the Sphere Las Vegas looking across the full wraparound LED dome"
+                        width={860}
+                        height={480}
+                        className="w-full rounded-xl object-cover my-6"
+                    />
+
+                    <p>
+                        The best seats in the house are the 200 and 300 levels. You are elevated enough to see the
+                        full 160,000-square-foot screen without the overhang obstruction that affects rows 20 and above
+                        in the 100 level, but still close enough to feel the energy of the stage. Sections 305 to 307
+                        offer a centered, elevated view of both stage and full dome. If you are choosing between a
+                        100-level ticket at row 25 and a 200-level ticket anywhere, take the 200 level every time.
+                    </p>
+                    <p>
+                        The haptic pads in lower-level seats are subtle at first contact but become genuinely physical
+                        during a concert. During the <em>Postcard from Earth</em> screenings, environmental effects—a
+                        gust of wind, a shift in temperature, a scent that corresponds to whatever landscape is on
+                        screen—add layers that cannot be communicated through a description. They can only be felt.
+                    </p>
+                    <p>
+                        For a more elevated experience, Director&apos;s Seats include a separate entrance line and
+                        pre-show access to a VIP lounge stocked with drinks and snacks. Private suites for major
+                        concerts run $5,000 to $15,000 and typically accommodate 12 to 20 people. On a per-person
+                        basis, this sometimes comes out cheaper than a single resale ticket in the 200 level during a
+                        high-demand residency.
+                    </p>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">What Notable Visitors Have Said</h2>
+                    <p>
+                        Opening night drew Oprah Winfrey, Jeff Bezos, Paul McCartney, and LeBron James alongside a
+                        full Hollywood contingent. Jon Hamm said it was exciting to finally be on the inside of one.
+                        Elizabeth Banks, who had been tracking the Exosphere displays on Instagram for months, called
+                        it <em>&quot;a giant piece of art&quot;</em> and compared its presence on the Las Vegas skyline
+                        to the Bellagio Fountains, which is a meaningful comparison in a city where landmark status is
+                        genuinely contested.
+                    </p>
+                    <p>
+                        Everyday visitors have not been quieter. TripAdvisor reviews from guests who saw the Eagles
+                        residency describe it as the best show they have ever attended, and not because of the music
+                        alone. One guest wrote it was &quot;by far the best show I&apos;ve seen, maybe the best
+                        ever&quot; and described the visual experience as something worth adding to any bucket list.
+                        The consensus across thousands of reviews is that the screen reframes the concert entirely,
+                        turning a live performance into something closer to a shared hallucination. That is meant as
+                        a compliment, and everyone who writes it seems to mean it that way.
+                    </p>
+                    <p>
+                        In its first full year of operation, the Sphere posted higher gross revenue than any other
+                        entertainment venue in the 50-year history of <em>Billboard</em> Boxscore. That number tells
+                        you something about pricing, certainly, but it also tells you something about demand, which has
+                        not softened since the doors opened.
+                    </p>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">Getting There: Parking, Rideshare, and the Walk That Locals Prefer</h2>
+
+                    <Image
+                        src="https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?auto=format&fit=crop&w=1200&q=80"
+                        alt="Las Vegas Strip at night near the Sphere and Venetian Resort"
+                        width={860}
+                        height={480}
+                        className="w-full rounded-xl object-cover my-6"
+                    />
+
+                    <p>
+                        The Sphere has its own on-site parking in Lots A and B, which must be booked in advance through
+                        the Sphere website or Ticketmaster. Current pricing runs $45 to $75 depending on the event,
+                        with valet at the Sands Avenue entrance for $75. Both lots fill fast for major concerts, and
+                        the tradeoff for proximity is that Lots A and B are the hardest to exit after a show. Plan to
+                        wait twenty minutes before heading to your car.
+                    </p>
+                    <p>
+                        Nearby options are cheaper and often just as practical. The Venetian and Palazzo parking
+                        garages charge non-hotel guests $15 for up to four hours and $23 per day on weekends, with
+                        valet at $35. Wynn and Encore offer self-parking at $20 per day with the first four hours
+                        free. SpotHero is worth checking before any show for pre-booked spots across the surrounding
+                        area.
+                    </p>
+                    <p>
+                        Rideshare is the smoothest option for a concert night. Drop-off and pickup are designated at
+                        the corner of Sands Avenue and Koval Lane. After a show, wait until you are a couple of blocks
+                        from the venue before calling your Uber, or give it fifteen to twenty minutes in the atrium
+                        before walking out, and let the surge pricing settle.
+                    </p>
+                    <p>
+                        The option locals have come to prefer is the climate-controlled walkway connecting the
+                        Venetian resort directly into the Sphere&apos;s grand atrium. If you are staying at the
+                        Venetian or Palazzo, you can walk from your hotel room into the Sphere without stepping
+                        outside. For everyone else, the Venetian parking garage gets you to the same walkway through
+                        the resort&apos;s convention center. In Las Vegas summer, when it is well above 100 degrees
+                        at showtime, this is not a small detail.
+                    </p>
+                </div>
+
+                <div className="ht-location">
+                    <h2 className="ht-location-name">Where to Eat: From a Quick Bite to a Proper Dinner</h2>
+
+                    <h3 className="text-xl font-bold mt-6 mb-3">Inside the Venue</h3>
+                    <p>
+                        The Sphere is a cashless venue, so bring a card or have Apple Pay ready. Inside, the food
+                        runs toward elevated stadium fare. Pizza Pi offers Sicilian-style slices from the Pizza Rock
+                        brand. The Prime Burger counter does Angus burgers worth the line on a concert night. Signature
+                        cocktails are available throughout, and the Orbi souvenir cup lights up and travels home well.
+                        Budget $18 to $20 for a single draft beer and plan accordingly.
+                    </p>
+
+                    <h3 className="text-xl font-bold mt-6 mb-3">Casual and Mid-Range: The Venetian Corridor</h3>
+                    <p>
+                        The Venetian resort holds one of the most practical pre-show dining collections on the Strip.
+                        Bouchon Bakery, Thomas Keller&apos;s French patisserie, is excellent for coffee and a pastry
+                        if you are arriving early. Grand Lux Cafe is the reliable all-day option for groups with
+                        different tastes. Yardbird does southern comfort food—fried chicken, biscuits, and deviled
+                        eggs—well enough that people seek it out specifically rather than just landing there by
+                        convenience. All three are walkable from the Venetian interior and a short walk from the
+                        Sphere atrium entrance.
+                    </p>
+
+                    <h3 className="text-xl font-bold mt-6 mb-3">Off-Strip and Local: Where Las Vegas Residents Actually Eat</h3>
+
+                    <Image
+                        src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80"
+                        alt="Vibrant restaurant dining scene near the Las Vegas Sphere"
+                        width={860}
+                        height={480}
+                        className="w-full rounded-xl object-cover my-6"
+                    />
+
+                    <p>
+                        Piero&apos;s Italian Cuisine, close to the Convention Center, has been a genuine Las Vegas
+                        institution for decades: stiff cocktails, classic Italian-American dishes, and a room full of
+                        regulars who have been coming for years. Lotus of Siam on Flamingo Road carries a national
+                        reputation as one of the finest Thai restaurants in the country and holds that reputation on
+                        any given weeknight. It is fifteen minutes from the Sphere and worth every minute of it if
+                        you have time before a show. Firefly on Paradise Road is the local tapas standard, affordable,
+                        consistent, and always full of people who live here rather than people visiting.
+                    </p>
+
+                    <h3 className="text-xl font-bold mt-6 mb-3">Fine Dining: When the Night Calls for It</h3>
+
+                    <Image
+                        src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80"
+                        alt="Elegant fine dining table setting for a pre-show dinner near the Sphere Las Vegas"
+                        width={860}
+                        height={480}
+                        className="w-full rounded-xl object-cover my-6"
+                    />
+
+                    <p>
+                        Wing Lei at the Wynn is the only Forbes Five-Star Chinese restaurant in North America, a
+                        ten-minute walk from the Sphere via the back of the property. Delmonico Steakhouse inside
+                        the Venetian, Emeril Lagasse&apos;s flagship, is the classic Strip pre-show dinner for anyone
+                        who wants the full ceremony of a proper steakhouse without leaving the complex. Mercato Della
+                        Pescheria, also in the Venetian, does Italian seafood with a beautiful room and a wine program
+                        that holds up under scrutiny. Carversteak at Resorts World, a short drive north, offers
+                        Japanese Wagyu, Australian Wagyu, and aged prime cuts, and stays open until 11 p.m., making
+                        it a solid option for dinner after the show as well.
+                    </p>
                 </div>
 
                 <div className="ht-location">
                     <h2 className="ht-location-name">What to Know Before You Go</h2>
                     <p>
-                        If you’re planning to attend an event at the Sphere, a few practical 
-                        details matter. First, there are no bad sightlines for the screen in 
-                        the 200 and 300 levels. However, the upper rows of the 100 level 
-                        (specifically rows 20 and higher) suffer from overhang blockage; you 
-                        can see the stage, but the top portion of the screen is obstructed. 
+                        If you&apos;re planning to attend an event at the Sphere, a few practical details matter. The
+                        bag policy is strict: nothing larger than 6 by 6 by 2 inches is permitted. That rules out
+                        most purses, backpacks, and anything resembling a tote. A small clutch or a fanny pack is the
+                        practical choice. Leave everything else at the hotel or in your car before you arrive.
                     </p>
                     <p>
-                        Getting in and out can be a bottleneck. The pedestrian bridge connecting 
-                        the Sphere to the Venetian expo center is efficient, but post-show, it 
-                        absorbs all 18,000 exiting guests. If you don’t want to be caught in 
-                        a massive shuffle, wait 15 minutes in your seat after the show ends. 
+                        Your ticket will show both a door time and a show time. These are different. The door time is
+                        when the atrium and the Aura robots become accessible. The show time is when the main bowl opens
+                        and the performance begins. Give yourself at least an hour between the two: thirty minutes for
+                        the atrium, and another thirty to find your seat, get a drink, and settle in before the screen
+                        comes alive. Rushing this part costs you more than it saves.
+                    </p>
+                    <p>
+                        There are no bad sightlines for the screen in the 200 and 300 levels. However, the upper rows
+                        of the 100 level, specifically rows 20 and higher, suffer from overhang blockage. You can see
+                        the stage, but the top portion of the screen is obstructed.
+                    </p>
+                    <p>
+                        Getting in and out can be a bottleneck. The pedestrian bridge connecting the Sphere to the
+                        Venetian expo center is efficient, but post-show, it absorbs all 18,000 exiting guests. If you
+                        don&apos;t want to be caught in a massive shuffle, wait 15 minutes in your seat after the show
+                        ends.
                     </p>
                 </div>
 
@@ -2807,6 +3038,38 @@ export function sphereLasVegasContent(): ReactNode {
                         <li><strong>Capacity:</strong> 18,600 seated</li>
                         <li><strong>Screen:</strong> 160,000 sq ft, 16K x 16K wrap-around interior LED</li>
                         <li><strong>Access:</strong> Pedestrian bridge via The Venetian Resort</li>
+                        <li><strong>Parking (on-site):</strong> $45–$75, must book in advance via Sphere website or Ticketmaster</li>
+                        <li><strong>Valet:</strong> $75 at Sands Avenue entrance</li>
+                        <li><strong>Rideshare drop-off:</strong> Corner of Sands Ave and Koval Lane</li>
+                        <li><strong>Bags:</strong> 6&quot; x 6&quot; x 2&quot; maximum — no exceptions</li>
+                        <li><strong>Payment:</strong> Cashless venue, card or Apple Pay only</li>
+                    </ul>
+                </div>
+
+                <div className="ht-location">
+                    <h3 className="text-2xl font-bold mb-4">Planning Your Stay</h3>
+                    <ul className="mb-8">
+                        <li>
+                            <strong>Official Tickets:</strong> You can find primary tickets through the Sphere at{" "}
+                            <a href="https://www.thesphere.com/" target="_blank" rel="sponsored noopener noreferrer">thesphere.com</a>
+                        </li>
+                        <li>
+                            <strong>Nearby Hotels:</strong>
+                            <ul className="mt-2 ml-6 space-y-2">
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/_hdD_cbuKB" target="_blank" rel="sponsored noopener noreferrer">The Wynn</a>
+                                </li>
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/ug_-qqnr1M" target="_blank" rel="sponsored noopener noreferrer">The Venetian Resort Las Vegas</a>
+                                </li>
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/oV7P34dtFP" target="_blank" rel="sponsored noopener noreferrer">The Palazzo at the Venetian</a>
+                                </li>
+                                <li>
+                                    <a href="https://expedia.stay22.com/eztravelz/JQI4u1jVjm" target="_blank" rel="sponsored noopener noreferrer">Encore at Wynn Las Vegas</a>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
 
