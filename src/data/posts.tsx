@@ -2609,8 +2609,8 @@ export function sphereLasVegasContent(): ReactNode {
                 <p className="text-center font-serif text-lg mb-8 text-[#1a1a2e]">Inside Las Vegas' Most Ambitious Entertainment Venue yet.</p>
 
                 <p className="ht-intro">
-                    It sits just east of the Strip, glowing behind the Venetian like a
-                    366-foot-tall architectural hallucination. The Sphere cost $2.3
+                    It sits just east of the Strip, glowing behind the <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> like a
+                    366-foot-tall architectural hallucination. <a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">The Sphere</a> cost $2.3
                     billion to build, took five years to finish, and opened in late 2023 
                     with a U2 residency that immediately redefined what live entertainment
                     looked like. 
@@ -2678,7 +2678,7 @@ export function sphereLasVegasContent(): ReactNode {
                 </div>
 
                 <div className="ht-location">
-                    <h2 className="ht-location-name">2026 Residency Calendar</h2>
+                    <h2 className="ht-location-name"><a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer" className="text-[#1a1a2e] hover:text-[#7d12ff] no-underline">2026 Residency Calendar</a></h2>
                     <p>
                         The 2026 concert schedule for the Sphere in Las Vegas features major residencies from legendary rock bands, pop icons, and electronic artists. Key headliners include Eagles, Phish, No Doubt, and Metallica.
                     </p>
@@ -2689,58 +2689,39 @@ export function sphereLasVegasContent(): ReactNode {
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <th className="py-2 pr-4 font-bold">Artist</th>
                                     <th className="py-2 pr-4 font-bold min-w-[140px]">Dates</th>
-                                    <th className="py-2 pr-4 font-bold whitespace-nowrap">Time</th>
                                     <th className="py-2 font-bold">Description</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold">Eagles</td>
-                                    <td className="py-3 pr-4">Jan 23 – Apr 11</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
-                                    <td className="py-3">The final leg of their extended residency featuring hits like "Hotel California".</td>
-                                </tr>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold">Illenium</td>
-                                    <td className="py-3 pr-4">Mar 5 – Apr 4</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">9:00 PM</td>
-                                    <td className="py-3">A six-show run of his "Odyssey" show, blending melodic bass with cinematic visuals.</td>
-                                </tr>
-                                <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Phish</td>
-                                    <td className="py-3 pr-4">Apr 16 – May 2</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
-                                    <td className="py-3">A 9-night return residency for the legendary jam band.</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">Apr 16 – May 2 · 8 PM</td>
+                                    <td className="py-3">9-night return residency for the legendary jam band.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">No Doubt</td>
-                                    <td className="py-3 pr-4">May 6 – Jun 13</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
-                                    <td className="py-3">An 18-show reunion residency, marking the first female-fronted headliner at the venue.</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">May 6 – Jun 13 · 8:30 PM</td>
+                                    <td className="py-3">18-show reunion residency — the first female-fronted headliner at the Sphere.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Kenny Chesney</td>
-                                    <td className="py-3 pr-4">Jun 19 – Jul 11</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
-                                    <td className="py-3">Summer residency bringing "No Shoes Nation" to the Sphere's immersive realm.</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">Jun 19 – Jul 11 · 8 PM</td>
+                                    <td className="py-3">Summer residency bringing "No Shoes Nation" into the Sphere's immersive realm.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Backstreet Boys</td>
-                                    <td className="py-3 pr-4">Jul 16 – Aug 29</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
-                                    <td className="py-3">The "Into the Millennium" residency featuring high-energy pop choreography.</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">Jul 16 – Aug 29 · 8 PM</td>
+                                    <td className="py-3">"Into the Millennium" residency — nostalgia, choreography, and full-dome visuals.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold whitespace-nowrap">Carín León</td>
-                                    <td className="py-3 pr-4">Sep 4 – Sep 13</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">8:00 PM</td>
-                                    <td className="py-3">A milestone multi-night residency by the leading Regional Mexican artist.</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">Sep 4 – Sep 13 · 8 PM</td>
+                                    <td className="py-3">Milestone multi-night residency from the leading Regional Mexican artist.</td>
                                 </tr>
                                 <tr className="border-b-2 border-[#0055ff]">
                                     <td className="py-3 pr-4 font-bold">Metallica</td>
-                                    <td className="py-3 pr-4">Oct 1 – Nov 7</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">8:30 PM</td>
-                                    <td className="py-3">The "Life Burns Faster" residency featuring their "No Repeat Weekend" format.</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap">Oct 1 – Nov 7 · 8:30 PM</td>
+                                    <td className="py-3">"Life Burns Faster" residency in their No Repeat Weekend format.</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -2748,7 +2729,7 @@ export function sphereLasVegasContent(): ReactNode {
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Recurring Immersive Experiences</h3>
                     <Image
-                        src="/images/OZ 3.jpg"
+                        src="/images/OZ 4.jpeg"
                         alt="The Wizard of Oz Immersive Experience at the Sphere Las Vegas"
                         width={860}
                         height={400}
@@ -2837,6 +2818,43 @@ export function sphereLasVegasContent(): ReactNode {
                         surface shifts and pulses is itself a full sensory moment, and one most guests who arrive by
                         Uber directly to the door miss entirely.
                     </p>
+
+                    <h3 className="text-2xl font-bold mt-8 mb-4">Meet Orbi: The Soul of the Exosphere</h3>
+
+                    <Image
+                        src="/images/Orbi.jpg"
+                        alt="Orbi, the Sphere's official emoji character, displayed on the Exosphere"
+                        width={860}
+                        height={480}
+                        className="w-full rounded-xl object-cover my-6"
+                    />
+
+                    <p>
+                        Before you ever buy a ticket, before you have any reason to be near the Sphere at all, you may
+                        find yourself standing on the sidewalk staring up at a giant yellow face. That face has a name.
+                        It is Orbi, the Sphere&apos;s official emoji character and, by any reasonable measure, one of
+                        the more genuinely charming things Las Vegas has produced in the last decade.
+                    </p>
+                    <p>
+                        Orbi made its debut on the Exosphere in 2023 and has since been a daily fixture on the exterior,
+                        displaying expressions that track the mood of the day with a specificity that stops people
+                        mid-stride. In the mornings he rises with the sun and often appears to enjoy a cup of coffee.
+                        On Friday and Saturday nights he puts on a party hat. He has sweated through Las Vegas heat waves,
+                        caught snowflakes on his tongue when the season called for it, and wore an &quot;I Voted&quot;
+                        sticker on Election Day 2024 without taking a side. During the Las Vegas Grand Prix, Sphere built
+                        a custom mapping system that receives live GPS positioning data from Formula 1 headquarters in
+                        London, allowing Orbi&apos;s eyes to track the race cars in perfect sync as they move around the
+                        circuit. Every driver tied for first in his mind, according to the creative team, which is exactly
+                        the kind of answer you would expect from a six-foot yellow emoji with impeccable diplomatic instincts.
+                    </p>
+                    <p>
+                        Sphere formally gave him a name in February 2025, and launched an official merchandise line at{" "}
+                        <a href="https://shop.thesphere.com" target="_blank" rel="noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">shop.thesphere.com</a>{" "}
+                        featuring apparel and accessories built around his various expressions. The Orbi Collection is
+                        available both online and inside the venue, and it sells out regularly enough that browsing early
+                        in your visit is worth the few minutes.
+                    </p>
+
                     <p>
                         Inside the atrium, the scale is different from what photographs suggest. Lighter, airier, and
                         more intentionally designed as a transitional space than most venues of this size. Holographic
@@ -2844,14 +2862,6 @@ export function sphereLasVegasContent(): ReactNode {
                         technicians,&quot; work alongside the Aura units to help guests navigate and answer questions
                         the AI cannot.
                     </p>
-
-                    <Image
-                        src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&w=1200&q=80"
-                        alt="View from the 200 level at the Sphere Las Vegas looking across the full wraparound LED dome"
-                        width={860}
-                        height={480}
-                        className="w-full rounded-xl object-cover my-6"
-                    />
 
                     <p>
                         The best seats in the house are the 200 and 300 levels. You are elevated enough to see the
@@ -2905,13 +2915,6 @@ export function sphereLasVegasContent(): ReactNode {
                 <div className="ht-location">
                     <h2 className="ht-location-name">Getting There: Parking, Rideshare, and the Walk That Locals Prefer</h2>
 
-                    <Image
-                        src="https://images.unsplash.com/photo-1605833556294-ea5c7a74f57d?auto=format&fit=crop&w=1200&q=80"
-                        alt="Las Vegas Strip at night near the Sphere and Venetian Resort"
-                        width={860}
-                        height={480}
-                        className="w-full rounded-xl object-cover my-6"
-                    />
 
                     <p>
                         The Sphere has its own on-site parking in Lots A and B, which must be booked in advance through
@@ -2921,9 +2924,9 @@ export function sphereLasVegasContent(): ReactNode {
                         wait twenty minutes before heading to your car.
                     </p>
                     <p>
-                        Nearby options are cheaper and often just as practical. The Venetian and Palazzo parking
+                        Nearby options are cheaper and often just as practical. The <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> and Palazzo parking
                         garages charge non-hotel guests $15 for up to four hours and $23 per day on weekends, with
-                        valet at $35. Wynn and Encore offer self-parking at $20 per day with the first four hours
+                        valet at $35. <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Wynn</a> and Encore offer self-parking at $20 per day with the first four hours
                         free. SpotHero is worth checking before any show for pre-booked spots across the surrounding
                         area.
                     </p>
@@ -2935,7 +2938,7 @@ export function sphereLasVegasContent(): ReactNode {
                     </p>
                     <p>
                         The option locals have come to prefer is the climate-controlled walkway connecting the
-                        Venetian resort directly into the Sphere&apos;s grand atrium. If you are staying at the
+                        <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> resort directly into the Sphere&apos;s grand atrium. If you are staying at the
                         Venetian or Palazzo, you can walk from your hotel room into the Sphere without stepping
                         outside. For everyone else, the Venetian parking garage gets you to the same walkway through
                         the resort&apos;s convention center. In Las Vegas summer, when it is well above 100 degrees
@@ -2957,7 +2960,7 @@ export function sphereLasVegasContent(): ReactNode {
 
                     <h3 className="text-xl font-bold mt-6 mb-3">Casual and Mid-Range: The Venetian Corridor</h3>
                     <p>
-                        The Venetian resort holds one of the most practical pre-show dining collections on the Strip.
+                        The <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> resort holds one of the most practical pre-show dining collections on the Strip.
                         Bouchon Bakery, Thomas Keller&apos;s French patisserie, is excellent for coffee and a pastry
                         if you are arriving early. Grand Lux Cafe is the reliable all-day option for groups with
                         different tastes. Yardbird does southern comfort food—fried chicken, biscuits, and deviled
@@ -2997,9 +3000,9 @@ export function sphereLasVegasContent(): ReactNode {
                     />
 
                     <p>
-                        Wing Lei at the Wynn is the only Forbes Five-Star Chinese restaurant in North America, a
+                        Wing Lei at the <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Wynn</a> is the only Forbes Five-Star Chinese restaurant in North America, a
                         ten-minute walk from the Sphere via the back of the property. Delmonico Steakhouse inside
-                        the Venetian, Emeril Lagasse&apos;s flagship, is the classic Strip pre-show dinner for anyone
+                        the <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a>, Emeril Lagasse&apos;s flagship, is the classic Strip pre-show dinner for anyone
                         who wants the full ceremony of a proper steakhouse without leaving the complex. Mercato Della
                         Pescheria, also in the Venetian, does Italian seafood with a beautiful room and a wine program
                         that holds up under scrutiny. Carversteak at Resorts World, a short drive north, offers
@@ -3062,10 +3065,10 @@ export function sphereLasVegasContent(): ReactNode {
                             <strong>Nearby Hotels:</strong>
                             <ul className="mt-2 ml-6 space-y-2">
                                 <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/_hdD_cbuKB" target="_blank" rel="sponsored noopener noreferrer">The Wynn</a>
+                                    <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer">The Wynn</a>
                                 </li>
                                 <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/ug_-qqnr1M" target="_blank" rel="sponsored noopener noreferrer">The Venetian Resort Las Vegas</a>
+                                    <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer">The Venetian Resort Las Vegas</a>
                                 </li>
                                 <li>
                                     <a href="https://expedia.stay22.com/eztravelz/oV7P34dtFP" target="_blank" rel="sponsored noopener noreferrer">The Palazzo at the Venetian</a>

@@ -25,6 +25,16 @@ export async function generateMetadata({
     return {
         title: `${post.title} — EZtravelZ`,
         description: post.excerpt,
+        alternates: {
+            canonical: `/blog/${post.slug}`,
+        },
+        openGraph: {
+            type: "article",
+            url: `https://eztravelz.com/blog/${post.slug}`,
+            siteName: "EZtravelZ",
+            title: `${post.title} — EZtravelZ`,
+            description: post.excerpt,
+        },
     };
 }
 

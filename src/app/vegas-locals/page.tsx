@@ -20,10 +20,10 @@ export default function VegasLocalsPage() {
                 <main className="flex-grow pb-20">
                     <section className="relative text-white py-32 px-4 min-h-[400px] flex flex-col justify-center items-center text-center overflow-hidden bg-black">
                         <Image
-                            src="/images/Welcome.jpg"
+                            src="/images/Vegas 2.png"
                             alt="Las Vegas Night"
                             fill
-                            className="object-contain opacity-90"
+                            className="object-cover opacity-90"
                             priority
                         />
                         <div className="absolute inset-0 bg-black/40"></div>

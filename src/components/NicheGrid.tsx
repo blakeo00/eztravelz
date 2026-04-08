@@ -10,6 +10,7 @@ const niches = [
     {
         title: "Paws & Passports",
         subtitle: "Pet-Friendly Travel",
+        articleTitle: "Paws, Waves & Freedom: The Original Dog Beach",
         href: "/pet-travel",
         image:
             "/images/Pet Airport.png",
@@ -18,6 +19,7 @@ const niches = [
     {
         title: "Spirits & Specters",
         subtitle: "Haunted Destinations",
+        articleTitle: "Six Haunted Cities / Forty Whacks & A House That Never Forgot",
         href: "/haunted-tours",
         image:
             "/images/Spooky corodior.png",
@@ -26,6 +28,7 @@ const niches = [
     {
         title: "Vineyards & Vintages",
         subtitle: "Wine Tourism",
+        articleTitle: "Willamette Valley Wine Guide / Bend Breweries",
         href: "/wine-destinations",
         image:
             "/images/Wine glasses.png",
@@ -34,6 +37,7 @@ const niches = [
     {
         title: "Game Day Getaways",
         subtitle: "Sports & Event Travel",
+        articleTitle: "A Guide to the 2026 FIFA World Cup",
         href: "/sports-travel",
         image:
             "/images/Lambeau.png",
@@ -42,6 +46,7 @@ const niches = [
     {
         title: "Set-Jetting",
         subtitle: "Cinematic Travel",
+        articleTitle: "Six 2026 Film Festivals / A Guide to Cannes",
         href: "/cinematic-travel",
         image:
             "/images/Stanley Hotel 3.jpg",
@@ -50,6 +55,7 @@ const niches = [
     {
         title: "Culinary Quests",
         subtitle: "Diet & Regional Eats",
+        articleTitle: "Paris On A Plate / Dans Le Noir",
         href: "/culinary-quests",
         image:
             "/images/Toast.png",
@@ -96,6 +102,7 @@ export default function NicheGrid() {
                         <div className="absolute bottom-0 left-0 right-0 p-6">
                             <h3 className="section-heading text-white text-2xl font-bold leading-tight">Vegas Baby</h3>
                             <p className="text-slate-200 text-sm mt-1">What Vegas Locals Know</p>
+                            <p className="text-white/60 text-xs mt-1 italic">What&apos;s Inside: Sphere: The Ultimate Experience</p>
                         </div>
                         <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -120,6 +127,7 @@ export default function NicheGrid() {
                         <div className="absolute bottom-0 left-0 right-0 p-6">
                             <h3 className="section-heading text-white text-2xl font-bold leading-tight">Beyond The Neon</h3>
                             <p className="text-slate-200 text-sm mt-1">Off the Vegas Strip</p>
+                            <p className="text-white/60 text-xs mt-1 italic">What&apos;s Inside: Six Free Things to Do in Vegas</p>
                         </div>
                         <div className="absolute top-4 right-4 w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -153,6 +161,7 @@ export default function NicheGrid() {
                                     {niche.title}
                                 </h3>
                                 <p className="text-slate-200 text-sm mt-1">{niche.subtitle}</p>
+                                <p className="text-white/60 text-xs mt-1 italic">What&apos;s Inside: {niche.articleTitle}</p>
                             </div>
 
                             {/* Hover indicator */}

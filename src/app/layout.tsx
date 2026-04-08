@@ -31,9 +31,25 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+    metadataBase: new URL("https://eztravelz.com"),
     title: "EZtravelZ — Travel Made Easy. Choose Your Adventure.",
     description:
         "Your hub for niche travel: pet-friendly trips, haunted tours, wine and brewery destinations, sports travel, cinematic adventures, and culinary quests.",
+    alternates: {
+        canonical: "/",
+    },
+    openGraph: {
+        type: "website",
+        url: "https://eztravelz.com",
+        siteName: "EZtravelZ",
+        title: "EZtravelZ — Travel Made Easy. Choose Your Adventure.",
+        description:
+            "Your hub for niche travel: pet-friendly trips, haunted tours, wine and brewery destinations, sports travel, cinematic adventures, and culinary quests.",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@eztravelz",
+    },
 };
 
 /**
