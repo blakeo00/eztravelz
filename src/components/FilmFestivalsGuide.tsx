@@ -127,7 +127,7 @@ export default function FilmFestivalsGuide() {
                             href={fest.link}
                             target="_blank"
                             rel="sponsored noopener noreferrer"
-                            className="inline-block text-yellow-500 hover:text-yellow-400 text-sm font-semibold transition-colors duration-200"
+                            className="inline-block text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
                         >
                             Visit Official Site →
                         </a>

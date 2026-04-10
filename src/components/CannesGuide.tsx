@@ -111,7 +111,7 @@ export default function CannesGuide() {
 
             {/* Practical Info */}
             <div
-                style={{ fontFamily: "var(--font-cinzel), 'Cinzel', serif", color: "#FFD700" }}
+                style={{ fontFamily: "var(--font-cinzel), 'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-5"
             >
                 Practical Things to Know Before You Go

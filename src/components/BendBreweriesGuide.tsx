@@ -182,7 +182,7 @@ export default function BendBreweriesGuide() {
 
             {/* Summer Arts */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 Summer Arts in Bend
@@ -200,15 +200,15 @@ export default function BendBreweriesGuide() {
                         <span> Central Oregon's longest running arts and crafts festival, now in its 30th year. More than 80 regional and national artisans line Bond Street across seven city blocks in downtown Bend, alongside live music stages, local food vendors, a Family Fun Zone, and pop-up performances all weekend. Attendance averages over 70,000 people. Free to attend. The 2026 beneficiary is MountainStar Family Relief Nursery.</span>
                     </li>
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Sunriver Music Festival, August 2026.</strong>
+                        <strong style={{ color: "#37507a" }}>Sunriver Music Festival, August 2026.</strong>
                         <span> Now in its 49th season, this beloved classical and pops festival presents orchestral concerts, chamber music, solo recitals, and family-friendly performances at Sunriver Resort, Bend's Tower Theatre, and outdoor venues throughout the region. A Young Artists Scholarship competition runs alongside the main programming.</span>
                     </li>
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Balloons Over Bend, July 24, 2026.</strong>
+                        <strong style={{ color: "#37507a" }}>Balloons Over Bend, July 24, 2026.</strong>
                         <span> Hot air balloons launch at dawn over the high desert landscape in one of the most visually stunning events on the Bend summer calendar. A Night Glow event and family activities round out the weekend.</span>
                     </li>
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Cascade School of Music.</strong>
+                        <strong style={{ color: "#37507a" }}>Cascade School of Music.</strong>
                         <span> Bend's community music school runs summer programs, workshops, and student performances throughout the season, contributing to the city's year-round creative fabric.</span>
                     </li>
                 </ul>
@@ -223,7 +223,7 @@ export default function BendBreweriesGuide() {
 
             {/* River Recreation */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 Life on the Deschutes River
@@ -246,19 +246,19 @@ export default function BendBreweriesGuide() {
                         <span> The classic Bend summer experience. Rent a tube from Tumalo Creek Kayak and Canoe, which includes a life jacket and round-trip shuttle service. The full float from Riverbend Park to Drake Park takes approximately 90 minutes and passes through the Old Mill District before arriving at the Whitewater Park. A shorter 45-minute option exits before the rapids. The Ride the River shuttle runs from mid-June through Labor Day for $5 per person.</span>
                     </li>
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Bend Whitewater Park.</strong>
+                        <strong style={{ color: "#37507a" }}>Bend Whitewater Park.</strong>
                         <span> Opened in 2015 near the Old Mill District, this is the only whitewater play park in Oregon and the first of its kind in the Pacific Northwest. Three parallel channels serve different skill levels. The Fish Ladder is gentle and family-friendly. The center Whitewater Channel is fast-moving and designed for surfers, kayakers, and experienced paddleboarders. The waves are adjustable, controlled remotely, so conditions shift from day to day.</span>
                     </li>
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Stand-Up Paddleboarding and Kayaking.</strong>
+                        <strong style={{ color: "#37507a" }}>Stand-Up Paddleboarding and Kayaking.</strong>
                         <span> SUP rentals and kayak rentals are available through Tumalo Creek Kayak and Canoe at approximately $40 for two hours solo, $80 for a tandem kayak. Outside Magazine named Bend and Central Oregon the best place in the world to paddleboard in 2014, citing the combination of alpine lakes and the gentle Deschutes River flow.</span>
                     </li>
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Wildlife on the Water.</strong>
+                        <strong style={{ color: "#37507a" }}>Wildlife on the Water.</strong>
                         <span> The Habitat Channel at the Whitewater Park protects otters, beaver, trout, bald eagles, and osprey. Look up on the banks for tall poles with osprey nests. Free rental binoculars are available at the Old Mill District for riverside birdwatching.</span>
                     </li>
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Cycle Pub Tours.</strong>
+                        <strong style={{ color: "#37507a" }}>Cycle Pub Tours.</strong>
                         <span> The Cycle Pub of Bend runs a 14-seat pedal-powered bar through the brewery district. Passengers drink and pedal simultaneously through downtown. If you attend Bend Brews and Beyond and arrive by paddleboard, tube, or kayak, you receive a bonus drink token at the festival valet.</span>
                     </li>
                 </ul>
