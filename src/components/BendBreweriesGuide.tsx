@@ -45,10 +45,10 @@ const breweries = [
 
 export default function BendBreweriesGuide() {
     return (
-        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-slate-300 bg-[#4a091e]/90 rounded-3xl shadow-xl overflow-hidden border border-rose-900/50 backdrop-blur-md mt-12">
+        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-[#37507a] bg-white rounded-3xl shadow-xl overflow-hidden border-2 border-[#37507a]/20 backdrop-blur-md mt-12" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
 
             {/* Category Label */}
-            <span className="text-amber-500 uppercase tracking-widest text-sm font-semibold">
+            <span className="text-[#37507a] uppercase tracking-widest text-sm font-semibold">
                 Brewery Destinations
             </span>
 
@@ -56,7 +56,7 @@ export default function BendBreweriesGuide() {
             <h2
                 style={{
                     fontFamily: "'Cinzel', serif",
-                    color: "#fcd34d",
+                    color: "#37507a",
                     fontSize: "clamp(1.8rem, 5vw, 3.2rem)",
                     fontWeight: "700",
                     letterSpacing: "0.04em",
@@ -67,12 +67,12 @@ export default function BendBreweriesGuide() {
                 Bend, Oregon: Where the Mountains End and the Beer Begins
             </h2>
 
-            <p className="text-slate-400 text-sm mb-8">
+            <p className="text-[#37507a]/60 text-sm mb-8">
                 Bend, Oregon · 30+ Breweries · Craft Beer Capital of the Pacific Northwest
             </p>
 
             {/* Intro */}
-            <p className="text-slate-300 text-lg leading-relaxed mb-6">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-6">
                 Bend, Oregon is one of those rare places where the outdoor life and the
                 drinking life are not separate things. They are the same thing. You spend
                 a morning hiking the Deschutes River Trail or riding the Phil's Trail
@@ -97,7 +97,7 @@ export default function BendBreweriesGuide() {
 
             {/* Breweries */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-5"
             >
                 The Breweries Worth Your Time
@@ -105,28 +105,28 @@ export default function BendBreweriesGuide() {
 
             <div className="space-y-5 mb-12">
                 {breweries.map((brewery, i) => (
-                    <div key={i} className="border-l-4 border-amber-600 pl-5 py-1">
+                    <div key={i} className="border-l-4 border-[#37507a]/40 pl-5 py-1">
                         <p
-                            style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                            style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                             className="font-bold text-base mb-0.5"
                         >
                             {brewery.name}
                         </p>
-                        <p className="text-amber-500 text-xs font-semibold uppercase tracking-widest mb-2">
+                        <p className="text-[#37507a]/70 text-xs font-semibold uppercase tracking-widest mb-2">
                             {brewery.vibe}
                         </p>
-                        <p className="text-slate-300 text-base leading-relaxed mb-2">
+                        <p className="text-[#37507a] text-base leading-relaxed mb-2">
                             {brewery.description}
                         </p>
                         <div className="flex flex-wrap items-center justify-between gap-2">
-                            <p className="text-slate-400 text-sm">
-                                Must Try: <span className="font-semibold text-slate-200">{brewery.mustTry}</span>
+                            <p className="text-[#37507a]/60 text-sm">
+                                Must Try: <span className="font-semibold text-[#37507a]">{brewery.mustTry}</span>
                             </p>
                             <a
                                 href={brewery.link}
                                 target="_blank"
                                 rel="sponsored noopener noreferrer"
-                                className="text-amber-500 hover:text-amber-400 text-sm font-semibold transition-colors duration-200"
+                                className="text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
                             >
                                 Visit Site →
                             </a>
@@ -137,13 +137,13 @@ export default function BendBreweriesGuide() {
 
             {/* Bend Ale Trail */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 The Bend Ale Trail
             </div>
 
-            <p className="text-slate-300 text-lg leading-relaxed mb-6">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-6">
                 Launched in 2010 as the first beer trail in the American West, the Bend
                 Ale Trail now covers more than 30 breweries and tasting rooms spread
                 across seven territories, reaching from Sisters to Redmond to Prineville
@@ -161,7 +161,7 @@ export default function BendBreweriesGuide() {
 
             {/* Bend Brews and Beyond */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 Bend Brews and Beyond, May 23, 2026
@@ -188,15 +188,15 @@ export default function BendBreweriesGuide() {
                 Summer Arts in Bend
             </div>
 
-            <p className="text-slate-300 text-lg leading-relaxed mb-6">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-6">
                 Bend is not all beer and bikes. The city has a genuine and growing arts
                 identity that comes alive every summer across multiple festivals and venues.
             </p>
 
-            <div className="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 mb-10">
-                <ul className="space-y-4 text-slate-300 text-base">
+            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 mb-10">
+                <ul className="space-y-4 text-[#37507a] text-base">
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Bend Summer Festival, May 29 – 31, 2026.</strong>
+                        <strong style={{ color: "#37507a" }}>Bend Summer Festival, May 29 – 31, 2026.</strong>
                         <span> Central Oregon's longest running arts and crafts festival, now in its 30th year. More than 80 regional and national artisans line Bond Street across seven city blocks in downtown Bend, alongside live music stages, local food vendors, a Family Fun Zone, and pop-up performances all weekend. Attendance averages over 70,000 people. Free to attend. The 2026 beneficiary is MountainStar Family Relief Nursery.</span>
                     </li>
                     <li>
@@ -229,7 +229,7 @@ export default function BendBreweriesGuide() {
                 Life on the Deschutes River
             </div>
 
-            <p className="text-slate-300 text-lg leading-relaxed mb-6">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-6">
                 The Deschutes River is the beating heart of Bend's summer. Flowing 252
                 miles from its headwaters at Little Lava Lake high in the Cascades, it
                 carves right through the center of town and draws over 250,000 people
@@ -239,10 +239,10 @@ export default function BendBreweriesGuide() {
                 the river offers.
             </p>
 
-            <div className="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 mb-10">
-                <ul className="space-y-4 text-slate-300 text-base">
+            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 mb-10">
+                <ul className="space-y-4 text-[#37507a] text-base">
                     <li>
-                        <strong style={{ color: "#fcd34d" }}>Floating the River.</strong>
+                        <strong style={{ color: "#37507a" }}>Floating the River.</strong>
                         <span> The classic Bend summer experience. Rent a tube from Tumalo Creek Kayak and Canoe, which includes a life jacket and round-trip shuttle service. The full float from Riverbend Park to Drake Park takes approximately 90 minutes and passes through the Old Mill District before arriving at the Whitewater Park. A shorter 45-minute option exits before the rapids. The Ride the River shuttle runs from mid-June through Labor Day for $5 per person.</span>
                     </li>
                     <li>
@@ -265,7 +265,7 @@ export default function BendBreweriesGuide() {
             </div>
 
             {/* Viator Affiliate Link */}
-            <div className="mb-12 relative group rounded-2xl overflow-hidden shadow-lg border border-slate-700/50">
+            <div className="mb-12 relative group rounded-2xl overflow-hidden shadow-lg border border-[#37507a]/20">
                 <a
                     href="https://vi.me/AKnuA"
                     target="_blank"
@@ -298,23 +298,23 @@ export default function BendBreweriesGuide() {
                         </div>
                     </div>
                 </a>
-                <div className="bg-slate-800 px-6 py-3 border-t border-slate-700 flex justify-between items-center">
-                    <span className="text-slate-400 text-xs flex items-center gap-1">
+                <div className="bg-[#fff0d4] px-6 py-3 border-t border-[#37507a]/20 flex justify-between items-center">
+                    <span className="text-[#37507a]/60 text-xs flex items-center gap-1">
                         <svg className="w-4 h-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                         Free cancellation available
                     </span>
-                    <span className="text-slate-500 text-[10px] uppercase tracking-wider">Advertisement</span>
+                    <span className="text-[#37507a]/40 text-[10px] uppercase tracking-wider">Advertisement</span>
                 </div>
             </div>
 
             {/* CTA */}
-            <div className="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 text-center">
+            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 text-center">
                 <p
                     style={{
                         fontFamily: "'Cinzel', serif",
-                        color: "#fcd34d",
+                        color: "#37507a",
                         fontSize: "1.4rem",
                         letterSpacing: "0.04em",
                     }}
@@ -326,7 +326,7 @@ export default function BendBreweriesGuide() {
                     href="https://bendaletrail.com"
                     target="_blank"
                     rel="sponsored noopener noreferrer"
-                    className="inline-block bg-amber-600 hover:bg-amber-500 text-slate-900 font-bold px-8 py-3 rounded-full transition-colors duration-200"
+                    className="inline-block bg-[#37507a] hover:bg-[#2c3f61] text-white font-bold px-8 py-3 rounded-full transition-colors duration-200"
                 >
                     Explore the Bend Ale Trail →
                 </a>

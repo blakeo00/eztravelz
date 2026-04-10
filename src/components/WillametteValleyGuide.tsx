@@ -35,10 +35,10 @@ const wineries = [
 
 export default function WillametteValleyGuide() {
     return (
-        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-slate-300 bg-[#4a091e]/90 rounded-3xl shadow-xl overflow-hidden border border-rose-900/50 backdrop-blur-md">
+        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-[#37507a] bg-white rounded-3xl shadow-xl overflow-hidden border-2 border-[#37507a]/20 backdrop-blur-md" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
 
             {/* Category Label */}
-            <span className="text-amber-500 uppercase tracking-widest text-sm font-semibold">
+            <span className="text-[#37507a] uppercase tracking-widest text-sm font-semibold">
                 Wine Destinations
             </span>
 
@@ -46,7 +46,7 @@ export default function WillametteValleyGuide() {
             <h2
                 style={{
                     fontFamily: "'Cinzel', serif",
-                    color: "#fcd34d", // amber-300
+                    color: "#37507a",
                     fontSize: "clamp(1.8rem, 5vw, 3.2rem)",
                     fontWeight: "700",
                     letterSpacing: "0.04em",
@@ -57,7 +57,7 @@ export default function WillametteValleyGuide() {
                 The Upstart That Shook Burgundy: Willamette Valley and the Rise of World Class Pinot Noir
             </h2>
 
-            <p className="text-slate-400 text-sm mb-8">
+            <p className="text-[#37507a]/60 text-sm mb-8">
                 Willamette Valley, Oregon · 700 Wineries · 11 Sub-AVAs · One of the World's Great Wine Regions
             </p>
 
@@ -93,7 +93,7 @@ export default function WillametteValleyGuide() {
 
             {/* The Land Section */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 What the Land Actually Is
@@ -197,14 +197,14 @@ export default function WillametteValleyGuide() {
                         >
                             {winery.name}
                         </p>
-                        <p className="text-slate-300 text-base leading-relaxed mb-2">
+                        <p className="text-[#37507a] text-base leading-relaxed mb-2">
                             {winery.note}
                         </p>
                         <a
                             href={winery.link}
                             target="_blank"
                             rel="sponsored noopener noreferrer"
-                            className="text-amber-500 hover:text-amber-400 text-sm font-semibold transition-colors duration-200"
+                            className="text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
                         >
                             Visit Site →
                         </a>
@@ -220,8 +220,8 @@ export default function WillametteValleyGuide() {
                 Planning Your Visit
             </div>
 
-            <div className="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 mb-10">
-                <ul className="space-y-3 text-slate-300 text-base">
+            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 mb-10">
+                <ul className="space-y-3 text-[#37507a] text-base">
                     <li>📍 <strong>Location:</strong> The valley runs more than 100 miles from Portland south to Eugene, with most of the premier estates concentrated around Dundee, McMinnville, and Carlton.</li>
                     <li>✈️ <strong>Nearest airport:</strong> Portland International Airport (PDX), approximately 45 minutes from the Dundee Hills.</li>
                     <li>🍷 <strong>Best time to visit:</strong> Late spring through harvest in October. Harvest season brings the most activity, the freshest energy, and the chance to see winemaking in motion.</li>
@@ -242,11 +242,11 @@ export default function WillametteValleyGuide() {
             </p>
 
             {/* CTA */}
-            <div className="bg-slate-800/80 border border-slate-700 rounded-2xl p-6 text-center">
+            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 text-center">
                 <p
                     style={{
                         fontFamily: "'Cinzel', serif",
-                        color: "#fcd34d",
+                        color: "#37507a",
                         fontSize: "1.4rem",
                         letterSpacing: "0.04em",
                     }}
@@ -258,16 +258,16 @@ export default function WillametteValleyGuide() {
                     href="https://www.willamettewines.com"
                     target="_blank"
                     rel="sponsored noopener noreferrer"
-                    className="inline-block bg-amber-600 hover:bg-amber-500 text-slate-900 font-bold px-8 py-3 rounded-full transition-colors duration-200"
+                    className="inline-block bg-[#37507a] hover:bg-[#2c3f61] text-white font-bold px-8 py-3 rounded-full transition-colors duration-200"
                 >
                     Plan Your Wine Country Visit →
                 </a>
             </div>
 
             {/* Viator Affiliate Link */}
-            <div className="mt-8 text-center pt-8 border-t border-slate-800">
+            <div className="mt-8 text-center pt-8 border-t border-[#37507a]/20">
                 <p
-                    style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                    style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                     className="text-xl font-bold mb-4"
                 >
                     Book a Premium Wine Tour
@@ -289,7 +289,7 @@ export default function WillametteValleyGuide() {
                         </span>
                     </div>
                 </a>
-                <p className="text-slate-400 text-xs italic mt-3">
+                <p className="text-[#37507a]/60 text-xs italic mt-3">
                     We may earn a commission if you book through this link.
                 </p>
             </div>

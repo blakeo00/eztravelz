@@ -15,7 +15,7 @@ export default function HauntedToursPage() {
         <div className="min-h-screen font-sans flex flex-col relative">
             {/* Solid Color Background */}
             <div
-                className="fixed inset-0 z-0 bg-[#f44336]"
+                className="fixed inset-0 z-0 bg-[#fff0d4]"
             ></div>
 
             {/* Content Container */}
@@ -53,7 +53,7 @@ export default function HauntedToursPage() {
                                 <SixHauntedCities />
 
                                 {/* Lizzie Borden Article */}
-                                <article className="bg-gray-900/90 rounded-3xl shadow-2xl overflow-hidden border border-purple-700/50 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(147, 51, 234, 0.15)' }}>
+                                <article className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
 
                                     <span className="text-purple-400 uppercase tracking-widest text-sm font-semibold">
                                         Haunted Tours
@@ -73,7 +73,7 @@ export default function HauntedToursPage() {
                                         className="w-full rounded-2xl mb-8 object-cover h-72"
                                     />
 
-                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-6 text-[#37507a]">
                                         On the morning of August 4th, 1892, something unspeakable happened inside
                                         a quiet Victorian home at 92 Second Street in Fall River, Massachusetts.
                                         Andrew and Abby Borden were found brutally murdered, and their daughter
@@ -84,7 +84,7 @@ export default function HauntedToursPage() {
                                         to feel what the walls remember.
                                     </p>
 
-                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-6 text-[#37507a]">
                                         What visitors report inside is difficult to explain away. Cold spots appear
                                         without draft or ventilation shift. Disembodied footsteps echo on the staircase
                                         at 3 a.m. The unmistakable feeling of being watched settles over Abby&apos;s guest
@@ -102,7 +102,7 @@ export default function HauntedToursPage() {
                                         className="w-full rounded-2xl mb-8 object-cover h-72"
                                     />
 
-                                    <p className="text-lg leading-relaxed mb-8 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-8 text-[#37507a]">
                                         You can sleep here. That&apos;s the part that separates Lizzie&apos;s house from every
                                         haunted tour in America. You don&apos;t just walk through, you stay the night.
                                         Book the Abby Borden room if you&apos;re serious. Lie in the dark. Listen. The house
@@ -130,9 +130,9 @@ export default function HauntedToursPage() {
                                 </article>
 
                                 {/* Ghost Tour Widget — Compact */}
-                                <div className="bg-gray-900/90 rounded-2xl shadow-xl overflow-hidden border border-purple-700/50 p-4 md:p-6 mt-8 text-center backdrop-blur-sm">
+                                <div className="bg-[#ffffff] rounded-2xl shadow-xl overflow-hidden border-2 border-[#37507a]/20 p-4 md:p-6 mt-8 text-center backdrop-blur-sm">
                                     <h3 className="text-xl font-bold text-purple-200 mb-4">Book Your Ghost Adventure</h3>
-                                    <p className="text-gray-400 mb-6 max-w-2xl mx-auto text-sm">
+                                    <p className="text-[#37507a] mb-6 max-w-2xl mx-auto text-sm">
                                         We&apos;ve partnered with US Ghost Adventures to bring you the most terrifying tours available.
                                     </p>
                                     <div className="flex justify-center items-center py-2">

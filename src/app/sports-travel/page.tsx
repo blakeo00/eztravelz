@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function SportsTravelPage() {
     return (
-        <div className="min-h-screen font-sans flex flex-col relative bg-[#A57C00]">
+        <div className="min-h-screen font-sans flex flex-col relative bg-[#fff0d4]">
 
             {/* Content Container */}
             <div className="relative z-10 flex flex-col flex-grow w-full">
@@ -42,16 +42,16 @@ export default function SportsTravelPage() {
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
                                 {/* World Cup 2026 Article */}
-                                <article className="bg-gray-900/90 rounded-3xl shadow-2xl overflow-hidden border border-green-700/50 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(22, 101, 52, 0.15)' }}>
+                                <article className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
 
-                                    <span className="text-green-400 uppercase tracking-widest text-sm font-semibold">
+                                    <span className="text-[#37507a] uppercase tracking-widest text-sm font-semibold">
                                         Sports Travel
                                     </span>
 
                                     <h2
                                         style={{
                                             fontFamily: "var(--font-bebas)",
-                                            color: "#22c55e",
+                                            color: "#37507a",
                                             fontSize: "clamp(2.2rem, 6vw, 4rem)",
                                             fontWeight: "normal",
                                             letterSpacing: "0.06em",
@@ -62,7 +62,7 @@ export default function SportsTravelPage() {
                                         The World Is Coming To Your Backyard. A Guide To The 2026 FIFA World Cup
                                     </h2>
 
-                                    <p className="text-green-300/70 text-sm mb-8">
+                                    <p className="text-[#37507a]/60 text-sm mb-8">
                                         June 11 – July 19, 2026 · USA, Canada &amp; Mexico · 48 Teams · 104 Matches
                                     </p>
 
@@ -72,7 +72,7 @@ export default function SportsTravelPage() {
                                         className="w-full rounded-2xl mb-8 object-cover"
                                     />
 
-                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-6 text-[#37507a]">
                                         Once every four years the entire planet stops and watches the same thing.
                                         No other event comes close, not the Super Bowl, not the Olympics, not
                                         anything. And this summer, for the first time in history, three nations
@@ -85,7 +85,7 @@ export default function SportsTravelPage() {
                                         North America.
                                     </p>
 
-                                    <p className="text-lg leading-relaxed mb-6 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-6 text-[#37507a]">
                                         For the traveling fan, the logistics are unlike anything that came before.
                                         The United States alone hosts eleven cities: Los Angeles, Miami, Atlanta,
                                         Dallas, Houston, Seattle, Philadelphia, Boston, Kansas City, the San
@@ -99,7 +99,7 @@ export default function SportsTravelPage() {
                                         for the rest of your life.
                                     </p>
 
-                                    <p className="text-lg leading-relaxed mb-8 text-gray-300">
+                                    <p className="text-lg leading-relaxed mb-8 text-[#37507a]">
                                         Tickets are still moving through FIFA&apos;s official portal, with a last-minute
                                         batch expected in early April, so if you haven&apos;t locked in yet, the window
                                         is narrow but not closed. Beyond the matches themselves, each host city is
@@ -113,11 +113,11 @@ export default function SportsTravelPage() {
                                     </p>
 
                                     {/* Quick Facts Box */}
-                                    <div className="bg-green-950/50 border border-green-700/50 rounded-2xl p-6 mb-8">
+                                    <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 mb-8">
                                         <p
                                             style={{
                                                 fontFamily: "var(--font-bebas)",
-                                                color: "#22c55e",
+                                                color: "#37507a",
                                                 fontSize: "1.6rem",
                                                 letterSpacing: "0.06em",
                                                 fontWeight: "normal",
@@ -126,7 +126,7 @@ export default function SportsTravelPage() {
                                         >
                                             Need To Know
                                         </p>
-                                        <ul className="space-y-2 text-gray-300 text-base">
+                                        <ul className="space-y-2 text-[#37507a] text-base">
                                             <li>⚽ <strong>Opening Match:</strong> June 11, Mexico vs. South Africa, Estadio Azteca, Mexico City</li>
                                             <li>🏆 <strong>Final:</strong> July 19, MetLife Stadium, East Rutherford, New Jersey</li>
                                             <li>🇺🇸 <strong>US Host Cities:</strong> LA · Miami · Dallas · Houston · Atlanta · Seattle · Philly · Boston · KC · SF Bay Area · NY/NJ</li>
@@ -137,11 +137,11 @@ export default function SportsTravelPage() {
                                     </div>
 
                                     {/* CTA */}
-                                    <div className="bg-green-950/50 border border-green-700/50 rounded-2xl p-6 text-center">
+                                    <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 text-center">
                                         <p
                                             style={{
                                                 fontFamily: "var(--font-bebas)",
-                                                color: "#22c55e",
+                                                color: "#37507a",
                                                 fontSize: "1.6rem",
                                                 letterSpacing: "0.06em",
                                                 fontWeight: "normal",
@@ -154,7 +154,7 @@ export default function SportsTravelPage() {
                                             href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026"
                                             target="_blank"
                                             rel="sponsored noopener noreferrer"
-                                            className="inline-block bg-green-700 hover:bg-green-600 text-white font-bold px-8 py-3 rounded-full transition-colors duration-200"
+                                            className="inline-block bg-[#37507a] hover:bg-[#2c3f61] text-white font-bold px-8 py-3 rounded-full transition-colors duration-200"
                                         >
                                             Plan Your World Cup Trip →
                                         </a>
@@ -163,8 +163,8 @@ export default function SportsTravelPage() {
                                 </article>
 
                                 {/* Ticket Widget */}
-                                <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100 p-2 md:p-4 mt-8">
-                                    <h3 className="text-xl font-bold text-center text-gray-900 mb-3 border-b pb-3">Search For Tickets</h3>
+                                <div className="bg-[#ffffff] rounded-2xl shadow-xl overflow-hidden border-2 border-[#37507a]/20 p-2 md:p-4 mt-8 backdrop-blur-sm">
+                                    <h3 className="text-xl font-bold text-center text-[#37507a] mb-3 border-b border-[#37507a]/20 pb-3">Search For Tickets</h3>
                                     <TicketWidget
                                         id="ticket-network-widget-search"
                                         src="https://tpwgts.com/content?promo_id=8505&campaign_id=72&powered_by=true&footer_color=%23ffffff&search_text=Search%20by%20artist%2C%20team%2C%20event%2C%20etc...&icon_color=%230077ff&title_color=%23ffffff&title=Need%20tickets%3F&bg_color=%23112266&shmarker=417314.417314&trs=215716"

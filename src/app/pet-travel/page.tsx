@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function PetTravelPage() {
     return (
-        <div className="min-h-screen font-sans flex flex-col relative bg-[#fff89A]">
+        <div className="min-h-screen font-sans flex flex-col relative bg-[#fff0d4]">
             {/* Content Container */}
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />

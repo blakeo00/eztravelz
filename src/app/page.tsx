@@ -33,6 +33,8 @@ export default function Home() {
                     <Script src="https://partners.vtrcdn.com/static/scripts/banners/banners.js" strategy="lazyOnload" />
                 </div>
 
+
+
                 <FromTheBlog />
             </main>
             <Footer />

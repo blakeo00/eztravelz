@@ -151,20 +151,20 @@ export default function SixHauntedCities() {
   ];
 
   return (
-    <section className="bg-gray-900/90 rounded-3xl shadow-2xl overflow-hidden border border-purple-700/50 p-8 md:p-12 backdrop-blur-sm mb-12" style={{ boxShadow: '0 0 30px rgba(147, 51, 234, 0.15)' }}>
+    <section className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 md:p-12 backdrop-blur-sm mb-12" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
       {/* Section Header */}
       <h2 className="text-4xl font-extrabold mt-3 mb-2 leading-tight text-red-500" style={{ fontFamily: "var(--font-creepster)" }}>
         Six Haunted Cities Worth Traveling For
       </h2>
 
       {/* Tagline */}
-      <p className="text-sm text-gray-500 mb-6">
+      <p className="text-sm text-[#37507a] mb-6">
         Year-Round · Louisiana, Georgia, Massachusetts, Pennsylvania, Florida,
         Texas · The Cities That Never Let Their Dead Go
       </p>
 
       {/* Intro */}
-      <p className="text-lg leading-relaxed mb-10 text-gray-300">
+      <p className="text-lg leading-relaxed mb-10 text-[#37507a]">
         Some cities wear their history visibly. Others bury it, and then spend
         centuries letting it surface in the dark. The six cities below have
         something in common: documented paranormal activity that predates the
@@ -178,11 +178,11 @@ export default function SixHauntedCities() {
       {/* City Entries */}
       <div className="space-y-12 block">
         {cities.map((city, index) => (
-          <div key={index} className="border-t border-purple-700/50 pt-8 clear-both flow-root">
+          <div key={index} className="border-t border-[#37507a]/20/50 pt-8 clear-both flow-root">
             {/* Emoji + Name */}
             <div className="flex items-center gap-3 mb-1">
               <span className="text-3xl">{city.emoji}</span>
-              <h3 className="text-2xl font-bold text-gray-100">{city.name}</h3>
+              <h3 className="text-2xl font-bold text-[#37507a]">{city.name}</h3>
             </div>
 
             {/* Season + Location */}
@@ -195,16 +195,16 @@ export default function SixHauntedCities() {
                <img 
                  src={city.image} 
                  alt={`Haunted rendering of ${city.name}`} 
-                 className="w-full h-full object-cover rounded-lg shadow-lg border-2 border-purple-900/50"
+                 className="w-full h-full object-cover rounded-lg shadow-lg border-2 border-[#37507a]/20/50"
                />
             </div>
 
             {/* Description & Links */}
-            <div className="text-gray-300 text-lg">
+            <div className="text-[#37507a] text-lg">
               <p className="leading-relaxed mb-4">
                 {city.description}
               </p>
-              <p className="leading-relaxed mb-5 text-[0.95em] text-gray-400">
+              <p className="leading-relaxed mb-5 text-[0.95em] text-[#37507a]">
                 {city.linksParagraph}
               </p>
             </div>
@@ -227,7 +227,7 @@ export default function SixHauntedCities() {
       </div>
 
       {/* Closing Paragraph */}
-      <p className="text-lg leading-relaxed mt-12 border-t border-purple-700/50 pt-10 text-gray-300">
+      <p className="text-lg leading-relaxed mt-12 border-t border-[#37507a]/20/50 pt-10 text-[#37507a]">
         Every city on this list has layers that a single night won't exhaust.
         The best ghost tours are the ones that send you home with more questions
         than you arrived with, and all six of these do exactly that. Book early
@@ -237,8 +237,8 @@ export default function SixHauntedCities() {
       </p>
 
       {/* US Ghost Adventures CTA Banner */}
-      <div className="mt-10 bg-black/40 rounded-lg p-6 text-center border border-purple-900/50">
-        <p className="text-sm font-semibold mb-3 text-gray-300">
+      <div className="mt-10 bg-black/40 rounded-lg p-6 text-center border border-[#37507a]/20/50">
+        <p className="text-sm font-semibold mb-3 text-[#37507a]">
           Ready to book your ghost adventure?
         </p>
         <a

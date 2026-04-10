@@ -53,7 +53,7 @@ export default function SixFreeThingsArticle() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#2c4875]/95 text-slate-50 border-2 border-slate-700 shadow-[0_0_30px_rgba(44,72,117,0.25)] prose prose-lg max-w-none prose-headings:text-white prose-p:text-slate-100 prose-a:text-[#89D4FF] hover:prose-a:text-[#fff0d4] prose-strong:text-white prose-hr:border-slate-600">
+                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#ffffff] text-slate-50 border-2 border-[#37507a]/20 shadow-[0_0_30px_rgba(44,72,117,0.25)] prose prose-lg max-w-none prose-headings:text-[#37507a] prose-p:text-[#37507a] prose-a:text-[#89D4FF] hover:prose-a:text-[#37507a] prose-strong:text-[#37507a] prose-hr:border-[#37507a]/20">
                                     <p className="lead text-xl text-slate-400 font-medium mb-8">
                                         Most people come to Las Vegas and never leave a quarter-mile radius of whatever casino hotel they&apos;re staying in. That&apos;s fine. The Strip delivers exactly what it promises. But if you live here, or if you&apos;re the kind of traveler who wants to see what a city actually is beneath the lights, Las Vegas has a version of itself that most visitors never find. These places are where locals actually enjoy spending their time. None of them will cost you much. A couple of them won&apos;t cost you anything at all.
                                     </p>
@@ -134,7 +134,7 @@ export default function SixFreeThingsArticle() {
                                             height={800}
                                             className="w-full rounded-xl"
                                         />
-                                        <figcaption className="text-center text-sm text-slate-300 mt-4 font-medium italic">
+                                        <figcaption className="text-center text-sm text-[#37507a] mt-4 font-medium italic">
                                             The thriving Arts District in Downtown Las Vegas
                                         </figcaption>
                                     </figure>
@@ -162,7 +162,7 @@ export default function SixFreeThingsArticle() {
                                             <h3 className="text-xl font-bold text-white mb-3 mt-0 drop-shadow-md">
                                                 Explore Downtown Las Vegas &amp; The Fremont Experience
                                             </h3>
-                                            <p className="text-slate-200 mb-6 max-w-2xl mx-auto drop-shadow-md">
+                                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto drop-shadow-md">
                                                 Discover incredible street art, fantastic food, and local culture on a guided tour of the Downtown and Arts District.
                                             </p>
                                             <a
@@ -262,7 +262,7 @@ export default function SixFreeThingsArticle() {
                                             <h3 className="text-xl font-bold text-white mb-3 mt-0 drop-shadow-md">
                                                 Las Vegas Night Helicopter Flight &amp; Neon Museum
                                             </h3>
-                                            <p className="text-slate-200 mb-6 max-w-2xl mx-auto drop-shadow-md">
+                                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto drop-shadow-md">
                                                 Pair your trip through Las Vegas history with a view of the original neon signs and an amazing helicopter tour.
                                             </p>
                                             <a
@@ -334,7 +334,7 @@ export default function SixFreeThingsArticle() {
 
                                     <hr className="my-12 border-slate-600" />
 
-                                    <div className="bg-[#1e3459] p-6 rounded-xl italic text-slate-300 text-sm">
+                                    <div className="bg-[#1e3459] p-6 rounded-xl italic text-[#37507a] text-sm">
                                         <p className="m-0">
                                             Hours and seasonal schedules change throughout the year. Gilcrease Orchard and Gilcrease Nature Sanctuary both require checking their websites before visiting. The Neon Museum is best reserved online in advance at neonmuseum.org. Floyd Lamb Park and the Mormon Fort are open year round and both are best visited when the weather cooperates, which in Las Vegas means anytime that isn&apos;t July. The Fremont Street Experience Music Reels run at the top of every hour starting at six in the evening. Come after dark.
                                         </p>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function WineDestinationsPage() {
     return (
-        <div className="min-h-screen font-sans flex flex-col relative bg-[#f9c1c0]">
+        <div className="min-h-screen font-sans flex flex-col relative bg-[#fff0d4]">
             {/* Content Container */}
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />
@@ -39,9 +39,9 @@ export default function WineDestinationsPage() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="bg-[#4a091e]/90 rounded-3xl shadow-xl border border-rose-900/50 backdrop-blur-md p-8 mb-12 text-center">
+                                <div className="bg-[#ffffff] rounded-3xl shadow-2xl border-2 border-[#37507a]/20 backdrop-blur-sm p-8 mb-12 text-center" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
                                     <h2
-                                        className="text-4xl md:text-5xl font-bold text-amber-500 flex flex-col items-center gap-2"
+                                        className="text-4xl md:text-5xl font-bold text-[#37507a] flex flex-col items-center gap-2"
                                         style={{ fontFamily: "'Cinzel', serif" }}
                                     >
                                         <span>Oregon:</span>

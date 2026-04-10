@@ -53,7 +53,7 @@ export default function SpringMountainRanchArticle() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#2c4875]/95 text-slate-50 border-2 border-slate-700 shadow-[0_0_30px_rgba(44,72,117,0.25)] prose prose-lg max-w-none prose-headings:text-white prose-p:text-slate-100 prose-a:text-[#89D4FF] hover:prose-a:text-[#fff0d4] prose-strong:text-white prose-hr:border-slate-600">
+                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#ffffff] text-slate-50 border-2 border-[#37507a]/20 shadow-[0_0_30px_rgba(44,72,117,0.25)] prose prose-lg max-w-none prose-headings:text-[#37507a] prose-p:text-[#37507a] prose-a:text-[#89D4FF] hover:prose-a:text-[#37507a] prose-strong:text-[#37507a] prose-hr:border-[#37507a]/20">
                         <p className="lead text-xl text-slate-600 font-medium mb-8">
                             Twenty-five miles west of the Strip, past the rust-colored walls of Red Rock Canyon and through the easy curves of the scenic drive that connects Blue Diamond Road to Charleston Boulevard, there is a place that most Las Vegas visitors never find and most locals quietly treasure.
                         </p>
@@ -132,7 +132,7 @@ export default function SpringMountainRanchArticle() {
                                 height={800} 
                                 className="w-full rounded-xl"
                             />
-                            <figcaption className="text-center text-sm text-slate-300 mt-4 font-medium italic">
+                            <figcaption className="text-center text-sm text-[#37507a] mt-4 font-medium italic">
                                 Trail map courtesy Spring Mountain Ranch State Park
                             </figcaption>
                         </figure>
@@ -187,7 +187,7 @@ export default function SpringMountainRanchArticle() {
                             <h3 className="text-xl font-bold text-white mb-3 mt-0">
                                 Explore Red Rock Canyon — Guided Tours Available
                             </h3>
-                            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
+                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto">
                                 Spring Mountain Ranch sits right on the Red Rock scenic drive.
                                 If you want a guided experience through the canyon itself, these tours
                                 depart from Las Vegas and pair perfectly with a ranch visit.
@@ -210,7 +210,7 @@ export default function SpringMountainRanchArticle() {
                             <h3 className="text-xl font-bold text-white mb-3 mt-0">
                                 Book a Las Vegas Day Trip Experience
                             </h3>
-                            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">
+                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto">
                                 From Valley of Fire to Hoover Dam to the Spring Mountains,
                                 there are guided day trips that take the planning off your plate
                                 entirely. Worth a look if you're visiting and want to cover more ground.
@@ -227,7 +227,7 @@ export default function SpringMountainRanchArticle() {
 
                         <hr className="my-12 border-slate-600" />
 
-                        <div className="bg-[#1e3459] p-6 rounded-xl italic text-slate-300 text-sm">
+                        <div className="bg-[#1e3459] p-6 rounded-xl italic text-[#37507a] text-sm">
                             <p className="m-0">
                                 Spring Mountain Ranch State Park is located on State Route 159, approximately 25 miles
                                 west of Las Vegas. Full visitor information at

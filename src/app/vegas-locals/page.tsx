@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 export default function VegasLocalsPage() {
     return (
         <div className="min-h-screen font-sans flex flex-col relative">
-            <div className="fixed inset-0 z-0 bg-[#89D4FF]"></div>
+            <div className="fixed inset-0 z-0 bg-[#fff0d4]"></div>
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />
                 <main className="flex-grow pb-20">
@@ -48,16 +48,10 @@ export default function VegasLocalsPage() {
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
                                 <div
-                                    className="rounded-3xl p-8 sm:p-12 text-slate-900"
-                                    style={{
-                                        border: '5px solid transparent',
-                                        backgroundImage: 'linear-gradient(#fdffb6, #fdffb6), linear-gradient(135deg, #00e5ff, #ff00ff, #00e5ff, #ff00ff, #00e5ff)',
-                                        backgroundOrigin: 'border-box',
-                                        backgroundClip: 'padding-box, border-box',
-                                        boxShadow: '0 0 8px #00e5ff, 0 0 20px rgba(255, 0, 255, 0.5), 0 0 40px rgba(0, 229, 255, 0.25), inset 0 0 12px rgba(0, 229, 255, 0.08)',
-                                    }}
+                                    className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 sm:p-12 backdrop-blur-sm text-[#37507a]"
+                                    style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}
                                 >
-                                    <div className="prose prose-lg max-w-none prose-p:leading-relaxed prose-headings:font-bold prose-headings:text-slate-900 prose-a:text-[#7d12ff] hover:prose-a:text-[#4b0b99]">
+                                    <div className="prose  prose-lg max-w-none prose-p:leading-relaxed prose-headings:font-bold prose-a:text-[#89D4FF] hover:prose-a:text-white">
                                         {sphereLasVegasContent()}
                                     </div>
                                 </div>
