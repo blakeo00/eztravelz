@@ -97,12 +97,12 @@ function CompactCard({
             className="flex bg-[#37507a] rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-white/20 overflow-hidden group"
         >
             {/* Thumbnail */}
-            <div className="relative w-24 min-w-[96px] bg-transparent flex items-center justify-center p-2 border-r border-white/10 shrink-0">
+            <div className="relative w-28 shrink-0 bg-[#fff0d4] flex items-center justify-center p-3 border-r border-[#37507a]">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                     src={imageUrl}
                     alt={title}
-                    className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-300"
+                    className="max-w-full max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-300"
                     loading="lazy"
                 />
                 {badge && (
@@ -156,14 +156,14 @@ function FullCard({
                 href={affiliateLink}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
-                className="block relative bg-transparent p-6 border-b border-white/10"
+                className="block relative bg-[#fff0d4] p-6 border-b-4 border-[#2c4062]"
             >
                 <div className="relative w-full h-56 flex items-center justify-center overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                         src={imageUrl}
                         alt={title}
-                        className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                        className="max-w-full max-h-full object-contain mix-blend-multiply group-hover:scale-105 transition-transform duration-500"
                     />
                 </div>
                 {badge && (
