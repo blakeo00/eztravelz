@@ -82,7 +82,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             Located directly across the street from Dog Beach, this property features a fenced dog run, grassy walking space, a luxurious dog wash, tile floors, and complimentary treats in the lobby.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">Directly on Beach</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">Directly on Beach</span>
                     </a>
 
                     <a href="https://expedia.stay22.com/eztravelz/KKRpHdsq_O" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-[#37507a]/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
@@ -91,7 +91,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             Situated at 5080 Newport Avenue with beach access, all ground-floor patio rooms welcome up to two dogs at no extra fee. Expect stunning patio views of the Pacific.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">No Pet Fee</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">No Pet Fee</span>
                     </a>
 
                     <a href="https://expedia.stay22.com/eztravelz/yrB6Y7TElT" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-[#37507a]/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
@@ -100,7 +100,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             A short drive away, this waterfront resort welcomes up to two dogs per room with no weight restriction and offers serene walking paths along Mission Bay Aquatic Park.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">No Weight Limit</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">No Weight Limit</span>
                     </a>
 
                     <a href="https://expedia.stay22.com/eztravelz/hT2oUhxn6H" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-[#37507a]/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
@@ -109,7 +109,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             A beloved Mission Bay resort that consistently earns top ratings for its dog-friendly atmosphere and generous amenities for guests traveling with pets.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">Top Rated</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">Top Rated</span>
                     </a>
                 </div>
 
@@ -124,7 +124,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             Sits right on the beach and serves seafood, burgers, and local favorites from a dog-friendly patio with direct ocean views.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">Oceanfront Patio</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">Oceanfront Patio</span>
                     </a>
 
                     <a href="https://obsurflodge.com/" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-[#37507a]/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
@@ -133,7 +133,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             A spacious dog-friendly patio with a direct view of the surf. The perfect spot to decompress after a big beach session with your pup.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">Surf Views</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">Surf Views</span>
                     </a>
 
                     <a href="https://www.breakfastrepublic.com/" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-[#37507a]/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
@@ -142,7 +142,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             A popular brunch destination with a dog-friendly upstairs patio, perfect for a post-beach Bloody Mary and a well-earned meal.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">Weekend Brunch</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">Weekend Brunch</span>
                     </a>
 
                     <a href="https://www.sallyssandiego.com/" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-[#37507a]/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
@@ -151,7 +151,7 @@ export default function DogBeachArticle() {
                         <p className="text-[0.875rem] text-[#37507a] mb-3 font-medium">
                             Located on the waterfront with a dedicated dog menu featuring pupcakes and doggy beer. Enjoy spectacular views and fresh seafood with your furry friend.
                         </p>
-                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-slate-800 border border-[#37507a]/20 text-[#37507a] py-1 px-3 rounded-full">Dog Menu</span>
+                        <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-[#37507a]/20 text-white py-1 px-3 rounded-full">Dog Menu</span>
                     </a>
                 </div>
 

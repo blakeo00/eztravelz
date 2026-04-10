@@ -136,7 +136,7 @@ export default function WillametteValleyGuide() {
 
             {/* The Evolution Section */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 How It Evolved Into What It Is Today
@@ -182,7 +182,7 @@ export default function WillametteValleyGuide() {
 
             {/* Wineries Section */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-5"
             >
                 Wineries Worth the Drive
@@ -190,9 +190,9 @@ export default function WillametteValleyGuide() {
 
             <div className="space-y-5 mb-12">
                 {wineries.map((winery, i) => (
-                    <div key={i} className="border-l-4 border-amber-600 pl-5 py-1">
+                    <div key={i} className="border-l-4 border-[#37507a] pl-5 py-1">
                         <p
-                            style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                            style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                             className="font-bold text-base mb-2"
                         >
                             {winery.name}
@@ -214,7 +214,7 @@ export default function WillametteValleyGuide() {
 
             {/* Visitor Info */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fcd34d" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 Planning Your Visit
@@ -284,7 +284,7 @@ export default function WillametteValleyGuide() {
                         className="w-full h-[400px] object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center">
-                        <span className="bg-amber-600 text-slate-900 font-bold px-6 py-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0 text-lg shadow-lg">
+                        <span className="bg-[#37507a] text-white font-bold px-6 py-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-4 group-hover:translate-y-0 text-lg shadow-lg">
                             Book Now via Viator
                         </span>
                     </div>
