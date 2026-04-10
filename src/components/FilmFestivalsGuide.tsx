@@ -64,7 +64,7 @@ export default function FilmFestivalsGuide() {
             <h2
                 style={{
                     fontFamily: "var(--font-cinzel), 'Cinzel', serif",
-                    color: "#FFD700",
+                    color: "#37507a",
                     fontSize: "clamp(1.8rem, 5vw, 3.2rem)",
                     fontWeight: "700",
                     letterSpacing: "0.04em",
@@ -101,7 +101,7 @@ export default function FilmFestivalsGuide() {
                                 <p
                                     style={{
                                         fontFamily: "var(--font-cinzel), 'Cinzel', serif",
-                                        color: "#FFD700",
+                                        color: "#37507a",
                                         fontSize: "1.05rem",
                                         fontWeight: "700",
                                         letterSpacing: "0.03em",
@@ -144,8 +144,8 @@ export default function FilmFestivalsGuide() {
             </p>
 
             {/* CTA & Viator Linking */}
-            <div className="bg-yellow-950/50 border border-yellow-600/50 rounded-2xl p-6 text-center">
-                <div className="relative w-full h-64 sm:h-80 md:h-[350px] mb-6 rounded-xl overflow-hidden shadow-lg border border-yellow-600/30">
+            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 text-center">
+                <div className="relative w-full h-64 sm:h-80 md:h-[350px] mb-6 rounded-xl overflow-hidden shadow-lg border border-[#37507a]/20">
                     <Image
                         src="/images/Cannes.png"
                         alt="Canned Film Festival Riviera View"
@@ -155,7 +155,7 @@ export default function FilmFestivalsGuide() {
                     />
                 </div>
 
-                <div className="mt-8 pt-6 border-t border-yellow-600/30">
+                <div className="mt-8 pt-6 border-t border-[#37507a]/20">
                     <p className="text-[#37507a] mb-4 font-medium">Visiting Cannes? Make it a Dream Day on the French Riviera:</p>
                     <a
                         href="https://www.viator.com/tours/Cannes/French-Riviera-PRIVATE-Dream-Day-Nice-Monaco-and-Villefranche/d786-472303P3?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Cannes"

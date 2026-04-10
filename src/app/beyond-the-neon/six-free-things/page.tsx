@@ -53,12 +53,12 @@ export default function SixFreeThingsArticle() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#ffffff] text-slate-50 border-2 border-[#37507a]/20 shadow-[0_0_30px_rgba(44,72,117,0.25)] prose prose-lg max-w-none prose-headings:text-[#37507a] prose-p:text-[#37507a] prose-a:text-[#89D4FF] hover:prose-a:text-[#37507a] prose-strong:text-[#37507a] prose-hr:border-[#37507a]/20">
-                                    <p className="lead text-xl text-slate-400 font-medium mb-8">
+                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#ffffff] text-[#37507a] border-2 border-[#37507a]/20 shadow-[0_0_30px_rgba(44,72,117,0.25)] prose prose-lg max-w-none prose-headings:text-[#37507a] prose-p:text-[#37507a] prose-a:text-blue-600 hover:prose-a:text-[#37507a] prose-strong:text-[#37507a] prose-hr:border-[#37507a]/20">
+                                    <p className="lead text-xl text-[#37507a] font-medium mb-8">
                                         Most people come to Las Vegas and never leave a quarter-mile radius of whatever casino hotel they&apos;re staying in. That&apos;s fine. The Strip delivers exactly what it promises. But if you live here, or if you&apos;re the kind of traveler who wants to see what a city actually is beneath the lights, Las Vegas has a version of itself that most visitors never find. These places are where locals actually enjoy spending their time. None of them will cost you much. A couple of them won&apos;t cost you anything at all.
                                     </p>
 
-                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-white">A Working Orchard and an Animal Sanctuary, Side by Side in the Desert</h2>
+                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-[#37507a]">A Working Orchard and an Animal Sanctuary, Side by Side in the Desert</h2>
 
                                     <p>
                                         The single most surprising thing about Las Vegas, in my experience, is that you can spend a morning picking your own peaches from a tree while a rescued cockatoo tries to talk to you from across the street.
@@ -82,7 +82,7 @@ export default function SixFreeThingsArticle() {
                                         Directly across the street is <a href="https://gilcrease.community/" target="_blank" rel="noopener noreferrer">Gilcrease Nature Sanctuary</a> at 8103 Racel St., a nonprofit rescue that has been giving permanent homes to abandoned and surrendered animals since 1979. More than five hundred animals live here, including parrots, cockatoos, African greys, peacocks, goats, miniature horses, alpacas, emus, ostriches, and large tortoises. Tours run Wednesday through Sunday and cost between $5 and $10 per person, with $5 Wednesdays for all ages, children under 3 are free. The cockatoo room alone is worth the trip. Those birds will talk to you, argue with you, and remember you better than most people you meet in a casino. If interested they always are looking for volunteers. Plan to spend a half-day between the two. Orchard in the morning while it&apos;s cool, sanctuary after. Bring water, wear closed-toe shoes at the orchard, and go on a weekday if you can. And when you&apos;re done, Floyd Lamb Park is less than ten minutes away, which means the most unexpected day trip in Las Vegas is already mapped out for you before you leave the northwest valley.
                                     </p>
 
-                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-white">Floyd Lamb Park, Where the Peacocks Don&apos;t Care Who You Are</h2>
+                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-[#37507a]">Floyd Lamb Park, Where the Peacocks Don&apos;t Care Who You Are</h2>
 
                                     <p>
                                         From the Gilcrease properties, it&apos;s a short drive south to one of the most genuinely peaceful corners of the Las Vegas Valley. About twenty minutes northwest of the Strip, <a href="https://www.lasvegasnevada.gov/Residents/Parks-Facilities/Floyd-Lamb-Park" target="_blank" rel="noopener noreferrer">Floyd Lamb Park</a> at Tule Springs is where Las Vegas locals go when they need to remember the city has trees. The park surrounds a series of spring-fed ponds. The ponds contain species like rainbow trout, catfish, and bass, and anglers must comply with state regulations, including a limit of three fish per person, and a valid Nevada state fishing license is required to fish in the stocked ponds at Floyd Lamb Park. Peacocks that wander the grounds have been here long enough that they&apos;ve completely lost interest in being remarkable. They&apos;ll walk across the path in front of your car, settle onto a picnic table beside you, and regard you with the particular indifference of an animal that knows it lives somewhere beautiful. The Las Vegas Astronomical Society periodically holds stargazing events free of charge with a free park entry. It&apos;s one of the many family fun events that the park hosts.
@@ -106,7 +106,7 @@ export default function SixFreeThingsArticle() {
                                         Put these three together and you have a complete day that costs less than thirty dollars total, covers more genuine Las Vegas history than most guided tours, and involves absolutely zero slot machines.
                                     </p>
 
-                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-white">Container Park, Fergusons, and the Arts District — A Neighborhood Worth a Full Day and Night</h2>
+                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-[#37507a]">Container Park, Fergusons, and the Arts District — A Neighborhood Worth a Full Day and Night</h2>
 
                                     <p>
                                         The Fremont East neighborhood and the neighboring Arts District have been quietly becoming one of the more genuinely interesting parts of Las Vegas for the better part of a decade, and <a href="https://downtowncontainerpark.com/" target="_blank" rel="noopener noreferrer">Container Park</a> at 707 Fremont St. is the anchor of that transformation. The complex is built entirely from repurposed shipping containers and is free to enter. The praying mantis sculpture out front shoots actual fire on weekend evenings, which is exactly as good as it sounds.
@@ -126,7 +126,7 @@ export default function SixFreeThingsArticle() {
                                         Inside you&apos;ll find local shops, food vendors, a treehouse play area for kids, and an outdoor stage that hosts live music on weekends. The surrounding Fremont East corridor has great bars, fabulous restaurants, and artistic murals that go for blocks. Close by is another shopping and event destination, <a href="https://www.fergusonsdowntown.com/" target="_blank" rel="noopener noreferrer">Fergusons Downtown</a> at 1028 Fremont St. As they proclaim on their website, &ldquo;From the shops of local makers to restaurants and enchanting green space, Fergusons is a place where the community can connect, shop, eat, drink, stay, work, gather and explore.&rdquo; The original Fergusons Motel was built in the 1940s. Rather than tear it down, someone had the good sense to revitalize it into a community-centered block of locally owned businesses that now includes a local coffee roaster and cafe, chef-driven restaurants, vintage boutiques, a curated plant store, a crystal shop, a photographer&apos;s studio, kid workshops, and a rooftop space for co-working.
                                     </p>
 
-                                    <figure className="my-10 bg-[#1e3459] p-4 rounded-2xl shadow-md border border-slate-600">
+                                    <figure className="my-10 bg-[#fff0d4]/50 p-4 rounded-2xl shadow-md border-2 border-[#37507a]/20">
                                         <Image
                                             src="/images/18a.jpg"
                                             alt="18b Arts District in Downtown Las Vegas"
@@ -148,35 +148,29 @@ export default function SixFreeThingsArticle() {
                                     </p>
 
                                     {/* CTA BLOCK 1 — Downtown Tour */}
-                                    <div className="relative my-8 rounded-2xl bg-slate-900 border border-white/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose overflow-hidden group">
-                                        <Image
-                                            src="/images/Crawl.jpg"
-                                            alt="Downtown Las Vegas Tour"
-                                            fill
-                                            className="object-cover object-center opacity-25"
-                                        />
+                                    <div className="relative my-8 rounded-2xl bg-[#fff0d4]/50 border-2 border-[#37507a]/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose overflow-hidden group text-[#37507a]">
                                         <div className="relative z-10">
-                                            <p className="text-xs text-[#89D4FF] uppercase tracking-widest font-bold mb-2 drop-shadow-md">
+                                            <p className="text-xs text-[#2c4875] uppercase tracking-widest font-bold mb-2">
                                                 While you&apos;re out there
                                             </p>
-                                            <h3 className="text-xl font-bold text-white mb-3 mt-0 drop-shadow-md">
+                                            <h3 className="text-xl font-bold text-[#37507a] mb-3 mt-0">
                                                 Explore Downtown Las Vegas &amp; The Fremont Experience
                                             </h3>
-                                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto drop-shadow-md">
+                                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto font-medium">
                                                 Discover incredible street art, fantastic food, and local culture on a guided tour of the Downtown and Arts District.
                                             </p>
                                             <a
                                                 href="https://gyg.me/ETgD7E4R"
                                                 target="_blank"
                                                 rel="sponsored noopener noreferrer"
-                                                className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
+                                                className="inline-block px-8 py-3.5 rounded-full bg-[#37507a] text-white font-bold hover:bg-[#2c4875] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
                                             >
                                                 Book Downtown Las Vegas Tour on GetYourGuide →
                                             </a>
                                         </div>
                                     </div>
 
-                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-white">The Fremont Street Experience, Where the Night Has No Ceiling</h2>
+                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-[#37507a]">The Fremont Street Experience, Where the Night Has No Ceiling</h2>
 
                                     <figure className="my-10">
                                         <Image
@@ -204,7 +198,7 @@ export default function SixFreeThingsArticle() {
                                         Come after dark. Come on a weeknight if crowds aren&apos;t your thing. And if you&apos;re bringing someone who hasn&apos;t been before, don&apos;t tell them about the canopy in advance. Let them look up on their own.
                                     </p>
 
-                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-white">The Old Las Vegas Mormon Fort, and an Evening Worth Staying For</h2>
+                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-[#37507a]">The Old Las Vegas Mormon Fort, and an Evening Worth Staying For</h2>
 
                                     <p>
                                         The oldest surviving structure in Nevada is a small adobe remnant. The <a href="https://parks.nv.gov/parks/old-las-vegas-mormon-fort" target="_blank" rel="noopener noreferrer">Old Las Vegas Mormon Fort</a> located at 500 E. Washington Ave. is tucked against a modern street in downtown Las Vegas, and almost no one driving past it knows what they&apos;re looking at. Built in 1855 by Mormon missionaries sent from Salt Lake City, the fort predates the Las Vegas most people know by about half a century. Archeological excavations of the fort site revealed pottery shards, stone tools and projectile points of both Anasazi and Paiute origin. A high concentration of artifacts was uncovered directly north of the northeastern fort bastion, suggesting the presence of a campsite that was intermittently used for centuries prior to the arrival of Euro-Americans. The site is a state historic park, admission costs about one dollar, and the quiet it carries in the middle of a busy city is something you have to experience to understand.
@@ -248,35 +242,29 @@ export default function SixFreeThingsArticle() {
                                     </p>
 
                                     {/* CTA BLOCK 2 — Helicopter & Neon Museum */}
-                                    <div className="relative my-8 rounded-2xl bg-slate-900 border border-white/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose overflow-hidden group">
-                                        <Image
-                                            src="/images/helicopter.jpg"
-                                            alt="Las Vegas Night Helicopter Flight"
-                                            fill
-                                            className="object-cover object-center opacity-25"
-                                        />
+                                    <div className="relative my-8 rounded-2xl bg-[#fff0d4]/50 border-2 border-[#37507a]/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose overflow-hidden group text-[#37507a]">
                                         <div className="relative z-10">
-                                            <p className="text-xs text-[#89D4FF] uppercase tracking-widest font-bold mb-2 drop-shadow-md">
+                                            <p className="text-xs text-[#2c4875] uppercase tracking-widest font-bold mb-2">
                                                 Experience the Glow
                                             </p>
-                                            <h3 className="text-xl font-bold text-white mb-3 mt-0 drop-shadow-md">
+                                            <h3 className="text-xl font-bold text-[#37507a] mb-3 mt-0">
                                                 Las Vegas Night Helicopter Flight &amp; Neon Museum
                                             </h3>
-                                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto drop-shadow-md">
+                                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto font-medium">
                                                 Pair your trip through Las Vegas history with a view of the original neon signs and an amazing helicopter tour.
                                             </p>
                                             <a
                                                 href="https://www.getyourguide.com/las-vegas-l58/las-vegas-night-helicopter-flight-with-neon-museum-ticket-t425051/?partner_id=8LNIBCT&utm_medium=online_publisher&cmp=Vegas"
                                                 target="_blank"
                                                 rel="sponsored noopener noreferrer"
-                                                className="inline-block px-8 py-3.5 rounded-full bg-[#1A7A7A] text-white font-bold hover:bg-[#145f5f] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
+                                                className="inline-block px-8 py-3.5 rounded-full bg-[#37507a] text-white font-bold hover:bg-[#2c4875] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
                                             >
                                                 Book Helicopter Tour &amp; Neon Museum →
                                             </a>
                                         </div>
                                     </div>
 
-                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-white">The Bellagio Conservatory, the Glass Ceiling Nobody Looks Up At, and the Sky Ceiling Next Door at Caesars</h2>
+                                    <h2 className="text-2xl font-bold mt-12 mb-6 text-[#37507a]">The Bellagio Conservatory, the Glass Ceiling Nobody Looks Up At, and the Sky Ceiling Next Door at Caesars</h2>
 
                                     <p>
                                         The Bellagio is not an off-the-Strip experience by any definition of the phrase. But the two things inside it that I want to tell you about are free, they are world-class, and the majority of people who walk past them every single day have no idea what they&apos;re seeing.
@@ -332,9 +320,9 @@ export default function SixFreeThingsArticle() {
                                         As you walk under the iconic &ldquo;sky ceiling&rdquo; at The Forum Shops at Caesars Palace — introduced in 1992, it was a pioneering painted faux-sky designed by Sky Art by Karen Kristin — it revolutionized Las Vegas retail by simulating an outdoor Italian village atmosphere with lighting that cycles from dawn to dusk. As you wind through the shop you stumble on The Fall of Atlantis show at The Forum Shops at Caesars Palace, a free 7–10 minute animatronic performance featuring fire, water effects, and nine-foot talking statues. Located near the Cheesecake Factory, it runs Thursday through Monday, hourly from noon to 8 p.m. (dark Tuesdays/Wednesdays). Nearby is the amazing Atlantis Aquarium, a 50,000-gallon tank home to over 300 saltwater fish including sharks and stingrays, located right next to the Atlantis fountain, another worthwhile scenic stop.
                                     </p>
 
-                                    <hr className="my-12 border-slate-600" />
+                                    <hr className="my-12 border-[#37507a]/20" />
 
-                                    <div className="bg-[#1e3459] p-6 rounded-xl italic text-[#37507a] text-sm">
+                                    <div className="bg-[#fff0d4]/50 p-6 rounded-xl italic text-[#37507a] text-sm border-2 border-[#37507a]/20">
                                         <p className="m-0">
                                             Hours and seasonal schedules change throughout the year. Gilcrease Orchard and Gilcrease Nature Sanctuary both require checking their websites before visiting. The Neon Museum is best reserved online in advance at neonmuseum.org. Floyd Lamb Park and the Mormon Fort are open year round and both are best visited when the weather cooperates, which in Las Vegas means anytime that isn&apos;t July. The Fremont Street Experience Music Reels run at the top of every hour starting at six in the evening. Come after dark.
                                         </p>

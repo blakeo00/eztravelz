@@ -82,7 +82,7 @@ export default function BendBreweriesGuide() {
                 capital of the Pacific Northwest.
             </p>
 
-            <p className="text-slate-300 text-lg leading-relaxed mb-8">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-8">
                 This is not a city with a few good taprooms. This is a city that has built
                 an entire culture around the idea that great beer and great adventure belong
                 together. Here is where to start.
@@ -153,7 +153,7 @@ export default function BendBreweriesGuide() {
                 all seven and the story gets significantly better.
             </p>
 
-            <p className="text-slate-300 text-lg leading-relaxed mb-10">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-10">
                 Each territory pairs brewery stops with nearby outdoor activities, so you
                 are never just drinking. You are drinking in context, which is a much
                 finer thing.
@@ -167,7 +167,7 @@ export default function BendBreweriesGuide() {
                 Bend Brews and Beyond, May 23, 2026
             </div>
 
-            <p className="text-slate-300 text-lg leading-relaxed mb-10">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-10">
                 On Saturday, May 23, 2026, Drake Park in downtown Bend hosts Bend Brews
                 and Beyond, bringing more than 50 Oregon breweries, cideries, and
                 non-alcoholic beverage makers to the riverfront for a single day of
