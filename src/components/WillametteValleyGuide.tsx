@@ -35,10 +35,10 @@ const wineries = [
 
 export default function WillametteValleyGuide() {
     return (
-        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-[#37507a] bg-white rounded-3xl shadow-xl overflow-hidden border-2 border-[#37507a]/20 backdrop-blur-md" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
+        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-white bg-[#37507a] rounded-3xl shadow-xl overflow-hidden border-2 border-white/20 backdrop-blur-md" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
 
             {/* Category Label */}
-            <span className="text-[#37507a] uppercase tracking-widest text-sm font-semibold">
+            <span className="text-white uppercase tracking-widest text-sm font-semibold">
                 Wine Destinations
             </span>
 
@@ -46,7 +46,7 @@ export default function WillametteValleyGuide() {
             <h2
                 style={{
                     fontFamily: "'Cinzel', serif",
-                    color: "#37507a",
+                    color: "#fff0d4",
                     fontSize: "clamp(1.8rem, 5vw, 3.2rem)",
                     fontWeight: "700",
                     letterSpacing: "0.04em",
@@ -57,7 +57,7 @@ export default function WillametteValleyGuide() {
                 The Upstart That Shook Burgundy: Willamette Valley and the Rise of World Class Pinot Noir
             </h2>
 
-            <p className="text-[#37507a]/60 text-sm mb-8">
+            <p className="text-white/60 text-sm mb-8">
                 Willamette Valley, Oregon · 700 Wineries · 11 Sub-AVAs · One of the World's Great Wine Regions
             </p>
 
@@ -93,7 +93,7 @@ export default function WillametteValleyGuide() {
 
             {/* The Land Section */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                 className="text-xl font-bold mb-4"
             >
                 What the Land Actually Is
@@ -136,7 +136,7 @@ export default function WillametteValleyGuide() {
 
             {/* The Evolution Section */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                 className="text-xl font-bold mb-4"
             >
                 How It Evolved Into What It Is Today
@@ -182,7 +182,7 @@ export default function WillametteValleyGuide() {
 
             {/* Wineries Section */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                 className="text-xl font-bold mb-5"
             >
                 Wineries Worth the Drive
@@ -190,21 +190,21 @@ export default function WillametteValleyGuide() {
 
             <div className="space-y-5 mb-12">
                 {wineries.map((winery, i) => (
-                    <div key={i} className="border-l-4 border-[#37507a] pl-5 py-1">
+                    <div key={i} className="border-l-4 border-white/40 pl-5 py-1">
                         <p
-                            style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
+                            style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                             className="font-bold text-base mb-2"
                         >
                             {winery.name}
                         </p>
-                        <p className="text-[#37507a] text-base leading-relaxed mb-2">
+                        <p className="text-white text-base leading-relaxed mb-2">
                             {winery.note}
                         </p>
                         <a
                             href={winery.link}
                             target="_blank"
                             rel="sponsored noopener noreferrer"
-                            className="text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
+                            className="text-amber-400 hover:text-amber-300 text-sm font-semibold transition-colors duration-200"
                         >
                             Visit Site →
                         </a>
@@ -214,14 +214,14 @@ export default function WillametteValleyGuide() {
 
             {/* Visitor Info */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                 className="text-xl font-bold mb-4"
             >
                 Planning Your Visit
             </div>
 
-            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 mb-10">
-                <ul className="space-y-3 text-[#37507a] text-base">
+            <div className="bg-white/10 border border-white/20 rounded-2xl p-6 mb-10 shadow-inner">
+                <ul className="space-y-3 text-white text-base">
                     <li>📍 <strong>Location:</strong> The valley runs more than 100 miles from Portland south to Eugene, with most of the premier estates concentrated around Dundee, McMinnville, and Carlton.</li>
                     <li>✈️ <strong>Nearest airport:</strong> Portland International Airport (PDX), approximately 45 minutes from the Dundee Hills.</li>
                     <li>🍷 <strong>Best time to visit:</strong> Late spring through harvest in October. Harvest season brings the most activity, the freshest energy, and the chance to see winemaking in motion.</li>
@@ -242,11 +242,11 @@ export default function WillametteValleyGuide() {
             </p>
 
             {/* CTA */}
-            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 text-center">
+            <div className="bg-white/10 border border-white/20 rounded-2xl p-6 text-center shadow-inner">
                 <p
                     style={{
                         fontFamily: "'Cinzel', serif",
-                        color: "#37507a",
+                        color: "#fff0d4",
                         fontSize: "1.4rem",
                         letterSpacing: "0.04em",
                     }}
@@ -258,16 +258,16 @@ export default function WillametteValleyGuide() {
                     href="https://www.willamettewines.com"
                     target="_blank"
                     rel="sponsored noopener noreferrer"
-                    className="inline-block bg-[#37507a] hover:bg-[#2c3f61] text-white font-bold px-8 py-3 rounded-full transition-colors duration-200"
+                    className="inline-block bg-[#fff0d4] hover:bg-white text-[#37507a] font-bold px-8 py-3 rounded-full transition-colors duration-200"
                 >
                     Plan Your Wine Country Visit →
                 </a>
             </div>
 
             {/* Viator Affiliate Link */}
-            <div className="mt-8 text-center pt-8 border-t border-[#37507a]/20">
+            <div className="mt-8 text-center pt-8 border-t border-white/20">
                 <p
-                    style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
+                    style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                     className="text-xl font-bold mb-4"
                 >
                     Book a Premium Wine Tour
@@ -289,7 +289,7 @@ export default function WillametteValleyGuide() {
                         </span>
                     </div>
                 </a>
-                <p className="text-[#37507a]/60 text-xs italic mt-3">
+                <p className="text-white/60 text-xs italic mt-3">
                     We may earn a commission if you book through this link.
                 </p>
             </div>

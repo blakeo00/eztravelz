@@ -42,20 +42,20 @@ function StarRating({ rating, reviewCount, small }: { rating: number; reviewCoun
                         <defs>
                             <linearGradient id="halfGrad">
                                 <stop offset="50%" stopColor="currentColor" />
-                                <stop offset="50%" stopColor="#D1D5DB" />
+                                <stop offset="50%" stopColor="#475569" />
                             </linearGradient>
                         </defs>
                         <path fill="url(#halfGrad)" d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                 )}
                 {Array.from({ length: emptyStars }).map((_, i) => (
-                    <svg key={`empty-${i}`} className={`${starClass} text-gray-300`} fill="currentColor" viewBox="0 0 20 20">
+                    <svg key={`empty-${i}`} className={`${starClass} text-slate-600`} fill="currentColor" viewBox="0 0 20 20">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
                 ))}
             </div>
             {reviewCount !== undefined && (
-                <span className={`${small ? 'text-[11px]' : 'text-sm'} text-sky-700`}>
+                <span className={`${small ? 'text-[11px]' : 'text-sm'} text-sky-300`}>
                     {reviewCount.toLocaleString()}
                 </span>
             )}
@@ -94,10 +94,10 @@ function CompactCard({
             href={affiliateLink}
             target="_blank"
             rel="sponsored noopener noreferrer"
-            className="flex bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-slate-200 overflow-hidden group"
+            className="flex bg-[#37507a] rounded-xl shadow-sm hover:shadow-md transition-all duration-200 border border-white/20 overflow-hidden group"
         >
             {/* Thumbnail */}
-            <div className="relative w-24 min-w-[96px] bg-white flex items-center justify-center p-2 border-r border-slate-100 shrink-0">
+            <div className="relative w-24 min-w-[96px] bg-transparent flex items-center justify-center p-2 border-r border-white/10 shrink-0">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                     src={imageUrl}
@@ -114,7 +114,7 @@ function CompactCard({
 
             {/* Details */}
             <div className="flex-1 p-2.5 min-w-0 flex flex-col justify-between gap-1">
-                <h3 className="text-xs font-medium leading-tight text-slate-800 group-hover:text-orange-700 transition-colors line-clamp-2">
+                <h3 className="text-xs font-medium leading-tight text-white group-hover:text-orange-300 transition-colors line-clamp-2">
                     {title}
                 </h3>
 
@@ -123,9 +123,9 @@ function CompactCard({
                 )}
 
                 <div className="flex items-baseline gap-1.5 flex-wrap">
-                    {price && <span className="text-sm font-bold text-slate-900">{price}</span>}
+                    {price && <span className="text-sm font-bold text-white">{price}</span>}
                     {originalPrice && (
-                        <span className="text-[11px] text-slate-400 line-through">{originalPrice}</span>
+                        <span className="text-[11px] text-white/60 line-through">{originalPrice}</span>
                     )}
                 </div>
 
@@ -133,7 +133,7 @@ function CompactCard({
                     {isPrime && (
                         <span className="text-[10px] font-bold text-[#00A8E1]">prime</span>
                     )}
-                    <span className="text-[10px] text-amber-600 font-semibold group-hover:text-amber-700">
+                    <span className="text-[10px] text-amber-400 font-semibold group-hover:text-amber-300">
                         View on Amazon →
                     </span>
                 </div>
@@ -150,13 +150,13 @@ function FullCard({
     rating, reviewCount, isPrime, badge, coupon,
 }: AmazonProductCardProps) {
     return (
-        <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 border border-slate-200 overflow-hidden max-w-sm mx-auto group">
+        <div className="bg-[#37507a] rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 border border-white/20 overflow-hidden max-w-sm mx-auto group">
             {/* Product Image */}
             <a
                 href={affiliateLink}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
-                className="block relative bg-white p-6 border-b border-slate-100"
+                className="block relative bg-transparent p-6 border-b border-white/10"
             >
                 <div className="relative w-full h-56 flex items-center justify-center overflow-hidden">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -179,7 +179,7 @@ function FullCard({
                     href={affiliateLink}
                     target="_blank"
                     rel="sponsored noopener noreferrer"
-                    className="block text-slate-800 hover:text-orange-700 transition-colors"
+                    className="block text-white hover:text-orange-300 transition-colors"
                 >
                     <h3 className="text-base font-medium leading-snug line-clamp-2">{title}</h3>
                 </a>
@@ -191,13 +191,13 @@ function FullCard({
                 {price && (
                     <div className="space-y-0.5">
                         <div className="flex items-baseline gap-2">
-                            <span className="text-2xl font-bold text-slate-900">{price}</span>
+                            <span className="text-2xl font-bold text-white">{price}</span>
                             {originalPrice && (
-                                <span className="text-sm text-slate-400 line-through">{originalPrice}</span>
+                                <span className="text-sm text-white/60 line-through">{originalPrice}</span>
                             )}
                         </div>
                         {originalPrice && price && (
-                            <div className="text-sm text-red-700 font-medium">
+                            <div className="text-sm text-red-400 font-medium">
                                 Save {calculateDiscount(originalPrice, price)}
                             </div>
                         )}
@@ -206,10 +206,10 @@ function FullCard({
 
                 {coupon && (
                     <div className="flex items-center gap-1.5 text-sm">
-                        <svg className="w-4 h-4 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                        <svg className="w-4 h-4 text-green-400 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                             <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
-                        <span className="text-green-700 font-medium">{coupon}</span>
+                        <span className="text-green-400 font-medium">{coupon}</span>
                     </div>
                 )}
 
@@ -220,11 +220,11 @@ function FullCard({
                             <path d="M2 16.5C4.8 18.4 8.1 19.5 11.6 19.5c4.9 0 9.4-2 12.7-5.2" stroke="#00A8E1" strokeWidth="1.5" fill="none" />
                             <text x="16" y="14" fontSize="14" fontWeight="bold" fill="#00A8E1" fontFamily="Arial">prime</text>
                         </svg>
-                        <span className="text-xs text-slate-500">FREE delivery</span>
+                        <span className="text-xs text-white/80">FREE delivery</span>
                     </div>
                 )}
 
-                <p className="text-sm text-slate-500 leading-relaxed line-clamp-2">
+                <p className="text-sm text-white/80 leading-relaxed line-clamp-2">
                     {description}
                 </p>
 
@@ -237,7 +237,7 @@ function FullCard({
                     View on Amazon
                 </a>
 
-                <p className="text-[10px] text-slate-400 text-center leading-tight mt-1">
+                <p className="text-[10px] text-white/50 text-center leading-tight mt-1">
                     As an Amazon Associate, we earn from qualifying purchases.
                 </p>
             </div>

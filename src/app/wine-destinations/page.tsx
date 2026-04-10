@@ -39,9 +39,9 @@ export default function WineDestinationsPage() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="bg-[#ffffff] rounded-3xl shadow-2xl border-2 border-[#37507a]/20 backdrop-blur-sm p-8 mb-12 text-center" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
+                                <div className="bg-[#37507a] rounded-3xl shadow-2xl border-2 border-white/20 backdrop-blur-sm p-8 mb-12 text-center" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
                                     <h2
-                                        className="text-4xl md:text-5xl font-bold text-[#37507a] flex flex-col items-center gap-2"
+                                        className="text-4xl md:text-5xl font-bold text-white flex flex-col items-center gap-2"
                                         style={{ fontFamily: "'Cinzel', serif" }}
                                     >
                                         <span>Oregon:</span>

@@ -53,10 +53,10 @@ const festivals = [
 
 export default function FilmFestivalsGuide() {
     return (
-        <article className="bg-[#ffffff] text-[#37507a] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 md:p-12 backdrop-blur-sm mt-8" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
+        <article className="bg-[#37507a] text-white rounded-3xl shadow-2xl overflow-hidden border-2 border-white/20 p-8 md:p-12 backdrop-blur-sm mt-8" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
 
             {/* Category Label */}
-            <span className="text-[#37507a] uppercase tracking-widest text-sm font-semibold">
+            <span className="text-white uppercase tracking-widest text-sm font-semibold">
                 Cinematic Travel
             </span>
 
@@ -75,12 +75,12 @@ export default function FilmFestivalsGuide() {
                 Six Festivals Worth Flying For in 2026
             </h2>
 
-            <p className="text-[#37507a] text-sm mb-8">
+            <p className="text-white text-sm mb-8">
                 May – October 2026 · France, Italy, USA, Canada · The Season Cinema Lives For
             </p>
 
             {/* Intro */}
-            <p className="text-lg leading-relaxed mb-10 text-[#37507a]">
+            <p className="text-lg leading-relaxed mb-10 text-white">
                 Some people plan their travel around landmarks and beaches. Others follow the
                 films. From the sun-soaked steps of the Palais in Cannes to the intimate
                 mountain screens of Telluride, the second half of 2026 offers a remarkable
@@ -93,7 +93,7 @@ export default function FilmFestivalsGuide() {
                 {festivals.map((fest, i) => (
                     <div
                         key={i}
-                        className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-5 hover:border-[#37507a]/50 transition-colors duration-200"
+                        className="bg-[#fff0d4]/60 border border-white/20 rounded-2xl p-5 hover:border-[#37507a]/50 transition-colors duration-200"
                     >
                         <div className="flex flex-wrap items-start justify-between gap-2 mb-1">
                             <div className="flex items-center gap-2">
@@ -110,16 +110,16 @@ export default function FilmFestivalsGuide() {
                                     {fest.name}
                                 </p>
                             </div>
-                            <span className="text-xs font-semibold text-[#37507a] bg-[#fff0d4] border border-[#37507a]/20 px-3 py-1 rounded-full whitespace-nowrap">
+                            <span className="text-xs font-semibold text-white bg-[#fff0d4] border border-white/20 px-3 py-1 rounded-full whitespace-nowrap">
                                 {fest.dates}
                             </span>
                         </div>
 
-                        <p className="text-[#37507a] text-xs font-medium mb-3 uppercase tracking-wide ml-8">
+                        <p className="text-white text-xs font-medium mb-3 uppercase tracking-wide ml-8">
                             {fest.location}
                         </p>
 
-                        <p className="text-[#37507a] text-base leading-relaxed mb-3">
+                        <p className="text-white text-base leading-relaxed mb-3">
                             {fest.description}
                         </p>
 
@@ -136,7 +136,7 @@ export default function FilmFestivalsGuide() {
             </div>
 
             {/* Closing */}
-            <p className="text-lg leading-relaxed mb-10 text-[#37507a]">
+            <p className="text-lg leading-relaxed mb-10 text-white">
                 Each of these festivals offers something no streaming platform can replicate.
                 A room full of strangers watching the same story at the same moment, in a city
                 that has given itself over entirely to the art of film. That experience is
@@ -144,8 +144,8 @@ export default function FilmFestivalsGuide() {
             </p>
 
             {/* CTA & Viator Linking */}
-            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 text-center">
-                <div className="relative w-full h-64 sm:h-80 md:h-[350px] mb-6 rounded-xl overflow-hidden shadow-lg border border-[#37507a]/20">
+            <div className="bg-[#fff0d4]/60 border border-white/20 rounded-2xl p-6 text-center">
+                <div className="relative w-full h-64 sm:h-80 md:h-[350px] mb-6 rounded-xl overflow-hidden shadow-lg border border-white/20">
                     <Image
                         src="/images/Cannes.png"
                         alt="Canned Film Festival Riviera View"
@@ -155,13 +155,13 @@ export default function FilmFestivalsGuide() {
                     />
                 </div>
 
-                <div className="mt-8 pt-6 border-t border-[#37507a]/20">
-                    <p className="text-[#37507a] mb-4 font-medium">Visiting Cannes? Make it a Dream Day on the French Riviera:</p>
+                <div className="mt-8 pt-6 border-t border-white/20">
+                    <p className="text-white mb-4 font-medium">Visiting Cannes? Make it a Dream Day on the French Riviera:</p>
                     <a
                         href="https://www.viator.com/tours/Cannes/French-Riviera-PRIVATE-Dream-Day-Nice-Monaco-and-Villefranche/d786-472303P3?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Cannes"
                         target="_blank"
                         rel="sponsored noopener noreferrer"
-                        className="inline-flex items-center justify-center bg-[#37507a] hover:bg-[#2c3f61] text-white font-bold px-8 py-3 rounded-full transition-colors duration-200"
+                        className="inline-flex items-center justify-center bg-[#fff0d4] hover:bg-white text-[#37507a] font-bold px-8 py-3 rounded-full transition-colors duration-200"
                     >
                         Book Cannes Riviera Tour →
                     </a>

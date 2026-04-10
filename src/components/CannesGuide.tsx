@@ -1,9 +1,9 @@
 export default function CannesGuide() {
     return (
-        <article className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 md:p-12 backdrop-blur-sm mt-8" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
+        <article className="bg-[#37507a] rounded-3xl shadow-2xl overflow-hidden border-2 border-white/20 p-8 md:p-12 backdrop-blur-sm mt-8" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
 
             {/* Category Label */}
-            <span className="text-[#37507a] uppercase tracking-widest text-sm font-semibold">
+            <span className="text-white uppercase tracking-widest text-sm font-semibold">
                 Cinematic Travel
             </span>
 
@@ -22,12 +22,12 @@ export default function CannesGuide() {
                 So You Want to Go to Cannes for the Film Festival. Here's What You Need to Know.
             </h2>
 
-            <p className="text-[#37507a] text-sm mb-8">
+            <p className="text-white text-sm mb-8">
                 Cannes, France · May 12 – May 23, 2026 · 79th Edition
             </p>
 
             {/* Intro */}
-            <p className="text-lg leading-relaxed mb-6 text-[#37507a]">
+            <p className="text-lg leading-relaxed mb-6 text-white">
                 Every May, a small resort city on the French Riviera becomes the most
                 watched piece of real estate on the planet. The Cannes Film Festival is
                 not just a film festival. It is the film festival. The one that every
@@ -38,7 +38,7 @@ export default function CannesGuide() {
                 booking.
             </p>
 
-            <p className="text-lg leading-relaxed mb-10 text-[#37507a]">
+            <p className="text-lg leading-relaxed mb-10 text-white">
                 Before you go, there are some things worth knowing. The festival is larger,
                 stranger, more electric, and more accessible than most people assume. Here
                 is your honest guide to what it actually is, and how to make the most of it.
@@ -102,7 +102,7 @@ export default function CannesGuide() {
                         >
                             {fact.heading}
                         </p>
-                        <p className="text-[#37507a] text-base leading-relaxed">
+                        <p className="text-white text-base leading-relaxed">
                             {fact.body}
                         </p>
                     </div>
@@ -117,8 +117,8 @@ export default function CannesGuide() {
                 Practical Things to Know Before You Go
             </div>
 
-            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 mb-10">
-                <ul className="space-y-3 text-[#37507a] text-base">
+            <div className="bg-[#fff0d4]/60 border border-white/20 rounded-2xl p-6 mb-10">
+                <ul className="space-y-3 text-white text-base">
                     <li>✈️ <strong>Nearest airport:</strong> Nice Cote d'Azur (NCE), approximately 30 minutes from Cannes by train or bus.</li>
                     <li>🏨 <strong>Book accommodation early:</strong> Hotel prices during festival week are among the highest in Europe. The towns of Antibes and Nice offer more affordable nearby options.</li>
                     <li>👗 <strong>Dress code:</strong> The red carpet requires formal attire. Flat shoes were famously banned in 2015, though the rule is inconsistently enforced. Smart casual is fine everywhere else.</li>
@@ -129,7 +129,7 @@ export default function CannesGuide() {
             </div>
 
             {/* Closing */}
-            <p className="text-lg leading-relaxed mb-10 text-[#37507a]">
+            <p className="text-lg leading-relaxed mb-10 text-white">
                 Cannes is glamorous, yes. It is also genuinely accessible to anyone who
                 plans ahead and shows up curious. The free beach screenings alone are
                 worth the trip. Add the Croisette in full festival bloom, the possibility
@@ -140,7 +140,7 @@ export default function CannesGuide() {
             </p>
 
             {/* CTA */}
-            <div className="bg-[#fff0d4]/60 border border-[#37507a]/20 rounded-2xl p-6 text-center">
+            <div className="bg-[#fff0d4]/60 border border-white/20 rounded-2xl p-6 text-center">
                 <p
                     style={{
                         fontFamily: "var(--font-cinzel), 'Cinzel', serif",
@@ -157,7 +157,7 @@ export default function CannesGuide() {
                         href="https://www.festival-cannes.com/en"
                         target="_blank"
                         rel="sponsored noopener noreferrer"
-                        className="inline-block bg-[#37507a] hover:bg-[#2c3f61] text-white font-bold px-8 py-3 rounded-full transition-colors duration-200"
+                        className="inline-block bg-[#fff0d4] hover:bg-white text-[#37507a] font-bold px-8 py-3 rounded-full transition-colors duration-200"
                     >
                         Visit the Official Cannes Website →
                     </a>

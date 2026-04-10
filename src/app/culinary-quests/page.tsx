@@ -45,13 +45,13 @@ export default function CulinaryQuestsPage() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <article className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
+                                <article className="bg-[#37507a] rounded-3xl shadow-2xl overflow-hidden border-2 border-white/20 p-8 md:p-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
 
-                                    <span className="text-[#37507a] uppercase tracking-widest text-sm font-bold">
+                                    <span className="text-white uppercase tracking-widest text-sm font-bold">
                                         Culinary Quests
                                     </span>
 
-                                    <h2 className="text-4xl font-extrabold mt-3 mb-8 leading-tight text-[#37507a]">
+                                    <h2 className="text-4xl font-extrabold mt-3 mb-8 leading-tight text-white">
                                         Paris On A Plate. Where Every Meal Feels Like A Memory
                                     </h2>
 
@@ -62,7 +62,7 @@ export default function CulinaryQuestsPage() {
                                         className="w-full rounded-2xl mb-8 object-cover h-72 border-2 border-black"
                                     />
 
-                                    <p className="text-lg leading-relaxed mb-6 text-[#37507a] font-medium">
+                                    <p className="text-lg leading-relaxed mb-6 text-white font-medium">
                                         Paris doesn&apos;t just feed you. It seduces you, one course at a time. From the
                                         first crack of a perfectly lacquered duck confit at a candlelit bistro on the
                                         Left Bank, to the unhurried ritual of a café au lait and a still-warm croissant
@@ -71,7 +71,7 @@ export default function CulinaryQuestsPage() {
                                         French didn&apos;t invent cuisine. They turned it into a philosophy.
                                     </p>
 
-                                    <p className="text-lg leading-relaxed mb-6 text-[#37507a] font-medium">
+                                    <p className="text-lg leading-relaxed mb-6 text-white font-medium">
                                         The city rewards the curious and the unhurried. Skip the tourist traps draped
                                         in chalkboard menus written in broken English, and instead duck into the narrow
                                         arrondissements where locals have been eating at the same tables for generations.
@@ -87,7 +87,7 @@ export default function CulinaryQuestsPage() {
                                         className="w-full rounded-2xl mb-8 object-cover h-72 border-2 border-black"
                                     />
 
-                                    <p className="text-lg leading-relaxed text-[#37507a] font-medium">
+                                    <p className="text-lg leading-relaxed text-white font-medium">
                                         And then there&apos;s the market culture. The Marché d&apos;Aligre on a Saturday morning
                                         is nothing short of a religious experience, vendors calling out over towers of
                                         aged cheese, loose-leaf herbs, and blood oranges stacked like small suns. Buy
@@ -100,18 +100,18 @@ export default function CulinaryQuestsPage() {
                                 </article>
 
                                 {/* Viator Paris Experiences Link */}
-                                <div className="bg-[#ffffff] rounded-2xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-6 md:p-8 mt-8 backdrop-blur-sm text-center">
-                                    <h3 className="text-2xl font-bold text-[#37507a] mb-2">Explore Paris Experiences</h3>
-                                    <p className="text-[#37507a] font-medium mb-5 text-base">Curated food tours, cooking classes, and culinary adventures in the City of Light.</p>
+                                <div className="bg-[#37507a] rounded-2xl shadow-2xl overflow-hidden border-2 border-white/20 p-6 md:p-8 mt-8 backdrop-blur-sm text-center">
+                                    <h3 className="text-2xl font-bold text-white mb-2">Explore Paris Experiences</h3>
+                                    <p className="text-white font-medium mb-5 text-base">Curated food tours, cooking classes, and culinary adventures in the City of Light.</p>
                                     <a
                                         href="https://www.viator.com/partner-shop/eztravelz/Paris-2026?medium=link&medium_version=shop&campaign=Paris"
                                         target="_blank"
                                         rel="sponsored noopener noreferrer"
-                                        className="inline-block bg-[#37507a] hover:bg-[#2c3f61] text-white font-bold px-8 py-3 rounded-full transition-colors duration-200 text-lg shadow-md hover:shadow-lg"
+                                        className="inline-block bg-[#fff0d4] hover:bg-white text-[#37507a] font-bold px-8 py-3 rounded-full transition-colors duration-200 text-lg shadow-md hover:shadow-lg"
                                     >
                                         Browse Paris Tours & Activities →
                                     </a>
-                                    <p className="text-xs text-[#37507a] font-medium mt-3">Powered by Viator</p>
+                                    <p className="text-xs text-white font-medium mt-3">Powered by Viator</p>
                                 </div>
 
                                 <DansLeNoirArticle />
