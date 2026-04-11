@@ -35,10 +35,10 @@ const wineries = [
 
 export default function WillametteValleyGuide() {
     return (
-        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-white bg-[#37507a] rounded-3xl shadow-xl overflow-hidden border-2 border-white/20 backdrop-blur-md" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
+        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-white bg-[#37507a] rounded-3xl shadow-xl overflow-hidden border-2 border-white/10 backdrop-blur-md" style={{ boxShadow: '0 0 30px rgba(55,80,122,0.4)' }}>
 
             {/* Category Label */}
-            <span className="text-white uppercase tracking-widest text-sm font-semibold">
+            <span className="text-[#fff0d4]/80 uppercase tracking-widest text-sm font-semibold">
                 Wine Destinations
             </span>
 
@@ -190,21 +190,21 @@ export default function WillametteValleyGuide() {
 
             <div className="space-y-5 mb-12">
                 {wineries.map((winery, i) => (
-                    <div key={i} className="border-l-4 border-white/40 pl-5 py-1">
+                    <div key={i} className="border-l-4 border-white/30 pl-5 py-1">
                         <p
                             style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                             className="font-bold text-base mb-2"
                         >
                             {winery.name}
                         </p>
-                        <p className="text-white text-base leading-relaxed mb-2">
+                        <p className="text-white/90 text-base leading-relaxed mb-2">
                             {winery.note}
                         </p>
                         <a
                             href={winery.link}
                             target="_blank"
                             rel="sponsored noopener noreferrer"
-                            className="text-amber-400 hover:text-amber-300 text-sm font-semibold transition-colors duration-200"
+                            className="text-[#fff0d4] hover:text-white text-sm font-bold underline transition-colors duration-200"
                         >
                             Visit Site →
                         </a>
@@ -289,7 +289,7 @@ export default function WillametteValleyGuide() {
                         </span>
                     </div>
                 </a>
-                <p className="text-white/60 text-xs italic mt-3">
+                <p className="text-white/50 text-xs italic mt-3">
                     We may earn a commission if you book through this link.
                 </p>
             </div>

@@ -6,7 +6,7 @@ export default function DogBeachArticle() {
     return (
         <article className="bg-[#37507a] text-white rounded-3xl shadow-2xl overflow-hidden border-2 border-white/20 p-8 md:p-12 mb-12 backdrop-blur-sm" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
             {/* Category Tag */}
-            <span className="inline-block bg-[#fff0d4]/50 border border-white/20 text-white text-xs font-semibold tracking-widest uppercase py-1 px-3 rounded-full mb-5">
+            <span className="inline-block bg-white/10 border border-white/20 text-white text-xs font-semibold tracking-widest uppercase py-1 px-3 rounded-full mb-5">
                 Pet Travel
             </span>
 
@@ -35,7 +35,7 @@ export default function DogBeachArticle() {
                     Unlike most beaches that squeeze dogs into restricted windows of time, Dog Beach is open 24 hours a day, seven days a week, making it San Diego{"'"}s only around-the-clock off-leash beach. On any given morning, you will find dogs of every size charging into the Pacific surf, surfers catching the Dog Beach break, and pet owners swapping stories in that easygoing, salty-air way that only happens in a true beach town.
                 </p>
 
-                <div className="border-2 border-white/20 bg-[#fff0d4]/50 p-5 my-8 rounded-xl text-white">
+                <div className="border-2 border-white/20 bg-white/10 p-5 my-8 rounded-xl text-white">
                     <p className="font-serif text-xl m-0 italic">
                         "The community here has long embraced a melting pot mentality, welcoming people and dogs of all sizes, shapes, colors, creeds, and breeds."
                     </p>
@@ -61,7 +61,7 @@ export default function DogBeachArticle() {
                             unoptimized
                         />
                     </div>
-                    <figcaption className="text-[0.8125rem] text-white font-bold text-center bg-[#fff0d4]/50 py-2.5 px-4 font-mono uppercase tracking-wider m-0">
+                    <figcaption className="text-[0.8125rem] text-white font-bold text-center bg-white/10 py-2.5 px-4 font-mono uppercase tracking-wider m-0">
                         The serene Pacific shoreline near Ocean Beach, San Diego. A beach town unlike any other.
                     </figcaption>
                 </figure>
@@ -76,7 +76,7 @@ export default function DogBeachArticle() {
 
                 {/* Lodging Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
-                    <a href="https://expedia.stay22.com/eztravelz/uYRP1KxA9c" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/uYRP1KxA9c" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏨</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">Ocean Villa Inn on Dog Beach</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -85,7 +85,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-white/20 text-white py-1 px-3 rounded-full">Directly on Beach</span>
                     </a>
 
-                    <a href="https://expedia.stay22.com/eztravelz/KKRpHdsq_O" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/KKRpHdsq_O" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌊</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">Ocean Beach Hotel</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -94,7 +94,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-white/20 text-white py-1 px-3 rounded-full">No Pet Fee</span>
                     </a>
 
-                    <a href="https://expedia.stay22.com/eztravelz/yrB6Y7TElT" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/yrB6Y7TElT" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">⛵</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">The Dana at Mission Bay</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -103,7 +103,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-white/20 text-white py-1 px-3 rounded-full">No Weight Limit</span>
                     </a>
 
-                    <a href="https://expedia.stay22.com/eztravelz/hT2oUhxn6H" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://expedia.stay22.com/eztravelz/hT2oUhxn6H" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🌴</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">Bahia Resort Hotel</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -118,7 +118,7 @@ export default function DogBeachArticle() {
 
                 {/* Dining Cards */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-5 my-8 not-prose">
-                    <a href="https://southbeachob.com/" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://southbeachob.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🍔</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">South Beach Bar &amp; Grille</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -127,7 +127,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-white/20 text-white py-1 px-3 rounded-full">Oceanfront Patio</span>
                     </a>
 
-                    <a href="https://obsurflodge.com/" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://obsurflodge.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🏄</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">OB Surf Lodge</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -136,7 +136,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-white/20 text-white py-1 px-3 rounded-full">Surf Views</span>
                     </a>
 
-                    <a href="https://www.breakfastrepublic.com/" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://www.breakfastrepublic.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🥞</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">Breakfast Republic</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -145,7 +145,7 @@ export default function DogBeachArticle() {
                         <span className="inline-block text-[0.7rem] font-bold tracking-wider uppercase bg-[#37507a] border border-white/20 text-white py-1 px-3 rounded-full">Weekend Brunch</span>
                     </a>
 
-                    <a href="https://www.sallyssandiego.com/" target="_blank" rel="noopener noreferrer" className="block group bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
+                    <a href="https://www.sallyssandiego.com/" target="_blank" rel="noopener noreferrer" className="block group bg-white/10 border-2 border-white/20 rounded-xl p-5 hover:shadow-[0_6px_20px_rgba(0,0,0,0.3)] hover:-translate-y-1 transition-all duration-300">
                         <div className="text-3xl mb-2">🍽️</div>
                         <h3 className="font-serif text-lg text-white font-bold mb-1 transition-colors">Sally's Fish House &amp; Bar</h3>
                         <p className="text-[0.875rem] text-white mb-3 font-medium">
@@ -156,7 +156,7 @@ export default function DogBeachArticle() {
                 </div>
 
                 {/* Tips Box */}
-                <div className="bg-[#fff0d4]/50 border-2 border-white/20 rounded-xl p-6 my-10 not-prose">
+                <div className="bg-white/10 border-2 border-white/20 rounded-xl p-6 my-10 not-prose">
                     <h3 className="font-serif text-xl text-white font-bold mb-3">🐾 Tips for Your Visit</h3>
                     <ul className="list-disc pl-5 space-y-2 text-white text-base font-medium">
                         <li>Weekends get crowded. Early mornings on weekdays offer the most open space and the best experience for shy or reactive dogs.</li>

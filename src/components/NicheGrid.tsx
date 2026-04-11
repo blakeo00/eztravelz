@@ -46,7 +46,7 @@ const niches = [
     {
         title: "Set-Jetting",
         subtitle: "Cinematic Travel",
-        articleTitle: "Six 2026 Film Festivals / A Guide to Cannes",
+        articleTitle: "A Guide to Cannes / Six 2026 Film Festivals",
         href: "/cinematic-travel",
         image:
             "/images/Stanley Hotel 3.jpg",

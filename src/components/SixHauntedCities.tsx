@@ -15,13 +15,13 @@ export default function SixHauntedCities() {
       linksParagraph: (
         <>
           When visiting, immerse yourself in the hauntings with a stay at historic spots like the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/6NpxwMlm8H" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Hotel St. Marie</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/clW81QRJDT" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Bourbon Orleans Hotel</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/iusIgHu9lE" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Bienville House</a>, or{" "}
-          <a href="https://expedia.stay22.com/eztravelz/WpzxcLJeCS" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Place d'Armes Hotel</a>. For chilling experiences, check out the{" "}
-          <a href="https://gyg.me/eTFrUDe5" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">French Quarter Ghost Tour</a>, the{" "}
-          <a href="https://gyg.me/SmKaddkd" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Haunted Ghost, Voodoo & Vampire Walking Tour</a>, or the{" "}
-          <a href="https://gyg.me/V8j7nlJL" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">True Crime Pub Crawl</a>.
+          <a href="https://expedia.stay22.com/eztravelz/6NpxwMlm8H" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Hotel St. Marie</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/clW81QRJDT" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Bourbon Orleans Hotel</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/iusIgHu9lE" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Bienville House</a>, or{" "}
+          <a href="https://expedia.stay22.com/eztravelz/WpzxcLJeCS" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Place d'Armes Hotel</a>. For chilling experiences, check out the{" "}
+          <a href="https://gyg.me/eTFrUDe5" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">French Quarter Ghost Tour</a>, the{" "}
+          <a href="https://gyg.me/SmKaddkd" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Haunted Ghost, Voodoo & Vampire Walking Tour</a>, or the{" "}
+          <a href="https://gyg.me/V8j7nlJL" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">True Crime Pub Crawl</a>.
         </>
       ),
       bookText: "Book a New Orleans Ghost Tour →",
@@ -39,13 +39,13 @@ export default function SixHauntedCities() {
       linksParagraph: (
         <>
           Experience the eerie elegance by staying at the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/Ct5nKtI4IE" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Hamilton-Turner Inn</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/zm6_SkKZn-" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">The Desoto Savannah</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/6thFmeiHuc" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Planters Inn</a>, or the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/f76EtCh8T1" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Cambria Hotel</a>. Discover the dark past on the{" "}
-          <a href="https://gyg.me/HoJPNU5T" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Fraidy Cat Ghost Tour</a>, the{" "}
-          <a href="https://gyg.me/B2KfCFVC" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Adults-Only Dead of Night Walking Tour</a>, or the{" "}
-          <a href="https://gyg.me/QqJ9NBu1" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Spirits & Spirits Haunted Pub Crawl</a>.
+          <a href="https://expedia.stay22.com/eztravelz/Ct5nKtI4IE" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Hamilton-Turner Inn</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/zm6_SkKZn-" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">The Desoto Savannah</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/6thFmeiHuc" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Planters Inn</a>, or the{" "}
+          <a href="https://expedia.stay22.com/eztravelz/f76EtCh8T1" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Cambria Hotel</a>. Discover the dark past on the{" "}
+          <a href="https://gyg.me/HoJPNU5T" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Fraidy Cat Ghost Tour</a>, the{" "}
+          <a href="https://gyg.me/B2KfCFVC" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Adults-Only Dead of Night Walking Tour</a>, or the{" "}
+          <a href="https://gyg.me/QqJ9NBu1" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Spirits & Spirits Haunted Pub Crawl</a>.
         </>
       ),
       bookText: "Book a Savannah Ghost Tour →",
@@ -63,13 +63,13 @@ export default function SixHauntedCities() {
       linksParagraph: (
         <>
           Embrace the history with accommodations at{" "}
-          <a href="https://expedia.stay22.com/eztravelz/PaWQN2y5xC" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">The Hotel Salem</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/NYyBgv2Qvp" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Daniels House Inn</a>, the historic{" "}
-          <a href="https://expedia.stay22.com/eztravelz/7vlcc68dUu" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Hawthorne Hotel</a>, or{" "}
-          <a href="https://expedia.stay22.com/eztravelz/FNmotjCbya" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">The Salem Inn</a>. For an immersive experience, take the{" "}
-          <a href="https://gyg.me/KTSyAFRA" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Mysteries & Murder Guided Walking Tour</a>, the{" "}
-          <a href="https://gyg.me/0NZfqkUY" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Witch Trial History Tour</a>, or the{" "}
-          <a href="https://gyg.me/aU1nUsn1" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Boos and Brews Haunted Pub Crawl</a>.
+          <a href="https://expedia.stay22.com/eztravelz/PaWQN2y5xC" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">The Hotel Salem</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/NYyBgv2Qvp" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Daniels House Inn</a>, the historic{" "}
+          <a href="https://expedia.stay22.com/eztravelz/7vlcc68dUu" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Hawthorne Hotel</a>, or{" "}
+          <a href="https://expedia.stay22.com/eztravelz/FNmotjCbya" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">The Salem Inn</a>. For an immersive experience, take the{" "}
+          <a href="https://gyg.me/KTSyAFRA" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Mysteries & Murder Guided Walking Tour</a>, the{" "}
+          <a href="https://gyg.me/0NZfqkUY" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Witch Trial History Tour</a>, or the{" "}
+          <a href="https://gyg.me/aU1nUsn1" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Boos and Brews Haunted Pub Crawl</a>.
         </>
       ),
       bookText: "Book a Salem Ghost Tour →",
@@ -87,13 +87,13 @@ export default function SixHauntedCities() {
       linksParagraph: (
         <>
           Stay close to the haunting grounds at the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/a6gSFEnlCU" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Inn at Lincoln Square</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/SQaDytFtFW" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Hotel Gettysburg</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/SQaDytFtFW" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Brickhouse Inn</a>, or the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/bInU3sMlNC" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Inn at Cemetery Hill</a>. Investigate the unknown with the{" "}
-          <a href="https://gyg.me/cKltiUVz" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Ghost Hunt Tour</a>, a{" "}
-          <a href="https://gyg.me/WQt0xOIm" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Small Group Paranormal Investigation</a>, or the{" "}
-          <a href="https://gyg.me/ikqcG7UQ" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Civil War Ghosts Boos & Booze Pub Crawl</a>.
+          <a href="https://expedia.stay22.com/eztravelz/a6gSFEnlCU" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Inn at Lincoln Square</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/SQaDytFtFW" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Hotel Gettysburg</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/SQaDytFtFW" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Brickhouse Inn</a>, or the{" "}
+          <a href="https://expedia.stay22.com/eztravelz/bInU3sMlNC" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Inn at Cemetery Hill</a>. Investigate the unknown with the{" "}
+          <a href="https://gyg.me/cKltiUVz" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Ghost Hunt Tour</a>, a{" "}
+          <a href="https://gyg.me/WQt0xOIm" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Small Group Paranormal Investigation</a>, or the{" "}
+          <a href="https://gyg.me/ikqcG7UQ" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Civil War Ghosts Boos & Booze Pub Crawl</a>.
         </>
       ),
       bookText: "Book a Gettysburg Ghost Tour →",
@@ -111,13 +111,13 @@ export default function SixHauntedCities() {
       linksParagraph: (
         <>
           Rest your spirits at the quaint{" "}
-          <a href="https://expedia.stay22.com/eztravelz/5L2kPmKuVB" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Agustin Inn</a>, the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/C3zY47GcZK" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Guy Harvey Resort</a>, the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/TnioBH_2Rj" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">AC Hotel Downtown</a>, or the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/zvJT2Udzl4" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Casablanca Inn on the Bay</a>. Unveil the mysteries with the{" "}
-          <a href="https://gyg.me/5gflUQO2" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Haunted Dixie House Investigation</a>, a{" "}
-          <a href="https://gyg.me/BuXUUGFa" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Semi-Private Paranormal Investigation</a>, or a{" "}
-          <a href="https://gyg.me/6uHkDqhM" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">True Crime Guided Pub Crawl</a>.
+          <a href="https://expedia.stay22.com/eztravelz/5L2kPmKuVB" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Agustin Inn</a>, the{" "}
+          <a href="https://expedia.stay22.com/eztravelz/C3zY47GcZK" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Guy Harvey Resort</a>, the{" "}
+          <a href="https://expedia.stay22.com/eztravelz/TnioBH_2Rj" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">AC Hotel Downtown</a>, or the{" "}
+          <a href="https://expedia.stay22.com/eztravelz/zvJT2Udzl4" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Casablanca Inn on the Bay</a>. Unveil the mysteries with the{" "}
+          <a href="https://gyg.me/5gflUQO2" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Haunted Dixie House Investigation</a>, a{" "}
+          <a href="https://gyg.me/BuXUUGFa" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Semi-Private Paranormal Investigation</a>, or a{" "}
+          <a href="https://gyg.me/6uHkDqhM" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">True Crime Guided Pub Crawl</a>.
         </>
       ),
       bookText: "Book a St. Augustine Ghost Tour →",
@@ -135,13 +135,13 @@ export default function SixHauntedCities() {
       linksParagraph: (
         <>
           Base your spectral encounters at the{" "}
-          <a href="https://expedia.stay22.com/eztravelz/W0zH90k4E7" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Plaza San Antonio Hotel & Spa</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/51q2VFongq" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Drury Plaza Hotel Riverwalk</a>,{" "}
-          <a href="https://expedia.stay22.com/eztravelz/kLZ3xAhMaS" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Kimpton Santo San Antonio</a>, or the legendary{" "}
-          <a href="https://expedia.stay22.com/eztravelz/XmPWI4jHIW" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Menger Hotel</a>. Explore the unknown on an{" "}
-          <a href="https://gyg.me/APH718Cf" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Historical Ghost Tour</a>, the subterranean{" "}
-          <a href="https://gyg.me/nCPnmEwS" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Natural Bridge Caverns Hidden Wonders Tour</a>, or the{" "}
-          <a href="https://gyg.me/8QOsHrsp" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-purple-800 hover:text-purple-600 transition-colors">Spirits & Spirits Haunted Pub Crawl</a>.
+          <a href="https://expedia.stay22.com/eztravelz/W0zH90k4E7" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Plaza San Antonio Hotel & Spa</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/51q2VFongq" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Drury Plaza Hotel Riverwalk</a>,{" "}
+          <a href="https://expedia.stay22.com/eztravelz/kLZ3xAhMaS" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Kimpton Santo San Antonio</a>, or the legendary{" "}
+          <a href="https://expedia.stay22.com/eztravelz/XmPWI4jHIW" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Menger Hotel</a>. Explore the unknown on an{" "}
+          <a href="https://gyg.me/APH718Cf" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Historical Ghost Tour</a>, the subterranean{" "}
+          <a href="https://gyg.me/nCPnmEwS" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Natural Bridge Caverns Hidden Wonders Tour</a>, or the{" "}
+          <a href="https://gyg.me/8QOsHrsp" target="_blank" rel="sponsored noopener noreferrer" className="font-medium underline underline-offset-2 text-white/90 hover:text-white transition-colors">Spirits & Spirits Haunted Pub Crawl</a>.
         </>
       ),
       bookText: "Book a San Antonio Ghost Tour →",
@@ -151,20 +151,20 @@ export default function SixHauntedCities() {
   ];
 
   return (
-    <section className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 md:p-12 backdrop-blur-sm mb-12" style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}>
+    <section className="bg-[#37507a] rounded-3xl shadow-2xl overflow-hidden border-2 border-white/20 p-8 md:p-12 backdrop-blur-sm mb-12 text-white" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
       {/* Section Header */}
       <h2 className="text-4xl font-extrabold mt-3 mb-2 leading-tight text-red-500" style={{ fontFamily: "var(--font-creepster)" }}>
         Six Haunted Cities Worth Traveling For
       </h2>
 
       {/* Tagline */}
-      <p className="text-sm text-[#37507a] mb-6">
+      <p className="text-sm text-purple-300/70 mb-6">
         Year-Round · Louisiana, Georgia, Massachusetts, Pennsylvania, Florida,
         Texas · The Cities That Never Let Their Dead Go
       </p>
 
       {/* Intro */}
-      <p className="text-lg leading-relaxed mb-10 text-[#37507a]">
+      <p className="text-lg leading-relaxed mb-10 text-white">
         Some cities wear their history visibly. Others bury it, and then spend
         centuries letting it surface in the dark. The six cities below have
         something in common: documented paranormal activity that predates the
@@ -178,11 +178,11 @@ export default function SixHauntedCities() {
       {/* City Entries */}
       <div className="space-y-12 block">
         {cities.map((city, index) => (
-          <div key={index} className="border-t border-[#37507a]/20/50 pt-8 clear-both flow-root">
+          <div key={index} className="border-t border-white/20 pt-8 clear-both flow-root">
             {/* Emoji + Name */}
             <div className="flex items-center gap-3 mb-1">
               <span className="text-3xl">{city.emoji}</span>
-              <h3 className="text-2xl font-bold text-[#37507a]">{city.name}</h3>
+              <h3 className="text-2xl font-bold text-white">{city.name}</h3>
             </div>
 
             {/* Season + Location */}
@@ -195,16 +195,16 @@ export default function SixHauntedCities() {
                <img 
                  src={city.image} 
                  alt={`Haunted rendering of ${city.name}`} 
-                 className="w-full h-full object-cover rounded-lg shadow-lg border-2 border-[#37507a]/20/50"
+                 className="w-full h-full object-cover rounded-lg shadow-lg border-2 border-white/20"
                />
             </div>
 
             {/* Description & Links */}
-            <div className="text-[#37507a] text-lg">
+            <div className="text-white text-lg">
               <p className="leading-relaxed mb-4">
                 {city.description}
               </p>
-              <p className="leading-relaxed mb-5 text-[0.95em] text-[#37507a]">
+              <p className="leading-relaxed mb-5 text-[0.95em] text-white">
                 {city.linksParagraph}
               </p>
             </div>
@@ -215,7 +215,7 @@ export default function SixHauntedCities() {
                 href={city.bookUrl}
                 target="_blank"
                 rel="sponsored noopener noreferrer"
-                className="group inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-purple-100 border border-purple-300 hover:bg-purple-200 hover:border-purple-500 hover:shadow-[0_0_15px_rgba(147,51,234,0.15)] transition-all duration-300 text-sm font-medium text-purple-900 hover:text-purple-800"
+                className="group inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-[#fff0d4] border border-[#37507a]/20 hover:bg-white hover:border-[#37507a]/40 hover:shadow-[0_0_15px_rgba(255,255,255,0.15)] transition-all duration-300 text-sm font-medium text-[#37507a]"
               >
                 <span className="opacity-80 group-hover:opacity-100 transition-opacity">👻</span>
                 {city.bookText.replace(' →', '')}
@@ -227,7 +227,7 @@ export default function SixHauntedCities() {
       </div>
 
       {/* Closing Paragraph */}
-      <p className="text-lg leading-relaxed mt-12 border-t border-[#37507a]/20/50 pt-10 text-[#37507a]">
+      <p className="text-lg leading-relaxed mt-12 border-t border-white/20 pt-10 text-white">
         Every city on this list has layers that a single night won't exhaust.
         The best ghost tours are the ones that send you home with more questions
         than you arrived with, and all six of these do exactly that. Book early
@@ -237,7 +237,7 @@ export default function SixHauntedCities() {
       </p>
 
       {/* US Ghost Adventures CTA Banner */}
-      <div className="mt-10 bg-purple-50 rounded-lg p-6 text-center border border-[#37507a]/20/50">
+      <div className="mt-10 bg-[#fff0d4] rounded-lg p-6 text-center border border-white/20">
         <p className="text-sm font-semibold mb-3 text-[#37507a]">
           Ready to book your ghost adventure?
         </p>

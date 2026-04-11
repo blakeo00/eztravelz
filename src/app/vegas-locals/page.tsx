@@ -13,8 +13,7 @@ export const metadata: Metadata = {
 
 export default function VegasLocalsPage() {
     return (
-        <div className="min-h-screen font-sans flex flex-col relative">
-            <div className="fixed inset-0 z-0 bg-[#fff0d4]"></div>
+        <div className="min-h-screen font-sans flex flex-col relative bg-[#fff0d4]">
             <div className="relative z-10 flex flex-col flex-grow w-full">
                 <Header />
                 <main className="flex-grow pb-20">
@@ -48,10 +47,10 @@ export default function VegasLocalsPage() {
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
                                 <div
-                                    className="bg-[#ffffff] rounded-3xl shadow-2xl overflow-hidden border-2 border-[#37507a]/20 p-8 sm:p-12 backdrop-blur-sm text-[#37507a]"
-                                    style={{ boxShadow: '0 0 30px rgba(55, 80, 122, 0.15)' }}
+                                    className="bg-[#37507a] rounded-3xl shadow-2xl border-2 border-white/10 backdrop-blur-sm p-8 sm:p-12 text-white"
+                                    style={{ boxShadow: '0 0 30px rgba(55,80,122,0.4)' }}
                                 >
-                                    <div className="prose  prose-lg max-w-none prose-p:leading-relaxed prose-headings:font-bold prose-a:text-[#89D4FF] hover:prose-a:text-white">
+                                    <div className="prose prose-lg max-w-none prose-p:leading-relaxed prose-headings:font-bold prose-headings:text-[#fff0d4] prose-p:text-white prose-strong:text-white prose-th:text-white prose-td:text-white prose-li:text-white prose-a:text-[#e9a43a] hover:prose-a:text-[#c47d1a] prose-a:underline">
                                         {sphereLasVegasContent()}
                                     </div>
                                 </div>

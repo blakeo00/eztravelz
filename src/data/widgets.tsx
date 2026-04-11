@@ -496,19 +496,7 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                         isPrime={true}
                     />
                 </div>,
-                <div key="amazon-wine-3" className="my-0">
-                    <AmazonProductCard
-                        compact
-                        title="Portable Wine Carrier, 2 Bottle Insulated Tote"
-                        description="Padded travel bag with corkscrew, perfect for vineyard hopping"
-                        imageUrl="/images/Vineyard.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$18.99"
-                        rating={4.4}
-                        reviewCount={1234}
-                        isPrime={true}
-                    />
-                </div>,
+
             ];
 
             if (postSlug === 'holy-water-and-grape-bricks-prohibition-wine-trail') {
@@ -591,19 +579,7 @@ export const getCategoryWidgets = (categorySlug: string, postSlug?: string): Rea
                         isPrime={true}
                     />
                 </div>,
-                <div key="amazon-film-3" className="my-0">
-                    <AmazonProductCard
-                        compact
-                        title="Movie Location Travel Map, Scratch Off Film Poster"
-                        description="Scratch off famous filming locations as you visit them worldwide"
-                        imageUrl="/images/Movie.png"
-                        affiliateLink="https://amzn.to/4r4CCRp"
-                        price="$24.99"
-                        rating={4.3}
-                        reviewCount={876}
-                        isPrime={true}
-                    />
-                </div>,
+
             ];
 
             if (postSlug === 'reel-roads-room-217-the-shining') {

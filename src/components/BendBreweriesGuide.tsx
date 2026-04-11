@@ -45,10 +45,10 @@ const breweries = [
 
 export default function BendBreweriesGuide() {
     return (
-        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-white bg-[#37507a] rounded-3xl shadow-xl overflow-hidden border-2 border-white/20 backdrop-blur-md mt-12" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
+        <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-white bg-[#37507a] rounded-3xl shadow-xl overflow-hidden border-2 border-white/10 backdrop-blur-md mt-12" style={{ boxShadow: '0 0 30px rgba(55,80,122,0.4)' }}>
 
             {/* Category Label */}
-            <span className="text-white uppercase tracking-widest text-sm font-semibold">
+            <span className="text-[#fff0d4]/80 uppercase tracking-widest text-sm font-semibold">
                 Brewery Destinations
             </span>
 
@@ -105,17 +105,17 @@ export default function BendBreweriesGuide() {
 
             <div className="space-y-5 mb-12">
                 {breweries.map((brewery, i) => (
-                    <div key={i} className="border-l-4 border-white/40 pl-5 py-1">
+                    <div key={i} className="border-l-4 border-white/30 pl-5 py-1">
                         <p
                             style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                             className="font-bold text-base mb-0.5"
                         >
                             {brewery.name}
                         </p>
-                        <p className="text-white/70 text-xs font-semibold uppercase tracking-widest mb-2">
+                        <p className="text-white/60 text-xs font-semibold uppercase tracking-widest mb-2">
                             {brewery.vibe}
                         </p>
-                        <p className="text-white text-base leading-relaxed mb-2">
+                        <p className="text-white/90 text-base leading-relaxed mb-2">
                             {brewery.description}
                         </p>
                         <div className="flex flex-wrap items-center justify-between gap-2">
@@ -126,7 +126,7 @@ export default function BendBreweriesGuide() {
                                 href={brewery.link}
                                 target="_blank"
                                 rel="sponsored noopener noreferrer"
-                                className="text-amber-400 hover:text-amber-300 text-sm font-semibold transition-colors duration-200"
+                                className="text-[#fff0d4] hover:text-white text-sm font-bold underline transition-colors duration-200"
                             >
                                 Visit Site →
                             </a>
@@ -182,13 +182,13 @@ export default function BendBreweriesGuide() {
 
             {/* Summer Arts */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
                 className="text-xl font-bold mb-4"
             >
                 Summer Arts in Bend
             </div>
 
-            <p className="text-white text-lg leading-relaxed mb-6">
+            <p className="text-[#37507a] text-lg leading-relaxed mb-6">
                 Bend is not all beer and bikes. The city has a genuine and growing arts
                 identity that comes alive every summer across multiple festivals and venues.
             </p>
@@ -265,7 +265,7 @@ export default function BendBreweriesGuide() {
             </div>
 
             {/* Viator Affiliate Link */}
-            <div className="mb-12 relative group rounded-2xl overflow-hidden shadow-lg border border-white/20">
+            <div className="mb-12 relative group rounded-2xl overflow-hidden shadow-lg border border-[#37507a]/20">
                 <a
                     href="https://vi.me/AKnuA"
                     target="_blank"
@@ -298,14 +298,14 @@ export default function BendBreweriesGuide() {
                         </div>
                     </div>
                 </a>
-                <div className="bg-[#fff0d4] px-6 py-3 border-t border-white/20 flex justify-between items-center">
-                    <span className="text-white/60 text-xs flex items-center gap-1">
-                        <svg className="w-4 h-4 text-emerald-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="bg-[#37507a]/40 px-6 py-3 border-t border-white/20 flex justify-between items-center">
+                    <span className="text-white/80 text-xs flex items-center gap-1">
+                        <svg className="w-4 h-4 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                         Free cancellation available
                     </span>
-                    <span className="text-white/40 text-[10px] uppercase tracking-wider">Advertisement</span>
+                    <span className="text-[#37507a]/60 text-[10px] uppercase tracking-wider">Advertisement</span>
                 </div>
             </div>
 

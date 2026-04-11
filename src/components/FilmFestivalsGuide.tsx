@@ -31,7 +31,7 @@ const festivals = [
         dates: "September 4 – September 7",
         flag: "🏔️",
         description: "Four focused days at high altitude in the Colorado mountains. Telluride announces no program in advance, which keeps the atmosphere electric and the attention on the films themselves. This is where serious awards contenders quietly announce their arrival.",
-        link: "https://telluridefilmfestival.org",
+        link: "https://www.telluride.com/event/telluride-film-festival/",
     },
     {
         name: "Toronto International Film Festival",
@@ -64,7 +64,7 @@ export default function FilmFestivalsGuide() {
             <h2
                 style={{
                     fontFamily: "var(--font-cinzel), 'Cinzel', serif",
-                    color: "#37507a",
+                    color: "#ffffff",
                     fontSize: "clamp(1.8rem, 5vw, 3.2rem)",
                     fontWeight: "700",
                     letterSpacing: "0.04em",
@@ -110,7 +110,7 @@ export default function FilmFestivalsGuide() {
                                     {fest.name}
                                 </p>
                             </div>
-                            <span className="text-xs font-semibold text-white bg-[#fff0d4] border border-white/20 px-3 py-1 rounded-full whitespace-nowrap">
+                            <span className="text-xs font-semibold text-white bg-[#37507a]/60 border border-white/20 px-3 py-1 rounded-full whitespace-nowrap">
                                 {fest.dates}
                             </span>
                         </div>

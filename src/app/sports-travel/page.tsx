@@ -51,7 +51,7 @@ export default function SportsTravelPage() {
                                     <h2
                                         style={{
                                             fontFamily: "var(--font-bebas)",
-                                            color: "#37507a",
+                                            color: "#ffffff",
                                             fontSize: "clamp(2.2rem, 6vw, 4rem)",
                                             fontWeight: "normal",
                                             letterSpacing: "0.06em",
@@ -126,7 +126,7 @@ export default function SportsTravelPage() {
                                         >
                                             Need To Know
                                         </p>
-                                        <ul className="space-y-2 text-white text-base">
+                                        <ul className="space-y-2 text-[#37507a] text-base">
                                             <li>⚽ <strong>Opening Match:</strong> June 11, Mexico vs. South Africa, Estadio Azteca, Mexico City</li>
                                             <li>🏆 <strong>Final:</strong> July 19, MetLife Stadium, East Rutherford, New Jersey</li>
                                             <li>🇺🇸 <strong>US Host Cities:</strong> LA · Miami · Dallas · Houston · Atlanta · Seattle · Philly · Boston · KC · SF Bay Area · NY/NJ</li>

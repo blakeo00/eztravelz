@@ -13,15 +13,15 @@ export default function AffiliateDisclosurePage() {
     return (
         <>
             <Header />
-            <main className="min-h-screen">
+            <main className="min-h-screen bg-[#fff0d4]">
                 {/* Hero Banner */}
-                <section className="relative bg-gradient-to-br from-brand-600 via-brand-500 to-blue-500 text-white py-20 sm:py-28">
-                    <div className="absolute inset-0 bg-black/20" />
+                <section className="relative bg-[#37507a] text-[#fff0d4] py-20 sm:py-28 border-b-4 border-amber-500/20">
+                    <div className="absolute inset-0 bg-black/10" />
                     <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
                             Affiliate Disclosure
                         </h1>
-                        <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto">
+                        <p className="text-lg sm:text-xl text-[#fff0d4]/80 max-w-2xl mx-auto">
                             Transparency is important to us.
                         </p>
                     </div>
@@ -29,10 +29,10 @@ export default function AffiliateDisclosurePage() {
 
                 {/* Content */}
                 <section className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-                    <div className="bg-white/80 backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 space-y-8 text-slate-700 leading-relaxed">
+                    <div className="bg-[#37507a] backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 space-y-8 text-[#fff0d4] leading-relaxed border-2 border-white/10">
                         {/* Intro */}
-                        <p className="text-lg">
-                            <strong>Transparency is important to us.</strong>{" "}
+                        <p className="text-lg text-white">
+                            <strong className="text-amber-400">Transparency is important to us.</strong>{" "}
                             EZtravelZ.com is a participant in various affiliate
                             marketing programs. This means that when you click on
                             links to various merchants on this site and make a
@@ -41,15 +41,15 @@ export default function AffiliateDisclosurePage() {
                         </p>
 
                         {/* Programs */}
-                        <div className="border-l-4 border-brand-500 pl-6 bg-brand-50 rounded-r-2xl py-6 pr-6">
-                            <h2 className="text-xl font-bold text-slate-900 mb-3">
+                        <div className="border-l-4 border-amber-400 pl-6 bg-white/5 rounded-r-2xl py-6 pr-6">
+                            <h2 className="text-xl font-bold text-white mb-3">
                                 Our Affiliate Programs
                             </h2>
-                            <p>
+                            <p className="text-white/90">
                                 Some of the affiliate programs we participate in
                                 include, but are not limited to:
                             </p>
-                            <ul className="mt-3 space-y-2">
+                            <ul className="mt-4 space-y-3">
                                 {[
                                     "Travelpayouts",
                                     "Stay22",
@@ -58,10 +58,10 @@ export default function AffiliateDisclosurePage() {
                                 ].map((program) => (
                                     <li
                                         key={program}
-                                        className="flex items-center gap-2"
+                                        className="flex items-center gap-3"
                                     >
-                                        <span className="w-2 h-2 rounded-full bg-brand-500 shrink-0" />
-                                        <span className="font-medium text-slate-800">
+                                        <span className="w-2 h-2 rounded-full bg-amber-400 shrink-0" />
+                                        <span className="font-medium text-white shadow-sm">
                                             {program}
                                         </span>
                                     </li>
@@ -70,7 +70,7 @@ export default function AffiliateDisclosurePage() {
                         </div>
 
                         {/* Value commitment */}
-                        <p>
+                        <p className="text-white/90">
                             We only recommend products, services, and gear that
                             we genuinely believe deliver value to our readers.
                             These commissions help keep EZtravelZ running and
@@ -79,13 +79,13 @@ export default function AffiliateDisclosurePage() {
                         </p>
 
                         {/* Contact */}
-                        <div className="bg-slate-50 rounded-2xl p-6 text-center">
-                            <p className="text-slate-600">
+                        <div className="bg-white/5 border border-white/10 rounded-2xl p-6 text-center shadow-inner">
+                            <p className="text-white/80">
                                 If you have any questions regarding our affiliate
                                 partnerships, please{" "}
                                 <Link
                                     href="/#contact"
-                                    className="text-brand-600 font-semibold underline underline-offset-2 hover:text-brand-700 transition-colors"
+                                    className="text-amber-400 font-bold underline underline-offset-4 hover:text-amber-300 transition-colors"
                                 >
                                     contact us
                                 </Link>

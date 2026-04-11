@@ -1,20 +1,31 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SidebarWidgets from "@/components/SidebarWidgets";
+import { getPostBySlug } from "@/data/posts";
 import { getCategoryWidgets } from "@/data/widgets";
 
 export const metadata: Metadata = {
     title: "Spring Mountain Ranch State Park: Las Vegas's Best Kept Secret | EZtravelZ",
     description: "25 miles from the Strip, Spring Mountain Ranch State Park offers cooler temps, rich history, hiking trails, and summer theatre under the stars. A perfect Las Vegas day trip locals actually take.",
+    alternates: {
+        canonical: `/beyond-the-neon/spring-mountain-ranch`,
+    },
     openGraph: {
-        title: "Beyond the Neon: Spring Mountain Ranch State Park",
-    }
+        type: "article",
+        url: `https://eztravelz.com/beyond-the-neon/spring-mountain-ranch`,
+        siteName: "EZtravelZ",
+        title: "Spring Mountain Ranch State Park: Las Vegas's Best Kept Secret | EZtravelZ",
+        description: "25 miles from the Strip, Spring Mountain Ranch State Park offers cooler temps, rich history, hiking trails, and summer theatre under the stars. A perfect Las Vegas day trip locals actually take.",
+    },
 };
 
-export default function SpringMountainRanchArticle() {
+export default function SpringMountainRanchPage() {
+    const post = getPostBySlug('spring-mountain-ranch');
+    if (!post) return null;
+
     return (
         <div className="min-h-screen flex flex-col relative bg-[#fff0d4]">
             <div className="relative z-10 flex flex-col flex-grow w-full">
@@ -22,9 +33,10 @@ export default function SpringMountainRanchArticle() {
                 <main className="flex-grow">
                     {/* Hero */}
                     <section className="relative text-white pt-32 pb-20 sm:pt-40 sm:pb-28 overflow-hidden">
+                        {/* Background image */}
                         <Image
-                            src="/images/Ranch 7.jpg"
-                            alt="Picnic area and family-oriented ranch scene"
+                            src={post.image}
+                            alt={post.alt}
                             fill
                             className="object-cover object-center"
                             priority
@@ -33,13 +45,14 @@ export default function SpringMountainRanchArticle() {
 
                         <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                             <span className="inline-block text-white text-xs font-bold uppercase tracking-wider px-4 py-1.5 rounded-full mb-6 bg-[#2c4875]">
-                                Beyond the Neon
+                                {post.category}
                             </span>
+
                             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight mb-6 drop-shadow-lg hero-title text-[#fff0d4]">
-                                Spring Mountain Ranch State Park: The Las Vegas Day Trip Worth Every Degree of Cool Air
+                                {post.title}
                             </h1>
                             <time className="text-white/70 text-sm">
-                                {new Date("2024-05-15").toLocaleDateString("en-US", {
+                                {new Date(post.date).toLocaleDateString("en-US", {
                                     month: "long",
                                     day: "numeric",
                                     year: "numeric",
@@ -53,224 +66,43 @@ export default function SpringMountainRanchArticle() {
                         <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
-                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#ffffff] text-[#37507a] border-2 border-[#37507a]/20 shadow-[0_0_30px_rgba(44,72,117,0.25)] prose prose-lg max-w-none prose-headings:text-[#37507a] prose-p:text-[#37507a] prose-a:text-blue-600 hover:prose-a:text-[#37507a] prose-strong:text-[#37507a] prose-hr:border-[#37507a]/20">
-                        <p className="lead text-xl text-[#37507a] font-medium mb-8">
-                            Twenty-five miles west of the Strip, past the rust-colored walls of Red Rock Canyon and through the easy curves of the scenic drive that connects Blue Diamond Road to Charleston Boulevard, there is a place that most Las Vegas visitors never find and most locals quietly treasure.
-                        </p>
-                        
-                        <p>
-                            Spring Mountain Ranch State Park sits at an elevation high enough that the temperature runs 10 to 15 degrees cooler than the city below. On a July afternoon in Las Vegas, that difference is not a footnote. It is the entire reason to go.
-                        </p>
+                                <div className="backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 bg-[#37507a] text-white border-2 border-slate-700 shadow-[0_0_30px_rgba(44,72,117,0.25)]">
+                                    {post.content()}
+                                </div>
 
+                                {/* Back link */}
+                                <div className="mt-10 text-center lg:text-left">
+                                    <Link
+                                        href="/vegas-locals"
+                                        className="inline-flex items-center gap-2 font-semibold transition-colors text-[#37507a] hover:text-[#5271a3]"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            strokeWidth="2"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                        >
+                                            <path d="M19 12H5M12 19l-7-7 7-7" />
+                                        </svg>
+                                        Back to Vegas Guides
+                                    </Link>
+                                </div>
+                            </div>
 
-
-                        <h2 className="text-2xl font-bold mt-12 mb-6 text-slate-800">A Place That Has Belonged to Everyone</h2>
-                        
-                        <p>
-                            The land itself has been in continuous use for over 10,000 years. The Southern Paiute knew this site as a vital water source long before the Spanish Trail brought outsiders through. The spring that gave the ranch its name made it a natural stop for mountain men and pioneers moving through the Mojave, and that quality, water in a dry landscape, shaped every chapter of the property's story.
-                        </p>
-
-                        <p>
-                            The "modern" history of the <a href="https://www.springmountainranchdocents.com/history.html" target="_blank" rel="noopener noreferrer">ranch</a> begins in 1876 when James Wilson established what he called the Sandstone Ranch. What followed over the next century was a succession of owners colorful enough to make the place feel like a novel. Willard George, a Hollywood furrier, used the land to raise chinchillas. Chet Lauck of the famous "Lum and Abner" radio show built the iconic main ranch house that still stands today. <a href="https://eragem.com/news/veras-spring-mountain-ranch/" target="_blank" rel="noopener noreferrer">Vera Krupp</a>, the German actress and socialite, owned the property during a period marked by a famous 33-carat diamond heist on the premises. And Howard Hughes, the reclusive billionaire who spent his final years in Las Vegas without anyone really seeing him, used the ranch as a corporate retreat.
-                        </p>
-
-                        <p>
-                            By the early 1970s the property was on the verge of becoming a luxury housing development. Public protest changed that. Spring Mountain Ranch became a Nevada state park in 1974, and the 520 acres that might have been gated off behind private homes are now open to anyone with $10 and an afternoon.
-                        </p>
-
-                        <p>
-                            The <a href="https://www.springmountainranchdocents.com/ranch-house-tour1.html" target="_blank" rel="noopener noreferrer">ranch house</a> is worth touring on its own. The interior is a time capsule from the 1950s, the heyday of the property's social life, and there are details inside that will catch you sideways if you are paying attention. Trust that.
-                        </p>
-
-                        <div className="my-10 rounded-2xl overflow-hidden shadow-xl not-prose">
-                            <iframe
-                                width="100%"
-                                height="500"
-                                src="https://www.youtube.com/embed/W_CtWAd_c0I?si=1Gh9iTTDvduT9Twm"
-                                title="NV State Parks — Spring Mountain Ranch"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerPolicy="strict-origin-when-cross-origin"
-                                allowFullScreen
-                                className="w-full"
-                            />
+                            {/* Right Sidebar Area */}
+                            <div className="lg:w-1/3">
+                                <SidebarWidgets widgets={getCategoryWidgets(post.categorySlug, post.slug)} />
+                            </div>
                         </div>
-
-                        <h2 className="text-2xl font-bold mt-12 mb-6 text-slate-800">The Trails</h2>
-
-                        <p>
-                            The park's <a href="https://www.springmountainranchdocents.com/hiking.html" target="_blank" rel="noopener noreferrer">hiking trails</a> are laid out to reward different kinds of visitors. The Sandstone Canyon Loop runs 1.2 miles and takes you into the canyon itself, with moderate elevation and the best opportunities in the park to spot wildlife and desert blooms. The Ash Grove Trail moves through mature ash trees and catclaw acacias toward a quiet meadow, a good choice on hot days when shade makes a genuine difference.
-                        </p>
-
-                        <p>
-                            The Lake Harriet walk circles what was once the ranch's scenic centerpiece. In 2017 the lake was drained intentionally to protect the endangered Pahrump Poolfish, which had come under siege from non-native crayfish and other invasive species. The walk remains worthwhile for the mountain reflections and the particular stillness of the area. The Overlook and Plant Trails climb toward a panoramic view of the entire ranch and the valley, passing the historic Wilson Family Cemetery and the original reservoir on the way up.
-                        </p>
-
-                        <p>
-                            Scattered along these routes are two structures that deserve a slow look. The Old Blacksmith Shop dates to the 1860s and the original Sandstone Cabin has survived in remarkably intact condition. Neither is roped off behind glass. You can stand next to them and let the age of the place settle on you.
-                        </p>
-
-                        <p className="font-semibold text-slate-800">
-                            Stay on marked paths, carry more water than you think you need, and start early in summer.
-                        </p>
-
-                        <figure className="my-10">
-                            <Image 
-                                src="/images/Ranch 5.jpg" 
-                                alt="Trail or canyon landscape at Spring Mountain Ranch" 
-                                width={1200} 
-                                height={675} 
-                                className="w-full rounded-2xl shadow-xl"
-                            />
-                        </figure>
-
-                        <figure className="my-10 bg-[#fff0d4]/50 p-4 rounded-2xl shadow-md border-2 border-[#37507a]/20">
-                            <Image 
-                                src="/images/smrtrailmap_orig.jpg" 
-                                alt="Trail map of Spring Mountain Ranch State Park" 
-                                width={1200} 
-                                height={800} 
-                                className="w-full rounded-xl"
-                            />
-                            <figcaption className="text-center text-sm text-[#37507a] mt-4 font-medium italic">
-                                Trail map courtesy Spring Mountain Ranch State Park
-                            </figcaption>
-                        </figure>
-
-                        <h2 className="text-2xl font-bold mt-12 mb-6 text-slate-800">Theatre Under the Stars</h2>
-
-                        <p>
-                            Summer at Spring Mountain Ranch has a second act that most people do not know exists. <a href="https://supersummertheatre.org/" target="_blank" rel="noopener noreferrer">Super Summer Theatre</a> has been staging productions here since 1976, making it one of the longest-running outdoor theatre programs in the American Southwest.
-                        </p>
-
-                        <p>
-                            The origin story matters. In the earliest years, performances happened on a wooden platform in a meadow. Actors sold tickets between scenes. Park rangers directed traffic. It was not polished, but it was something. The community rallied in 1987 to raise $350,000 for a permanent stage and dressing rooms, which meant sets and lights could finally survive a desert windstorm. Over the decades, the program grew into a genuine cultural institution. More than 1.3 million people have attended since the beginning, drawn as much by the pre-show ritual as by the productions themselves.
-                        </p>
-
-                        <p>
-                            The ritual is simple and specific. You bring a blanket and a picnic basket. You arrive before the show and spread out in the meadow as the sun drops behind the Wilson Range. The temperature falls to something genuinely pleasant. Then the lights come up on a full professional musical performed against a backdrop of sandstone cliffs and open desert sky. It is one of those Las Vegas experiences that has nothing to do with Las Vegas as most people imagine it, and that is the entire point.
-                        </p>
-
-                        <figure className="my-10">
-                            <a href="https://supersummertheatre.org/" target="_blank" rel="noopener noreferrer">
-                                <Image 
-                                    src="/images/Summer.png" 
-                                    alt="Super Summer Theatre performance or audience at dusk" 
-                                    width={1200} 
-                                    height={675} 
-                                    className="w-full rounded-2xl shadow-xl hover:opacity-90 transition-opacity"
-                                />
-                            </a>
-                        </figure>
-
-                        <h2 className="text-2xl font-bold mt-12 mb-6 text-slate-800">What to Know Before You Go</h2>
-
-                        <p>
-                            Spring Mountain Ranch is a good destination for the whole family including dogs, provided you follow the park's leash rules and stay on marked trails. Bring a picnic. The large pasture near the ranch house is an ideal place to spread out, eat something, and simply sit in a landscape that has nothing competing for your attention.
-                        </p>
-
-                        <p>
-                            Entrance fees are $10 per car for Nevada residents and $15 per car for out-of-state visitors. Walk-ins and cyclists pay $2 each. Park hours shift by season: June through August the park is open 8 a.m. to 8 p.m. September brings an 8 a.m. to 7 p.m. window. October runs 8 a.m. to 6 p.m. November through February the park closes at 4:30 p.m. March reopens to 6 p.m. and April through May runs 8 a.m. to 7 p.m.
-                        </p>
-
-                        <p>
-                            The full park site lives at <a href="https://parks.nv.gov/parks/spring-mountain-ranch" target="_blank" rel="noopener noreferrer">parks.nv.gov</a> and the docent association maintains a detailed resource at <a href="https://www.springmountainranchdocents.com/history.html" target="_blank" rel="noopener noreferrer">springmountainranchdocents.com</a> for anyone who wants to go deeper into the history before visiting.
-                        </p>
-
-                        <hr className="my-12 border-[#37507a]/20" />
-
-                        {/* CTA BLOCK 1 */}
-                        <div className="my-8 rounded-2xl bg-[#fff0d4]/50 border-2 border-[#37507a]/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose text-[#37507a]">
-                            <p className="text-xs text-[#2c4875] uppercase tracking-widest font-bold mb-2">
-                                While you're out there
-                            </p>
-                            <h3 className="text-xl font-bold text-[#37507a] mb-3 mt-0">
-                                Explore Red Rock Canyon — Guided Tours Available
-                            </h3>
-                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto font-medium">
-                                Spring Mountain Ranch sits right on the Red Rock scenic drive.
-                                If you want a guided experience through the canyon itself, these tours
-                                depart from Las Vegas and pair perfectly with a ranch visit.
-                            </p>
-                            <a
-                                href="https://gyg.me/8vPuKQrv"
-                                target="_blank"
-                                rel="sponsored noopener noreferrer"
-                                className="inline-block px-8 py-3.5 rounded-full bg-[#37507a] text-white font-bold hover:bg-[#2c4875] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
-                            >
-                                Browse Red Rock Tours on GetYourGuide →
-                            </a>
-                        </div>
-
-                        {/* CTA BLOCK 2 */}
-                        <div className="my-8 rounded-2xl bg-[#fff0d4]/50 border-2 border-[#37507a]/20 p-8 text-center shadow-lg transition-transform hover:-translate-y-1 duration-300 not-prose text-[#37507a]">
-                            <p className="text-xs text-[#2c4875] uppercase tracking-widest font-bold mb-2">
-                                Not sure where to start?
-                            </p>
-                            <h3 className="text-xl font-bold text-[#37507a] mb-3 mt-0">
-                                Book a Las Vegas Day Trip Experience
-                            </h3>
-                            <p className="text-[#37507a] mb-6 max-w-2xl mx-auto font-medium">
-                                From Valley of Fire to Hoover Dam to the Spring Mountains,
-                                there are guided day trips that take the planning off your plate
-                                entirely. Worth a look if you're visiting and want to cover more ground.
-                            </p>
-                            <a
-                                href="https://gyg.me/RaVS8xcu"
-                                target="_blank"
-                                rel="sponsored noopener noreferrer"
-                                className="inline-block px-8 py-3.5 rounded-full bg-[#37507a] text-white font-bold hover:bg-[#2c4875] hover:shadow-xl hover:scale-105 transition-all duration-300 no-underline"
-                            >
-                                Browse Las Vegas Day Trips on GetYourGuide →
-                            </a>
-                        </div>
-
-                        <hr className="my-12 border-[#37507a]/20" />
-
-                        <div className="bg-[#fff0d4]/50 p-6 rounded-xl italic text-[#37507a] text-sm border-2 border-[#37507a]/20">
-                            <p className="m-0">
-                                Spring Mountain Ranch State Park is located on State Route 159, approximately 25 miles
-                                west of Las Vegas. Full visitor information at
-                                <a href="https://parks.nv.gov/parks/spring-mountain-ranch" target="_blank" rel="noopener noreferrer"> parks.nv.gov</a>.
-                                Super Summer Theatre season runs May through August.
-                                Visit <a href="https://supersummertheatre.org" target="_blank" rel="noopener noreferrer">supersummertheatre.org</a> for the current schedule and tickets.
-                            </p>
-                        </div>
-                    </div>
-
-                    {/* Back link */}
-                    <div className="mt-10 text-center lg:text-left">
-                        <Link
-                            href="/beyond-the-neon"
-                            className="inline-flex items-center gap-2 font-semibold transition-colors text-[#2c4875] hover:text-[#1e3459]"
-                        >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                width="18"
-                                height="18"
-                                viewBox="0 0 24 24"
-                                fill="none"
-                                stroke="currentColor"
-                                strokeWidth="2"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                            >
-                                <path d="M19 12H5M12 19l-7-7 7-7" />
-                            </svg>
-                            Back to Beyond the Neon
-                        </Link>
-                    </div>
-                </div>
-
-                {/* Right Sidebar Area */}
-                <div className="lg:w-1/3">
-                    <SidebarWidgets widgets={getCategoryWidgets("beyond-the-neon", "spring-mountain-ranch")} />
-                </div>
+                    </section>
+                </main>
+                <Footer />
             </div>
-        </section>
-    </main>
-    <Footer />
-</div>
-</div>
+        </div>
     );
 }

@@ -481,8 +481,8 @@ function pawsAndAwayContent(): ReactNode {
 
 function stanleyHotelContent(): ReactNode {
     return (
-        <div className="prose prose-invert max-w-none prose-headings:text-red-500 prose-headings:font-[family:var(--font-creepster)] prose-headings:tracking-widest prose-p:text-gray-300 prose-a:text-red-400 hover:prose-a:text-red-300 prose-strong:text-white prose-p:leading-relaxed">
-            <p className="text-sm text-red-500/70 font-medium uppercase tracking-wide">
+        <div className="prose max-w-none prose-headings:text-[#fff0d4] prose-headings:font-bold prose-p:text-white prose-a:text-[#fff0d4] hover:prose-a:text-white prose-a:underline prose-strong:text-white prose-p:leading-relaxed prose-li:text-white prose-figcaption:text-white/70">
+            <p className="text-sm text-white/60 font-medium uppercase tracking-wide">
                 Estes Park, Colorado
             </p>
 
@@ -974,8 +974,8 @@ function springMountainRanchContent(): ReactNode {
 
 function reelRoadsContent(): ReactNode {
     return (
-        <div className="prose prose-invert max-w-none prose-headings:text-red-500 prose-headings:font-[family:var(--font-creepster)] prose-headings:tracking-widest prose-p:text-gray-300 prose-a:text-red-400 hover:prose-a:text-red-300 prose-strong:text-white prose-p:leading-relaxed">
-            <p className="text-sm text-red-500/70 font-medium uppercase tracking-wide">
+        <div className="prose max-w-none prose-headings:text-[#fff0d4] prose-headings:font-bold prose-p:text-white prose-a:text-[#fff0d4] hover:prose-a:text-white prose-a:underline prose-strong:text-white prose-p:leading-relaxed prose-li:text-white prose-figcaption:text-white/70">
+            <p className="text-sm text-white/60 font-medium uppercase tracking-wide">
                 Estes Park, Colorado {"\u2014"} A Cinematic Pilgrimage to the Most Famous Haunted
                 Hotel in American Literature
             </p>
@@ -995,7 +995,7 @@ function reelRoadsContent(): ReactNode {
             </p>
             <p>
                 This is not a scene from a movie. This happened in Room 217 of the{" "}
-                <a href="https://www.stanleyhotel.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Stanley Hotel</a>{" "}
+                <a href="https://www.stanleyhotel.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] underline">Stanley Hotel</a>{" "}
                 in Estes Park, Colorado, in late September of 1974. The writer was Stephen King.
                 The nightmare was about his three-year-old son being chased through the
                 hotel{"\u2019"}s corridors by a fire hose that had come alive. The novel that grew
@@ -1637,8 +1637,8 @@ function lambeauFieldContent(): ReactNode {
 
 function prohibitionWineContent(): ReactNode {
     return (
-        <div className="prose max-w-none text-slate-300 prose-headings:text-[#fcd34d] prose-headings:font-[family:var(--font-cinzel)] prose-p:text-slate-300 prose-a:text-amber-500 hover:prose-a:text-amber-400 prose-strong:text-white prose-p:leading-relaxed">
-            <p className="text-sm text-[#fcd34d] font-medium uppercase tracking-wide">
+        <div className="prose max-w-none prose-headings:text-[#fff0d4] prose-headings:font-bold prose-p:text-white prose-a:text-[#fff0d4] hover:prose-a:text-white prose-a:underline prose-strong:text-white prose-p:leading-relaxed prose-li:text-white prose-figcaption:text-white/70">
+            <p className="text-sm text-white/60 font-medium uppercase tracking-wide">
                 Vine & Wander | The Wineries That Survived Prohibition
             </p>
 
@@ -1699,7 +1699,7 @@ function prohibitionWineContent(): ReactNode {
             </p>
             <p>
                 Today,{" "}
-                <a href="https://www.bvwines.com" target="_blank" rel="noopener noreferrer" className="text-sky-600 underline">Beaulieu Vineyard</a>{" "}
+                <a href="https://www.bvwines.com" target="_blank" rel="noopener noreferrer" className="text-[#fff0d4] underline">Beaulieu Vineyard</a>{" "}
                 sits at 1960 St. Helena Highway in Rutherford, Napa Valley. Tasting is available
                 by appointment, and the Georges de Latour Private Reserve Cabernet, still bearing
                 the founder{"\u2019"}s name, remains one of the benchmarks of Napa winemaking.
@@ -2517,7 +2517,7 @@ export function sphereLasVegasContent(): ReactNode {
                 .ht-section-title {
                     font-family: 'Playfair Display', serif;
                     font-size: clamp(1.6rem, 4vw, 2.4rem);
-                    color: #1a1a2e;
+                    color: #fff0d4;
                     margin: 0 0 6px;
                     letter-spacing: 0.02em;
                 }
@@ -2525,14 +2525,14 @@ export function sphereLasVegasContent(): ReactNode {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.15rem;
                     line-height: 1.5;
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 0 0 24px;
                 }
                 /* ── Location entries ────────────────────────────────── */
                 .ht-location {
                     margin-bottom: 52px;
                     padding-bottom: 52px;
-                    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+                    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
                 }
                 .ht-location:last-of-type {
                     border-bottom: none;
@@ -2541,7 +2541,7 @@ export function sphereLasVegasContent(): ReactNode {
                 .ht-location-name {
                     font-family: 'Playfair Display', serif;
                     font-size: clamp(1.4rem, 3.5vw, 2rem);
-                    color: #1a1a2e;
+                    color: #fff0d4;
                     margin: 0 0 16px;
                     letter-spacing: 0.02em;
                 }
@@ -2549,7 +2549,7 @@ export function sphereLasVegasContent(): ReactNode {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.1rem;
                     line-height: 1.82;
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 0 0 16px;
                 }
                 .ht-location p:last-of-type {
@@ -2559,7 +2559,7 @@ export function sphereLasVegasContent(): ReactNode {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.1rem;
                     line-height: 1.82;
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 0 0 16px;
                     padding-left: 24px;
                     list-style-type: disc;
@@ -2572,15 +2572,15 @@ export function sphereLasVegasContent(): ReactNode {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.1rem;
                     line-height: 1.82;
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 48px 0 36px;
                     padding-top: 48px;
-                    border-top: 1px solid rgba(0, 0, 0, 0.15);
+                    border-top: 1px solid rgba(255, 255, 255, 0.2);
                 }
                 .ht-quicklinks {
-                    background: #04FFF7;
-                    color: #000000;
-                    border: 1px solid rgba(0, 0, 0, 0.2);
+                    background: rgba(255, 255, 255, 0.1);
+                    color: #ffffff;
+                    border: 1px solid rgba(255, 255, 255, 0.2);
                     padding: 32px;
                     margin-top: 48px;
                     border-radius: 12px;
@@ -2589,7 +2589,7 @@ export function sphereLasVegasContent(): ReactNode {
                     font-family: 'Playfair Display', serif;
                     font-size: 1.4rem;
                     margin: 0 0 16px;
-                    color: #000000;
+                    color: #fff0d4;
                 }
                 .ht-quicklinks ul {
                     font-family: 'Lato', sans-serif;
@@ -2597,7 +2597,7 @@ export function sphereLasVegasContent(): ReactNode {
                     list-style: none;
                     padding: 0;
                     margin: 0;
-                    color: rgba(0, 0, 0, 0.9);
+                    color: rgba(255, 255, 255, 0.9);
                 }
                 .ht-quicklinks li {
                     margin-bottom: 8px;
@@ -2606,11 +2606,11 @@ export function sphereLasVegasContent(): ReactNode {
 
             <div className="ht-article">
                 <h1 className="ht-section-title text-center mb-2">Sphere: The Ultimate Experience</h1>
-                <p className="text-center font-serif text-lg mb-8 text-[#1a1a2e]">Inside Las Vegas' Most Ambitious Entertainment Venue yet.</p>
+                <p className="text-center font-serif text-lg mb-8 text-white/80">Inside Las Vegas&apos; Most Ambitious Entertainment Venue yet.</p>
 
                 <p className="ht-intro">
-                    It sits just east of the Strip, glowing behind the <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> like a
-                    366-foot-tall architectural hallucination. <a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">The Sphere</a> cost $2.3
+                    It sits just east of the Strip, glowing behind the <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Venetian</a> like a
+                    366-foot-tall architectural hallucination. <a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">The Sphere</a> cost $2.3
                     billion to build, took five years to finish, and opened in late 2023 
                     with a U2 residency that immediately redefined what live entertainment
                     looked like. 
@@ -2678,54 +2678,56 @@ export function sphereLasVegasContent(): ReactNode {
                 </div>
 
                 <div className="ht-location">
-                    <h2 className="ht-location-name"><a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer" className="text-[#1a1a2e] hover:text-[#7d12ff] no-underline">2026 Residency Calendar</a></h2>
-                    <p>
-                        The 2026 concert schedule for the Sphere in Las Vegas features major residencies from legendary rock bands, pop icons, and electronic artists. Key headliners include Eagles, Phish, No Doubt, and Metallica.
-                    </p>
-                    
-                    <div className="overflow-x-auto my-8">
-                        <table className="min-w-full text-left border-collapse">
-                            <thead>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <th className="py-2 pr-4 font-bold">Artist</th>
-                                    <th className="py-2 pr-4 font-bold min-w-[140px]">Dates</th>
-                                    <th className="py-2 font-bold">Description</th>
-                                </tr>
-                            </thead>
+                    <div className="bg-[#fff0d4] p-6 rounded-xl mb-8">
+                        <h2 className="ht-location-name !mb-4"><a href="https://www.thesphere.com/" target="_blank" rel="noopener noreferrer" className="!text-[#e9a43a] hover:!text-[#c47d1a] no-underline hover:underline">2026 Residency Calendar</a></h2>
+                        <p className="!text-[#37507a]">
+                            The 2026 concert schedule for the Sphere in Las Vegas features major residencies from legendary rock bands, pop icons, and electronic artists. Key headliners include Eagles, Phish, No Doubt, and Metallica.
+                        </p>
+                        
+                        <div className="overflow-x-auto my-8">
+                            <table className="min-w-full text-left border-collapse !text-[#1e293b]">
+                                <thead>
+                                    <tr className="border-b-2 border-[#37507a]">
+                                        <th className="py-2 pr-4 font-bold !text-[#1e293b]">Artist</th>
+                                        <th className="py-2 pr-4 font-bold min-w-[140px] !text-[#1e293b]">Dates</th>
+                                        <th className="py-2 font-bold !text-[#1e293b]">Description</th>
+                                    </tr>
+                                </thead>
                             <tbody>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold">Phish</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">Apr 16 – May 2 · 8 PM</td>
-                                    <td className="py-3">9-night return residency for the legendary jam band.</td>
+                                <tr className="border-b-2 border-[#37507a]">
+                                    <td className="py-3 pr-4 font-bold !text-[#1e293b]">Phish</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap !text-[#1e293b]">Apr 16 – May 2 · 8 PM</td>
+                                    <td className="py-3 !text-[#1e293b]">9-night return residency for the legendary jam band.</td>
                                 </tr>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">No Doubt</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">May 6 – Jun 13 · 8:30 PM</td>
-                                    <td className="py-3">18-show reunion residency — the first female-fronted headliner at the Sphere.</td>
+                                <tr className="border-b-2 border-[#37507a]">
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap !text-[#1e293b]">No Doubt</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap !text-[#1e293b]">May 6 – Jun 13 · 8:30 PM</td>
+                                    <td className="py-3 !text-[#1e293b]">18-show reunion residency — the first female-fronted headliner at the Sphere.</td>
                                 </tr>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Kenny Chesney</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">Jun 19 – Jul 11 · 8 PM</td>
-                                    <td className="py-3">Summer residency bringing "No Shoes Nation" into the Sphere's immersive realm.</td>
+                                <tr className="border-b-2 border-[#37507a]">
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap !text-[#1e293b]">Kenny Chesney</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap !text-[#1e293b]">Jun 19 – Jul 11 · 8 PM</td>
+                                    <td className="py-3 !text-[#1e293b]">Summer residency bringing "No Shoes Nation" into the Sphere's immersive realm.</td>
                                 </tr>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Backstreet Boys</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">Jul 16 – Aug 29 · 8 PM</td>
-                                    <td className="py-3">"Into the Millennium" residency — nostalgia, choreography, and full-dome visuals.</td>
+                                <tr className="border-b-2 border-[#37507a]">
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap !text-[#1e293b]">Backstreet Boys</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap !text-[#1e293b]">Jul 16 – Aug 29 · 8 PM</td>
+                                    <td className="py-3 !text-[#1e293b]">"Into the Millennium" residency — nostalgia, choreography, and full-dome visuals.</td>
                                 </tr>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold whitespace-nowrap">Carín León</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">Sep 4 – Sep 13 · 8 PM</td>
-                                    <td className="py-3">Milestone multi-night residency from the leading Regional Mexican artist.</td>
+                                <tr className="border-b-2 border-[#37507a]">
+                                    <td className="py-3 pr-4 font-bold whitespace-nowrap !text-[#1e293b]">Carín León</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap !text-[#1e293b]">Sep 4 – Sep 13 · 8 PM</td>
+                                    <td className="py-3 !text-[#1e293b]">Milestone multi-night residency from the leading Regional Mexican artist.</td>
                                 </tr>
-                                <tr className="border-b-2 border-[#0055ff]">
-                                    <td className="py-3 pr-4 font-bold">Metallica</td>
-                                    <td className="py-3 pr-4 whitespace-nowrap">Oct 1 – Nov 7 · 8:30 PM</td>
-                                    <td className="py-3">"Life Burns Faster" residency in their No Repeat Weekend format.</td>
+                                <tr className="border-b-2 border-[#37507a]">
+                                    <td className="py-3 pr-4 font-bold !text-[#1e293b]">Metallica</td>
+                                    <td className="py-3 pr-4 whitespace-nowrap !text-[#1e293b]">Oct 1 – Nov 7 · 8:30 PM</td>
+                                    <td className="py-3 !text-[#1e293b]">"Life Burns Faster" residency in their No Repeat Weekend format.</td>
                                 </tr>
                             </tbody>
                         </table>
                     </div>
+                </div>
 
                     <h3 className="text-2xl font-bold mt-8 mb-4">Recurring Immersive Experiences</h3>
                     <Image
@@ -2849,7 +2851,7 @@ export function sphereLasVegasContent(): ReactNode {
                     </p>
                     <p>
                         Sphere formally gave him a name in February 2025, and launched an official merchandise line at{" "}
-                        <a href="https://shop.thesphere.com" target="_blank" rel="noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">shop.thesphere.com</a>{" "}
+                        <a href="https://shop.thesphere.com" target="_blank" rel="noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">shop.thesphere.com</a>{" "}
                         featuring apparel and accessories built around his various expressions. The Orbi Collection is
                         available both online and inside the venue, and it sells out regularly enough that browsing early
                         in your visit is worth the few minutes.
@@ -2924,9 +2926,9 @@ export function sphereLasVegasContent(): ReactNode {
                         wait twenty minutes before heading to your car.
                     </p>
                     <p>
-                        Nearby options are cheaper and often just as practical. The <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> and Palazzo parking
+                        Nearby options are cheaper and often just as practical. The <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Venetian</a> and Palazzo parking
                         garages charge non-hotel guests $15 for up to four hours and $23 per day on weekends, with
-                        valet at $35. <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Wynn</a> and Encore offer self-parking at $20 per day with the first four hours
+                        valet at $35. <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Wynn</a> and Encore offer self-parking at $20 per day with the first four hours
                         free. SpotHero is worth checking before any show for pre-booked spots across the surrounding
                         area.
                     </p>
@@ -2938,7 +2940,7 @@ export function sphereLasVegasContent(): ReactNode {
                     </p>
                     <p>
                         The option locals have come to prefer is the climate-controlled walkway connecting the
-                        <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> resort directly into the Sphere&apos;s grand atrium. If you are staying at the
+                        <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Venetian</a> resort directly into the Sphere&apos;s grand atrium. If you are staying at the
                         Venetian or Palazzo, you can walk from your hotel room into the Sphere without stepping
                         outside. For everyone else, the Venetian parking garage gets you to the same walkway through
                         the resort&apos;s convention center. In Las Vegas summer, when it is well above 100 degrees
@@ -2960,7 +2962,7 @@ export function sphereLasVegasContent(): ReactNode {
 
                     <h3 className="text-xl font-bold mt-6 mb-3">Casual and Mid-Range: The Venetian Corridor</h3>
                     <p>
-                        The <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a> resort holds one of the most practical pre-show dining collections on the Strip.
+                        The <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Venetian</a> resort holds one of the most practical pre-show dining collections on the Strip.
                         Bouchon Bakery, Thomas Keller&apos;s French patisserie, is excellent for coffee and a pastry
                         if you are arriving early. Grand Lux Cafe is the reliable all-day option for groups with
                         different tastes. Yardbird does southern comfort food—fried chicken, biscuits, and deviled
@@ -3000,9 +3002,9 @@ export function sphereLasVegasContent(): ReactNode {
                     />
 
                     <p>
-                        Wing Lei at the <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Wynn</a> is the only Forbes Five-Star Chinese restaurant in North America, a
+                        Wing Lei at the <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Wynn</a> is the only Forbes Five-Star Chinese restaurant in North America, a
                         ten-minute walk from the Sphere via the back of the property. Delmonico Steakhouse inside
-                        the <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#7d12ff] hover:text-[#4b0b99] underline">Venetian</a>, Emeril Lagasse&apos;s flagship, is the classic Strip pre-show dinner for anyone
+                        the <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Venetian</a>, Emeril Lagasse&apos;s flagship, is the classic Strip pre-show dinner for anyone
                         who wants the full ceremony of a proper steakhouse without leaving the complex. Mercato Della
                         Pescheria, also in the Venetian, does Italian seafood with a beautiful room and a wine program
                         that holds up under scrutiny. Carversteak at Resorts World, a short drive north, offers
@@ -3059,22 +3061,22 @@ export function sphereLasVegasContent(): ReactNode {
                     <ul className="mb-8">
                         <li>
                             <strong>Official Tickets:</strong> You can find primary tickets through the Sphere at{" "}
-                            <a href="https://www.thesphere.com/" target="_blank" rel="sponsored noopener noreferrer">thesphere.com</a>
+                            <a href="https://www.thesphere.com/" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">thesphere.com</a>
                         </li>
                         <li>
                             <strong>Nearby Hotels:</strong>
                             <ul className="mt-2 ml-6 space-y-2">
                                 <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer">The Wynn</a>
+                                    <a href="https://expedia.stay22.com/eztravelz/qb5opkHwFh" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">The Wynn</a>
                                 </li>
                                 <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer">The Venetian Resort Las Vegas</a>
+                                    <a href="https://expedia.stay22.com/eztravelz/bkqPA9t7kv" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">The Venetian Resort Las Vegas</a>
                                 </li>
                                 <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/oV7P34dtFP" target="_blank" rel="sponsored noopener noreferrer">The Palazzo at the Venetian</a>
+                                    <a href="https://expedia.stay22.com/eztravelz/oV7P34dtFP" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">The Palazzo at the Venetian</a>
                                 </li>
                                 <li>
-                                    <a href="https://expedia.stay22.com/eztravelz/JQI4u1jVjm" target="_blank" rel="sponsored noopener noreferrer">Encore at Wynn Las Vegas</a>
+                                    <a href="https://expedia.stay22.com/eztravelz/JQI4u1jVjm" target="_blank" rel="sponsored noopener noreferrer" className="text-[#e9a43a] hover:text-[#c47d1a] underline">Encore at Wynn Las Vegas</a>
                                 </li>
                             </ul>
                         </li>
@@ -3103,14 +3105,14 @@ function vegasBabyContent(): ReactNode {
                 .ht-section-title {
                     font-family: 'Playfair Display', serif;
                     font-size: clamp(1.6rem, 4vw, 2.4rem);
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 0 0 6px;
                     letter-spacing: 0.02em;
                 }
                 .ht-section-meta {
                     font-family: 'Lato', sans-serif;
                     font-size: 0.78rem;
-                    color: rgba(0, 0, 0, 0.6);
+                    color: rgba(255, 255, 255, 0.6);
                     letter-spacing: 0.04em;
                     margin: 0 0 24px;
                 }
@@ -3118,7 +3120,7 @@ function vegasBabyContent(): ReactNode {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.15rem;
                     line-height: 1.8;
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 0 0 48px;
                 }
                 /* ── Location entries ────────────────────────────────── */
@@ -3140,14 +3142,14 @@ function vegasBabyContent(): ReactNode {
                 .ht-location-name {
                     font-family: 'Playfair Display', serif;
                     font-size: clamp(1.4rem, 3.5vw, 2rem);
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 0 0 4px;
                     letter-spacing: 0.02em;
                 }
                 .ht-location-meta {
                     font-family: 'Lato', sans-serif;
                     font-size: 0.75rem;
-                    color: rgba(0, 0, 0, 0.6);
+                    color: rgba(255, 255, 255, 0.6);
                     letter-spacing: 0.05em;
                     margin: 0 0 20px;
                 }
@@ -3155,7 +3157,7 @@ function vegasBabyContent(): ReactNode {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.1rem;
                     line-height: 1.82;
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 0 0 16px;
                 }
                 .ht-location p:last-of-type {
@@ -3187,29 +3189,31 @@ function vegasBabyContent(): ReactNode {
                     font-family: 'Crimson Pro', serif;
                     font-size: 1.1rem;
                     line-height: 1.82;
-                    color: #1a1a2e;
+                    color: #ffffff;
                     margin: 48px 0 36px;
                     padding-top: 48px;
-                    border-top: 1px solid rgba(0, 0, 0, 0.15);
+                    border-top: 1px solid rgba(255, 255, 255, 0.2);
                 }
-                /* \u2500\u2500 US Ghost Adventures affiliate block \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500 */
+                /* ── US Ghost Adventures affiliate block ─────────── */
                 .ht-affiliate {
-                    background: #1a1a2e;
+                    background: rgba(255, 255, 255, 0.08);
                     padding: 36px 32px;
                     text-align: center;
                     margin: 0 0 48px;
+                    border-radius: 12px;
+                    border: 1px solid rgba(255, 255, 255, 0.15);
                 }
                 .ht-affiliate-title {
-                    font-family: 'Creepster', cursive;
+                    font-family: 'Playfair Display', serif;
                     font-size: 1.4rem;
-                    color: #e8e0d0;
+                    color: #fff0d4;
                     margin: 0 0 6px;
                     letter-spacing: 0.02em;
                 }
                 .ht-affiliate-sub {
                     font-family: 'Crimson Pro', serif;
                     font-size: 0.95rem;
-                    color: #7a7a8a;
+                    color: rgba(255, 255, 255, 0.75);
                     margin: 0 0 20px;
                 }
                 .ht-affiliate-banner {
@@ -3365,7 +3369,7 @@ function vegasBabyContent(): ReactNode {
                         {/* Nearby Hotels */}
                         {spot.nearbyHotels && (
                             <div style={{ marginTop: '24px', padding: '16px 20px', backgroundColor: 'rgba(0,0,0,0.04)', borderRadius: '12px' }}>
-                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>🏨 Nearby Hotels</h4>
+                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#ffffff', margin: '0 0 10px', letterSpacing: '0.03em' }}>🏨 Nearby Hotels</h4>
                                 <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                                     {spot.nearbyHotels.map((hotel) => (
                                         <li key={hotel.name} style={{ marginBottom: '6px' }}>
@@ -3373,7 +3377,7 @@ function vegasBabyContent(): ReactNode {
                                                 href={hotel.href}
                                                 target="_blank"
                                                 rel="sponsored noopener noreferrer"
-                                                style={{ color: '#7d12ff', fontFamily: "'Crimson Pro', serif", fontSize: '1rem', textDecoration: 'underline', textUnderlineOffset: '3px' }}
+                                                style={{ color: '#fff0d4', fontFamily: "'Crimson Pro', serif", fontSize: '1rem', textDecoration: 'underline', textUnderlineOffset: '3px' }}
                                             >
                                                 {hotel.name}
                                             </a>
@@ -3386,7 +3390,7 @@ function vegasBabyContent(): ReactNode {
                         {/* Nearby Tours */}
                         {spot.nearbyTours && (
                             <div style={{ marginTop: '12px', padding: '16px 20px', backgroundColor: 'rgba(0,0,0,0.04)', borderRadius: '12px' }}>
-                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#1a1a2e', margin: '0 0 10px', letterSpacing: '0.03em' }}>👻 Nearby Ghost Tours</h4>
+                                <h4 style={{ fontFamily: "'Playfair Display', serif", fontSize: '1rem', color: '#ffffff', margin: '0 0 10px', letterSpacing: '0.03em' }}>👻 Nearby Ghost Tours</h4>
                                 <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                                     {spot.nearbyTours.map((tour) => (
                                         <li key={tour.name} style={{ marginBottom: '6px' }}>
@@ -3394,7 +3398,7 @@ function vegasBabyContent(): ReactNode {
                                                 href={tour.href}
                                                 target="_blank"
                                                 rel="sponsored noopener noreferrer"
-                                                style={{ color: '#7d12ff', fontFamily: "'Crimson Pro', serif", fontSize: '1rem', textDecoration: 'underline', textUnderlineOffset: '3px' }}
+                                                style={{ color: '#fff0d4', fontFamily: "'Crimson Pro', serif", fontSize: '1rem', textDecoration: 'underline', textUnderlineOffset: '3px' }}
                                             >
                                                 {tour.name}
                                             </a>
@@ -3420,13 +3424,13 @@ function vegasBabyContent(): ReactNode {
                 </p>
 
                 <div className="ht-affiliate">
-                    <h4 className="ht-affiliate-title" style={{ color: '#ff0000' }}>Ready for Your Own Haunted Experience?</h4>
+                    <h4 className="ht-affiliate-title">Ready for Your Own Haunted Experience?</h4>
                     <p className="ht-affiliate-sub">Explore the dark history of Las Vegas on a guided ghost tour.</p>
                     <a 
                         href="https://usghostadventures.com/las-vegas-ghost-tour/?ref=mju3ytb" 
                         target="_blank" 
                         rel="sponsored noopener noreferrer"
-                        className="inline-block mt-4 px-6 py-3 border border-[#e8e0d0] text-[#e8e0d0] font-bold uppercase tracking-widest text-sm transition-colors hover:bg-[#e8e0d0] hover:text-[#1a1a2e]"
+                        className="inline-block mt-4 px-6 py-3 rounded-full bg-[#fff0d4] text-[#37507a] font-bold uppercase tracking-widest text-sm transition-colors hover:bg-white"
                     >
                         Book a Las Vegas Ghost Tour Here
                     </a>

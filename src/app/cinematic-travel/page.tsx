@@ -42,8 +42,8 @@ export default function CinematicTravelPage() {
                             {/* Main Content Area */}
                             <div className="lg:w-2/3">
                                 {/* Cinematic Travel Guide */}
-                                <FilmFestivalsGuide />
                                 <CannesGuide />
+                                <FilmFestivalsGuide />
 
                             </div>
 
