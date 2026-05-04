@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: "Terms of Service — EZtravelZ",
     description:
         "Read the terms and conditions governing your use of EZtravelZ.com.",
+    alternates: {
+        canonical: "https://eztravelz.com/terms-of-service",
+    },
 };
 
 export default function TermsOfServicePage() {
@@ -148,8 +151,8 @@ export default function TermsOfServicePage() {
                                 information regarding the use of the Site,
                                 please{" "}
                                 <Link
-                                    href="/#contact"
-                                    className="text-amber-400 font-bold underline underline-offset-4 hover:text-amber-300 transition-colors"
+                                    href="mailto:info@eztravelz.com"
+                                    className="text-[#38bdf8] font-bold underline underline-offset-4 hover:text-white transition-colors"
                                 >
                                     contact us
                                 </Link>

@@ -163,7 +163,7 @@ export default function CannesGuide() {
                             target="_blank"
                             rel="sponsored noopener noreferrer"
                             style={{ fontFamily: "var(--font-cinzel), 'Cinzel', serif" }}
-                            className="text-[#2c6fad] hover:text-[#1a4f7a] font-bold text-base underline block mb-2"
+                            className="text-[#38bdf8] hover:text-white font-bold text-base underline block mb-2"
                         >
                             {hotel.name} →
                         </a>
@@ -198,7 +198,7 @@ export default function CannesGuide() {
                             target="_blank"
                             rel="sponsored noopener noreferrer"
                             style={{ fontFamily: "var(--font-cinzel), 'Cinzel', serif" }}
-                            className="text-[#2c6fad] hover:text-[#1a4f7a] font-bold text-base underline block mb-2"
+                            className="text-[#38bdf8] hover:text-white font-bold text-base underline block mb-2"
                         >
                             {hotel.name} →
                         </a>
@@ -351,7 +351,7 @@ export default function CannesGuide() {
                         href="https://www.viator.com/tours/Cannes/Monaco-and-Eze-Small-Group-Day-Trip-from-Cannes/d786-2356NCE10_CANNES?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Cannes"
                         target="_blank"
                         rel="sponsored noopener noreferrer"
-                        className="inline-block text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
+                        className="inline-block text-[#38bdf8] hover:text-white text-sm font-semibold transition-colors duration-200"
                     >
                         Book the Monaco and Èze Small Group Day Trip from Cannes →
                     </a>
@@ -371,7 +371,7 @@ export default function CannesGuide() {
                         href="https://www.viator.com/Cannes/Antibes/day-trips-d786-d21941?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Cannes"
                         target="_blank"
                         rel="sponsored noopener noreferrer"
-                        className="inline-block text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
+                        className="inline-block text-[#38bdf8] hover:text-white text-sm font-semibold transition-colors duration-200"
                     >
                         Book the Half-Day Cannes, Antibes and Saint-Paul-de-Vence Tour →
                     </a>
@@ -391,7 +391,7 @@ export default function CannesGuide() {
                         href="https://www.viator.com/tours/Cannes/Cannes-Shore-Excursion-Eze-Monaco-and-Nice-Full-Day-Tour/d786-5419P87?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Cannes"
                         target="_blank"
                         rel="sponsored noopener noreferrer"
-                        className="inline-block text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
+                        className="inline-block text-[#38bdf8] hover:text-white text-sm font-semibold transition-colors duration-200"
                     >
                         Book the Full-Day French Riviera Tour from Cannes (Nice, Monaco, Èze) →
                     </a>
@@ -428,7 +428,7 @@ export default function CannesGuide() {
                         href="https://www.viator.com/tours/Cannes/French-Riviera-PRIVATE-Dream-Day-Nice-Monaco-and-Villefranche/d786-472303P3?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Cannes"
                         target="_blank"
                         rel="sponsored noopener noreferrer"
-                        className="inline-block text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
+                        className="inline-block text-[#38bdf8] hover:text-white text-sm font-semibold transition-colors duration-200"
                     >
                         Book the French Riviera Private Dream Day →
                     </a>
@@ -448,7 +448,7 @@ export default function CannesGuide() {
                         href="https://www.viator.com/Cannes-tours/Day-Trips-and-Excursions/d786-g5?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Cannes"
                         target="_blank"
                         rel="sponsored noopener noreferrer"
-                        className="inline-block text-[#2c6fad] hover:text-[#1a4f7a] text-sm font-semibold transition-colors duration-200"
+                        className="inline-block text-[#38bdf8] hover:text-white text-sm font-semibold transition-colors duration-200"
                     >
                         Book the Lérins Islands Private Boat Tour →
                     </a>
@@ -474,7 +474,7 @@ export default function CannesGuide() {
                     <li>🚶 <strong>Getting around:</strong> Cannes is walkable. La Croisette, the Vieux Port, Marché Forville, and Le Suquet are all within 20 minutes on foot from the Palais.</li>
                     <li>🪧 <strong>The sidewalk sign:</strong> Post up near the Palais entrance with a handwritten sign an hour before the listed screening time. Be polite, be patient, have a genuine interest in the film if you get in.</li>
                     <li>📅 <strong>Dates:</strong> May 12 – May 23, 2026.</li>
-                    <li>🌐 <strong>Official site:</strong> <a href="https://www.festival-cannes.com/en" target="_blank" rel="noopener noreferrer" className="text-[#2c6fad] hover:text-[#1a4f7a] underline">festival-cannes.com</a></li>
+                    <li>🌐 <strong>Official site:</strong> <a href="https://www.festival-cannes.com/en" target="_blank" rel="noopener noreferrer" className="text-[#38bdf8] hover:text-white underline">festival-cannes.com</a></li>
                 </ul>
             </div>
 

@@ -55,7 +55,7 @@ const niches = [
     {
         title: "Culinary Quests",
         subtitle: "Diet & Regional Eats",
-        articleTitle: "Paris On A Plate / Dans Le Noir",
+        articleTitle: "Six Unusually Fabulous Dining Experiences in Paris",
         href: "/culinary-quests",
         image:
             "/images/Toast.png",
@@ -79,7 +79,7 @@ export default function NicheGrid() {
                 <div className="w-full mb-14 mt-6">
                     <div className="relative rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-br from-blue-600 via-blue-800 to-indigo-900 group">
                         {/* Decorative pattern overlay */}
-                        <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-10 mix-blend-overlay pointer-events-none"></div>
+
                         <div className="absolute top-0 right-0 -mr-20 -mt-20 w-64 h-64 rounded-full bg-blue-500 blur-3xl opacity-30 group-hover:opacity-50 transition-opacity duration-700 pointer-events-none"></div>
                         <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-64 h-64 rounded-full bg-indigo-500 blur-3xl opacity-30 group-hover:opacity-50 transition-opacity duration-700 pointer-events-none"></div>
                         

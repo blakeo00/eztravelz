@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: "Privacy Policy — EZtravelZ",
     description:
         "Learn how EZtravelZ collects, uses, and protects your personal information.",
+    alternates: {
+        canonical: "https://eztravelz.com/privacy-policy",
+    },
 };
 
 export default function PrivacyPolicyPage() {
@@ -97,8 +100,8 @@ export default function PrivacyPolicyPage() {
                         <p className="text-center text-white/80 text-sm">
                             Questions?{" "}
                             <Link
-                                href="/#contact"
-                                className="text-amber-400 font-bold underline underline-offset-4 hover:text-amber-300 transition-colors"
+                                href="mailto:info@eztravelz.com"
+                                className="text-[#38bdf8] font-bold underline underline-offset-4 hover:text-white transition-colors"
                             >
                                 Contact us
                             </Link>

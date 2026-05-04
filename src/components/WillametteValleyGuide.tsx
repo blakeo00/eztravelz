@@ -33,6 +33,59 @@ const wineries = [
     },
 ];
 
+const tours = [
+    {
+        title: "Willamette Wine Tour from McMinnville (Tasting Fees Included)",
+        description: "Full-day guided tour from McMinnville visiting premier Willamette Valley estates — tasting fees included. Expert local guide covers Oregon terroir, varietals, and vineyard history.",
+        badge: "Best Seller",
+        badgeColor: "bg-amber-500",
+        link: "https://www.viator.com/tours/Oregon/Willamette-Valley-Wine-Tour-from-McMinnville/d5064-346224P5?pid=P00291237&mcid=42383&medium=link&campaign=Paris",
+        image: "/images/Vineyard.png",
+        cta: "Book on Viator",
+    },
+    {
+        title: "Private Wine Tour for 1–5 People in Oregon",
+        description: "A fully private Willamette Valley tasting experience for small groups of up to five. Skip the crowds and get exclusive access to boutique producers with a dedicated guide.",
+        badge: "Top Rated",
+        badgeColor: "bg-rose-600",
+        link: "https://www.viator.com/tours/Portland/Wine-Tour-1-5-People/d5065-349363P1?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+        image: "/images/Wine glasses.png",
+        cta: "Book on Viator",
+    },
+    {
+        title: "Willamette Valley Wine & Whisky",
+        description: "The best of both worlds — explore the Willamette Valley's character wineries and pair the experience with a whisky tasting stop for a genuinely unique Oregon afternoon.",
+        badge: "Fan Favorite",
+        badgeColor: "bg-emerald-600",
+        link: "https://www.viator.com/tours/Portland/Willamette-Valley-Character-Wineries/d5065-120361P2?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+        image: "/images/Vineyard2.png",
+        cta: "Book on Viator",
+    },
+];
+
+const hotels = [
+    {
+        name: "The Dundee — A Trace Hotel",
+        note: "A design-forward boutique hotel set in the heart of Oregon wine country in Dundee, steps from tasting rooms, galleries, and the celebrated farm-to-table dining the Willamette Valley is known for.",
+        link: "https://expedia.stay22.com/eztravelz/ZRWSAvNdBN",
+    },
+    {
+        name: "Atticus Hotel, McMinnville",
+        note: "The most stylish boutique stay in the heart of McMinnville's vibrant wine district. Walking distance to tasting rooms, galleries, and exceptional dining.",
+        link: "https://expedia.stay22.com/eztravelz/CrE20-tK8l",
+    },
+    {
+        name: "The Black Walnut Inn & Vineyard",
+        note: "A Tuscan-inspired inn perched in the Dundee Hills with sweeping valley views and its own vineyard. A true wine country retreat experience.",
+        link: "https://expedia.stay22.com/eztravelz/t8Ncjj-m85",
+    },
+    {
+        name: "McMinnville Hotels on Expedia",
+        note: "Browse the full range of hotels, B&Bs, and vacation rentals across the Willamette Valley wine corridor — from Newberg to McMinnville to Carlton.",
+        link: "https://www.expedia.com/Wine-Country-Oregon-Hotels.d6050932.Travel-Guide-Hotels",
+    },
+];
+
 export default function WillametteValleyGuide() {
     return (
         <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-white bg-[#37507a] rounded-3xl shadow-xl overflow-hidden border-2 border-white/10 backdrop-blur-md" style={{ boxShadow: '0 0 30px rgba(55,80,122,0.4)' }}>
@@ -84,17 +137,22 @@ export default function WillametteValleyGuide() {
                 permanently, Oregon was on the map.
             </p>
 
-            {/* Image 1 */}
-            <img
-                src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=900&q=80"
-                alt="Rolling vineyard rows in the Willamette Valley, Oregon at golden hour"
-                className="w-full rounded-2xl mb-10 object-cover h-72"
-            />
+            {/* Image 1 — Hero vineyard */}
+            <figure className="my-8 not-prose">
+                <img
+                    src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=900&q=80"
+                    alt="Rolling vineyard rows in the Willamette Valley, Oregon at golden hour"
+                    className="w-full rounded-2xl object-cover h-72"
+                />
+                <figcaption className="text-white/50 text-xs text-center mt-2 italic">
+                    Willamette Valley — where cool-climate perfection and volcanic soils created one of the world's great Pinot Noir regions.
+                </figcaption>
+            </figure>
 
             {/* The Land Section */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
-                className="text-xl font-bold mb-4"
+                className="text-xl font-bold mb-4 mt-10"
             >
                 What the Land Actually Is
             </div>
@@ -134,10 +192,22 @@ export default function WillametteValleyGuide() {
                 broadly similar climate.
             </p>
 
+            {/* Inline image 2 — barrel cellar */}
+            <figure className="my-8 not-prose">
+                <img
+                    src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=900&q=80"
+                    alt="Oak barrels aging Pinot Noir in a Willamette Valley winery cellar"
+                    className="w-full rounded-2xl object-cover h-64"
+                />
+                <figcaption className="text-white/50 text-xs text-center mt-2 italic">
+                    French oak barrels in a Willamette cellar — where cool patience transforms Oregon fruit into world-class Pinot Noir.
+                </figcaption>
+            </figure>
+
             {/* The Evolution Section */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
-                className="text-xl font-bold mb-4"
+                className="text-xl font-bold mb-4 mt-10"
             >
                 How It Evolved Into What It Is Today
             </div>
@@ -173,13 +243,6 @@ export default function WillametteValleyGuide() {
                 Oregon wine production.
             </p>
 
-            {/* Image 2 */}
-            <img
-                src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=900&q=80"
-                alt="Oak barrels aging Pinot Noir in a Willamette Valley winery cellar"
-                className="w-full rounded-2xl mb-10 object-cover h-72"
-            />
-
             {/* Wineries Section */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
@@ -212,6 +275,106 @@ export default function WillametteValleyGuide() {
                 ))}
             </div>
 
+            {/* Image — Food and Wine Pairing */}
+            <figure className="my-8 not-prose">
+                <img
+                    src="/images/willamette_wine_food.png"
+                    alt="Elegantly plated Pacific Northwest dish with a glass of Willamette Valley Pinot Noir"
+                    className="w-full rounded-2xl object-cover h-72"
+                />
+                <figcaption className="text-white/50 text-xs text-center mt-2 italic">
+                    Willamette Valley fare is as celebrated as its wine — farm-to-table cuisine and Pinot Noir belong together.
+                </figcaption>
+            </figure>
+
+            {/* ── TOURS SECTION ── */}
+            <div
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
+                className="text-xl font-bold mb-2 mt-2"
+            >
+                Book a Wine Country Experience
+            </div>
+            <p className="text-white/70 text-sm mb-6">
+                Skip the guesswork. These highly-rated tours handle the driving, the pairings, and the insider access — so you can focus on the glass.
+            </p>
+
+            <div className="grid grid-cols-1 gap-5 mb-12">
+                {tours.map((tour, i) => (
+                    <a
+                        key={i}
+                        href={tour.link}
+                        target="_blank"
+                        rel="sponsored noopener noreferrer"
+                        className="group flex gap-4 bg-white/10 hover:bg-white/20 border border-white/20 rounded-2xl overflow-hidden transition-all duration-300 no-underline"
+                    >
+                        <div className="w-28 flex-shrink-0 overflow-hidden">
+                            <img
+                                src={tour.image}
+                                alt={tour.title}
+                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            />
+                        </div>
+                        <div className="flex flex-col justify-center p-4 flex-1">
+                            <span className={`inline-block self-start text-xs font-black uppercase tracking-widest text-white px-2 py-0.5 rounded-full mb-2 ${tour.badgeColor}`}>
+                                {tour.badge}
+                            </span>
+                            <p style={{ fontFamily: "'Cinzel', serif" }} className="font-bold text-[#fff0d4] text-base mb-1 leading-snug">
+                                {tour.title}
+                            </p>
+                            <p className="text-white/70 text-sm leading-relaxed mb-2">
+                                {tour.description}
+                            </p>
+                            <span className="text-amber-400 text-sm font-semibold group-hover:text-amber-300 transition-colors">
+                                {tour.cta} →
+                            </span>
+                        </div>
+                    </a>
+                ))}
+            </div>
+
+            {/* Inline image 3 — tasting room */}
+            <figure className="my-8 not-prose">
+                <img
+                    src="/images/Wine2.jpg"
+                    alt="Elegant wine tasting room in the Willamette Valley"
+                    className="w-full rounded-2xl object-cover h-64"
+                />
+                <figcaption className="text-white/50 text-xs text-center mt-2 italic">
+                    Willamette Valley tasting rooms range from converted barns to architecturally stunning estates — each one worth the stop.
+                </figcaption>
+            </figure>
+
+            {/* ── WHERE TO STAY ── */}
+            <div
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
+                className="text-xl font-bold mb-2 mt-10"
+            >
+                Where to Stay in Wine Country
+            </div>
+            <p className="text-white/70 text-sm mb-6">
+                The valley's accommodations range from vineyard B&Bs to full-service luxury resorts. McMinnville is the best base — walking distance to restaurants, tasting rooms, and galleries.
+            </p>
+
+            <div className="space-y-4 mb-8">
+                {hotels.map((hotel, i) => (
+                    <div key={i} className="border-l-4 border-rose-400/50 pl-5 py-1">
+                        <a
+                            href={hotel.link}
+                            target="_blank"
+                            rel="sponsored noopener noreferrer"
+                            className="font-bold text-[#fff0d4] hover:text-white text-base underline transition-colors"
+                        >
+                            {hotel.name}
+                        </a>
+                        <p className="text-white/80 text-sm leading-relaxed mt-1">
+                            {hotel.note}
+                        </p>
+                    </div>
+                ))}
+            </div>
+
+
+
             {/* Visitor Info */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
@@ -226,7 +389,7 @@ export default function WillametteValleyGuide() {
                     <li>✈️ <strong>Nearest airport:</strong> Portland International Airport (PDX), approximately 45 minutes from the Dundee Hills.</li>
                     <li>🍷 <strong>Best time to visit:</strong> Late spring through harvest in October. Harvest season brings the most activity, the freshest energy, and the chance to see winemaking in motion.</li>
                     <li>🗺️ <strong>Sub-AVAs to explore:</strong> Dundee Hills, Yamhill-Carlton, Eola-Amity Hills, Ribbon Ridge, and Chehalem Mountains each offer distinct wine personalities worth comparing side by side.</li>
-                    <li>🏨 <strong>Stay:</strong> McMinnville offers boutique hotels and exceptional dining. The Allison Inn and Spa in Newberg sits directly in wine country and remains the valley's premier luxury property.</li>
+                    <li>🏨 <strong>Stay:</strong> McMinnville offers boutique hotels and exceptional dining.{" "}<a href="https://expedia.stay22.com/eztravelz/flg9moh--n" target="_blank" rel="sponsored noopener noreferrer" className="text-[#38bdf8] underline hover:text-sky-300 transition-colors">La Bastide Bed &amp; Breakfast</a>{" "}sits directly in wine country and offers a charming, intimate stay for visitors exploring the valley.</li>
                     <li>🚗 <strong>Getting around:</strong> A designated driver or guided wine tour is strongly recommended. Distances between estates are short but the roads are rural and the pours are generous.</li>
                 </ul>
             </div>
@@ -241,27 +404,31 @@ export default function WillametteValleyGuide() {
                 for decades.
             </p>
 
-            {/* CTA */}
-            <div className="bg-white/10 border border-white/20 rounded-2xl p-6 text-center shadow-inner">
-                <p
-                    style={{
-                        fontFamily: "'Cinzel', serif",
-                        color: "#fff0d4",
-                        fontSize: "1.4rem",
-                        letterSpacing: "0.04em",
-                    }}
-                    className="mb-3 font-bold"
-                >
-                    Explore Willamette Valley Wine Country
+            {/* Expedia Willamette Valley Hotel Search Widget */}
+            <div className="rounded-2xl overflow-hidden border border-white/20 mb-8">
+                <div className="bg-gradient-to-r from-[#1a1a6e] to-[#003580] px-6 py-8 flex flex-col items-center text-center gap-4">
+                    <img src="/images/Expedia logo.png" alt="Expedia" className="h-7 object-contain" />
+                    <p
+                        style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4", fontSize: "1.3rem", letterSpacing: "0.04em" }}
+                        className="font-bold"
+                    >
+                        Find Hotels in Willamette Valley Wine Country
+                    </p>
+                    <p className="text-white/70 text-sm max-w-md">
+                        Compare rates across Newberg, McMinnville, Carlton, and the Dundee Hills corridor.
+                    </p>
+                    <a
+                        href="https://expedia.com/affiliates/hotel-search-willamette-valley.HqbYSGY"
+                        target="_blank"
+                        rel="sponsored noopener noreferrer"
+                        className="inline-flex items-center gap-2 bg-[#fecc02] hover:bg-yellow-300 text-[#003580] font-black px-8 py-3 rounded-full transition-all duration-200 text-sm mt-1"
+                    >
+                        Search Hotels on Expedia →
+                    </a>
+                </div>
+                <p className="text-white/40 text-[10px] uppercase tracking-wider text-center py-2 bg-black/30">
+                    Sponsored · We may earn a commission at no extra cost to you
                 </p>
-                <a
-                    href="https://www.willamettewines.com"
-                    target="_blank"
-                    rel="sponsored noopener noreferrer"
-                    className="inline-block bg-[#fff0d4] hover:bg-white text-[#37507a] font-bold px-8 py-3 rounded-full transition-colors duration-200"
-                >
-                    Plan Your Wine Country Visit →
-                </a>
             </div>
 
             {/* Viator Affiliate Link */}
@@ -273,7 +440,7 @@ export default function WillametteValleyGuide() {
                     Book a Premium Wine Tour
                 </p>
                 <a
-                    href="https://vi.me/K4SG4"
+                    href="https://www.viator.com/Portland-attractions/Willamette-Valley/d5065-a8027?pid=P00291237&mcid=42383&medium=link&campaign=Oregon"
                     target="_blank"
                     rel="sponsored noopener noreferrer"
                     className="block overflow-hidden rounded-2xl group relative"

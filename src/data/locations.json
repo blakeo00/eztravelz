@@ -1,0 +1,2796 @@
+{
+  "cities": [
+    {
+      "id": "austin",
+      "name": "Austin",
+      "emoji": "🤠",
+      "tagline": "Live music capital of the world",
+      "coords": {
+        "lat": 30.2672,
+        "lng": -97.7431
+      },
+      "zoom": 13,
+      "color": "#16a34a",
+      "pageLink": "/culinary-quests",
+      "pageLinkLabel": "Austin Guide",
+      "locations": [
+        {
+          "id": "congress_bridge",
+          "name": "Congress Ave Bridge",
+          "coords": {
+            "lat": 30.2624,
+            "lng": -97.7458
+          },
+          "vibe": "At dusk, 1.5 million Mexican free-tailed bats emerge from beneath this bridge in a column visible from blocks away. Austin treats this as a perfectly normal Tuesday.",
+          "tours": [
+            {
+              "name": "Congress Avenue Bat Bridge Kayak Tour in Austin",
+              "url": "http://vi.me/eYdzj?pid=P00291237&mcid=42383&medium=link&campaign=Austin",
+              "emoji": "🦇"
+            }
+          ],
+          "image": "/images/Bat.jpg"
+        },
+        {
+          "id": "south_congress",
+          "name": "South Congress Ave",
+          "coords": {
+            "lat": 30.2508,
+            "lng": -97.7514
+          },
+          "vibe": "Austin's most characterful commercial strip — vintage shops, food trailers, and the Continental Club, where the music has been continuous since 1957.",
+          "tours": [
+            {
+              "name": "Austin South Congress Food Tour with 5 Tastings, Tacos & Sweets",
+              "url": "http://vi.me/ro8gZ?pid=P00291237&mcid=42383&medium=link&campaign=Austin",
+              "emoji": "🌮"
+            }
+          ],
+          "image": "/images/Soco.jpg"
+        },
+        {
+          "id": "barton_springs",
+          "name": "Barton Springs Pool",
+          "coords": {
+            "lat": 30.2639,
+            "lng": -97.7698
+          },
+          "vibe": "A spring-fed pool in Zilker Park, 68 degrees year-round. Austinites have been swimming here since before the city existed.",
+          "tours": [
+            {
+              "name": "Go Tubing in Austin's Downtown Spring River",
+              "url": "http://vi.me/5T9Hy?pid=P00291237&mcid=42383&medium=link&campaign=Austin",
+              "emoji": "🏊"
+            }
+          ],
+          "image": "/images/Barton.jpg"
+        },
+        {
+          "id": "rainey_street",
+          "name": "Rainey Street",
+          "coords": {
+            "lat": 30.2587,
+            "lng": -97.7398
+          },
+          "vibe": "Craftsman bungalows converted to bars along a street that the rest of downtown hasn't quite absorbed yet. Go before it does.",
+          "tours": [
+            {
+              "name": "Public Party Bike Pub Crawl Tour in Austin",
+              "url": "http://vi.me/CCYni?pid=P00291237&mcid=42383&medium=link&campaign=Austin",
+              "emoji": "🚲"
+            }
+          ],
+          "image": "/images/Rainey.jpg"
+        }
+      ]
+    },
+    {
+      "id": "bend",
+      "name": "Bend",
+      "emoji": "🍺",
+      "tagline": "Craft beer capital of the Pacific Northwest",
+      "coords": {
+        "lat": 44.0582,
+        "lng": -121.3153
+      },
+      "zoom": 13,
+      "color": "#0284c7",
+      "pageLink": "/wine-destinations",
+      "pageLinkLabel": "Brewery Guide",
+      "locations": [
+        {
+          "id": "old_mill_district",
+          "name": "Old Mill District",
+          "coords": {
+            "lat": 44.0449,
+            "lng": -121.3203
+          },
+          "vibe": "A converted lumber mill on the Deschutes River, now home to shops and a craft brewing scene that made Bend one of the most interesting small cities in the West.",
+          "tours": [
+            {
+              "name": "Craft Brewery Tours with Complimentary Tasting Flights",
+              "url": "http://vi.me/hIISU?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "🍺"
+            }
+          ],
+          "image": "/images/Mill.jpg?v=1"
+        },
+        {
+          "id": "deschutes_brewery",
+          "name": "Deschutes Brewery",
+          "coords": {
+            "lat": 44.0531,
+            "lng": -121.3142
+          },
+          "vibe": "Founded in 1988 and now one of the most celebrated craft breweries in the country. The original brewpub is still the best place to drink it.",
+          "tours": [
+            {
+              "name": "Ultimate Scavenger: Bend Breweries",
+              "url": "http://vi.me/nEg4J?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "🔍"
+            }
+          ],
+          "image": "/images/Brew.jpg?v=1"
+        },
+        {
+          "id": "mirror_pond",
+          "name": "Mirror Pond & Drake Park",
+          "coords": {
+            "lat": 44.0619,
+            "lng": -121.315
+          },
+          "vibe": "A Deschutes River pond ringed by ponderosa pines and geese that are aggressively unbothered by human presence. Golden hour light here is unreasonable.",
+          "tours": [
+            {
+              "name": "Bend Street Photography Private Tour",
+              "url": "http://vi.me/empp4?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "📸"
+            }
+          ],
+          "image": "/images/Mirror.jpg"
+        },
+        {
+          "id": "cascade_lakes",
+          "name": "Cascade Lakes",
+          "coords": {
+            "lat": 43.9793,
+            "lng": -121.7526
+          },
+          "vibe": "Alpine lakes strung along the Cascades Scenic Byway beneath the volcanic peaks of Oregon. By moonlight, the water holds reflections that feel surreal.",
+          "tours": [
+            {
+              "name": "Cascade Lakes Moonlight & Starlight Canoe Tour",
+              "url": "http://vi.me/ts48E?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "🌙"
+            }
+          ],
+          "image": "/images/Cascade.jpg"
+        }
+      ]
+    },
+    {
+      "id": "cannes",
+      "name": "Cannes & Monaco",
+      "emoji": "🎬",
+      "tagline": "The French Riviera at its most cinematic",
+      "coords": {
+        "lat": 43.5528,
+        "lng": 7.0174
+      },
+      "zoom": 12,
+      "color": "#0ea5e9",
+      "pageLink": "/cinematic-travel",
+      "pageLinkLabel": "Film Guide",
+      "locations": [
+        {
+          "id": "la_croisette",
+          "name": "La Croisette",
+          "coords": {
+            "lat": 43.5503,
+            "lng": 7.0174
+          },
+          "vibe": "The two-kilometer promenade that becomes the center of the film world every May, and a perfect boulevard the other eleven months.",
+          "tours": [
+            {
+              "name": "Private Tour on the Roads of Cannes by Ferrari",
+              "url": "http://vi.me/X3aJ0?pid=P00291237&mcid=42383&medium=link&campaign=Cannes",
+              "emoji": "🏎️"
+            }
+          ],
+          "image": "/images/Prom.jpg"
+        },
+        {
+          "id": "palais_festivals",
+          "name": "Palais des Festivals",
+          "coords": {
+            "lat": 43.5503,
+            "lng": 7.0135
+          },
+          "vibe": "The handprints in the cement outside belong to directors who changed cinema. The Palme d'Or is decided inside.",
+          "tours": [
+            {
+              "name": "Cannes Private Tour: Film Festival, Secrets & Stunning views",
+              "url": "http://vi.me/x94Yo?pid=P00291237&mcid=42383&medium=link&campaign=Cannes",
+              "emoji": "🎥"
+            }
+          ],
+          "image": "/images/Palais.jpg"
+        },
+        {
+          "id": "le_suquet",
+          "name": "Le Suquet",
+          "coords": {
+            "lat": 43.5508,
+            "lng": 7.0101
+          },
+          "vibe": "The old town above the port predates the film festival by several centuries. The view from the church tower is the best in Cannes.",
+          "tours": [
+            {
+              "name": "Private Tour Nice - Cannes - Marseille - English Speaking Driver",
+              "url": "http://vi.me/a7J9e?pid=P00291237&mcid=42383&medium=link&campaign=Cannes",
+              "emoji": "🚗"
+            }
+          ],
+          "image": "/images/Suq.jpg"
+        },
+        {
+          "id": "monaco_casino",
+          "name": "Casino de Monte-Carlo",
+          "coords": {
+            "lat": 43.7396,
+            "lng": 7.4278
+          },
+          "vibe": "The 1863 casino that funded an entire principality. The gaming rooms require a jacket; the terraces require only a willingness to be slightly overwhelmed.",
+          "tours": [
+            {
+              "name": "2-Hour Guided Tour of Monaco with a certified guide",
+              "url": "http://vi.me/krUIp?pid=P00291237&mcid=42383&medium=link&campaign=Cannes",
+              "emoji": "🌟"
+            }
+          ],
+          "image": "/images/Casino.jpg"
+        },
+        {
+          "id": "port_hercule",
+          "name": "Port Hercule",
+          "coords": {
+            "lat": 43.7358,
+            "lng": 7.4252
+          },
+          "vibe": "Monaco's harbor holds yachts that cost more than most buildings. The Formula 1 circuit runs right past this point once a year.",
+          "tours": [
+            {
+              "name": "Monaco & Monte-Carlo: Classics & Hidden Gems - Walking & Boat",
+              "url": "http://vi.me/6rwg2?pid=P00291237&mcid=42383&medium=link&campaign=Cannes",
+              "emoji": "⛵"
+            }
+          ],
+          "image": "/images/Port.jpg"
+        }
+      ]
+    },
+    {
+      "id": "gettysburg",
+      "name": "Gettysburg",
+      "emoji": "⚔️",
+      "tagline": "The battlefield that still unsettles",
+      "coords": {
+        "lat": 39.8309,
+        "lng": -77.2311
+      },
+      "zoom": 13,
+      "color": "#78716c",
+      "pageLink": "/haunted-tours",
+      "pageLinkLabel": "Haunted Guide",
+      "locations": [
+        {
+          "id": "cemetery_ridge",
+          "name": "Cemetery Ridge",
+          "coords": {
+            "lat": 39.8053,
+            "lng": -77.2337
+          },
+          "vibe": "Three thousand Union soldiers died holding this ridge on July 3rd, 1863. Stand here at dusk and the silence feels earned.",
+          "tours": [
+            {
+              "name": "2-Hour Gettysburg Battlefield Guided History Bus Tour with a National Park Guide",
+              "url": "http://vi.me/W75w9?pid=P00291237&mcid=42383&medium=link&campaign=Gettysburg",
+              "emoji": "🚌"
+            }
+          ],
+          "image": "/images/gettysburg_battlefield.png"
+        },
+        {
+          "id": "little_round_top",
+          "name": "Little Round Top",
+          "coords": {
+            "lat": 39.7862,
+            "lng": -77.2454
+          },
+          "vibe": "The rocky summit where the 20th Maine held the Union flank. Military historians still debate the margins.",
+          "tours": [
+            {
+              "name": "Gettysburg National Military Park Private Full Day Tour",
+              "url": "http://vi.me/g6eVt?pid=P00291237&mcid=42383&medium=link&campaign=Gettysburg",
+              "emoji": "🗺️"
+            }
+          ],
+          "image": "/images/Little.jpg"
+        },
+        {
+          "id": "farnsworth_house",
+          "name": "Farnsworth House Inn",
+          "coords": {
+            "lat": 39.834,
+            "lng": -77.2306
+          },
+          "vibe": "Built in 1810, pocked with 100 bullet holes from the battle, operating as an inn and restaurant ever since.",
+          "tours": [
+            {
+              "name": "Ghosts of Gettysburg Ultimate Dead of Night Haunted Ghost Tour",
+              "url": "http://vi.me/QDsLU?pid=P00291237&mcid=42383&medium=link&campaign=Gettysburg",
+              "emoji": "👻"
+            }
+          ],
+          "image": "/images/House.jpg"
+        },
+        {
+          "id": "triangular_field",
+          "name": "Triangular Field",
+          "coords": {
+            "lat": 39.7892,
+            "lng": -77.2495
+          },
+          "vibe": "One of the most documented paranormal sites in America. Investigators return annually and consistently find more questions than answers.",
+          "tours": [
+            {
+              "name": "Blood on the Battlefield Ages 16+",
+              "url": "http://vi.me/WPJCt?pid=P00291237&mcid=42383&medium=link&campaign=Gettysburg",
+              "emoji": "🩸"
+            }
+          ],
+          "image": "/images/Tri.jpg"
+        }
+      ]
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "emoji": "🎰",
+      "tagline": "Where the desert meets the dazzle",
+      "coords": {
+        "lat": 36.1699,
+        "lng": -115.1398
+      },
+      "zoom": 13,
+      "color": "#d97706",
+      "pageLink": "/beyond-the-neon",
+      "pageLinkLabel": "Vegas Guide",
+      "locations": [
+        {
+          "id": "neon_museum",
+          "name": "The Neon Museum",
+          "coords": {
+            "lat": 36.1772,
+            "lng": -115.1356
+          },
+          "vibe": "A boneyard of iconic Las Vegas signs retired from the Strip, arranged in the desert dark like monuments to a city that never stops reinventing itself.",
+          "tours": [
+            {
+              "name": "Neon Museum Night Experience & Open-Top Bus Tour",
+              "url": "http://vi.me/8rpHi?pid=P00291237&mcid=42383&medium=link&campaign=Vegas",
+              "emoji": "🌟"
+            }
+          ],
+          "image": "/images/Neon.jpg"
+        },
+        {
+          "id": "fremont_street",
+          "name": "Fremont Street Experience",
+          "coords": {
+            "lat": 36.1699,
+            "lng": -115.144
+          },
+          "vibe": "Downtown Las Vegas before the Strip existed — and still the more honest version of the city, with its vaulted LED canopy and the energy of a crowd that came to feel something.",
+          "tours": [
+            {
+              "name": "Original Las Vegas: Fremont Street Walking Tour",
+              "url": "http://vi.me/rVFdg?pid=P00291237&mcid=42383&medium=link&campaign=Vegas",
+              "emoji": "🚶"
+            }
+          ],
+          "image": "/images/Fremont.jpg"
+        },
+        {
+          "id": "arts_district",
+          "name": "The Arts District",
+          "coords": {
+            "lat": 36.1631,
+            "lng": -115.1478
+          },
+          "vibe": "18b, the Las Vegas Arts District, is where the city exhales — galleries, coffee shops, and murals in the shadow of downtown casinos.",
+          "tours": [
+            {
+              "name": "Las Vegas Arts District Walking Tour",
+              "url": "http://vi.me/sPsG1?pid=P00291237&mcid=42383&medium=link&campaign=Vegas",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/Arts.jpg"
+        },
+        {
+          "id": "red_rock_canyon",
+          "name": "Red Rock Canyon",
+          "coords": {
+            "lat": 36.1359,
+            "lng": -115.427
+          },
+          "vibe": "Twenty minutes west of the Strip, sandstone formations rise 3,000 feet from the desert floor. The city disappears entirely.",
+          "tours": [
+            {
+              "name": "Red Rock Canyon Sunset Horseback Ride & Barbeque Dinner",
+              "url": "http://vi.me/3IO7M?pid=P00291237&mcid=42383&medium=link&campaign=Vegas",
+              "emoji": "🐴"
+            }
+          ],
+          "image": "/images/Redrock.jpg"
+        },
+        {
+          "id": "vegas_strip_limo",
+          "name": "The Las Vegas Strip",
+          "coords": {
+            "lat": 36.1147,
+            "lng": -115.1728
+          },
+          "vibe": "Four miles of neon, spectacle, and engineered excess — the Strip at night from an open-top limo is one of those experiences that earns the phrase 'only in Las Vegas.'",
+          "tours": [
+            {
+              "name": "1.5-Hour Las Vegas Strip Limo Tour with Champagne & Photo Stops",
+              "url": "http://vi.me/FlHcZ?pid=P00291237&mcid=42383&medium=link&campaign=Vegas",
+              "emoji": "🥂"
+            }
+          ],
+          "image": "/images/Vegas 2.png"
+        }
+      ]
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "emoji": "🏟️",
+      "tagline": "World Cup 2026 host city",
+      "coords": {
+        "lat": 19.4326,
+        "lng": -99.1332
+      },
+      "zoom": 12,
+      "color": "#be185d",
+      "pageLink": "/sports-travel",
+      "pageLinkLabel": "World Cup Guide",
+      "locations": [
+        {
+          "id": "zocalo",
+          "name": "Zócalo / Centro Histórico",
+          "coords": {
+            "lat": 19.4326,
+            "lng": -99.1332
+          },
+          "vibe": "One of the largest city squares in the world, built over the ruins of Tenochtitlán. The Metropolitan Cathedral, National Palace, and Templo Mayor ruins all converge here.",
+          "tours": [
+            {
+              "name": "Zócalo Private Tour: Historic Center of Mexico City",
+              "url": "http://vi.me/c3RxL?pid=P00291237&mcid=42383&medium=link&campaign=MexicoCity",
+              "emoji": "🏛️"
+            }
+          ],
+          "image": "/images/Zol.jpg"
+        },
+        {
+          "id": "chapultepec",
+          "name": "Chapultepec Castle & Park",
+          "coords": {
+            "lat": 19.4214,
+            "lng": -99.1817
+          },
+          "vibe": "A 686-hectare park in the center of the city containing a castle that served as the Imperial Palace and is now a national history museum.",
+          "tours": [
+            {
+              "name": "From Mexico City: Private Day Trip to Chapultepec Castle and Park",
+              "url": "http://vi.me/dmCrW?pid=P00291237&mcid=42383&medium=link&campaign=MexicoCity",
+              "emoji": "🏰"
+            }
+          ],
+          "image": "/images/Cast.jpg"
+        },
+        {
+          "id": "coyoacan",
+          "name": "Coyoacán / Frida Kahlo Museum",
+          "coords": {
+            "lat": 19.3503,
+            "lng": -99.1626
+          },
+          "vibe": "The colonial-era neighborhood where Frida Kahlo was born, lived, and died. The Casa Azul is now a museum; the mercado is still a working market.",
+          "tours": [
+            {
+              "name": "Small Group: Discover Xochimilco, Coyoacán, Frida Kahlo Museum and House",
+              "url": "http://vi.me/U85Dj?pid=P00291237&mcid=42383&medium=link&campaign=MexicoCity",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/Frida.jpg"
+        },
+        {
+          "id": "xochimilco",
+          "name": "Xochimilco",
+          "coords": {
+            "lat": 19.2646,
+            "lng": -99.1028
+          },
+          "vibe": "A network of canals built by Aztec engineers before the Spanish arrived. Flower-decorated boats navigate waterways that once fed Tenochtitlán.",
+          "tours": [
+            {
+              "name": "Boat Tour in Mexico City and Mezcal Fiesta with Food and Drinks",
+              "url": "http://vi.me/wSQXA?pid=P00291237&mcid=42383&medium=link&campaign=MexicoCity",
+              "emoji": "⛵"
+            }
+          ],
+          "image": "/images/XO.jpg"
+        },
+        {
+          "id": "teotihuacan",
+          "name": "Pyramids of Teotihuacan",
+          "coords": {
+            "lat": 19.6925,
+            "lng": -98.8438
+          },
+          "vibe": "Built two millennia ago by a civilization we still cannot name, these pyramids were the largest city in the ancient Americas. The Avenue of the Dead runs between them in silence.",
+          "tours": [
+            {
+              "name": "Pyramids of Teotihuacan, Guadalupe Shrine & Tlatelolco Tour",
+              "url": "http://vi.me/lLUmV?pid=P00291237&mcid=42383&medium=link&campaign=MexicoCity",
+              "emoji": "🛐"
+            }
+          ],
+          "image": "/images/Pry.jpg"
+        }
+      ]
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "emoji": "🏖️",
+      "tagline": "World Cup 2026 host city",
+      "coords": {
+        "lat": 25.7617,
+        "lng": -80.1918
+      },
+      "zoom": 11,
+      "color": "#e11d48",
+      "pageLink": "/sports-travel",
+      "pageLinkLabel": "World Cup Guide",
+      "locations": [
+        {
+          "id": "south_beach",
+          "name": "South Beach",
+          "coords": {
+            "lat": 25.7752,
+            "lng": -80.134
+          },
+          "vibe": "The Art Deco Historic District contains the largest collection of 1930s Art Deco architecture in the world, concentrated along Ocean Drive.",
+          "tours": [
+            {
+              "name": "Miami Beach Food and Art Deco Walking Tour",
+              "url": "http://vi.me/w1P63?pid=P00291237&mcid=42383&medium=link&campaign=Miami",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/miami_south_beach.png"
+        },
+        {
+          "id": "little_havana",
+          "name": "Little Havana",
+          "coords": {
+            "lat": 25.7617,
+            "lng": -80.2227
+          },
+          "vibe": "The Cuban exile community established Calle Ocho in the 1960s and has never let it become anything other than what it is — cigar shops, domino parks, and restaurants with their own logic.",
+          "tours": [
+            {
+              "name": "Little Havana: Authentic Food and Culture Walking Tour",
+              "url": "http://vi.me/g28Mt?pid=P00291237&mcid=42383&medium=link&campaign=Miami",
+              "emoji": "🍹"
+            }
+          ],
+          "image": "/images/Hav.jpg"
+        },
+        {
+          "id": "wynwood_walls",
+          "name": "Wynwood Walls",
+          "coords": {
+            "lat": 25.8007,
+            "lng": -80.1996
+          },
+          "vibe": "A former warehouse district converted to an outdoor museum of murals by internationally known street artists. The walls themselves are actually extraordinary.",
+          "tours": [
+            {
+              "name": "Wynwood Walls Admission and Official Spray Painting Experience",
+              "url": "http://vi.me/Ynst8?pid=P00291237&mcid=42383&medium=link&campaign=Miami",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/miami_wynwood_walls.png"
+        },
+        {
+          "id": "everglades",
+          "name": "Everglades National Park",
+          "coords": {
+            "lat": 25.3933,
+            "lng": -80.5882
+          },
+          "vibe": "The largest tropical wilderness in the US begins forty-five minutes from downtown Miami. Alligators and roseate spoonbills exist in complete indifference to the city just north.",
+          "tours": [
+            {
+              "name": "Everglades National Park: 3 Hikes + 90 minute Boat Tour + Lunch",
+              "url": "http://vi.me/GNxGw?pid=P00291237&mcid=42383&medium=link&campaign=Miami",
+              "emoji": "🐊"
+            }
+          ],
+          "image": "/images/Everglade.jpg"
+        }
+      ]
+    },
+    {
+      "id": "new-orleans",
+      "name": "New Orleans",
+      "emoji": "🎷",
+      "tagline": "Where the living and the dead share the streets",
+      "coords": {
+        "lat": 29.9511,
+        "lng": -90.0715
+      },
+      "zoom": 14,
+      "color": "#dc2626",
+      "pageLink": "/haunted-tours",
+      "pageLinkLabel": "Haunted Guide",
+      "locations": [
+        {
+          "id": "jackson_square",
+          "name": "Jackson Square",
+          "coords": {
+            "lat": 29.9579,
+            "lng": -90.0633
+          },
+          "vibe": "The heart of the French Quarter faces St. Louis Cathedral — a square where public executions once drew crowds and street musicians now do.",
+          "tours": [
+            {
+              "name": "New Orleans City and Cemetery Sightseeing Tour",
+              "url": "http://vi.me/Grmix?pid=P00291237&mcid=42383&medium=link&campaign=NewOrleans",
+              "emoji": "⛺"
+            }
+          ],
+          "image": "/images/Jack.jpg"
+        },
+        {
+          "id": "bourbon_street",
+          "name": "Bourbon Street",
+          "coords": {
+            "lat": 29.9584,
+            "lng": -90.0659
+          },
+          "vibe": "The most famous street in New Orleans operates on its own rules, its own hours, and its own relationship with consequence.",
+          "tours": [
+            {
+              "name": "New Orleans Bourbon Street Bar Crawl w/ Shots & Souvenir Cup",
+              "url": "http://vi.me/IDNBh?pid=P00291237&mcid=42383&medium=link&campaign=NewOrleans",
+              "emoji": "🍸"
+            }
+          ],
+          "image": "/images/Bourbon.png",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "garden_district",
+          "name": "Garden District",
+          "coords": {
+            "lat": 29.9257,
+            "lng": -90.0872
+          },
+          "vibe": "Antebellum mansions behind iron gates, shaded by live oaks draped in Spanish moss. The wealth here is old enough to feel architectural.",
+          "tours": [
+            {
+              "name": "New Orleans Garden District Architecture Tour",
+              "url": "http://vi.me/v3NJH?pid=P00291237&mcid=42383&medium=link&campaign=NewOrleans",
+              "emoji": "🏠"
+            }
+          ],
+          "image": "/images/Garden.jpg",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "frenchmen_street",
+          "name": "The French Quarter",
+          "coords": {
+            "lat": 29.9617,
+            "lng": -90.0554
+          },
+          "vibe": "Where locals go when Bourbon Street becomes too much. The jazz here is the real kind, played by people who learned it in this city.",
+          "tours": [
+            {
+              "name": "Ghost and Vampire Walking Tour Of The French Quarter",
+              "url": "http://vi.me/jkEDQ?pid=P00291237&mcid=42383&medium=link&campaign=NewOrleans",
+              "emoji": "🧛"
+            }
+          ],
+          "image": "/images/Frenchqtr.jpg"
+        },
+        {
+          "id": "st_louis_cemetery",
+          "name": "St. Louis Cemetery No. 1",
+          "coords": {
+            "lat": 29.9613,
+            "lng": -90.0697
+          },
+          "vibe": "The oldest cemetery in New Orleans, where above-ground tombs crowd narrow alleys. Marie Laveau is buried here. People still leave offerings.",
+          "tours": [
+            {
+              "name": "St. Louis Cemetery No. 1 Official Walking Tour",
+              "url": "http://vi.me/5440u?pid=P00291237&mcid=42383&medium=link&campaign=NewOrleans",
+              "emoji": "⚰️"
+            }
+          ],
+          "image": "/images/St.jpg"
+        }
+      ]
+    },
+    {
+      "id": "new-york-city",
+      "name": "New York City",
+      "emoji": "🗽",
+      "tagline": "World Cup 2026 host city",
+      "coords": {
+        "lat": 40.735,
+        "lng": -74.006
+      },
+      "zoom": 11,
+      "color": "#475569",
+      "pageLink": "/sports-travel",
+      "pageLinkLabel": "World Cup Guide",
+      "locations": [
+        {
+          "id": "central_park",
+          "name": "Central Park",
+          "coords": {
+            "lat": 40.7851,
+            "lng": -73.9683
+          },
+          "vibe": "843 acres in the center of Manhattan, designed in 1858 and still the most functional park in any city in the world.",
+          "tours": [
+            {
+              "name": "Central Park Pedicab Guided Tours",
+              "url": "http://vi.me/YJVTn?pid=P00291237&mcid=42383&medium=link&campaign=NYC",
+              "emoji": "🚴"
+            }
+          ],
+          "image": "/images/CP.jpg"
+        },
+        {
+          "id": "the_high_line",
+          "name": "The High Line",
+          "coords": {
+            "lat": 40.748,
+            "lng": -74.0048
+          },
+          "vibe": "A 1.45-mile elevated park built on a former freight rail line — industrial infrastructure and curated planting in unlikely combination.",
+          "tours": [
+            {
+              "name": "High Line, Chelsea and Hudson Yards Tour with Edge Entry Option",
+              "url": "http://vi.me/lnspr?pid=P00291237&mcid=42383&medium=link&campaign=NYC",
+              "emoji": "🏙️"
+            }
+          ],
+          "image": "/images/High.jpg"
+        },
+        {
+          "id": "times_square",
+          "name": "Times Square",
+          "coords": {
+            "lat": 40.758,
+            "lng": -73.9855
+          },
+          "vibe": "Arrive after midnight, when the crowds thin and the LED displays run with a different quality of light. At 3am in January, Times Square becomes briefly beautiful.",
+          "tours": [
+            {
+              "name": "Get Your 15 Seconds of Fame on a Times Square Billboard in NYC!",
+              "url": "http://vi.me/ssyd5?pid=P00291237&mcid=42383&medium=link&campaign=NYC",
+              "emoji": "📸"
+            }
+          ],
+          "image": "/images/nyc_times_square.png"
+        },
+        {
+          "id": "brooklyn_bridge",
+          "name": "Brooklyn Bridge",
+          "coords": {
+            "lat": 40.7061,
+            "lng": -73.9969
+          },
+          "vibe": "Completed in 1883. The pedestrian walkway provides unobstructed views of Manhattan and Brooklyn that remain among the best available without a helicopter.",
+          "tours": [
+            {
+              "name": "NY Helicopter Tour: Ultimate NYC Sightseeing",
+              "url": "http://vi.me/5Jpd5?pid=P00291237&mcid=42383&medium=link&campaign=NYC",
+              "emoji": "🚁"
+            }
+          ],
+          "image": "/images/nyc_brooklyn_bridge.png"
+        },
+        {
+          "id": "statue_of_liberty",
+          "name": "Statue of Liberty",
+          "coords": {
+            "lat": 40.6892,
+            "lng": -74.0445
+          },
+          "vibe": "On Liberty Island in New York Harbor, the statue has greeted ships since 1886. The view from the crown, if you can get a ticket, is 300 feet of American ambition looking back at the skyline that grew up in its presence.",
+          "tours": [
+            {
+              "name": "Statue of Liberty and New York City Skyline Sightseeing Cruise",
+              "url": "http://vi.me/RBuaG?pid=P00291237&mcid=42383&medium=link&campaign=NYC",
+              "emoji": "🗽"
+            }
+          ],
+          "image": "/images/SOL.jpg"
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "emoji": "🗼",
+      "tagline": "City of Light, city of layers",
+      "coords": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      },
+      "zoom": 13,
+      "color": "#7c3aed",
+      "pageLink": "/culinary-quests",
+      "pageLinkLabel": "Paris Guide",
+      "locations": [
+        {
+          "id": "trocadero",
+          "name": "Trocadéro & Eiffel Tower",
+          "coords": {
+            "lat": 48.8619,
+            "lng": 2.289
+          },
+          "vibe": "Across the boulevard, the terraces offer the clearest view of the tower Parisians claimed they would never accept. They were wrong.",
+          "tours": [
+            {
+              "name": "Paris Late Lunch at Eiffel Tower's Madame Brasserie Restaurant",
+              "url": "http://vi.me/Sy7v1?pid=P00291237&mcid=42383&medium=link&campaign=Paris",
+              "emoji": "🗼"
+            }
+          ],
+          "image": "/images/Eiffel.jpg"
+        },
+        {
+          "id": "the_louvre",
+          "name": "The Louvre",
+          "coords": {
+            "lat": 48.8606,
+            "lng": 2.3376
+          },
+          "vibe": "The largest art museum in the world occupies a former royal palace — a building whose ambition matches everything inside it.",
+          "tours": [
+            {
+              "name": "Louvre Museum Masterpieces Guided Tour with Access",
+              "url": "http://vi.me/i6GH7?pid=P00291237&mcid=42383&medium=link&campaign=Paris",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/Louvre.jpg"
+        },
+        {
+          "id": "montmartre",
+          "name": "Montmartre",
+          "coords": {
+            "lat": 48.8867,
+            "lng": 2.3431
+          },
+          "vibe": "The hilltop village that absorbed Picasso, Modigliani, and Toulouse-Lautrec and gave them back to the world changed.",
+          "tours": [
+            {
+              "name": "Montmartre Hill French Gourmet Food and Wine Tasting Walking Tour",
+              "url": "http://vi.me/AphN6?pid=P00291237&mcid=42383&medium=link&campaign=Paris",
+              "emoji": "🍷"
+            }
+          ],
+          "image": "/images/Mont.jpg"
+        },
+        {
+          "id": "le_marais",
+          "name": "Le Marais",
+          "coords": {
+            "lat": 48.8566,
+            "lng": 2.3567
+          },
+          "vibe": "Medieval streets, the Jewish quarter, and the most concentrated gallery scene in Paris — a neighborhood that kept its bones.",
+          "tours": [
+            {
+              "name": "Paris Le Marais Food Tour With 10+ Tastings, Cheese, Wine & More",
+              "url": "http://vi.me/CJGuw?pid=P00291237&mcid=42383&medium=link&campaign=Paris",
+              "emoji": "🧀"
+            }
+          ],
+          "image": "/images/LeM.jpg"
+        },
+        {
+          "id": "palais_royal",
+          "name": "Palais Royal",
+          "coords": {
+            "lat": 48.8638,
+            "lng": 2.3367
+          },
+          "vibe": "Colonnaded gardens unchanged since before the Revolution, hiding the best bookshop you have never found.",
+          "tours": [
+            {
+              "name": "Area, Opera, Jewellery, Fashion, Palais Royal walking tour",
+              "url": "http://vi.me/e4c4g?pid=P00291237&mcid=42383&medium=link&campaign=Paris",
+              "emoji": "💎"
+            }
+          ],
+          "image": "/images/Pal.jpg"
+        },
+        {
+          "id": "notre_dame_cathedral",
+          "name": "Notre Dame Cathedral",
+          "coords": {
+            "lat": 48.853,
+            "lng": 2.3499
+          },
+          "vibe": "Eight centuries of Gothic ambition on the Île de la Cité. After the 2019 fire and a meticulous restoration, Notre-Dame reopened in 2024 — the stones unchanged, the meaning deepened.",
+          "tours": [
+            {
+              "name": "Paris Notre Dame Cathedral and Sainte Chapelle Semi Private Tour",
+              "url": "http://vi.me/q0TET?pid=P00291237&mcid=42383&medium=link&campaign=Paris",
+              "emoji": "⛪"
+            }
+          ],
+          "image": "/images/Notre.jpg"
+        }
+      ]
+    },
+    {
+      "id": "portland",
+      "name": "Portland & Willamette Valley",
+      "emoji": "🍷",
+      "tagline": "Pacific Northwest wine country",
+      "coords": {
+        "lat": 45.5231,
+        "lng": -122.6765
+      },
+      "zoom": 11,
+      "color": "#059669",
+      "pageLink": "/wine-destinations",
+      "pageLinkLabel": "Wine Guide",
+      "locations": [
+        {
+          "id": "powells_books",
+          "name": "Powell's Books",
+          "coords": {
+            "lat": 45.5231,
+            "lng": -122.6815
+          },
+          "vibe": "The largest independent bookstore in the world occupies an entire city block. There are rooms dedicated to single subjects where you can lose an afternoon.",
+          "tours": [
+            {
+              "name": "Portland (Downtown) Scavenger Hunt & Self-Guided Tour",
+              "url": "http://vi.me/mnb4J?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "🔍"
+            }
+          ],
+          "image": "/images/Book.jpg"
+        },
+        {
+          "id": "pearl_district",
+          "name": "Pearl District",
+          "coords": {
+            "lat": 45.5266,
+            "lng": -122.6832
+          },
+          "vibe": "Portland's converted warehouse district — galleries, restaurants, and the earnest Pacific Northwest creativity that makes other cities slightly envious.",
+          "tours": [
+            {
+              "name": "Streetcar Around Portland to Pearl, Slabtown & Waterfront",
+              "url": "http://vi.me/NU1wG?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "🚃"
+            }
+          ],
+          "image": "/images/Pearl.jpg?v=2"
+        },
+        {
+          "id": "willamette_wine_country",
+          "name": "Willamette Valley Wine Country",
+          "coords": {
+            "lat": 45.1944,
+            "lng": -123.1983
+          },
+          "vibe": "An hour south of the city, the valley produces some of the finest Pinot Noir in the world. Oregon winemakers say it rivals Burgundy. They're not wrong.",
+          "tours": [
+            {
+              "name": "Willamette Wine Tour from McMinnville (Tasting Fees Included)",
+              "url": "http://vi.me/n27v9?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "🍷"
+            }
+          ],
+          "image": "/images/Willamette.jpg"
+        },
+        {
+          "id": "washington_park",
+          "name": "Washington Park",
+          "coords": {
+            "lat": 45.5192,
+            "lng": -122.7126
+          },
+          "vibe": "Two hundred acres of urban forest with a rose garden, Japanese garden, and views of Mount Hood on clear days.",
+          "tours": [
+            {
+              "name": "Portland Washington Park Shuttle Puzzling Adventure Hunt",
+              "url": "http://vi.me/es3T4?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+              "emoji": "🧩"
+            }
+          ],
+          "image": "/images/Wash.jpg?v=4"
+        }
+      ]
+    },
+    {
+      "id": "salem",
+      "name": "Salem",
+      "emoji": "🧙",
+      "tagline": "Where 1692 never fully ended",
+      "coords": {
+        "lat": 42.5195,
+        "lng": -70.8967
+      },
+      "zoom": 14,
+      "color": "#6d28d9",
+      "pageLink": "/haunted-tours",
+      "pageLinkLabel": "Haunted Guide",
+      "locations": [
+        {
+          "id": "witch_trials_memorial",
+          "name": "Witch Trials Memorial",
+          "coords": {
+            "lat": 42.5226,
+            "lng": -70.8979
+          },
+          "vibe": "Twenty stones, twenty names, twenty silences. The memorial is intentionally spare — there is nothing to add to what happened here in 1692.",
+          "tours": [
+            {
+              "name": "Salem Witch Tour",
+              "url": "http://vi.me/1g06D?pid=P00291237&mcid=42383&medium=link&campaign=Salem",
+              "emoji": "🧙"
+            }
+          ],
+          "image": "/images/Witch.jpg"
+        },
+        {
+          "id": "charter_street_cemetery",
+          "name": "Charter Street Cemetery",
+          "coords": {
+            "lat": 42.5218,
+            "lng": -70.8972
+          },
+          "vibe": "Salem's oldest burial ground, where Mayflower passengers and witch trial judges share soil. The stones lean at angles preservation cannot fully correct.",
+          "tours": [
+            {
+              "name": "Mysteries and Murders of Salem Guided Night-Time Walking Tour",
+              "url": "http://vi.me/rzsX7?pid=P00291237&mcid=42383&medium=link&campaign=Salem",
+              "emoji": "🔦"
+            }
+          ],
+          "image": "/images/Cemsalem.jpg"
+        },
+        {
+          "id": "peabody_essex",
+          "name": "Peabody Essex Museum",
+          "coords": {
+            "lat": 42.5221,
+            "lng": -70.8942
+          },
+          "vibe": "A great maritime museum built in a city that once touched every trade route on earth. Salem's reach was global; its consequences were local.",
+          "tours": [
+            {
+              "name": "Salem Merchants and Mansions Guided Architecture Walking Tour",
+              "url": "http://vi.me/uQzl9?pid=P00291237&mcid=42383&medium=link&campaign=Salem",
+              "emoji": "🏦"
+            }
+          ],
+          "image": "/images/Peabody.jpg"
+        },
+        {
+          "id": "pickering_wharf",
+          "name": "Pickering Wharf",
+          "coords": {
+            "lat": 42.5201,
+            "lng": -70.8891
+          },
+          "vibe": "Where Salem's legendary maritime commerce once docked — now restaurants and harbor views over water that remembers clippers and privateers.",
+          "tours": [
+            {
+              "name": "Seeing Salem: Audio Tour from the Common to Pickering Wharf",
+              "url": "http://vi.me/U2gRT?pid=P00291237&mcid=42383&medium=link&campaign=Salem",
+              "emoji": "🎧"
+            }
+          ],
+          "image": "/images/Pick.jpg"
+        }
+      ]
+    },
+    {
+      "id": "san-antonio",
+      "name": "San Antonio",
+      "emoji": "🌹",
+      "tagline": "The Alamo and everything after",
+      "coords": {
+        "lat": 29.4241,
+        "lng": -98.4936
+      },
+      "zoom": 14,
+      "color": "#c2410c",
+      "pageLink": "/haunted-tours",
+      "pageLinkLabel": "Haunted Guide",
+      "locations": [
+        {
+          "id": "the_alamo",
+          "name": "The Alamo",
+          "coords": {
+            "lat": 29.426,
+            "lng": -98.4861
+          },
+          "vibe": "The 1836 battle lasted thirteen days. The Mexican Army reportedly refused to demolish it afterward because of what they encountered inside. It still stands.",
+          "tours": [
+            {
+              "name": "San Antonio Haunted History Tour",
+              "url": "http://vi.me/MG5Qk?pid=P00291237&mcid=42383&medium=link&campaign=SanAntonio",
+              "emoji": "👻"
+            }
+          ],
+          "image": "/images/Alamo 2.jpg"
+        },
+        {
+          "id": "river_walk_sa",
+          "name": "The River Walk",
+          "coords": {
+            "lat": 29.4235,
+            "lng": -98.4899
+          },
+          "vibe": "San Antonio's waterway threads through the city below street level. After dark, the cypress trees cast long shadows over moving water.",
+          "tours": [
+            {
+              "name": "Historic Downtown & Riverwalk Walking Tour",
+              "url": "http://vi.me/zYBSa?pid=P00291237&mcid=42383&medium=link&campaign=SanAntonio",
+              "emoji": "🚶"
+            }
+          ],
+          "image": "/images/River.jpg"
+        },
+        {
+          "id": "governors_palace",
+          "name": "Spanish Governor's Palace",
+          "coords": {
+            "lat": 29.4247,
+            "lng": -98.4952
+          },
+          "vibe": "The only remaining Spanish Colonial aristocratic residence in Texas, built in 1749. Four centuries of administration happened here.",
+          "tours": [
+            {
+              "name": "VESPA SIDECAR Tour in San Antonio with Tacos",
+              "url": "http://vi.me/eqz2k?pid=P00291237&mcid=42383&medium=link&campaign=SanAntonio",
+              "emoji": "🛵"
+            }
+          ],
+          "image": "/images/Gov.jpg"
+        },
+        {
+          "id": "san_fernando_cathedral",
+          "name": "San Fernando Cathedral",
+          "coords": {
+            "lat": 29.4257,
+            "lng": -98.4934
+          },
+          "vibe": "The oldest cathedral sanctuary in the US, standing since 1750. The remains of Alamo defenders are interred here.",
+          "tours": [
+            {
+              "name": "Half-Day Morning City Tour of Historic San Antonio",
+              "url": "http://vi.me/qpAcd?pid=P00291237&mcid=42383&medium=link&campaign=SanAntonio",
+              "emoji": "🏛️"
+            }
+          ],
+          "image": "/images/Fern.jpg"
+        }
+      ]
+    },
+    {
+      "id": "san-diego",
+      "name": "San Diego",
+      "emoji": "🐾",
+      "tagline": "California's most livable city",
+      "coords": {
+        "lat": 32.7157,
+        "lng": -117.1611
+      },
+      "zoom": 12,
+      "color": "#0891b2",
+      "pageLink": "/pet-travel",
+      "pageLinkLabel": "Pet Travel Guide",
+      "locations": [
+        {
+          "id": "ocean_beach_sd",
+          "name": "Ocean Beach",
+          "coords": {
+            "lat": 32.7458,
+            "lng": -117.2519
+          },
+          "vibe": "San Diego's most characterfully independent neighborhood — a beach community with Dog Beach, one of the largest off-leash beach areas in California.",
+          "tours": [
+            {
+              "name": "Ocean Beach San Diego Walking Tour Experience",
+              "url": "https://vi.me/BlCgp",
+              "emoji": "🗺️"
+            }
+          ],
+          "image": "/images/OB1.jpg"
+        },
+        {
+          "id": "balboa_park",
+          "name": "Balboa Park",
+          "coords": {
+            "lat": 32.7341,
+            "lng": -117.1441
+          },
+          "vibe": "Twelve hundred acres of museums, gardens, and cultural institutions. The 1915 Panama-California Exposition buildings are still standing.",
+          "tours": [
+            {
+              "name": "The Private Balboa Park Tour",
+              "url": "https://vi.me/ivfka",
+              "emoji": "🗺️"
+            }
+          ],
+          "image": "/images/Balboa.jpg"
+        },
+        {
+          "id": "gaslamp_quarter",
+          "name": "Gaslamp Quarter",
+          "coords": {
+            "lat": 32.7099,
+            "lng": -117.16
+          },
+          "vibe": "Sixteen blocks of Victorian-era architecture converted to restaurants and nightlife that makes the city's daytime population hard to explain.",
+          "tours": [
+            {
+              "name": "Gaslamp Quarter Food and Drink Tour: Brothels, Bites & Booze",
+              "url": "https://vi.me/sTXS4",
+              "emoji": "🗺️"
+            }
+          ],
+          "image": "/images/Gas.jpg"
+        },
+        {
+          "id": "la_jolla_cove",
+          "name": "La Jolla Cove",
+          "coords": {
+            "lat": 32.8508,
+            "lng": -117.2711
+          },
+          "vibe": "The Pacific meets cliff faces worn smooth by millennia of waves. Sea lions occupy the rocks with complete indifference to the humans photographing them.",
+          "tours": [
+            {
+              "name": "La Jolla Cove Guided Snorkeling Tour with Sea Lions and Sea Caves",
+              "url": "https://vi.me/oe4Rt",
+              "emoji": "🗺️"
+            }
+          ],
+          "image": "/images/la_jolla_cove_san_diego.png"
+        }
+      ]
+    },
+    {
+      "id": "savannah",
+      "name": "Savannah",
+      "emoji": "🌿",
+      "tagline": "America's most haunted city",
+      "coords": {
+        "lat": 32.0809,
+        "lng": -81.0912
+      },
+      "zoom": 14,
+      "color": "#65a30d",
+      "pageLink": "/haunted-tours",
+      "pageLinkLabel": "Haunted Guide",
+      "locations": [
+        {
+          "id": "forsyth_park",
+          "name": "Forsyth Park",
+          "coords": {
+            "lat": 32.0697,
+            "lng": -81.0978
+          },
+          "vibe": "Spanish moss drips from oaks over a park where, just beneath the surface, the city's dead have rested for two centuries.",
+          "tours": [
+            {
+              "name": "Savannah Midnight in the Garden of Good & Evil Narrated Walking Tour",
+              "url": "http://vi.me/sGF1Z?pid=P00291237&mcid=42383&medium=link&campaign=Savannah",
+              "emoji": "🌟"
+            }
+          ],
+          "image": "/images/savannah_forsyth_park.png"
+        },
+        {
+          "id": "colonial_park_cemetery",
+          "name": "Colonial Park Cemetery",
+          "coords": {
+            "lat": 32.0749,
+            "lng": -81.092
+          },
+          "vibe": "Revolutionary War dead and yellow fever victims share ground here. At dusk the iron gates take on a permanence that daylight cannot erase.",
+          "tours": [
+            {
+              "name": "Savannah Ghostwalker Tour and Ghost Hunt",
+              "url": "http://vi.me/bKUai?pid=P00291237&mcid=42383&medium=link&campaign=Savannah",
+              "emoji": "👻"
+            }
+          ],
+          "image": "/images/Cemsav.jpg"
+        },
+        {
+          "id": "mercer_williams_house",
+          "name": "Mercer Williams House",
+          "coords": {
+            "lat": 32.0744,
+            "lng": -81.0949
+          },
+          "vibe": "The antebellum mansion at the center of Midnight in the Garden of Good and Evil — art, murder, and Southern gothic in one address.",
+          "tours": [
+            {
+              "name": "A Walk Through The Book \"Midnight in the Garden of Good and Evil\"",
+              "url": "http://vi.me/uS2DP?pid=P00291237&mcid=42383&medium=link&campaign=Savannah",
+              "emoji": "📚"
+            }
+          ],
+          "image": "/images/Mercer.jpg"
+        },
+        {
+          "id": "river_street_savannah",
+          "name": "River Street",
+          "coords": {
+            "lat": 32.0809,
+            "lng": -81.093
+          },
+          "vibe": "Cobblestones worn smooth by two hundred years of commerce. The warehouse district converted to bars and galleries, but the river remembers.",
+          "tours": [
+            {
+              "name": "Savannah First Squares Culinary & Cultural Walking Food Tour",
+              "url": "http://vi.me/ZJ8CL?pid=P00291237&mcid=42383&medium=link&campaign=Savannah",
+              "emoji": "🍽️"
+            }
+          ],
+          "image": "/images/Riverst.jpg"
+        }
+      ]
+    },
+    {
+      "id": "st-augustine",
+      "name": "St. Augustine",
+      "emoji": "🌺",
+      "tagline": "The oldest city in America",
+      "coords": {
+        "lat": 29.8975,
+        "lng": -81.3137
+      },
+      "zoom": 14,
+      "color": "#b45309",
+      "pageLink": "/haunted-tours",
+      "pageLinkLabel": "Haunted Guide",
+      "locations": [
+        {
+          "id": "castillo_san_marcos",
+          "name": "Castillo de San Marcos",
+          "coords": {
+            "lat": 29.9009,
+            "lng": -81.3123
+          },
+          "vibe": "Built by Spain in 1672 from coquina limestone — the oldest masonry fort in the continental US, whose walls absorbed cannonballs rather than shattering.",
+          "tours": [
+            {
+              "name": "Riding with the Ghosts a Golf Cart Ghost Tour in St Augustine",
+              "url": "http://vi.me/2dx8u?pid=P00291237&mcid=42383&medium=link&campaign=StAugustine",
+              "emoji": "🚗"
+            }
+          ],
+          "image": "/images/st_augustine_fort.png"
+        },
+        {
+          "id": "old_jail_staugustine",
+          "name": "The Old Jail",
+          "coords": {
+            "lat": 29.8949,
+            "lng": -81.3133
+          },
+          "vibe": "Operating as a jail until 1953, this structure still carries the weight of the century it spent containing human misery.",
+          "tours": [
+            {
+              "name": "Old Jail Museum Tour in St. Augustine",
+              "url": "http://vi.me/lWNMn?pid=P00291237&mcid=42383&medium=link&campaign=StAugustine",
+              "emoji": "⛓️"
+            }
+          ],
+          "image": "/images/Jail.jpg"
+        },
+        {
+          "id": "huguenot_cemetery",
+          "name": "Huguenot Cemetery",
+          "coords": {
+            "lat": 29.8956,
+            "lng": -81.3121
+          },
+          "vibe": "Established outside the city gates in 1821 for those who could not be buried in Catholic consecrated ground. The trees here predate the United States.",
+          "tours": [
+            {
+              "name": "Walking Tour in North City Cemeteries of St. Augustine",
+              "url": "http://vi.me/LZEpb?pid=P00291237&mcid=42383&medium=link&campaign=StAugustine",
+              "emoji": "🪦"
+            }
+          ],
+          "image": "/images/Cem.jpg"
+        },
+        {
+          "id": "st_george_street",
+          "name": "St. George Street",
+          "coords": {
+            "lat": 29.8948,
+            "lng": -81.3128
+          },
+          "vibe": "The pedestrian spine of the historic district, lined with shops in buildings that remember when this was a Spanish colonial city.",
+          "tours": [
+            {
+              "name": "St Augustine Sunset Boat Tour",
+              "url": "http://vi.me/LCV5a?pid=P00291237&mcid=42383&medium=link&campaign=StAugustine",
+              "emoji": "⛵"
+            }
+          ],
+          "image": "/images/George.jpg"
+        }
+      ]
+    },
+    {
+      "id": "reno-lake-tahoe",
+      "name": "Reno & Lake Tahoe",
+      "emoji": "🎰",
+      "tagline": "High desert meets alpine wonder",
+      "coords": {
+        "lat": 39.5296,
+        "lng": -119.8138
+      },
+      "zoom": 10,
+      "color": "#0891b2",
+      "pageLink": "",
+      "pageLinkLabel": "",
+      "locations": [
+        {
+          "id": "downtown_reno",
+          "name": "Downtown Reno",
+          "coords": {
+            "lat": 39.5296,
+            "lng": -119.8138
+          },
+          "vibe": "The Biggest Little City in the World lives up to its nickname — the famous arch has anchored Virginia Street since 1926, and the Truckee River cuts through downtown like a cold reminder that the Sierra Nevada are twenty minutes away.",
+          "tours": [
+            {
+              "name": "From Reno Arch to Truckee River: A Self-Guided Audio Tour",
+              "url": "http://vi.me/VjdWX?pid=P00291237&mcid=42383&medium=link&campaign=Reno",
+              "emoji": "🌃"
+            }
+          ],
+          "image": "/images/Reno.jpg"
+        },
+        {
+          "id": "truckee_riverwalk",
+          "name": "Reno Riverwalk District",
+          "coords": {
+            "lat": 39.5281,
+            "lng": -119.8199
+          },
+          "vibe": "The Truckee River runs right through the heart of Reno, and the Riverwalk District has turned its banks into the city's most human-scaled neighborhood — restaurants, galleries, and an annual whitewater festival that reminds everyone the river has opinions.",
+          "tours": [
+            {
+              "name": "Truckee River Rafting or Kayaking Tours from Reno",
+              "url": "http://vi.me/NXtHT?pid=P00291237&mcid=42383&medium=link&campaign=Reno",
+              "emoji": "🌊"
+            }
+          ],
+          "image": "/images/Renoriv.jpg"
+        },
+        {
+          "id": "emerald_bay",
+          "name": "Lake Tahoe Emerald Bay",
+          "coords": {
+            "lat": 38.9535,
+            "lng": -120.1025
+          },
+          "vibe": "A glacially carved inlet on the southwest shore of Lake Tahoe that contains Fannette Island — the only natural island in California. Photographers come for the light. Everyone else comes to understand why people don't leave.",
+          "tours": [
+            {
+              "name": "Lake Tahoe Emerald Bay Scenic Cruise",
+              "url": "http://vi.me/hMTps?pid=P00291237&mcid=42383&medium=link&campaign=Reno",
+              "emoji": "🏔️"
+            }
+          ],
+          "image": "/images/MS.jpg"
+        },
+        {
+          "id": "crystal_bay",
+          "name": "Incline Village / Crystal Bay",
+          "coords": {
+            "lat": 39.2455,
+            "lng": -119.9726
+          },
+          "vibe": "The north shore of Lake Tahoe at golden hour, where Nevada meets California over 1,645 feet of the clearest water in the Sierra Nevada. A private sunset charter from Crystal Bay is the kind of experience people plan return trips around.",
+          "tours": [
+            {
+              "name": "2 Hour Private Sunset Boat Charter With Captain",
+              "url": "http://vi.me/iKQPD?pid=P00291237&mcid=42383&medium=link&campaign=Reno",
+              "emoji": "⛵"
+            }
+          ],
+          "image": "/images/Crybay.jpg"
+        },
+        {
+          "id": "virginia_city",
+          "name": "Virginia City",
+          "coords": {
+            "lat": 39.3096,
+            "lng": -119.6497
+          },
+          "vibe": "Nevada's most famous ghost town isn't a ghost town at all — it's a Victorian silver-mining city suspended in 1880 on a mountain ridge above Reno, complete with working saloons, a historic railroad, and board sidewalks that creak in a way that makes perfect architectural sense.",
+          "tours": [
+            {
+              "name": "Virginia City and Lake Tahoe Full Day Small Group Tour from Reno",
+              "url": "http://vi.me/Rqw3y?pid=P00291237&mcid=42383&medium=link&campaign=Reno",
+              "emoji": "🤠"
+            }
+          ],
+          "image": "/images/VC.jpg"
+        }
+      ]
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "emoji": "🇦🇺",
+      "tagline": "Australia's iconic harbour city",
+      "coords": {
+        "lat": -33.8688,
+        "lng": 151.2093
+      },
+      "zoom": 13,
+      "color": "#eab308",
+      "pageLink": "",
+      "pageLinkLabel": "",
+      "locations": [
+        {
+          "id": "opera_house",
+          "name": "Sydney Opera House",
+          "coords": {
+            "lat": -33.8568,
+            "lng": 151.2153
+          },
+          "vibe": "The Sydney Opera House is an architectural masterpiece and one of the most recognizable buildings in the world. Located on Bennelong Point, its famous sails serve as a premier performing arts center.",
+          "tours": [
+            {
+              "name": "Sydney Opera House",
+              "url": "http://vi.me/fiZK1?pid=P00291237&mcid=42383&medium=link&campaign=Sydney",
+              "emoji": "🎭"
+            }
+          ],
+          "image": "/images/OP.jpg"
+        },
+        {
+          "id": "harbour_bridge",
+          "name": "Sydney Harbour Bridge",
+          "coords": {
+            "lat": -33.8523,
+            "lng": 151.2108
+          },
+          "vibe": "The grand centerpiece of Sydney Harbour and one of the country's most photographed landmarks. The historic structure opened in 1932 as the largest steel arch bridge in the world.",
+          "tours": [
+            {
+              "name": "Sydney Harbour Scenic Helicopter Flight",
+              "url": "http://vi.me/kt7sy?pid=P00291237&mcid=42383&medium=link&campaign=Sydney",
+              "emoji": "🚁"
+            }
+          ],
+          "image": "/images/Bridge.jpg"
+        },
+        {
+          "id": "bondi_beach",
+          "name": "Bondi Beach",
+          "coords": {
+            "lat": -33.8915,
+            "lng": 151.2767
+          },
+          "vibe": "Bondi Beach is Australia's most famous beach, known for its golden sands, surf culture, and vibrant coastal lifestyle. It is a hub for both relaxation and outdoor activity.",
+          "tours": [
+            {
+              "name": "Sydney Shore Excursion: Half-Day Sydney City Highlights with Bondi Beach and Watsons Bay",
+              "url": "http://vi.me/EFfLS?pid=P00291237&mcid=42383&medium=link&campaign=Sydney",
+              "emoji": "🏄"
+            }
+          ],
+          "image": "/images/Bondi.jpg"
+        },
+        {
+          "id": "the_rocks",
+          "name": "The Rocks",
+          "coords": {
+            "lat": -33.8599,
+            "lng": 151.209
+          },
+          "vibe": "Located in central Sydney, the historic precinct of the Rocks is the oldest area in the city and the site of the first European settlement.",
+          "tours": [
+            {
+              "name": "Convicts and The Rocks: Sydney's Walking Tour Led by Historian",
+              "url": "http://vi.me/1LUBJ?pid=P00291237&mcid=42383&medium=link&campaign=Sydney",
+              "emoji": "🏛️"
+            }
+          ],
+          "image": "/images/Rock.jpg"
+        },
+        {
+          "id": "taronga_zoo",
+          "name": "Taronga Zoo",
+          "coords": {
+            "lat": -33.8436,
+            "lng": 151.2411
+          },
+          "vibe": "Located on the shores of the harbour in Mosman, Taronga Zoo is unique for its incredible backdrop of the city skyline. It is home to over 4,000 animals, including many native Australian species.",
+          "tours": [
+            {
+              "name": "Sydney Taronga Zoo Wild Australia Experience",
+              "url": "http://vi.me/9ZGe0?pid=P00291237&mcid=42383&medium=link&campaign=Sydney",
+              "emoji": "🦘"
+            }
+          ],
+          "image": "/images/Zoo.jpg"
+        }
+      ]
+    },
+    {
+      "id": "new-zealand",
+      "name": "New Zealand",
+      "emoji": "🇳🇿",
+      "tagline": "Middle-earth and beyond",
+      "coords": {
+        "lat": -44.6693,
+        "lng": 167.9258
+      },
+      "zoom": 6,
+      "color": "#059669",
+      "pageLink": "",
+      "pageLinkLabel": "",
+      "locations": [
+        {
+          "id": "milford_sound",
+          "name": "Milford Sound",
+          "coords": {
+            "lat": -44.6693,
+            "lng": 167.9258
+          },
+          "vibe": "Often referred to as the eighth wonder of the world, Milford Sound is a breathtaking fiord characterized by towering cliffs, lush rainforests, and cascading waterfalls.",
+          "tours": [
+            {
+              "name": "Premium Milford Sound Small Group Tour & Cruise from Queenstown",
+              "url": "http://vi.me/SVAeU?pid=P00291237&mcid=42383&medium=link&campaign=NewZealand",
+              "emoji": "🚢"
+            }
+          ],
+          "image": "/images/Milford.jpg"
+        },
+        {
+          "id": "mount_cook",
+          "name": "Aoraki/Mount Cook National Park",
+          "coords": {
+            "lat": -43.5950,
+            "lng": 170.1418
+          },
+          "vibe": "The landscape is dominated by massive glaciers, including the Tasman Glacier, and turquoise glacial lakes that reflect the surrounding snowy peaks.",
+          "tours": [
+            {
+              "name": "Mount Cook and The Glaciers 55-Minute Helicopter Flight",
+              "url": "http://vi.me/2xEk4?pid=P00291237&mcid=42383&medium=link&campaign=NewZealand",
+              "emoji": "🚁"
+            }
+          ],
+          "image": "/images/Cook.jpg"
+        },
+        {
+          "id": "hobbiton",
+          "name": "Hobbiton Movie Set",
+          "coords": {
+            "lat": -37.8721,
+            "lng": 175.6810
+          },
+          "vibe": "Fans of The Lord of the Rings and The Hobbit films won't want to miss a visit to the Hobbiton Movie Set. The real-life recreation of The Shire, one of the primary settings from the movies based on J.R.R. Tolkien's novels. Set amid the lush hills of Matamata on New Zealand's North Island, the purpose-built set features the original Hobbit Holes, sets, and props from the movies.",
+          "tours": [
+            {
+              "name": "Hobbiton & Waitomo Caves Guided Day Trip from Auckland incl lunch",
+              "url": "http://vi.me/SZOVR?pid=P00291237&mcid=42383&medium=link&campaign=NewZealand",
+              "emoji": "🧙"
+            }
+          ],
+          "image": "/images/Hobbit.jpg"
+        },
+        {
+          "id": "waitomo_caves",
+          "name": "Waitomo Glowworm Caves",
+          "coords": {
+            "lat": -38.2609,
+            "lng": 175.1065
+          },
+          "vibe": "This underground cave system is one of the best places in New Zealand to spot glowworms, whose shimmering lights create a magical atmosphere.",
+          "tours": [
+            {
+              "name": "Waitomo Glow Worm Caves",
+              "url": "http://vi.me/KNryq?pid=P00291237&mcid=42383&medium=link&campaign=NewZealand",
+              "emoji": "✨"
+            }
+          ],
+          "image": "/images/Worm.jpg"
+        },
+        {
+          "id": "lake_tekapo",
+          "name": "Lake Tekapo",
+          "coords": {
+            "lat": -44.0047,
+            "lng": 170.4772
+          },
+          "vibe": "A glacial lake on New Zealand's South Island, Lake Tekapo is an adventurer's playground by day — and a stargazer's heaven at night.",
+          "tours": [
+            {
+              "name": "Lake Tekapo Ultimate Stargazing Experience",
+              "url": "http://vi.me/9t5BT?pid=P00291237&mcid=42383&medium=link&campaign=NewZealand",
+              "emoji": "🌌"
+            }
+          ],
+          "image": "/images/Tek.jpg"
+        }
+      ]
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "emoji": "🇯🇵",
+      "tagline": "Where ancient tradition meets neon future",
+      "coords": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      },
+      "zoom": 11,
+      "color": "#dc2626",
+      "pageLink": "",
+      "pageLinkLabel": "",
+      "locations": [
+        {
+          "id": "sensoji_temple",
+          "name": "Senso-ji Temple",
+          "coords": {
+            "lat": 35.7148,
+            "lng": 139.7967
+          },
+          "vibe": "Located in the heart of Asakusa, Sensō-ji is Tokyo's oldest and most significant Buddhist temple. It is famous for the Kaminarimon (Thunder Gate) and its massive red paper lantern.",
+          "tours": [
+            {
+              "name": "Asakusa Senso-ji Temple and Old Tokyo Walking Tour",
+              "url": "http://vi.me/X7PzG?pid=P00291237&mcid=42383&medium=link&campaign=Tokyo",
+              "emoji": "⛩️"
+            }
+          ],
+          "image": "/images/Temp.jpg",
+          "imagePosition": "center 50%"
+        },
+        {
+          "id": "mount_fuji",
+          "name": "Mount Fuji",
+          "coords": {
+            "lat": 35.3606,
+            "lng": 138.7274
+          },
+          "vibe": "Considered one of Japan's three sacred mountains, and summit hikes remain a popular activity. Its iconic profile is the subject of numerous works of art.",
+          "tours": [
+            {
+              "name": "Mt Fuji and Hakone 1-Day Bus Tour Return by Bullet Train",
+              "url": "http://vi.me/bmoPs?pid=P00291237&mcid=42383&medium=link&campaign=Tokyo",
+              "emoji": "🗻"
+            }
+          ],
+          "image": "/images/Fuji.jpg"
+        },
+        {
+          "id": "imperial_palace",
+          "name": "Tokyo Imperial Palace",
+          "coords": {
+            "lat": 35.6852,
+            "lng": 139.7528
+          },
+          "vibe": "Home to the Emperor of Japan, the Tokyo Imperial Palace occupies the site of the original Edo Castle the Tokugawa shogunate's castle, which was once the largest fortress in Japan.",
+          "tours": [
+            {
+              "name": "Tokyo Private Tour: Imperial Palace East Gardens & Edo Castle Ruins",
+              "url": "http://vi.me/EFcfW?pid=P00291237&mcid=42383&medium=link&campaign=Tokyo",
+              "emoji": "🏯"
+            }
+          ],
+          "image": "/images/Palace2.jpg"
+        },
+        {
+          "id": "tokyo_tower",
+          "name": "Tokyo Tower",
+          "coords": {
+            "lat": 35.6586,
+            "lng": 139.7454
+          },
+          "vibe": "The Tokyo Tower affords great views from its two observation decks with views as far as Mt. Fuji on a clear day.",
+          "tours": [
+            {
+              "name": "Tokyo Tower Observation Deck E-Tickets",
+              "url": "http://vi.me/ljts9?pid=P00291237&mcid=42383&medium=link&campaign=Tokyo",
+              "emoji": "🗼"
+            }
+          ],
+          "image": "/images/Tower.jpg"
+        },
+        {
+          "id": "shibuya",
+          "name": "Shibuya",
+          "coords": {
+            "lat": 35.6595,
+            "lng": 139.7004
+          },
+          "vibe": "This is Tokyo at full volume with sky-high malls, flashing billboards, and hundreds of people moving in all directions. A popular meeting place and a prime photo opportunity.",
+          "tours": [
+            {
+              "name": "Tokyo: Shibuya Food Tour (13 dishes and 3 Eateries)",
+              "url": "http://vi.me/ncSzR?pid=P00291237&mcid=42383&medium=link&campaign=Tokyo",
+              "emoji": "🍜"
+            }
+          ],
+          "image": "/images/Street.jpg"
+        }
+      ]
+    },
+    {
+      "id": "bangkok",
+      "name": "Bangkok",
+      "emoji": "🇹🇭",
+      "tagline": "Temples, markets, and the pulse of Southeast Asia",
+      "coords": {
+        "lat": 13.7563,
+        "lng": 100.5018
+      },
+      "zoom": 12,
+      "color": "#d97706",
+      "pageLink": "",
+      "pageLinkLabel": "",
+      "locations": [
+        {
+          "id": "grand_palace",
+          "name": "Grand Palace",
+          "coords": {
+            "lat": 13.7500,
+            "lng": 100.4913
+          },
+          "vibe": "A dazzling complex of gilded spires, intricate murals, and shimmering mosaics, the Grand Palace was the official residence of Siamese kings for over 150 years.",
+          "tours": [
+            {
+              "name": "Private Bangkok City Tour One Day With The Grand Palace",
+              "url": "http://vi.me/kPhlI?pid=P00291237&mcid=42383&medium=link&campaign=Bangkok",
+              "emoji": "👑"
+            }
+          ],
+          "image": "/images/Grand.jpg"
+        },
+        {
+          "id": "wat_arun",
+          "name": "Wat Arun",
+          "coords": {
+            "lat": 13.7437,
+            "lng": 100.4888
+          },
+          "vibe": "Rising along the banks of the Chao Phraya River, Wat Arun glitters with porcelain mosaics that catch the light at sunrise and sunset.",
+          "tours": [
+            {
+              "name": "Private Tour: Half-day Bangkok Canals and Wat Arun",
+              "url": "http://vi.me/02cwn?pid=P00291237&mcid=42383&medium=link&campaign=Bangkok",
+              "emoji": "🌅"
+            }
+          ],
+          "image": "/images/Arun.jpg",
+          "imagePosition": "center 55%"
+        },
+        {
+          "id": "wat_pho",
+          "name": "Wat Pho",
+          "coords": {
+            "lat": 13.7465,
+            "lng": 100.4930
+          },
+          "vibe": "Wat Pho is a serene escape from the city's pace. The soles of the Buddha's feet are inlaid with mother-of-pearl depicting 108 auspicious symbols.",
+          "tours": [
+            {
+              "name": "Bangkok Wat Pho and Flower Market Historical Walking Tour",
+              "url": "http://vi.me/MJvXP?pid=P00291237&mcid=42383&medium=link&campaign=Bangkok",
+              "emoji": "🙏"
+            }
+          ],
+          "image": "/images/Pho.jpg",
+          "imagePosition": "center 50%"
+        },
+        {
+          "id": "chatuchak_market",
+          "name": "Chatuchak Weekend Market",
+          "coords": {
+            "lat": 13.7999,
+            "lng": 100.5503
+          },
+          "vibe": "One of the largest markets in the world, Chatuchak weaves together more than 15,000 stalls selling everything from handcrafted textiles to street food sizzling on open grills.",
+          "tours": [
+            {
+              "name": "Private Exclusive Guided Chatuchak Weekend Market Shopping Tour",
+              "url": "http://vi.me/psf7K?pid=P00291237&mcid=42383&medium=link&campaign=Bangkok",
+              "emoji": "🛍️"
+            }
+          ],
+          "image": "/images/Mark.jpg"
+        },
+        {
+          "id": "damnoen_saduak",
+          "name": "Damnoen Saduak Floating Market",
+          "coords": {
+            "lat": 13.5239,
+            "lng": 99.9578
+          },
+          "vibe": "About an hour outside Bangkok, narrow canals come alive with wooden longtail boats heaped with tropical fruit, fragrant noodle soups, and hand-woven goods. Vendors paddle between guests, offering a glimpse into Thailand's centuries-old waterway trading culture.",
+          "tours": [
+            {
+              "name": "Private Tour to Railway Market and Damnoen Saduak Floating Market",
+              "url": "http://vi.me/ISqDe?pid=P00291237&mcid=42383&medium=link&campaign=Bangkok",
+              "emoji": "🛶"
+            }
+          ],
+          "image": "/images/Float.jpg"
+        }
+      ]
+    },
+    {
+      "id": "rio-de-janeiro",
+      "name": "Rio de Janeiro",
+      "emoji": "🇧🇷",
+      "tagline": "Where mountains meet the sea and samba never stops",
+      "coords": {
+        "lat": -22.9068,
+        "lng": -43.1729
+      },
+      "zoom": 12,
+      "color": "#16a34a",
+      "pageLink": "",
+      "pageLinkLabel": "",
+      "locations": [
+        {
+          "id": "christ_redeemer",
+          "name": "Christ the Redeemer",
+          "coords": {
+            "lat": -22.9519,
+            "lng": -43.2105
+          },
+          "vibe": "Standing 38 meters tall atop Corcovado Mountain with arms outstretched over the city, Cristo Redentor is one of the New Seven Wonders of the World.",
+          "tours": [
+            {
+              "name": "Rio : Helicopter tour at Christ the Redeemer - 30 minutes",
+              "url": "http://vi.me/tBJr4?pid=P00291237&mcid=42383&medium=link&campaign=Rio",
+              "emoji": "🚁"
+            }
+          ],
+          "image": "/images/Christ.jpg"
+        },
+        {
+          "id": "sugarloaf_mountain",
+          "name": "Sugarloaf Mountain",
+          "coords": {
+            "lat": -22.9491,
+            "lng": -43.1545
+          },
+          "vibe": "A pair of granite peaks rising straight from the sea, Sugarloaf is reached by glass cable cars that float you over the bay at sunset.",
+          "tours": [
+            {
+              "name": "Skip-the-Line: Sugarloaf Mountain Cable Car Ticket",
+              "url": "http://vi.me/epXEF?pid=P00291237&mcid=42383&medium=link&campaign=Rio",
+              "emoji": "🚡"
+            }
+          ],
+          "image": "/images/Sugar.jpg",
+          "imagePosition": "center 30%"
+        },
+        {
+          "id": "copacabana_beach",
+          "name": "Copacabana Beach",
+          "coords": {
+            "lat": -22.9711,
+            "lng": -43.1823
+          },
+          "vibe": "Two and a half miles of golden sand, black-and-white wave pattern sidewalks, and the steady rhythm of footvolley, samba, and ocean.",
+          "tours": [
+            {
+              "name": "Sunrise on Copacabana Beach from Stand Up Paddle",
+              "url": "http://vi.me/YWOpQ?pid=P00291237&mcid=42383&medium=link&campaign=Rio",
+              "emoji": "🏖️"
+            }
+          ],
+          "image": "/images/Copa.jpg"
+        },
+        {
+          "id": "selaron_steps",
+          "name": "Selarón Steps",
+          "coords": {
+            "lat": -22.9154,
+            "lng": -43.1797
+          },
+          "vibe": "215 steps covered in over 2,000 hand-painted tiles from more than 60 countries, this kaleidoscopic staircase was the lifelong work of Chilean artist Jorge Selarón.",
+          "tours": [
+            {
+              "name": "Selarón Steps, Lapa, Cinelândia & Historic Santa Teresa Tram Tour",
+              "url": "http://vi.me/1Xfh1?pid=P00291237&mcid=42383&medium=link&campaign=Rio",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/Steps.jpg"
+        },
+        {
+          "id": "tijuca_national_park",
+          "name": "Tijuca National Park",
+          "coords": {
+            "lat": -22.9535,
+            "lng": -43.2824
+          },
+          "vibe": "The world's largest urban rainforest sprawls right within Rio's city limits, home to waterfalls, hiking trails, and panoramic lookouts.",
+          "tours": [
+            {
+              "name": "Jeep Tour to Tijuca Forest in Rio de Janeiro",
+              "url": "http://vi.me/Yz8Nl?pid=P00291237&mcid=42383&medium=link&campaign=Rio",
+              "emoji": "🌿"
+            }
+          ],
+          "image": "/images/TI.jpg"
+        }
+      ]
+    },
+    {
+      "id": "lisbon",
+      "name": "Lisbon",
+      "emoji": "🇵🇹",
+      "tagline": "Seven hills, fado, and the Age of Discovery",
+      "coords": {
+        "lat": 38.7223,
+        "lng": -9.1393
+      },
+      "zoom": 12,
+      "color": "#0891b2",
+      "pageLink": "",
+      "pageLinkLabel": "",
+      "locations": [
+        {
+          "id": "belem_tower",
+          "name": "Belém Tower",
+          "coords": {
+            "lat": 38.6916,
+            "lng": -9.2160
+          },
+          "vibe": "A 16th-century Manueline-style fortress rising from the Tagus River, Belém Tower once welcomed and defended ships departing for the Age of Discovery.",
+          "tours": [
+            {
+              "name": "Lisbon: Belem Walking Tour with Jeronimos Monastery Tks Included",
+              "url": "http://vi.me/5FlvP?pid=P00291237&mcid=42383&medium=link&campaign=Lisbon",
+              "emoji": "🏰"
+            }
+          ],
+          "image": "/images/Belman.jpg",
+          "imagePosition": "center center"
+        },
+        {
+          "id": "jeronimos_monastery",
+          "name": "Jerónimos Monastery",
+          "coords": {
+            "lat": 38.6979,
+            "lng": -9.2068
+          },
+          "vibe": "Built to commemorate Vasco da Gama's voyage to India, this vast monastery is a masterpiece of Manueline architecture, with cloisters carved in stone like fine lace. Da Gama and the poet Luís de Camões are entombed within its walls.",
+          "tours": [
+            {
+              "name": "Belém: Jeronimos Monastery, Tickets and Guided tour",
+              "url": "http://vi.me/C9x84?pid=P00291237&mcid=42383&medium=link&campaign=Lisbon",
+              "emoji": "⛪"
+            }
+          ],
+          "image": "/images/Jero.jpg"
+        },
+        {
+          "id": "alfama_tram28",
+          "name": "Alfama and Tram 28",
+          "coords": {
+            "lat": 38.7118,
+            "lng": -9.1301
+          },
+          "vibe": "Lisbon's oldest neighborhood is a maze of cobbled lanes, flower-draped balconies, and the soulful sound of fado drifting from tiny taverns. Yellow Tram 28 rattles through Alfama's tightest corners, offering a moving postcard of the city.",
+          "tours": [
+            {
+              "name": "Lisbon 24 Hours Pass with Tram 28 Riding Ticket",
+              "url": "http://vi.me/6qO57?pid=P00291237&mcid=42383&medium=link&campaign=Lisbon",
+              "emoji": "🚋"
+            }
+          ],
+          "image": "/images/Tram.jpg",
+          "imagePosition": "center center"
+        },
+        {
+          "id": "sao_jorge_castle",
+          "name": "São Jorge Castle",
+          "coords": {
+            "lat": 38.7139,
+            "lng": -9.1335
+          },
+          "vibe": "Perched on Lisbon's highest hill, this Moorish-era castle has watched over the city since the 11th century. Leading to sweeping views across red rooftops down to the Tagus River.",
+          "tours": [
+            {
+              "name": "Lisbon Tour: S. Jorge's Castle (Skip-the-Line) + Old Town Lisbon",
+              "url": "http://vi.me/mIhz2?pid=P00291237&mcid=42383&medium=link&campaign=Lisbon",
+              "emoji": "🏯"
+            }
+          ],
+          "image": "/images/Castle.jpg"
+        },
+        {
+          "id": "sintra_pena",
+          "name": "Sintra and Pena Palace",
+          "coords": {
+            "lat": 38.7876,
+            "lng": -9.3907
+          },
+          "vibe": "Sintra rises into misty forested hills crowned by the candy-colored Pena Palace. A 19th-century Romantic masterpiece blending Moorish, Gothic, and Manueline styles, it was once the summer retreat of Portuguese royalty.",
+          "tours": [
+            {
+              "name": "Private Half Day Tour to Sintra and Pena Palace from Lisbon",
+              "url": "http://vi.me/zHhTQ?pid=P00291237&mcid=42383&medium=link&campaign=Lisbon",
+              "emoji": "🏰"
+            }
+          ],
+          "image": "/images/Pena.jpg"
+        }
+      ]
+    },
+    {
+      "id": "reykjavik",
+      "name": "Reykjavik",
+      "emoji": "🇮🇸",
+      "tagline": "Fire, ice, and the edge of the Arctic",
+      "coords": {
+        "lat": 64.1466,
+        "lng": -21.9426
+      },
+      "zoom": 12,
+      "color": "#0891b2",
+
+      "locations": [
+        {
+          "id": "hallgrimskirkja",
+          "name": "Hallgrímskirkja",
+          "coords": {
+            "lat": 64.1417,
+            "lng": -21.9267
+          },
+          "vibe": "A concrete spire shaped like basalt columns rises above the city's colorful rooftops. From the tower, the view stretches to glaciers and the cold North Atlantic.",
+          "tours": [
+            {
+              "name": "Reykjavík Small group Walking Tour - by CityWalk",
+              "url": "http://vi.me/5D3nF?pid=P00291237&mcid=42383&medium=link&campaign=Reykjavik",
+              "emoji": "🚶"
+            }
+          ],
+          "image": "/images/Hallgrimskirkja.jpg"
+        },
+        {
+          "id": "harpa_concert_hall",
+          "name": "Harpa Concert Hall",
+          "coords": {
+            "lat": 64.1503,
+            "lng": -21.9329
+          },
+          "vibe": "Thousands of glass hexagons catch the Arctic light off the old harbor. At sunset the façade glows like a honeycomb dipped in gold.",
+          "tours": [
+            {
+              "name": "Reykjavik Sightseeing Tour",
+              "url": "http://vi.me/41H0I?pid=P00291237&mcid=42383&medium=link&campaign=Reykjavik",
+              "emoji": "🎶"
+            }
+          ],
+          "image": "/images/Harpa.jpg"
+        },
+        {
+          "id": "fagradalsfjall_volcano",
+          "name": "Fagradalsfjall Volcano",
+          "coords": {
+            "lat": 63.8853,
+            "lng": -22.2667
+          },
+          "vibe": "Black lava fields still warm underfoot stretch across the Reykjanes Peninsula, where earth split open in 2021 and hasn't fully decided to stop. The hike in is wind-battered and worth every step.",
+          "tours": [
+            {
+              "name": "Volcano Hike & Northern Lights Combo Tour",
+              "url": "http://vi.me/8YBmU?pid=P00291237&mcid=42383&medium=link&campaign=Reykjavik",
+              "emoji": "🌋"
+            }
+          ],
+          "image": "/images/Volcano.jpg",
+          "imagePosition": "center 55%"
+        },
+        {
+          "id": "laugavegur_street",
+          "name": "Laugavegur Street",
+          "coords": {
+            "lat": 64.1444,
+            "lng": -21.9231
+          },
+          "vibe": "Reykjavik's main artery buzzes with bookshops, wool sweater stores, and tiny bars blasting live music past midnight. The murals change with the seasons.",
+          "tours": [
+            {
+              "name": "Weekend Reykjavik Food Tour with a stop at the Reykjavik Flea Market",
+              "url": "http://vi.me/GVplz?pid=P00291237&mcid=42383&medium=link&campaign=Reykjavik",
+              "emoji": "🍴"
+            }
+          ],
+          "image": "/images/Laugavegur.jpg"
+        },
+        {
+          "id": "perlan",
+          "name": "Perlan",
+          "coords": {
+            "lat": 64.1287,
+            "lng": -21.9184
+          },
+          "vibe": "A glass dome perched on hot water tanks holds a planetarium, an indoor ice cave, and a 360-degree viewing deck. The northern lights exhibition runs year-round.",
+          "tours": [
+            {
+              "name": "Perlan Ice Cave Admission & Golden Circle Tour in Reykjavik",
+              "url": "http://vi.me/jXtaH?pid=P00291237&mcid=42383&medium=link&campaign=Reykjavik",
+              "emoji": "❄️"
+            }
+          ],
+          "image": "/images/Perlan.jpg",
+          "imagePosition": "center 60%"
+        }
+      ]
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "emoji": "🍀",
+      "tagline": "Pubs, poets, and a thousand years of craic",
+      "coords": {
+        "lat": 53.3498,
+        "lng": -6.2603
+      },
+      "zoom": 13,
+      "color": "#15803d",
+
+      "locations": [
+        {
+          "id": "trinity_college_library",
+          "name": "Trinity College Library",
+          "coords": {
+            "lat": 53.3438,
+            "lng": -6.2546
+          },
+          "vibe": "Two hundred thousand aged volumes line the Long Room's oak shelves in soft amber light. The Book of Kells waits downstairs, its ink still bright after twelve centuries.",
+          "tours": [
+            {
+              "name": "Private Dublin Tour with Trinity College and Old Library",
+              "url": "http://vi.me/t4WEv?pid=P00291237&mcid=42383&medium=link&campaign=Dublin",
+              "emoji": "📚"
+            }
+          ],
+          "image": "/images/Trinity.jpg",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "temple_bar",
+          "name": "Temple Bar",
+          "coords": {
+            "lat": 53.3454,
+            "lng": -6.2643
+          },
+          "vibe": "Cobblestone lanes packed with pubs where fiddle and bodhrán spill out open doors every night. The craic starts early and the last round never quite comes.",
+          "tours": [
+            {
+              "name": "Dublin Historical Centre Food Tour with 6 Food Tastings & Drinks",
+              "url": "http://vi.me/SzAwO?pid=P00291237&mcid=42383&medium=link&campaign=Dublin",
+              "emoji": "🍺"
+            }
+          ],
+          "image": "/images/TempleBar.jpg"
+        },
+        {
+          "id": "st_stephens_green",
+          "name": "St. Stephen's Green",
+          "coords": {
+            "lat": 53.3382,
+            "lng": -6.2592
+          },
+          "vibe": "A Georgian-framed park in the city center where swans glide past iron footbridges. Office workers and buskers share the lawns at lunch.",
+          "tours": [
+            {
+              "name": "Dublin Half Day Tour with a Local: 100% Personalized & Private",
+              "url": "http://vi.me/hFb2t?pid=P00291237&mcid=42383&medium=link&campaign=Dublin",
+              "emoji": "🌿"
+            }
+          ],
+          "image": "/images/Stephens.jpg"
+        },
+        {
+          "id": "kilmainham_gaol",
+          "name": "Kilmainham Gaol",
+          "coords": {
+            "lat": 53.3419,
+            "lng": -6.3101
+          },
+          "vibe": "Cold stone corridors and iron catwalks tell the story of Ireland's fight for independence. Sunlight pours through the skylight of the Victorian wing like a quiet apology.",
+          "tours": [
+            {
+              "name": "Private Dublin City Tour with Castles, Cathedrals & Culture",
+              "url": "http://vi.me/TBk8o?pid=P00291237&mcid=42383&medium=link&campaign=Dublin",
+              "emoji": "🏛️"
+            }
+          ],
+          "image": "/images/Kilmainham.jpg"
+        },
+        {
+          "id": "hapenny_bridge",
+          "name": "Ha'penny Bridge",
+          "coords": {
+            "lat": 53.3464,
+            "lng": -6.2630
+          },
+          "vibe": "A white cast-iron arch over the River Liffey, built in 1816 when crossing cost half a penny. At dusk the lamplights double in the dark water below.",
+          "tours": [
+            {
+              "name": "Private (Nearly!) All of Dublin in 5 hours (Walking Tour)",
+              "url": "http://vi.me/pZD9h?pid=P00291237&mcid=42383&medium=link&campaign=Dublin",
+              "emoji": "🌉"
+            }
+          ],
+          "image": "/images/Hapenny.jpg"
+        }
+      ]
+    },
+    {
+      "id": "quebec",
+      "name": "Quebec City",
+      "emoji": "🏰",
+      "tagline": "Old France on the St. Lawrence",
+      "coords": {
+        "lat": 46.8139,
+        "lng": -71.2080
+      },
+      "zoom": 13,
+      "color": "#7c3aed",
+
+      "locations": [
+        {
+          "id": "chateau_frontenac",
+          "name": "Château Frontenac",
+          "coords": {
+            "lat": 46.8118,
+            "lng": -71.2050
+          },
+          "vibe": "A copper-roofed castle towers over the St. Lawrence River from the clifftop of Old Quebec. It's been the city's skyline since 1893 and still takes reservations.",
+          "tours": [
+            {
+              "name": "Private Tour: Quebec City Walking Tour",
+              "url": "http://vi.me/MEZHs?pid=P00291237&mcid=42383&medium=link&campaign=Quebec",
+              "emoji": "🏰"
+            }
+          ],
+          "image": "/images/Chateau.jpg",
+          "imagePosition": "center 30%"
+        },
+        {
+          "id": "petit_champlain",
+          "name": "Petit Champlain",
+          "coords": {
+            "lat": 46.8110,
+            "lng": -71.2040
+          },
+          "vibe": "North America's oldest commercial street drops steeply toward the river, lined with stone buildings and hand-painted shop signs. In winter, it glitters under thousands of white lights.",
+          "tours": [
+            {
+              "name": "Combo Historical and Food Tour of Old Quebec",
+              "url": "http://vi.me/ogfIG?pid=P00291237&mcid=42383&medium=link&campaign=Quebec",
+              "emoji": "🍽️"
+            }
+          ],
+          "image": "/images/Champlain.jpg"
+        },
+        {
+          "id": "montmorency_falls",
+          "name": "Montmorency Falls",
+          "coords": {
+            "lat": 46.8906,
+            "lng": -71.1478
+          },
+          "vibe": "Eighty meters of thundering water — taller than Niagara — crash into the basin below a suspension bridge. Mist soaks your face from fifty feet away.",
+          "tours": [
+            {
+              "name": "Half-Day Trip to Montmorency Falls and Ste-Anne-de-Beaupré from Quebec city",
+              "url": "http://vi.me/Qj2Gj?pid=P00291237&mcid=42383&medium=link&campaign=Quebec",
+              "emoji": "💧"
+            }
+          ],
+          "image": "/images/Montmorency.jpg"
+        },
+        {
+          "id": "plains_of_abraham",
+          "name": "Plains of Abraham",
+          "coords": {
+            "lat": 46.8008,
+            "lng": -71.2225
+          },
+          "vibe": "A vast urban park where the 1759 battle decided New France's fate. Now joggers loop the Martello towers and cross-country skiers carve tracks in January snow.",
+          "tours": [
+            {
+              "name": "4 Hours Private Quebec City Guided Tour",
+              "url": "http://vi.me/xxfTq?pid=P00291237&mcid=42383&medium=link&campaign=Quebec",
+              "emoji": "🗺️"
+            }
+          ],
+          "image": "/images/Plains.jpg"
+        },
+        {
+          "id": "old_port_quebec",
+          "name": "Old Port of Quebec",
+          "coords": {
+            "lat": 46.8152,
+            "lng": -71.1981
+          },
+          "vibe": "Cobblestone wharves face the widening St. Lawrence where ocean freighters still pass. The farmers market opens at dawn, stacked with local cheese and cider.",
+          "tours": [
+            {
+              "name": "Old Québec & French Canada Private History Walking Tour",
+              "url": "http://vi.me/QRZX2?pid=P00291237&mcid=42383&medium=link&campaign=Quebec",
+              "emoji": "⚓"
+            }
+          ],
+          "image": "/images/OldPort.jpg"
+        }
+      ]
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "emoji": "🌉",
+      "tagline": "Fog, hills, and fearless reinvention",
+      "coords": {
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "zoom": 13,
+      "color": "#e63946",
+
+      "locations": [
+        {
+          "id": "golden_gate_bridge",
+          "name": "Golden Gate Bridge",
+          "coords": {
+            "lat": 37.8199,
+            "lng": -122.4783
+          },
+          "vibe": "Rust-red towers rise through rolling fog above the mouth of the bay. Walk the 1.7-mile span at sunrise and watch the Pacific swallow the mist below your feet.",
+          "tours": [
+            {
+              "name": "San Francisco Bay Sunset & City Lights Cruise",
+              "url": "http://vi.me/D3mO1?pid=P00291237&mcid=42383&medium=link&campaign=SanFrancisco",
+              "emoji": "🌅"
+            }
+          ],
+          "image": "/images/Golden.jpg",
+          "imagePosition": "center 70%"
+        },
+        {
+          "id": "alcatraz_island",
+          "name": "Alcatraz Island",
+          "coords": {
+            "lat": 37.8267,
+            "lng": -122.4230
+          },
+          "vibe": "A cold ferry ride drops you on the Rock where Al Capone once stared at a city he couldn't reach. Audio tour voices of former inmates echo through the cellblock.",
+          "tours": [
+            {
+              "name": "San Francisco Alcatraz App Guided Tour with Cruise and Jail House",
+              "url": "http://vi.me/hWCiB?pid=P00291237&mcid=42383&medium=link&campaign=SanFrancisco",
+              "emoji": "🔒"
+            }
+          ],
+          "image": "/images/Alka.jpg"
+        },
+        {
+          "id": "fishermans_wharf",
+          "name": "Fisherman's Wharf",
+          "coords": {
+            "lat": 37.8080,
+            "lng": -122.4177
+          },
+          "vibe": "Sea lions bark and pile over each other on Pier 39 while sourdough bread bowls steam from sidewalk counters.",
+          "tours": [
+            {
+              "name": "San Francisco Whale Watching Cruise from Fisherman's Wharf",
+              "url": "http://vi.me/LXyLn?pid=P00291237&mcid=42383&medium=link&campaign=SanFrancisco",
+              "emoji": "🐋"
+            }
+          ],
+          "image": "/images/Fish.jpg",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "chinatown",
+          "name": "Chinatown",
+          "coords": {
+            "lat": 37.7941,
+            "lng": -122.4078
+          },
+          "vibe": "Dragon-crested gates open onto the oldest Chinatown in North America. Dim sum carts rattle through narrow alleys lined with herb shops and red paper lanterns.",
+          "tours": [
+            {
+              "name": "Chinatown Walking Tour: Food, History & Flavor",
+              "url": "http://vi.me/xLfz7?pid=P00291237&mcid=42383&medium=link&campaign=SanFrancisco",
+              "emoji": "🐉"
+            }
+          ],
+          "image": "/images/China.jpg",
+          "imageSize": "contain",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "painted_ladies",
+          "name": "Painted Ladies",
+          "coords": {
+            "lat": 37.7762,
+            "lng": -122.4328
+          },
+          "vibe": "A row of pastel Victorians faces Alamo Square with the downtown skyline stacked behind them. The contrast between old gingerbread trim and glass towers never gets old.",
+          "tours": [
+            {
+              "name": "Painted Ladies San Francisco City Tour",
+              "url": "http://vi.me/zmk0L?pid=P00291237&mcid=42383&medium=link&campaign=SanFrancisco",
+              "emoji": "🏘️"
+            }
+          ],
+          "image": "/images/Paint.jpg",
+          "imagePosition": "center 65%"
+        }
+      ]
+    },
+    {
+      "id": "jackson",
+      "name": "Jackson",
+      "emoji": "🏔️",
+      "tagline": "Gateway to the Tetons and Yellowstone",
+      "coords": {
+        "lat": 43.4799,
+        "lng": -110.7624
+      },
+      "zoom": 10,
+      "color": "#2d6a4f",
+
+      "locations": [
+        {
+          "id": "grand_teton",
+          "name": "Grand Teton National Park",
+          "coords": {
+            "lat": 43.7904,
+            "lng": -110.6818
+          },
+          "vibe": "The Tetons shoot straight up from the valley floor with no foothills to ease the blow. Moose wade through morning fog at their base like they own the place.",
+          "tours": [
+            {
+              "name": "Grand Teton Half Day Tour",
+              "url": "http://vi.me/Xauow?pid=P00291237&mcid=42383&medium=link&campaign=Jackson",
+              "emoji": "🏔️"
+            }
+          ],
+          "image": "/images/teton.jpg"
+        },
+        {
+          "id": "yellowstone",
+          "name": "Yellowstone National Park",
+          "coords": {
+            "lat": 44.4605,
+            "lng": -110.8282
+          },
+          "vibe": "Geysers erupt on schedule while bison cross steaming thermal fields a few hundred yards away. Yellowstone National Park is the flagship of the National Park Service and a favorite to millions of visitors each year.",
+          "tours": [
+            {
+              "name": "From Jackson Hole: Yellowstone Old Faithful, Waterfalls and Wildlife Day Tour",
+              "url": "http://vi.me/1sxdY?pid=P00291237&mcid=42383&medium=link&campaign=Jackson",
+              "emoji": "🌋"
+            }
+          ],
+          "image": "/images/Oldfaith.jpg",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "jackson_town_square",
+          "name": "Jackson Town Square",
+          "coords": {
+            "lat": 43.4799,
+            "lng": -110.7624
+          },
+          "vibe": "Four arches made entirely of elk antlers mark each corner of the square. Boardwalk storefronts and saloon doors give this ski town its frontier-era swagger.",
+          "tours": [
+            {
+              "name": "Door2Door E-Bike delivery-Ride the most scenic routes in Jackson Hole and GTNP",
+              "url": "http://vi.me/bb5uj?pid=P00291237&mcid=42383&medium=link&campaign=Jackson",
+              "emoji": "🚲"
+            }
+          ],
+          "image": "/images/Square.jpg",
+          "imagePosition": "center 80%"
+        },
+        {
+          "id": "snake_river",
+          "name": "Snake River",
+          "coords": {
+            "lat": 43.5510,
+            "lng": -110.8560
+          },
+          "vibe": "A float trip down the Snake drifts you past bald eagles perched in cottonwoods with the Tetons filling the horizon.",
+          "tours": [
+            {
+              "name": "Snake River Scenic Float Trip with Teton Views in Jackson Hole",
+              "url": "http://vi.me/HhC54?pid=P00291237&mcid=42383&medium=link&campaign=Jackson",
+              "emoji": "🛶"
+            }
+          ],
+          "image": "/images/Snake.jpg",
+          "imagePosition": "center 55%"
+        },
+        {
+          "id": "national_elk_refuge",
+          "name": "National Elk Refuge",
+          "coords": {
+            "lat": 43.4976,
+            "lng": -110.7285
+          },
+          "vibe": "Thousands of elk gather on frozen meadows each winter just north of town. Horse-drawn sleigh rides cut through the herd close enough to hear them breathe.",
+          "tours": [
+            {
+              "name": "3-Hours Private Tour Grand Teton National Park & Jackson Hole",
+              "url": "http://vi.me/Z1JwK?pid=P00291237&mcid=42383&medium=link&campaign=Jackson",
+              "emoji": "🦌"
+            }
+          ],
+          "image": "/images/Elk.jpg",
+          "imagePosition": "center 60%"
+        }
+      ]
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "emoji": "🇮🇳",
+      "tagline": "City of dreams on the Arabian Sea",
+      "coords": {
+        "lat": 19.0760,
+        "lng": 72.8777
+      },
+      "zoom": 12,
+      "color": "#ff6f00",
+
+      "locations": [
+        {
+          "id": "gateway_of_india",
+          "name": "Gateway of India",
+          "coords": {
+            "lat": 18.9220,
+            "lng": 72.8347
+          },
+          "vibe": "A 26-meter basalt arch stands where British ships once docked on the waterfront. Pigeons scatter as fishing boats and ferries churn the Arabian Sea behind it.",
+          "tours": [
+            {
+              "name": "Mumbai City of Dreams In Private Vehicle",
+              "url": "http://vi.me/fpYvc?pid=P00291237&mcid=42383&medium=link&campaign=Mumbai",
+              "emoji": "🚗"
+            }
+          ],
+          "image": "/images/Gate.jpg",
+          "imagePosition": "center 80%"
+        },
+        {
+          "id": "cst_terminus",
+          "name": "Chhatrapati Shivaji Maharaj Terminus",
+          "coords": {
+            "lat": 18.9398,
+            "lng": 72.8355
+          },
+          "vibe": "Known for its stunning blend of Gothic Revival and Indian architectural styles, featuring a central dome, stained glass windows, and ornamental ironwork. One of India's busiest railway stations, it supports millions of passengers and over 500 trains daily.",
+          "tours": [
+            {
+              "name": "Mumbai Highlight : Exclusive Private Luxury Sightseeing Tour",
+              "url": "http://vi.me/O9QNi?pid=P00291237&mcid=42383&medium=link&campaign=Mumbai",
+              "emoji": "🚂"
+            }
+          ],
+          "image": "/images/Mum.jpg"
+        },
+        {
+          "id": "marine_drive",
+          "name": "Marine Drive",
+          "coords": {
+            "lat": 18.9432,
+            "lng": 72.8235
+          },
+          "vibe": "A sweeping arc of Art Deco buildings traces the shoreline from Nariman Point to Malabar Hill. After dark the streetlights curve into what locals call the Queen's Necklace.",
+          "tours": [
+            {
+              "name": "Mumbai Shore Excursions Tour in Private Vehicle",
+              "url": "http://vi.me/EWmOL?pid=P00291237&mcid=42383&medium=link&campaign=Mumbai",
+              "emoji": "🌊"
+            }
+          ],
+          "image": "/images/Marine.jpg"
+        },
+        {
+          "id": "elephanta_caves",
+          "name": "Elephanta Caves",
+          "coords": {
+            "lat": 18.9633,
+            "lng": 72.9315
+          },
+          "vibe": "A one-hour ferry crosses the harbor to rock-cut temples carved into a forested island. The three-faced Shiva sculpture inside dates to the 5th century and still stuns.",
+          "tours": [
+            {
+              "name": "Elephanta caves by Premium Speedboat",
+              "url": "http://vi.me/QZDgt?pid=P00291237&mcid=42383&medium=link&campaign=Mumbai",
+              "emoji": "🛥️"
+            }
+          ],
+          "image": "/images/Elep.jpg"
+        },
+        {
+          "id": "dhobi_ghat",
+          "name": "Dhobi Ghat",
+          "coords": {
+            "lat": 18.9810,
+            "lng": 72.8264
+          },
+          "vibe": "Hundreds of open-air concrete wash pens stretch across an entire city block. Families have hand-washed Mumbai's laundry here for over 150 years. A living, working landmark.",
+          "tours": [
+            {
+              "name": "Dharavi Slum Tour with Dhobi Ghat Laundry and Flower Markets",
+              "url": "http://vi.me/a8aku?pid=P00291237&mcid=42383&medium=link&campaign=Mumbai",
+              "emoji": "👕"
+            }
+          ],
+          "image": "/images/Dho.jpg"
+        }
+      ]
+    }
+  ]
+}

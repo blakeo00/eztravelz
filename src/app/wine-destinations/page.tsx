@@ -9,7 +9,31 @@ import BendBreweriesGuide from "@/components/BendBreweriesGuide";
 
 export const metadata: Metadata = {
     title: "Wine & Brewery Destinations — EZtravelZ",
-    description: "Explore the world's most breathtaking wine regions and craft breweries. From Napa Valley to local taprooms, discover curated guides for the tasting traveler.",
+    description: "Explore the world's most breathtaking wine regions and craft breweries. From Oregon's Willamette Valley to Bend's thriving taproom scene — curated guides for the tasting traveler.",
+    alternates: {
+        canonical: "https://eztravelz.com/wine-destinations",
+    },
+    openGraph: {
+        type: "website",
+        url: "https://eztravelz.com/wine-destinations",
+        siteName: "EZtravelZ",
+        title: "Wine & Brewery Destinations — EZtravelZ",
+        description: "Explore breathtaking wine regions and craft breweries. Oregon's Willamette Valley, Bend taprooms, Napa Valley, and beyond.",
+        images: [
+            {
+                url: "https://eztravelz.com/images/Willamette.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Oregon's Willamette Valley wine country",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Wine & Brewery Destinations — EZtravelZ",
+        description: "Willamette Valley, Bend breweries, Napa and more. Curated tasting travel guides from EZtravelZ.",
+        images: ["https://eztravelz.com/images/Willamette.jpg"],
+    },
 };
 
 export default function WineDestinationsPage() {

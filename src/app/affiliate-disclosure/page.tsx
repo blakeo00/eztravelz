@@ -7,6 +7,9 @@ export const metadata: Metadata = {
     title: "Affiliate Disclosure — EZtravelZ",
     description:
         "Learn about EZtravelZ's affiliate partnerships and how we fund free, high-quality travel guides.",
+    alternates: {
+        canonical: "https://eztravelz.com/affiliate-disclosure",
+    },
 };
 
 export default function AffiliateDisclosurePage() {
@@ -15,7 +18,7 @@ export default function AffiliateDisclosurePage() {
             <Header />
             <main className="min-h-screen bg-[#fff0d4]">
                 {/* Hero Banner */}
-                <section className="relative bg-[#37507a] text-[#fff0d4] py-20 sm:py-28 border-b-4 border-amber-500/20">
+                <section className="relative bg-[#37507a] text-[#fff0d4] py-20 sm:py-28 border-b-4 border-[#38bdf8]/30">
                     <div className="absolute inset-0 bg-black/10" />
                     <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                         <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-4">
@@ -32,7 +35,7 @@ export default function AffiliateDisclosurePage() {
                     <div className="bg-[#37507a] backdrop-blur-md rounded-3xl shadow-xl p-8 sm:p-12 space-y-8 text-[#fff0d4] leading-relaxed border-2 border-white/10">
                         {/* Intro */}
                         <p className="text-lg text-white">
-                            <strong className="text-amber-400">Transparency is important to us.</strong>{" "}
+                            <strong className="text-[#38bdf8]">Transparency is important to us.</strong>{" "}
                             EZtravelZ.com is a participant in various affiliate
                             marketing programs. This means that when you click on
                             links to various merchants on this site and make a
@@ -41,7 +44,7 @@ export default function AffiliateDisclosurePage() {
                         </p>
 
                         {/* Programs */}
-                        <div className="border-l-4 border-amber-400 pl-6 bg-white/5 rounded-r-2xl py-6 pr-6">
+                        <div className="border-l-4 border-[#38bdf8] pl-6 bg-white/5 rounded-r-2xl py-6 pr-6">
                             <h2 className="text-xl font-bold text-white mb-3">
                                 Our Affiliate Programs
                             </h2>
@@ -51,18 +54,22 @@ export default function AffiliateDisclosurePage() {
                             </p>
                             <ul className="mt-4 space-y-3">
                                 {[
-                                    "Travelpayouts",
-                                    "Stay22",
-                                    "Amazon Services LLC Associates Program",
-                                    "Various booking platforms",
+                                    { name: "Stay22", desc: "Hotel & accommodation search and booking" },
+                                    { name: "Expedia", desc: "Hotels, flights, car rentals, and vacation packages" },
+                                    { name: "Ticketmaster", desc: "Live events, concerts, and sports tickets" },
+                                    { name: "US Ghost Adventures", desc: "Haunted tours and paranormal travel experiences" },
+                                    { name: "Viator", desc: "Tours, experiences, and activities worldwide" },
+                                    { name: "GetYourGuide", desc: "Day trips, guided tours, and local experiences" },
+                                    { name: "Amazon Services LLC Associates Program", desc: "Travel gear, accessories, and essentials" },
                                 ].map((program) => (
                                     <li
-                                        key={program}
-                                        className="flex items-center gap-3"
+                                        key={program.name}
+                                        className="flex items-start gap-3"
                                     >
-                                        <span className="w-2 h-2 rounded-full bg-amber-400 shrink-0" />
-                                        <span className="font-medium text-white shadow-sm">
-                                            {program}
+                                        <span className="w-2 h-2 rounded-full bg-[#38bdf8] shrink-0 mt-2" />
+                                        <span>
+                                            <span className="font-bold text-white">{program.name}</span>
+                                            <span className="text-white/70 text-sm block">{program.desc}</span>
                                         </span>
                                     </li>
                                 ))}
@@ -83,12 +90,12 @@ export default function AffiliateDisclosurePage() {
                             <p className="text-white/80">
                                 If you have any questions regarding our affiliate
                                 partnerships, please{" "}
-                                <Link
-                                    href="/#contact"
-                                    className="text-amber-400 font-bold underline underline-offset-4 hover:text-amber-300 transition-colors"
+                                <a
+                                    href="mailto:info@eztravelz.com"
+                                    className="text-[#38bdf8] font-bold underline underline-offset-4 hover:text-white transition-colors"
                                 >
                                     contact us
-                                </Link>
+                                </a>
                                 .
                             </p>
                         </div>

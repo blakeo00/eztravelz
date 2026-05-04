@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import Image from 'next/image';
+import WorldCupGuide from "@/components/WorldCupGuide";
 
 export interface BlogPost {
     slug: string;
@@ -9,7 +10,13 @@ export interface BlogPost {
     categorySlug: string;
     date: string;
     image: string;
+    /** First meaningful body image — shown on the homepage Current Guides card.
+     *  Update this when the article's featured image changes. */
+    cardImage: string;
     alt: string;
+    /** Optional href override — use when the article lives at a custom route
+     *  that doesn't match /{categorySlug}/{slug}. */
+    href?: string;
     content: () => ReactNode;
 }
 
@@ -20,13 +27,39 @@ export interface BlogPost {
  */
 export const posts: BlogPost[] = [
     {
+        slug: "world-cup-2026-travel-guide",
+        title: "The World Is Coming To Your Backyard: A Guide To The 2026 FIFA World Cup",
+        excerpt: "June 11 to July 19, 2026. Forty-eight teams. One hundred and four matches. Three countries. This is the complete fan's travel guide to Mexico City, Miami, and New York — from the opening whistle at Estadio Azteca to the Final at MetLife Stadium.",
+        category: "Sports Travel",
+        categorySlug: "sports-travel",
+        date: "2026-04-12",
+        image: "https://images.unsplash.com/photo-1551958219-acbc5f4e2563?q=80&w=2070&auto=format&fit=crop",
+        cardImage: "/images/Metlife2.jpg",
+        alt: "Aerial view of a packed football stadium at night with floodlights blazing",
+        content: worldCup2026Content,
+    },
+    {
+        slug: "paris-unusual-dining-experiences",
+        title: "Six Unusual but Unusually Fabulous Dining Experiences in Paris That Go Way Beyond the Brasserie",
+        excerpt: "From dining in total darkness to a speakeasy hidden behind a functioning laundromat — six Paris dining experiences that locals love and most tourists almost never find.",
+        category: "Culinary Quests",
+        categorySlug: "culinary-quests",
+        date: "2026-04-10",
+        image: "/images/Parisday.jpg",
+        cardImage: "/images/Paris.jpg",
+        alt: "A daytime view of Paris with the Eiffel Tower in the distance",
+        content: parisDiningContent,
+    },
+    {
         slug: "vegas-locals-guide",
         title: "Six Haunted Hotspots in Las Vegas Worth Losing Sleep Over",
         excerpt: "Las Vegas has been burying its history under neon since 1905. The mob. The fires. The deaths that never made headlines. These are the six haunted locations the locals know about and the tour buses mostly miss.",
         category: "Vegas Baby",
         categorySlug: "vegas-locals",
+        href: "/vegas-locals/vegas-locals-guide",
         date: "2026-03-22",
         image: "/images/Vegas Strip.png",
+        cardImage: "/images/Zak.jpg",
         alt: "Vegas Strip at Night",
         content: vegasBabyContent,
     },
@@ -38,6 +71,7 @@ export const posts: BlogPost[] = [
         categorySlug: "culinary-quests",
         date: "2026-03-01",
         image: "https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?q=80&w=2070&auto=format&fit=crop",
+        cardImage: "/images/BBQ.png",
         alt: "Smoked brisket sliced on butcher paper with a dark peppery bark",
         content: texasBbqContent,
     },
@@ -49,6 +83,7 @@ export const posts: BlogPost[] = [
         categorySlug: "wine-destinations",
         date: "2026-03-01",
         image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=2070&auto=format&fit=crop",
+        cardImage: "/images/Napa.png",
         alt: "Rows of aged wine barrels in a dimly lit stone cellar",
         content: prohibitionWineContent,
     },
@@ -60,6 +95,7 @@ export const posts: BlogPost[] = [
         categorySlug: "sports-travel",
         date: "2026-03-01",
         image: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?q=80&w=2070&auto=format&fit=crop",
+        cardImage: "/images/Lambeau.png",
         alt: "A packed football stadium under dramatic lights on a crisp game night",
         content: lambeauFieldContent,
     },
@@ -71,6 +107,7 @@ export const posts: BlogPost[] = [
         categorySlug: "cinematic-travel",
         date: "2026-03-01",
         image: "/images/Stanley Hotel 2.png",
+        cardImage: "/images/Stanley Hotel 3.jpg",
         alt: "A dramatic film reel and movie theater corridor with moody cinematic lighting",
         content: reelRoadsContent,
     },
@@ -82,6 +119,7 @@ export const posts: BlogPost[] = [
         categorySlug: "haunted-tours",
         date: "2026-03-01",
         image: "/images/Stanley Hotel.png",
+        cardImage: "/images/Stanley Hotel.png",
         alt: "The historic Stanley Hotel in Estes Park, Colorado",
         content: stanleyHotelContent,
     },
@@ -93,6 +131,7 @@ export const posts: BlogPost[] = [
         categorySlug: "pet-travel",
         date: "2026-03-01",
         image: "/images/Dog on vacation.png",
+        cardImage: "/images/Pet Airport.png",
         alt: "A happy dog on vacation looking out a car window",
         content: pawsAndAwayContent,
     },
@@ -104,8 +143,21 @@ export const posts: BlogPost[] = [
         categorySlug: "beyond-the-neon",
         date: "2024-05-15",
         image: "/images/Ranch 7.jpg",
+        cardImage: "/images/Ranch 5.jpg",
         alt: "Picnic area and family-oriented ranch scene",
         content: springMountainRanchContent,
+    },
+    {
+        slug: "six-free-things",
+        title: "Six or More Free (Or Nearly Free) Things to Do in Las Vegas, That You Need to Know!",
+        excerpt: "From a working orchard with peacocks across the street to the oldest building in Nevada and a canopy of a million lights — six Las Vegas experiences that cost almost nothing and deliver everything.",
+        category: "Beyond the Neon",
+        categorySlug: "beyond-the-neon",
+        date: "2026-04-01",
+        image: "/images/Downtown.jpg",
+        cardImage: "/images/Viva.jpg",
+        alt: "Fremont Street Experience Viva Vision canopy at night",
+        content: sixFreeThingsContent,
     },
 ];
 
@@ -118,6 +170,10 @@ export function getCategories(): string[] {
 }
 
 
+function sixFreeThingsContent(): ReactNode {
+    // Full article lives at /beyond-the-neon/six-free-things
+    return null;
+}
 
 function pawsAndAwayContent(): ReactNode {
     return (
@@ -3440,3 +3496,298 @@ function vegasBabyContent(): ReactNode {
         </>
     );
 }
+
+function worldCup2026Content(): ReactNode {
+    // Renders the full WorldCupGuide component — all images, Ticketmaster
+    // banners, Amazon product cards, hotel links, and tour CTAs are defined
+    // inside WorldCupGuide.tsx and are preserved exactly as finished.
+    return <WorldCupGuide />;
+}
+
+
+function parisDiningContent(): ReactNode {
+    return (
+        <div className="prose max-w-none prose-headings:text-[#fff0d4] prose-headings:font-bold prose-p:text-slate-100 prose-a:text-[#38bdf8] hover:prose-a:text-white prose-a:underline prose-strong:text-white prose-p:leading-relaxed prose-li:text-slate-100 prose-hr:border-slate-600">
+
+            <h2 className="text-3xl md:text-4xl font-extrabold text-[#fff0d4] leading-tight mb-4 mt-0">
+                Six Unusual but Unusually Fabulous Dining Experiences in Paris That Go Way Beyond the Brasserie
+            </h2>
+
+            <p className="text-sm text-white/60 font-medium uppercase tracking-wide">Paris, France · City Dining · Six Places Worth Knowing</p>
+
+
+            <p>Paris is the city of light, and it shines most brightly through the accumulated weight of what it has built, celebrated, and refused to tear down. The Eiffel Tower, which Parisians famously hated when it went up in 1889, now defines the city's silhouette and draws seven million visitors a year to its iron lattice. Notre-Dame Cathedral reopened in December 2024 after five years of painstaking restoration following its devastating 2019 fire — more beautiful and more visited than ever. The Louvre, the world's largest art museum, holds 35,000 works including the Mona Lisa, the Venus de Milo, and the Winged Victory of Samothrace. Montmartre sits on the highest hill in the city, topped by the white domes of Sacré-Coeur, its steep cobblestone streets still carrying the energy of the painters and writers who made this neighborhood the artistic center of the world at the turn of the last century.</p>
+
+            <p>All of this exists before you eat a single thing. But in Paris, food is not separate from the culture. It is the culture.</p>
+
+            <div className="my-8 rounded-xl overflow-hidden">
+                <Image src="/images/Louvre.jpg" alt="The Louvre Museum courtyard with the iconic glass pyramid" width={1200} height={600} className="w-full object-cover" />
+            </div>
+
+            <div className="bg-slate-800/50 p-6 rounded-xl my-8 border border-slate-700">
+                <h3 className="text-[#fff0d4] font-bold mb-3 mt-0">Book Paris Landmark Tours</h3>
+                <p className="text-slate-200 mb-4">The sights above are best experienced with a guide who knows where to stand, what to skip, and what most visitors walk straight past.</p>
+                <ul className="list-none p-0 m-0 space-y-2">
+                    <li>🗼 <a href="https://www.viator.com/tours/Paris/Eiffel-Tower-with-Summit-Access-and-2nd-Floor-Guided-Tour-Options/d479-21175P179?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Eiffel Tower Guided Tour Access by Elevator 2nd Floor and Summit →</a></li>
+                    <li>⛪ <a href="https://www.viator.com/tours/Paris/Skip-the-Line-Notre-Dame-Cathedral-Tower-and-Ile-de-la-Cite-Half-Day-Walking-Tour/d479-3731NOTREDAME?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Paris" target="_blank" rel="sponsored noopener noreferrer">Notre-Dame Cathedral: Guided Tour with Tower Access →</a></li>
+                    <li>🖼️ <a href="https://www.viator.com/tours/Paris/Skip-the-Line-Louvre-Museum-Walking-Tour-including-Venus-de-Milo-and-Mona-Lisa/d479-3731LOUVRE?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Paris" target="_blank" rel="sponsored noopener noreferrer">The Louvre: Skip-the-Line Guided Tour with Entry →</a></li>
+                    <li>🎨 <a href="https://www.viator.com/tours/Paris/Skip-the-line-Semi-Private-Guided-Tour-Louvre-and-Orsay-Museums/d479-6353ORSAYLOUVRE?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Paris" target="_blank" rel="sponsored noopener noreferrer">Louvre and Musée d'Orsay: Combined Small-Group Tour →</a></li>
+                    <li>🏰 <a href="https://www.viator.com/tours/Versailles/Versailles-Palace-and-Marie-Antoinettes-Estate-with-Expert-Guide/d763-8954P43?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Skip the Line Versailles Palace, Gardens, Marie Antoinette Estate →</a></li>
+                    <li>🎭 <a href="https://www.viator.com/tours/Paris/Private-Montmartre-Walking-Tour-Best-Art-Culture-Food/d479-47475P17?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Paris Montmartre Private Walking Tour - Best Art, Culture, Food →</a></li>
+                    <li>🚢 <a href="https://www.viator.com/tours/Paris/Aperitif-Cruise-on-the-Seine-River/d479-9511P47?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Seine River Sunset Cruise with Champagne →</a></li>
+                    <li>🗺️ <a href="https://www.viator.com/tours/Paris/Paris-in-a-Day-Tour-with-Louvre-Notre-Dame-Eiffel-Tower-and-Montmartre/d479-67584P11?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Paris" target="_blank" rel="sponsored noopener noreferrer">Paris Full-Day Tour: Eiffel Tower, Notre-Dame, Louvre and Montmartre →</a></li>
+                </ul>
+            </div>
+
+            <p>The brasseries, the markets, the Sunday lunches that last four hours by design — Paris doesn't need unusual dining to be worth visiting. But the city also has a parallel dining life, one that operates in total darkness, behind functioning laundromats, inside Neoclassical church basements, and on the iron latticework of the world's most famous tower. These are not gimmicks dressed up as restaurants. Each of the six places below is genuinely worth going to, for reasons that hold up long after the novelty has faded.</p>
+
+            <hr />
+
+            <h2>1. Dans le Noir: Dinner Without Light</h2>
+            <p className="text-white/60 text-sm"><strong>Le Marais, 4th Arrondissement · Evening Experience · 51 Rue Quincampoix</strong></p>
+
+            <p>Paris is full of candlelit bistros and grand Michelin temples, yet one of the city's most unusual meals happens where you cannot see a single thing on your plate. At Dans le Noir, a pioneering restaurant in the Marais, guests step into complete darkness and let their other senses take control while visually impaired servers guide every moment of the evening.</p>
+
+            <p>The concept is simple and genuinely radical. You leave your phone and all light sources in a locker, choose a surprise menu category in a softly lit lounge, then follow your server in a single file line into a pitch black dining room where you cannot even see your own hand. The room seats around sixty guests at once, and every server is blind or visually impaired. They navigate the space with the ease of people who have built an entirely different map of the world.</p>
+
+            <p>When sight disappears, your brain leans heavily on smell, texture, and sound. The kitchen sends out seasonal surprise menus — because you cannot see the food, you eat more slowly, paying attention to each bite. Many diners report that they can suddenly distinguish subtle herbs, different textures of vegetables, or the richness of a sauce more clearly than in any normal restaurant.</p>
+
+            <p>Dans le Noir first opened in Paris in the early 2000s and has been running for more than twenty years, inspiring sister locations in several countries. Centrally located near the Rambuteau métro stop. Reservations strongly recommended, especially on weekends.</p>
+
+            <p><a href="https://www.danslenoir.com/paris/" target="_blank" rel="noopener noreferrer">→ Book a Table at Dans le Noir</a></p>
+
+            <h4>🏨 Nearby Hotels</h4>
+            <ul>
+                <li><a href="https://expedia.stay22.com/eztravelz/P2ZMMeE2Dn" target="_blank" rel="sponsored noopener noreferrer">Hotel Le Grand Mazarin</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/osq1F0KqlG" target="_blank" rel="sponsored noopener noreferrer">Pavillon de la Reine &amp; Spa, Place des Vosges</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/7kmTXmIHIj" target="_blank" rel="sponsored noopener noreferrer">Hôtel du Petit Moulin, Haute Couture hotel by Lacroix</a></li>
+            </ul>
+
+            <h4>🍽️ Nearby Tours and Experiences</h4>
+            <ul>
+                <li><a href="https://www.viator.com/Paris-tours/Food-Tours/d479-g6?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Paris" target="_blank" rel="sponsored noopener noreferrer">Paris: Le Marais Neighborhood Food Tour →</a></li>
+                <li><a href="https://www.viator.com/tours/Paris/Catacombs-of-Paris-Small-Group-Walking-Tour/d479-3731CATACOMBS?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Paris Catacombs Tour with VIP Access to Restricted Areas →</a></li>
+            </ul>
+
+            <hr />
+
+            <h2>2. Madame Brasserie: Lunch at 57 Meters Above Paris</h2>
+            <p className="text-white/60 text-sm"><strong>Eiffel Tower, 7th Arrondissement · Lunch and Dinner · First Floor, Tour Eiffel</strong></p>
+
+            <p>Most people visit the Eiffel Tower as a viewing experience. The smaller group who eat there understand something the others are missing. Madame Brasserie occupies the entire first floor of the tower, 57 meters above the Champ de Mars, with floor-to-ceiling windows on every side and a glass floor section beneath your feet.</p>
+
+            <p>The restaurant is run by Thierry Marx, one of France's most respected chefs, who has built his menu around seasonal, locally sourced French brasserie cooking. This is not the kind of tower restaurant where the view exists to distract from mediocre food. The dishes are genuinely well executed, the wine list is thoughtful, and the service is warm without being formal.</p>
+
+            <p>You must arrive at the tower 30 minutes before your reservation. Window tables are coveted, and the view from them at sunset, looking out over the Seine toward Sacré-Coeur, is an experience that most photographs fail to adequately convey. This is the experience to book when someone in your group is visiting Paris for what they suspect might be the only time in their life.</p>
+
+            <p><a href="https://booking.madamebrasserie.com/en" target="_blank" rel="noopener noreferrer">→ Reserve at Madame Brasserie</a></p>
+
+            <figure className="my-6 rounded-xl overflow-hidden">
+                <Image src="/images/MadameBrasserie_fish.jpg" alt="Seasonal fish with herb sauce served 57 metres above Paris at Madame Brasserie" width={1200} height={700} className="w-full object-cover rounded-xl" />
+                <figcaption className="text-center text-sm text-white/60 italic mt-2">Seasonal fish with herb sauce, 57 metres above Paris — Madame Brasserie, Eiffel Tower</figcaption>
+            </figure>
+
+            <div className="flex gap-6 items-start my-4">
+                <div className="flex-1">
+                    <h4>🏨 Nearby Hotels</h4>
+                    <ul>
+                        <li><a href="https://expedia.stay22.com/eztravelz/ex5bPZeF4N" target="_blank" rel="sponsored noopener noreferrer">Hôtel de Lutèce — Notre-Dame</a></li>
+                        <li><a href="https://expedia.stay22.com/eztravelz/A-FLJsT8tX" target="_blank" rel="sponsored noopener noreferrer">Le Narcisse Blanc &amp; Spa</a></li>
+                        <li><a href="https://expedia.stay22.com/eztravelz/2LcSyZdk3r" target="_blank" rel="sponsored noopener noreferrer">Hôtel Le Derby Alma</a></li>
+                    </ul>
+
+                    <h4>🍽️ Nearby Tours and Experiences</h4>
+                    <ul>
+                        <li><a href="https://www.viator.com/tours/Paris/Early-evening-dinner-at-Madame-Brasserie-Eiffel-Tower-Restaurant/d479-9819P6?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Paris Early Evening Dinner at Eiffel Tower's Madame Brasserie →</a></li>
+                        <li><a href="https://www.viator.com/tours/Paris/1-Hour-Paris-Illuminated-Evening-Sightseeing-Cruise/d479-461245P321?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">One Hour Paris Illuminated Evening Sightseeing Cruise →</a></li>
+                    </ul>
+                </div>
+                <div className="w-64 flex-shrink-0 rounded-xl overflow-hidden">
+                    <Image src="/images/Eiffel.jpg" alt="The Eiffel Tower rising above Paris at dusk" width={400} height={500} className="w-full object-cover rounded-xl" />
+                </div>
+            </div>
+
+
+            <hr />
+
+            <h2>3. Lavomatic: The Speakeasy Behind the Washing Machines</h2>
+            <p className="text-white/60 text-sm"><strong>République, 10th Arrondissement · Evening Bar · 30 Rue René Boulanger</strong></p>
+
+            <p>Paris has a long tradition of hidden bars — those unmarked doors and unmarked staircases that reward the curious and frustrate the impatient. Lavomatic is the most committed version of this idea in the city. From the street, it is a functioning laundromat. Washing machines, tumble dryers, detergent pods on a shelf. Nothing about the exterior suggests there is anywhere to go or anyone inside worth meeting.</p>
+
+            <p>Hidden among the working machines is a camouflaged button. Press it and a staircase opens behind a false panel, leading up to a first-floor bar decorated like someone's extremely stylish Paris apartment — with swings instead of stools, bright Kilim cushions, neon-lit shelving, and a mixologist who treats every cocktail as an object worth spending real time on.</p>
+
+            <p>The atmosphere is lively without being loud. The crowd is young, local, and largely not the kind of people you will encounter at the large tourist-facing cocktail bars on the Champs-Élysées. On weekend evenings a queue forms on the pavement outside the laundromat — twenty people standing outside a perfectly normal laundromat, pretending nothing unusual is about to happen. No reservations. Arrive early.</p>
+
+            <figure className="my-6 rounded-xl overflow-hidden">
+                <Image src="/images/Lavomatic_cocktail.jpg" alt="Signature handcrafted cocktail at Lavomatic speakeasy bar in Paris" width={1200} height={700} className="w-full object-cover rounded-xl" />
+                <figcaption className="text-center text-sm text-white/60 italic mt-2">Signature house cocktail — Lavomatic Speakeasy, République</figcaption>
+            </figure>
+
+            <h4>🏨 Nearby Hotels</h4>
+            <ul>
+                <li><a href="https://expedia.stay22.com/eztravelz/p5UDJBZSaO" target="_blank" rel="sponsored noopener noreferrer">Hotel Fabric</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/KEAKwtIbXG" target="_blank" rel="sponsored noopener noreferrer">Le Citizen Hôtel</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/XYtwdzneyG" target="_blank" rel="sponsored noopener noreferrer">Hôtel National Arts et Métiers</a></li>
+            </ul>
+
+            <h4>🍽️ Nearby Tours and Experiences</h4>
+            <ul>
+                <li><a href="https://www.viator.com/tours/Paris/Montmartre-Food-and-Wine-Tour/d479-26729P5?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Montmartre Hill French Gourmet Food and Wine Tasting Walking Tour →</a></li>
+                <li><a href="https://www.viator.com/tours/Paris/Giverny-and-Monet-Small-Group-Half-Day-Trip/d479-7249P8?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Half Day Trip with Monet's Gardens from Paris →</a></li>
+            </ul>
+
+            <hr />
+
+            <h2>4. Le Train Bleu: Grand Opera Inside a Train Station</h2>
+            <p className="text-white/60 text-sm"><strong>Gare de Lyon, 12th Arrondissement · Lunch and Dinner · Place Louis-Armand, Gare de Lyon</strong></p>
+
+            <div className="my-6 rounded-xl overflow-hidden">
+                <Image src="/images/LE2.jpg" alt="The opulent gilded interior of Le Train Bleu restaurant inside Gare de Lyon" width={1200} height={600} className="w-full object-cover" />
+            </div>
+
+            <p>Le Train Bleu is one of the most visually overwhelming dining rooms in France. It occupies the first floor of the Gare de Lyon, and the contrast between the bustling travel hall below and the gilded salon above it is one of the more remarkable transitions any restaurant in the world can offer.</p>
+
+            <p>The dining room opened in 1901 to coincide with the Universal Exhibition. Forty-one large painted murals cover the walls and ceilings, each depicting a scene from Provence, the French Riviera, Algeria, or the Alps. The ceilings are coffered and gilded. The chandeliers are enormous. The whole room hums with a grand, unapologetic sense of occasion.</p>
+
+            <p>The menu is classic French, with an emphasis on presentation and technical skill — scallops with truffle sauce, roasted pigeon, seasonal fish, proper soufflés. The genius of the location is that it functions beautifully as a last Paris meal before catching a TGV south, or as an arrival ritual for travelers who want to start their trip with something that tells them immediately that they are somewhere worth being.</p>
+
+            <p><a href="https://www.le-train-bleu.com/en/" target="_blank" rel="noopener noreferrer">→ Reserve at Le Train Bleu</a></p>
+
+            <figure className="my-6 rounded-xl overflow-hidden">
+                <Image src="/images/LeTrainBleu_scallops.jpg" alt="Seared scallops with black truffle sauce at Le Train Bleu restaurant, Gare de Lyon Paris" width={1200} height={700} className="w-full object-cover rounded-xl" />
+                <figcaption className="text-center text-sm text-white/60 italic mt-2">Seared scallops with black truffle sauce — Le Train Bleu, Gare de Lyon</figcaption>
+            </figure>
+
+            <h4>🏨 Nearby Hotels</h4>
+            <ul>
+                <li><a href="https://expedia.stay22.com/eztravelz/Iar3EoygQO" target="_blank" rel="sponsored noopener noreferrer">Maison Bréguet</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/J6Dd4IGV57" target="_blank" rel="sponsored noopener noreferrer">Hôtel Jacques de Molay</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/p5UDJBZSaO" target="_blank" rel="sponsored noopener noreferrer">Hotel Fabric</a></li>
+            </ul>
+
+            <h4>🍽️ Nearby Tours and Experiences</h4>
+            <ul>
+                <li><a href="https://www.viator.com/tours/Paris/Versailles-Bike-Tour-with-Market-Gardens-and-Guided-Palace-Tour/d479-64296P1?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Versailles Bike Tour with Market, Gardens &amp; Guided Palace Tour →</a></li>
+                <li><a href="https://www.viator.com/tours/Paris/Bistro-Style-Seine-River-Dinner-Cruise/d479-6557DINNERCRUISE?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Three Course Seine River Dinner Cruise →</a></li>
+            </ul>
+
+            <hr />
+
+            <h2>5. Foyer de la Madeleine: Lunch Inside a Church Basement</h2>
+            <p className="text-white/60 text-sm"><strong>Madeleine, 8th Arrondissement · Weekday Lunch Only · Place de la Madeleine</strong></p>
+
+            <p>This one requires a small act of faith — specifically, the act of walking past one of the grandest Neoclassical churches in Paris, finding the discreet side door, descending a narrow staircase, and discovering a vaulted underground canteen that serves a three-course lunch for around thirteen euros to whoever shows up.</p>
+
+            <p>The Foyer de la Madeleine is a community restaurant operated entirely by volunteers from the kitchen to the dining room. It is a non-profit. The proceeds go toward feeding people in need throughout the city. A day membership of four euros is required to eat here, and the brief bureaucracy of becoming a temporary member is part of what makes the whole experience feel unlike anywhere else in Paris.</p>
+
+            <p>The menu changes daily according to what the kitchen has available. The wine is priced so that drinking a carafe costs roughly what a glass would cost in the café around the corner. Open Monday through Friday for lunch only, 11:45 a.m. to 1:45 p.m. Walk-ins only.</p>
+
+            <figure className="my-6 rounded-xl overflow-hidden">
+                <Image src="/images/FoyerMadeleine_lunch.jpg" alt="Classic French three-course lunch at Foyer de la Madeleine, Paris" width={1200} height={700} className="w-full object-cover rounded-xl" />
+                <figcaption className="text-center text-sm text-white/60 italic mt-2">French onion soup, steak &amp; tarte Tatin — Foyer de la Madeleine, Place de la Madeleine</figcaption>
+            </figure>
+
+            <h4>🏨 Nearby Hotels</h4>
+            <ul>
+                <li><a href="https://expedia.stay22.com/eztravelz/OI19LnjUsG" target="_blank" rel="sponsored noopener noreferrer">Hôtel de Crillon</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/rGCOgEFYYf" target="_blank" rel="sponsored noopener noreferrer">Grand Pigalle Hotel</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/lp3xqC-Tlj" target="_blank" rel="sponsored noopener noreferrer">Hotel Bachaumont</a></li>
+            </ul>
+
+            <h4>🍽️ Nearby Tours and Experiences</h4>
+            <ul>
+                <li><a href="https://www.viator.com/tours/Paris/THE-Ultimate-Wine-and-Cheese-Tasting-10-cheeses-10-wines/d479-23034P4?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Ten Wines and Ten Cheeses Tasting in a Royal Cellar →</a></li>
+                <li><a href="https://www.viator.com/Paris-tours/Food-Tours/d479-g6?pid=P00291237&mcid=42383&medium=link&campaign=Blog-Paris" target="_blank" rel="sponsored noopener noreferrer">Paris Food Tour: Covered Passages and Hidden Markets →</a></li>
+            </ul>
+
+            <hr />
+
+            <h2>6. Bouillon Chartier: The Belle Époque Canteen That Never Changed</h2>
+            <p className="text-white/60 text-sm"><strong>Grands Boulevards, 9th Arrondissement · Open Daily 11:30 a.m. – Midnight · 7 Rue du Faubourg Montmartre</strong></p>
+
+            <p>Bouillon Chartier opened in 1896. The room it opened in is the same room you will eat in today. The waiters wear the same black waistcoat and white apron that waiters wore in 1896. They write your order on the paper tablecloth with a pen, and they add up your bill the same way at the end. Starters run from one euro. Main courses begin at seven. A full three-course dinner with wine for two people rarely exceeds forty euros, and it has been like this, more or less, for 130 years.</p>
+
+            <p>The dining room was classified as a historic monument in 1989. The ceiling is high and vaulted with skylights. The mirrors are large and slightly spotted with age. The brass railings and luggage racks that divide the seating areas are original. The whole room operates at a hum — loud and lively and completely without pretension.</p>
+
+            <p>The menu is classic French: egg mayonnaise, snails, leeks in vinaigrette, steak frites, rum baba, profiteroles with chocolate sauce and vanilla ice cream. Chartier does not take reservations. The line extends onto the street most evenings, but it moves quickly because the service is fast and the room is very large. Arrive before the dinner rush for a shorter wait.</p>
+
+            <figure className="my-6 rounded-xl overflow-hidden">
+                <Image src="/images/Chartier_steak_frites.jpg" alt="Classic entrecôte steak frites with béarnaise sauce at Bouillon Chartier, Paris" width={1200} height={700} className="w-full object-cover rounded-xl" />
+                <figcaption className="text-center text-sm text-white/60 italic mt-2">Entrecôte steak frites with béarnaise — Bouillon Chartier, Grands Boulevards</figcaption>
+            </figure>
+
+            <figure className="my-6 rounded-xl overflow-hidden">
+                <Image src="/images/Chartier_profiteroles.jpg" alt="Profiteroles with dark chocolate sauce and vanilla ice cream at Bouillon Chartier, Paris" width={1200} height={700} className="w-full object-cover rounded-xl" />
+                <figcaption className="text-center text-sm text-white/60 italic mt-2">Profiteroles with dark chocolate sauce and vanilla ice cream — Bouillon Chartier, Grands Boulevards</figcaption>
+            </figure>
+
+            <p><a href="https://www.bouillon-chartier.com/en/" target="_blank" rel="noopener noreferrer">→ View the Bouillon Chartier Menu</a></p>
+
+            <h4>🏨 Nearby Hotels</h4>
+            <ul>
+                <li><a href="https://expedia.stay22.com/eztravelz/QFcvEdajpv" target="_blank" rel="sponsored noopener noreferrer">Hotel Monsieur Aristide</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/HaAVKsWtRa" target="_blank" rel="sponsored noopener noreferrer">La Fantaisie</a></li>
+                <li><a href="https://expedia.stay22.com/eztravelz/rGCOgEFYYf" target="_blank" rel="sponsored noopener noreferrer">Grand Pigalle Hotel</a></li>
+            </ul>
+
+            <h4>🍽️ Nearby Tours and Experiences</h4>
+            <ul>
+                <li><a href="https://www.viator.com/tours/Paris/Private-Boat-Trip-on-the-Seine-in-Paris/d479-318691P2?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Top Private Cruises in Paris with French Champagne and surprises →</a></li>
+                <li><a href="https://www.viator.com/tours/Paris/Cheesemaking-workshop-and-wine-and-cheese-tasting-with-an-expert/d479-6838P5?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Butter and Cheesemaking Workshop with Wine and Cheese Tasting →</a></li>
+            </ul>
+
+            <hr />
+
+            <div className="my-8 rounded-xl overflow-hidden">
+                <Image src="/images/Bistro2.jpg" alt="A classic Parisian bistro street scene with café tables and wicker chairs" width={1200} height={600} className="w-full object-cover" />
+            </div>
+
+            <h2>Where to Eat When You Are Not Having an Experience</h2>
+
+            <p><strong>Marché d'Aligre</strong> (Place d'Aligre, 12th arrondissement) on a Saturday morning is not a meal but it is the start of one. The covered hall, the outdoor stalls, the cheese vendors, the wine merchants. Buy cheese, buy olives, buy a bottle of something local. Find a bench. This is what Paris tastes like before a restaurant gets involved.</p>
+
+            <p><strong>Le Baratin</strong> (3 Rue Jouye-Rouve, 20th arrondissement) is the kind of bistro that wine writers and food journalists quietly recommend to one another. Chef Raquel Carena has been cooking here since the 1980s, producing a short menu that changes with the market. Reservations essential.</p>
+
+            <p><strong>Chez Janou</strong> (2 Rue Roger Verlomme, 3rd arrondissement) sits on a corner in the Marais and has been serving Provençal food since anyone can remember. The pastis selection runs to nearly eighty varieties.</p>
+
+            <p><strong>L'Avant Comptoir</strong> (9 Carrefour de l'Odéon, 6th arrondissement) is a standing room only tapas bar in Saint-Germain. Chef Yves Camdeborde's small plates are some of the finest bar food in Paris — pig's trotter croquettes, duck heart skewers, oysters from Brittany. It is always crowded and it is always worth it.</p>
+
+            <hr />
+
+            <h2>Where to Stay</h2>
+
+            <p>Paris rewards staying in neighborhoods rather than landmarks. The best addresses are those that put you inside a genuine arrondissement, where the boulangerie knows the regulars by order and the café opens before the tourists arrive.</p>
+
+            <p><strong><a href="https://expedia.stay22.com/eztravelz/P2ZMMeE2Dn" target="_blank" rel="sponsored noopener noreferrer">Le Grand Mazarin</a></strong> (Le Marais, 3rd/4th arrondissement) is the finest boutique hotel in the Marais, occupying a 17th-century building with rooms in rich textures, a basement pool, a hammam, and a restaurant that locals visit independently of the hotel.</p>
+
+            <p><strong><a href="https://expedia.stay22.com/eztravelz/osq1F0KqlG" target="_blank" rel="sponsored noopener noreferrer">Pavillon de la Reine &amp; Spa</a></strong> (Le Marais, 3rd arrondissement) sits tucked into a corner of the Place des Vosges, Paris's oldest and most beautiful square, and is covered in ivy in summer.</p>
+
+            <p><strong><a href="https://expedia.stay22.com/eztravelz/7kmTXmIHIj" target="_blank" rel="sponsored noopener noreferrer">Hôtel du Petit Moulin</a></strong> (Le Marais, 3rd arrondissement) occupies a former boulangerie on a quiet Marais street with interiors by Christian Lacroix — vivid color and theatrical detail.</p>
+
+            <p><strong><a href="https://expedia.stay22.com/eztravelz/p5UDJBZSaO" target="_blank" rel="sponsored noopener noreferrer">Hotel Fabric</a></strong> (Canal Saint-Martin, 10th arrondissement) sits in a converted textile factory in the neighborhood where young Parisians actually spend their weekends.</p>
+
+            <p><strong><a href="https://expedia.stay22.com/eztravelz/ex5bPZeF4N" target="_blank" rel="sponsored noopener noreferrer">Hôtel de Lutèce</a></strong> (Île Saint-Louis, 4th arrondissement) is a quietly exceptional address on one of the most beautiful islands in Paris, between Notre-Dame and the Marais.</p>
+
+            <p><strong><a href="https://expedia.stay22.com/eztravelz/rGCOgEFYYf" target="_blank" rel="sponsored noopener noreferrer">Grand Pigalle Hotel</a></strong> (Pigalle, 9th arrondissement) offers 37 rooms in a retro-chic building where the restaurant serves Italian food until late. Rates meaningfully lower than comparable properties in Saint-Germain.</p>
+
+            <hr />
+
+            <div className="bg-slate-800/50 p-6 rounded-xl my-8 border border-slate-700 flex gap-6 items-center">
+                <div className="flex-1">
+                    <h3 className="text-[#fff0d4] font-bold mb-3 mt-0">Book Paris Tours and Experiences</h3>
+                    <ul className="list-none p-0 m-0 space-y-2">
+                        <li><a href="https://www.viator.com/tours/Paris/Seine-River-Cruise-Bateaux-Parisiens-Sightseeing-Cruise-with-Dinner-and-Live-Music/d479-5836DINNERCRUISE?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Bateaux Parisiens Seine River Gourmet Dinner &amp; Sightseeing Cruise →</a></li>
+                        <li><a href="https://www.viator.com/tours/Paris/Paris-Cooking-Class-Chocolate-Eclairs-and-Cream-Puffs/d479-9820ECLAIR?pid=P00291237&mcid=42383&medium=link&campaign=Paris" target="_blank" rel="sponsored noopener noreferrer">Paris Cooking Class: Chocolate Éclairs and Cream Puffs →</a></li>
+                    </ul>
+                </div>
+                <div className="w-48 flex-shrink-0 rounded-lg overflow-hidden">
+                    <Image src="/images/Cheese2.jpg" alt="A classic French cheese and wine spread" width={300} height={200} className="w-full h-full object-cover" />
+                </div>
+            </div>
+
+            <p className="text-sm text-slate-400 italic">Restaurant hours and reservation policies change seasonally. Always confirm directly with the venue before visiting. Foyer de la Madeleine is closed on weekends and French public holidays. Bouillon Chartier and Madame Brasserie are open year-round.</p>
+        </div>
+    );
+}
+

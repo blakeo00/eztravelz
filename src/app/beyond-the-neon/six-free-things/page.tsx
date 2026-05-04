@@ -9,9 +9,30 @@ import { getCategoryWidgets } from "@/data/widgets";
 export const metadata: Metadata = {
     title: "Six or More Free (Or Nearly Free) Things to Do in Las Vegas | EZtravelZ",
     description: "Discover hidden gems and local favorites in Las Vegas that are completely free or cost almost nothing. From Gilcrease Orchard to the Old Mormon Fort and beyond.",
+    alternates: {
+        canonical: "https://eztravelz.com/beyond-the-neon/six-free-things",
+    },
     openGraph: {
+        type: "article",
+        url: "https://eztravelz.com/beyond-the-neon/six-free-things",
+        siteName: "EZtravelZ",
         title: "Six or More Free (Or Nearly Free) Things to Do in Las Vegas",
-    }
+        description: "Discover hidden gems and local favorites in Las Vegas that are completely free or cost almost nothing. From Gilcrease Orchard to the Old Mormon Fort and beyond.",
+        images: [
+            {
+                url: "https://eztravelz.com/images/Vegas 2.png",
+                width: 1200,
+                height: 630,
+                alt: "Las Vegas skyline at night",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Six or More Free (Or Nearly Free) Things to Do in Las Vegas",
+        description: "Las Vegas on a budget: free orchards, historic forts, scenic drives, and local gems the tourists never find.",
+        images: ["https://eztravelz.com/images/Vegas 2.png"],
+    },
 };
 
 export default function SixFreeThingsArticle() {

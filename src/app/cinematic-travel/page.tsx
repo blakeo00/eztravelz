@@ -8,7 +8,31 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Cinematic Travel — EZtravelZ",
-    description: "Travel to the real locations behind your favorite films and TV shows. Curated guides for the cinematic traveler.",
+    description: "Travel to the real locations behind your favorite films and TV shows. From Cannes Film Festival to iconic movie landscapes — curated guides for the cinematic traveler.",
+    alternates: {
+        canonical: "https://eztravelz.com/cinematic-travel",
+    },
+    openGraph: {
+        type: "website",
+        url: "https://eztravelz.com/cinematic-travel",
+        siteName: "EZtravelZ",
+        title: "Cinematic Travel — EZtravelZ",
+        description: "Travel to the real locations behind your favorite films and TV shows. From Cannes Film Festival to iconic movie landscapes — curated guides for the cinematic traveler.",
+        images: [
+            {
+                url: "https://eztravelz.com/images/Cannes 2.jpg",
+                width: 1200,
+                height: 630,
+                alt: "Cannes Film Festival on the French Riviera",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Cinematic Travel — EZtravelZ",
+        description: "Travel to the real locations behind your favorite films. Cannes Film Festival guides, festival itineraries, and more.",
+        images: ["https://eztravelz.com/images/Cannes 2.jpg"],
+    },
 };
 
 export default function CinematicTravelPage() {

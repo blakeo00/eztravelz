@@ -20,22 +20,41 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: route === '' ? 1.0 : 0.8,
     }));
 
-    // Niche routes
+    // Niche / category routes
     const niches = [
-        "/pet-travel", 
-        "/haunted-tours", 
-        "/wine-destinations", 
-        "/sports-travel", 
-        "/cinematic-travel", 
+        "/pet-travel",
+        "/haunted-tours",
+        "/wine-destinations",
+        "/sports-travel",
+        "/cinematic-travel",
         "/culinary-quests",
-        "/vegas-locals"
+        "/vegas-locals",
     ];
-    
+
     const nicheRoutes = niches.map((niche) => ({
         url: `${baseUrl}${niche}`,
         lastModified: new Date(),
         changeFrequency: 'weekly' as const,
         priority: 0.9,
+    }));
+
+    // Beyond The Neon sub-routes (standalone article pages)
+    const beyondTheNeonRoutes = [
+        "/beyond-the-neon/six-free-things",
+        "/beyond-the-neon/spring-mountain-ranch",
+    ].map((route) => ({
+        url: `${baseUrl}${route}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.85,
+    }));
+
+    // Site pages
+    const sitePageRoutes = ["/about"].map((route) => ({
+        url: `${baseUrl}${route}`,
+        lastModified: new Date(),
+        changeFrequency: 'monthly' as const,
+        priority: 0.75,
     }));
 
     // Blog posts
@@ -46,5 +65,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.7,
     }));
 
-    return [...routes, ...nicheRoutes, ...postRoutes];
+    return [...routes, ...nicheRoutes, ...beyondTheNeonRoutes, ...sitePageRoutes, ...postRoutes];
 }

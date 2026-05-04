@@ -7,7 +7,31 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
     title: "Haunted Tours & Ghost Adventures — EZtravelZ",
-    description: "Explore the most chilling and historically rich haunted destinations. Book your ultimate ghost tour adventure today.",
+    description: "Explore the most chilling and historically rich haunted destinations in America. From Salem to Savannah, book your ultimate ghost tour adventure with EZtravelZ.",
+    alternates: {
+        canonical: "https://eztravelz.com/haunted-tours",
+    },
+    openGraph: {
+        type: "website",
+        url: "https://eztravelz.com/haunted-tours",
+        siteName: "EZtravelZ",
+        title: "Haunted Tours & Ghost Adventures — EZtravelZ",
+        description: "Explore the most chilling and historically rich haunted destinations in America. From Salem to Savannah, book your ultimate ghost tour adventure.",
+        images: [
+            {
+                url: "https://eztravelz.com/images/Spooky corodior.png",
+                width: 1200,
+                height: 630,
+                alt: "Eerie haunted corridor for ghost tours",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Haunted Tours & Ghost Adventures — EZtravelZ",
+        description: "America's most chilling ghost tour destinations. Salem, Savannah, New Orleans and beyond — dare to explore.",
+        images: ["https://eztravelz.com/images/Spooky corodior.png"],
+    },
 };
 
 export default function HauntedToursPage() {
@@ -51,7 +75,7 @@ export default function HauntedToursPage() {
                                 {/* Lizzie Borden Article */}
                                 <article className="bg-[#37507a] rounded-3xl shadow-2xl overflow-hidden border-2 border-white/20 p-8 md:p-12 backdrop-blur-sm text-white" style={{ boxShadow: '0 0 30px rgba(0, 0, 0, 0.3)' }}>
 
-                                    <span className="text-purple-400 uppercase tracking-widest text-sm font-semibold">
+                                    <span className="text-violet-300 uppercase tracking-widest text-sm font-semibold">
                                         Haunted Tours
                                     </span>
 
@@ -59,7 +83,7 @@ export default function HauntedToursPage() {
                                         Forty Whacks, And A House That Never Forgot
                                     </h2>
 
-                                    <p className="text-purple-300/70 text-sm mb-8">
+                                    <p className="text-amber-200/80 text-sm mb-8">
                                         Fall River, Massachusetts · Est. 1892 · Open Year-Round
                                     </p>
 

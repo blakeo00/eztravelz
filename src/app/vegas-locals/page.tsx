@@ -8,7 +8,31 @@ import { getCategoryWidgets } from "@/data/widgets";
 
 export const metadata: Metadata = {
     title: "Vegas Locals Guide — EZtravelZ",
-    description: "What happens in Vegas isn't always on the Strip.",
+    description: "Beyond the Strip: a local's guide to Las Vegas. Discover free things to do, off-Strip eats, desert hikes, Sphere experiences, and hidden gems the tourists miss.",
+    alternates: {
+        canonical: "https://eztravelz.com/vegas-locals",
+    },
+    openGraph: {
+        type: "website",
+        url: "https://eztravelz.com/vegas-locals",
+        siteName: "EZtravelZ",
+        title: "Vegas Locals Guide — EZtravelZ",
+        description: "Beyond the Strip: a local's guide to Las Vegas. Free things to do, off-Strip eats, desert hikes, Sphere experiences, and hidden gems the tourists miss.",
+        images: [
+            {
+                url: "https://eztravelz.com/images/Vegas 2.png",
+                width: 1200,
+                height: 630,
+                alt: "Las Vegas skyline at night",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Vegas Locals Guide — EZtravelZ",
+        description: "What happens in Vegas isn't always on the Strip. Free things, hidden gems, and local secrets from EZtravelZ.",
+        images: ["https://eztravelz.com/images/Vegas 2.png"],
+    },
 };
 
 export default function VegasLocalsPage() {

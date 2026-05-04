@@ -4,105 +4,32 @@
 
 @theme {
     --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-
-    /* Sky-blue brand palette */
-    --color-brand-50: #f0f9ff;
-    --color-brand-100: #e0f2fe;
-    --color-brand-200: #bae6fd;
-    --color-brand-300: #7dd3fc;
-    --color-brand-400: #38bdf8;
-    --color-brand-500: #0ea5e9;
-    --color-brand-600: #0284c7;
-    --color-brand-700: #0369a1;
-
-    /* Footer / dark sections */
-    --color-dark-800: #1e293b;
-    --color-dark-900: #0f172a;
-    --color-dark-950: #020617;
-}
-
-/* Enhancements for TicketNetwork Widget */
-#ticket-widget-container input[type="text"],
-#txtTNSearchPhrase_5i83pn5umc,
-#txtTNSearchPhrase_5i83pn5umc:focus,
-#txtTNSearchPhrase_5i83pn5umc:active {
-    color: #1e293b !important;
-    /* Dark text for readability */
-    font-weight: 500 !important;
-    background-color: white !important;
-    /* Keep background light so text pops */
-}
-
-#ticket-widget-container input[type="text"]::placeholder,
-#txtTNSearchPhrase_5i83pn5umc::placeholder {
-    color: #64748b !important;
-    /* Lighter slate gray for placeholder */
-    opacity: 1 !important;
-}
-
-/* Main Hero Headline */
-.hero-title {
-    font-family: 'Playfair Display', serif;
-    letter-spacing: -0.02em;
-    /* Playfair looks better slightly tighter */
-    text-transform: capitalize;
-}
-
-/* Category Titles (Navigation and Buttons) */
-.nav-link,
-.category-btn,
-.section-heading {
-    font-family: 'Playfair Display', serif;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    /* A little extra space for readability on smaller text */
-}
-
-/* Specific fix for the Hero Subtitle to match the vibe */
-.hero-subtitle {
-    font-family: 'Montserrat', sans-serif;
-    /* Keeping sub-text clean and modern */
-    font-weight: 400;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-/* Container to handle the layout */
-.antigravity-container {
-    display: flex;
-    justify-content: center;
-    padding: 40px;
-    perspective: 1000px; /* Adds depth */
-}
-
-/* The Image and the Animation */
-.vegas-card {
-    width: 100%;
-    max-width: 800px;
-    border-radius: 20px;
-    border: 4px solid #0055ff;
-    box-shadow: 0 0 20px rgba(0, 85, 255, 0.6), 0 0 40px rgba(0, 85, 255, 0.4);
     
-    /* Antigravity Animation */
-    animation: float 6s ease-in-out infinite;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    /* New EZtravelZ Editorial Palette */
+    --color-cream-base: #F4EAD3;
+    --color-cream-tile: #FBF4DF;
+    --color-cream-border: #DCCDA8;
+
+    --color-navy-base: #1F4368;
+    --color-navy-dark: #143052;
+    --color-navy-border: #2D5680;
+
+    --color-gold-base: #D9B36A;
+    --color-gold-light: #E8CC96;
+    --color-gold-dark: #B88A44;
+
+    --color-warm-brown: #6E5524;
+    --color-cream-text: #5A4A33;
+    --color-navy-text: #DCCFB0;
+    --color-navy-subtle: #B8A98A;
+    --color-white: #FFFFFF;
+    --color-off-white: #FAF9F6;
+    --color-black: #1A1A1A;
 }
 
-/* Hover effect to make it interactive */
-.vegas-card:hover {
-    transform: scale(1.05) rotateX(5deg);
-    box-shadow: 0 0 30px rgba(0, 85, 255, 0.8), 0 0 60px rgba(0, 85, 255, 0.6);
-}
-
-/* Keyframes for the floating motion */
-@keyframes float {
-    0% {
-        transform: translateY(0px);
+@layer base {
+    /* Reset link transition */
+    a {
+        transition: color 0.2s ease;
     }
-    50% {
-        transform: translateY(-20px); /* The "lift" */
-    }
-    100% {
-        transform: translateY(0px);
-    }
-}
+}

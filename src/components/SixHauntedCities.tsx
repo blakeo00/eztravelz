@@ -158,7 +158,7 @@ export default function SixHauntedCities() {
       </h2>
 
       {/* Tagline */}
-      <p className="text-sm text-purple-300/70 mb-6">
+      <p className="text-sm text-amber-200/80 mb-6">
         Year-Round · Louisiana, Georgia, Massachusetts, Pennsylvania, Florida,
         Texas · The Cities That Never Let Their Dead Go
       </p>
@@ -186,7 +186,7 @@ export default function SixHauntedCities() {
             </div>
 
             {/* Season + Location */}
-            <p className="text-purple-800/70 text-sm mb-4">
+            <p className="text-violet-300 text-sm mb-4">
               {city.season} &nbsp;·&nbsp; {city.location}
             </p>
 

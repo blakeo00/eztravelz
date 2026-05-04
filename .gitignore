@@ -1,3 +1,29 @@
-﻿node_modules
+node_modules
 .next
 out
+
+# Environment variables — never commit these
+.env
+.env.local
+.env.*.local
+
+# TypeScript build cache
+tsconfig.tsbuildinfo
+
+# Build & deploy logs
+*.log
+build_output.txt
+deploy_output.txt
+deploy_build_output.txt
+
+# Temp/scratch files
+temp_*
+tmp_*
+diff.txt
+err.txt
+error.html
+out.html
+headers.txt
+
+# Firebase
+.firebase

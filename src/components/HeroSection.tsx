@@ -41,15 +41,8 @@ export default function HeroSection() {
           &ldquo;Travel far enough, you meet yourself.&rdquo; <br className="hidden md:block" />- David Mitchell
         </p>
 
-        {/* CTA button */}
-        <a
-          href="#niches"
-          className="inline-block font-semibold rounded-sm px-8 py-3 transition-all duration-200 hover:opacity-90 hover:scale-105"
-          style={{ backgroundColor: '#FFD700', color: '#152238', letterSpacing: '0.05em' }}
-        >
-          Start Exploring
-        </a>
       </div>
+
     </section>
   )
 }

@@ -43,6 +43,59 @@ const breweries = [
     },
 ];
 
+const bendTours = [
+    {
+        title: "Craft Brewery Tours with Complimentary Tasting Flights",
+        description: "Everything included — a guided tour of Bend's top craft breweries with complimentary tasting flights at each stop. No cover charge, no driving, no problem.",
+        badge: "Best Seller",
+        badgeColor: "bg-amber-500",
+        link: "https://www.viator.com/tours/Bend/Craft-Brewery-Tour-and-Tastings-Everything-Included/d22372-348862P6?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+        image: "/images/brewery.png",
+        cta: "Book on Viator",
+    },
+    {
+        title: "Ultimate Scavenger: Bend Breweries",
+        description: "A unique self-guided scavenger hunt adventure across Bend's best brewery district. Explore at your own pace, solve clues, and discover great beer along the way.",
+        badge: "Fan Favorite",
+        badgeColor: "bg-emerald-600",
+        link: "https://www.viator.com/tours/Bend/Ultimate-Scavenger-Bend-Breweries/d22372-121288P12?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+        image: "/images/DeschutesFloat.png",
+        cta: "Book on Viator",
+    },
+    {
+        title: "Deschutes River Horse Ride",
+        description: "Ride horseback through stunning high desert scenery along the Deschutes River. A completely different way to experience the landscape that defines Central Oregon.",
+        badge: "Adventure Pick",
+        badgeColor: "bg-rose-600",
+        link: "https://www.viator.com/tours/Bend/Deschutes-River-Horse-Ride/d22372-158741P1?pid=P00291237&mcid=42383&medium=link&campaign=Oregon",
+        image: "/images/Mountain.jpg",
+        cta: "Book on Viator",
+    },
+];
+
+const bendHotels = [
+    {
+        name: "Tetherow Resort",
+        note: "Golf, spa, and sweeping Cascade views on the west side of Bend. Oregon's most acclaimed golf resort pairs adventure and comfort in genuinely spectacular fashion.",
+        link: "https://expedia.stay22.com/eztravelz/OeIULbnmwg",
+    },
+    {
+        name: "The Oxford Hotel",
+        note: "Bend's most stylish boutique hotel in the heart of downtown. LEED Platinum certified, with a spa, farm-to-table dining, and walking distance to the city's best taprooms.",
+        link: "https://expedia.stay22.com/eztravelz/70HLaQsXAm",
+    },
+    {
+        name: "Sunriver Resort",
+        note: "A full-service resort 15 miles south of Bend with golf, biking trails, an indoor waterpark, and family-friendly amenities that make it Oregon's premier destination resort.",
+        link: "https://expedia.stay22.com/eztravelz/sDQPf21FHw",
+    },
+    {
+        name: "All Bend Hotels on Expedia",
+        note: "Browse the full range of hotels, vacation rentals, and resorts across Bend and Central Oregon — from Old Mill District suites to Cascade cabin retreats.",
+        link: "https://www.expedia.com/Bend-Hotels.d594637.Travel-Guide-Hotels",
+    },
+];
+
 export default function BendBreweriesGuide() {
     return (
         <article className="max-w-3xl mx-auto px-8 py-12 md:p-12 text-white bg-[#37507a] rounded-3xl shadow-xl overflow-hidden border-2 border-white/10 backdrop-blur-md mt-12" style={{ boxShadow: '0 0 30px rgba(55,80,122,0.4)' }}>
@@ -89,16 +142,21 @@ export default function BendBreweriesGuide() {
             </p>
 
             {/* Image 1 */}
-            <img
-                src="/images/brewery.png"
-                alt="Craft brewery taproom with outdoor seating and mountain views in Bend, Oregon"
-                className="w-full rounded-2xl mb-10 object-cover h-72"
-            />
+            <figure className="my-8 not-prose">
+                <img
+                    src="/images/brewery.png"
+                    alt="Craft brewery taproom with outdoor seating and mountain views in Bend, Oregon"
+                    className="w-full rounded-2xl mb-2 object-cover h-72"
+                />
+                <figcaption className="text-white/50 text-xs text-center italic">
+                    Bend's taproom culture is inseparable from mountain life — the great outdoors and great beer share the same calendar.
+                </figcaption>
+            </figure>
 
             {/* Breweries */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
-                className="text-xl font-bold mb-5"
+                className="text-xl font-bold mb-5 mt-10"
             >
                 The Breweries Worth Your Time
             </div>
@@ -135,6 +193,51 @@ export default function BendBreweriesGuide() {
                 ))}
             </div>
 
+            {/* ── TOURS SECTION ── */}
+            <div
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
+                className="text-xl font-bold mb-2"
+            >
+                Book a Bend Experience
+            </div>
+            <p className="text-white/70 text-sm mb-6">
+                From guided brewery crawls to whitewater adventures — Bend's best experiences are here. Let someone else do the driving.
+            </p>
+
+            <div className="grid grid-cols-1 gap-5 mb-12">
+                {bendTours.map((tour, i) => (
+                    <a
+                        key={i}
+                        href={tour.link}
+                        target="_blank"
+                        rel="sponsored noopener noreferrer"
+                        className="group flex gap-4 bg-white/10 hover:bg-white/20 border border-white/20 rounded-2xl overflow-hidden transition-all duration-300 no-underline"
+                    >
+                        <div className="w-28 flex-shrink-0 overflow-hidden">
+                            <img
+                                src={tour.image}
+                                alt={tour.title}
+                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                            />
+                        </div>
+                        <div className="flex flex-col justify-center p-4 flex-1">
+                            <span className={`inline-block self-start text-xs font-black uppercase tracking-widest text-white px-2 py-0.5 rounded-full mb-2 ${tour.badgeColor}`}>
+                                {tour.badge}
+                            </span>
+                            <p style={{ fontFamily: "'Cinzel', serif" }} className="font-bold text-[#fff0d4] text-base mb-1 leading-snug">
+                                {tour.title}
+                            </p>
+                            <p className="text-white/70 text-sm leading-relaxed mb-2">
+                                {tour.description}
+                            </p>
+                            <span className="text-amber-400 text-sm font-semibold group-hover:text-amber-300 transition-colors">
+                                {tour.cta} →
+                            </span>
+                        </div>
+                    </a>
+                ))}
+            </div>
+
             {/* Bend Ale Trail */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
@@ -159,6 +262,18 @@ export default function BendBreweriesGuide() {
                 finer thing.
             </p>
 
+            {/* Image — Festival in the Park */}
+            <figure className="my-8 not-prose">
+                <img
+                    src="/images/bend_festival.png"
+                    alt="Outdoor summer festival at Drake Park in Bend, Oregon with crowds enjoying craft beer by the Deschutes River"
+                    className="w-full rounded-2xl object-cover h-72"
+                />
+                <figcaption className="text-white/50 text-xs text-center mt-2 italic">
+                    Drake Park transforms into the heart of Bend's summer festival scene — craft beer, live music, and mountain air.
+                </figcaption>
+            </figure>
+
             {/* Bend Brews and Beyond */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
@@ -182,13 +297,13 @@ export default function BendBreweriesGuide() {
 
             {/* Summer Arts */}
             <div
-                style={{ fontFamily: "'Cinzel', serif", color: "#37507a" }}
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
                 className="text-xl font-bold mb-4"
             >
                 Summer Arts in Bend
             </div>
 
-            <p className="text-[#37507a] text-lg leading-relaxed mb-6">
+            <p className="text-white text-lg leading-relaxed mb-6">
                 Bend is not all beer and bikes. The city has a genuine and growing arts
                 identity that comes alive every summer across multiple festivals and venues.
             </p>
@@ -214,17 +329,34 @@ export default function BendBreweriesGuide() {
                 </ul>
             </div>
 
-            {/* Image 2 */}
-            <img
-                src="/images/Hike.png"
-                alt="Floating and kayaking the Deschutes River through Bend, Oregon in summer"
-                className="w-full rounded-2xl mb-10 object-cover h-72"
-            />
+            {/* Image 2 — River */}
+            <figure className="my-8 not-prose">
+                <img
+                    src="/images/DeschutesFloat.png"
+                    alt="People floating the Deschutes River on colorful inner tubes in Bend, Oregon"
+                    className="w-full rounded-2xl mb-2 object-cover h-72"
+                />
+                <figcaption className="text-white/50 text-xs text-center italic">
+                    The Deschutes River is the heartbeat of Bend's summer — 250,000 floaters, kayakers, and paddleboarders can't be wrong.
+                </figcaption>
+            </figure>
+
+            {/* Image — Mt Bachelor Panorama */}
+            <figure className="my-8 not-prose">
+                <img
+                    src="/images/bend_mt_bachelor.png"
+                    alt="Panoramic view of Bend, Oregon with snow-capped Mount Bachelor in the distance"
+                    className="w-full rounded-2xl object-cover h-72"
+                />
+                <figcaption className="text-white/50 text-xs text-center mt-2 italic">
+                    Bend's skyline, with Mount Bachelor rising 9,065 feet to the southwest — the mountain that defines the city's identity.
+                </figcaption>
+            </figure>
 
             {/* River Recreation */}
             <div
                 style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
-                className="text-xl font-bold mb-4"
+                className="text-xl font-bold mb-4 mt-10"
             >
                 Life on the Deschutes River
             </div>
@@ -264,17 +396,68 @@ export default function BendBreweriesGuide() {
                 </ul>
             </div>
 
+            {/* ── WHERE TO STAY ── */}
+            <div
+                style={{ fontFamily: "'Cinzel', serif", color: "#fff0d4" }}
+                className="text-xl font-bold mb-2 mt-4"
+            >
+                Where to Stay in Bend
+            </div>
+            <p className="text-white/70 text-sm mb-6">
+                Bend's accommodation scene matches its personality: adventurous, comfortable, and spread across beautiful landscape. Downtown puts you walking distance to the taprooms; the west side gets you closer to the mountains.
+            </p>
+
+            <div className="space-y-4 mb-8">
+                {bendHotels.map((hotel, i) => (
+                    <div key={i} className="border-l-4 border-amber-400/50 pl-5 py-1">
+                        <a
+                            href={hotel.link}
+                            target="_blank"
+                            rel="sponsored noopener noreferrer"
+                            className="font-bold text-[#fff0d4] hover:text-white text-base underline transition-colors"
+                        >
+                            {hotel.name}
+                        </a>
+                        <p className="text-white/80 text-sm leading-relaxed mt-1">
+                            {hotel.note}
+                        </p>
+                    </div>
+                ))}
+            </div>
+
+            {/* Expedia CTA Banner */}
+            <div className="rounded-2xl overflow-hidden border border-white/20 mb-12">
+                <div className="bg-gradient-to-r from-[#1a1a6e] to-[#003580] px-6 py-5 flex flex-col sm:flex-row items-center gap-4">
+                    <div className="flex-1">
+                        <p className="text-white font-bold text-base mb-1">Find Your Perfect Bend Hotel</p>
+                        <p className="text-white/70 text-sm">Compare rates at resorts, boutique hotels, and vacation rentals across Bend and Central Oregon.</p>
+                    </div>
+                    <a
+                        href="https://www.expedia.com/Bend-Hotels.d594637.Travel-Guide-Hotels"
+                        target="_blank"
+                        rel="sponsored noopener noreferrer"
+                        className="flex-shrink-0 flex items-center gap-2 bg-[#fecc02] hover:bg-yellow-300 text-[#003580] font-black px-6 py-3 rounded-full transition-all duration-200 text-sm whitespace-nowrap no-underline"
+                    >
+                        <img src="/images/Expedia logo.png" alt="Expedia" className="h-5 object-contain" />
+                        Search Hotels
+                    </a>
+                </div>
+                <p className="text-white/40 text-[10px] uppercase tracking-wider text-center py-2 bg-black/30">
+                    Sponsored · We may earn a commission at no extra cost to you
+                </p>
+            </div>
+
             {/* Viator Affiliate Link */}
             <div className="mb-12 relative group rounded-2xl overflow-hidden shadow-lg border border-[#37507a]/20">
                 <a
-                    href="https://vi.me/AKnuA"
+                    href="https://www.viator.com/Bend/d22372-ttd?pid=P00291237&mcid=42383&medium=link&campaign=Oregon"
                     target="_blank"
                     rel="sponsored noopener noreferrer"
                     className="block w-full"
                 >
                     <div className="relative h-80 w-full overflow-hidden">
                         <img
-                            src="/images/bend.png"
+                            src="/images/Bend.png"
                             alt="Explore Bend Tours and Activities"
                             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                         />
@@ -309,28 +492,7 @@ export default function BendBreweriesGuide() {
                 </div>
             </div>
 
-            {/* CTA */}
-            <div className="bg-white/10 border border-white/20 rounded-2xl p-6 text-center shadow-inner">
-                <p
-                    style={{
-                        fontFamily: "'Cinzel', serif",
-                        color: "#fff0d4",
-                        fontSize: "1.4rem",
-                        letterSpacing: "0.04em",
-                    }}
-                    className="mb-3 font-bold"
-                >
-                    Start Your Bend Ale Trail Adventure
-                </p>
-                <a
-                    href="https://bendaletrail.com"
-                    target="_blank"
-                    rel="sponsored noopener noreferrer"
-                    className="inline-block bg-[#fff0d4] hover:bg-white text-[#37507a] font-bold px-8 py-3 rounded-full transition-colors duration-200"
-                >
-                    Explore the Bend Ale Trail →
-                </a>
-            </div>
+
 
         </article>
     );

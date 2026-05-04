@@ -32,3 +32,10 @@ description: Core operating rules for EZtravelz development — tech stack, affi
   - Mapping out tailgate logistics for a Green Bay Packers game
   - Navigating the haunted history tours of Las Vegas
 - **No clichés.** Avoid generic travel clichés.
+
+## 5. Talking Tours Map
+
+- **Alphabetical city cards.** The city selector sidebar must always display cities in alphabetical order. This is handled automatically via `.sort()` in `GlobalTourMap.tsx`, but when adding new cities to `locations.json`, verify the sidebar renders them in A→Z order.
+- **Affiliate URL format.** All Viator tour links must include tracking parameters: `pid=P00291237&mcid=42383&medium=link&campaign=<CityName>`.
+- **Image positioning.** If a new tour image crops poorly at `object-position: top center` (the default), add `imagePosition` and/or `imageSize` fields to the location entry in `locations.json` to override the crop (e.g., `"imagePosition": "center center"`, `"imageSize": "contain"`).
+- **Data file.** All city/tour data lives in `src/data/locations.json`. Images are served from `public/images/` and referenced as `/images/filename.jpg`.

@@ -10,6 +10,30 @@ import DogBeachArticle from '@/components/DogBeachArticle';
 export const metadata: Metadata = {
     title: 'Paws, Waves & Freedom: The Original Dog Beach | EZtravelZ',
     description: "The Original Dog Beach in Ocean Beach, San Diego is the nation's first off-leash beach. Discover the history, pet-friendly hotels, and dog-welcoming restaurants nearby.",
+    alternates: {
+        canonical: "https://eztravelz.com/pet-travel",
+    },
+    openGraph: {
+        type: "website",
+        url: "https://eztravelz.com/pet-travel",
+        siteName: "EZtravelZ",
+        title: "Paws, Waves & Freedom: The Original Dog Beach | EZtravelZ",
+        description: "The Original Dog Beach in Ocean Beach, San Diego is the nation's first off-leash beach. Discover the history, pet-friendly hotels, and restaurants nearby.",
+        images: [
+            {
+                url: "https://eztravelz.com/images/Dog on hike.png",
+                width: 1200,
+                height: 630,
+                alt: "Dog on a scenic hike — pet-friendly travel",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Paws, Waves & Freedom: The Original Dog Beach | EZtravelZ",
+        description: "San Diego's Original Dog Beach — America's first off-leash beach. Pet-friendly hotels, restaurants, and travel tips.",
+        images: ["https://eztravelz.com/images/Dog on hike.png"],
+    },
 };
 
 export default function PetTravelPage() {
@@ -37,10 +61,10 @@ export default function PetTravelPage() {
                             <Image src="/images/Paw.png" alt="Paw print" width={72} height={72} className="absolute bottom-8 right-[10%] transform -rotate-45 opacity-50" />
                         </div>
                         <div className="relative z-30 flex flex-col items-center justify-center text-center px-4">
-                            <h1 className="hero-title text-white font-extrabold mb-6 font-serif drop-shadow-lg">
-                                Paws & Passports
+                            <h1 className="hero-title text-4xl md:text-5xl lg:text-6xl text-white font-extrabold mb-6 font-serif drop-shadow-lg tracking-tight">
+                                Paws &amp; Passports
                             </h1>
-                            <p className="text-lg md:text-xl text-gray-100 break-words max-w-2xl mx-auto font-medium drop-shadow-md">
+                            <p className="text-xl md:text-2xl text-gray-100 break-words max-w-2xl mx-auto font-medium drop-shadow-md">
                                 Discover dog-friendly destinations, accommodations, and adventures for you and your furry best friend.
                             </p>
                         </div>

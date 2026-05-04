@@ -45,10 +45,19 @@ export const metadata: Metadata = {
         title: "EZtravelZ — Travel Made Easy. Choose Your Adventure.",
         description:
             "Your hub for niche travel: pet-friendly trips, haunted tours, wine and brewery destinations, sports travel, cinematic adventures, and culinary quests.",
+        images: [
+            {
+                url: "https://eztravelz.com/images/EZtravelz OG.png",
+                width: 1200,
+                height: 630,
+                alt: "EZtravelZ — Travel Made Easy",
+            },
+        ],
     },
     twitter: {
         card: "summary_large_image",
         site: "@eztravelz",
+        images: ["https://eztravelz.com/images/EZtravelz OG.png"],
     },
 };
 
@@ -65,6 +74,7 @@ export default function RootLayout({
         <html lang="en" className={`${inter.variable} ${creepster.variable} ${bebasNeue.variable} ${cinzel.variable} ${playfair.variable}`}>
             <head>
                 <meta name="impact-site-verification" content="b6939536-6263-4f28-ad81-77285c027b6e" />
+                <meta name="p:domain_verify" content="2ed62453337f65842e096724c3335761" />
                 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet" />
                 {/* GetYourGuide Analytics */}
                 <script async defer src="https://widget.getyourguide.com/dist/pa.umd.production.min.js" data-gyg-partner-id="8LNIBCT"></script>

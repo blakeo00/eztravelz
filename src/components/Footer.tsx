@@ -1,71 +1,83 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import { headerLinks } from "./Header";
 
-/**
- * Footer Component
- * Newsletter signup with the exact prompt copy, plus placeholder
- * links for Privacy Policy, Terms of Service, and Affiliate Disclosure.
- */
+const MAGAZINE_LINKS = [
+    { label: "All Articles", href: "/all-articles" },
+    { label: "The Mission", href: "/about" },
+    { label: "Contact", href: "mailto:info@eztravelz.com" },
+    { label: "Privacy Policy", href: "/privacy-policy" },
+    { label: "Terms of Service", href: "/terms-of-service" },
+    { label: "Affiliate Disclosure", href: "/affiliate-disclosure" },
+];
+
+const SOCIAL_LINKS = [
+    { label: "Instagram", href: "https://www.instagram.com/the_eztravelz/" },
+    { label: "Pinterest", href: "https://www.pinterest.com/blakeo007/" },
+    { label: "Substack", href: "https://substack.com/" },
+];
+
+function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
+    return (
+        <div>
+            <h3 className="font-cinzel text-[14px] text-[var(--color-gold-base)] mb-4">
+                {title}
+            </h3>
+            <ul className="flex flex-col gap-2">
+                {links.map((link) => (
+                    <li key={link.label}>
+                        <Link
+                            href={link.href}
+                            className="font-sans text-[11px] text-[var(--color-cream-base)] hover:text-[var(--color-gold-base)] transition-colors"
+                        >
+                            {link.label}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
+}
+
 export default function Footer() {
     return (
-        <footer style={{ backgroundColor: '#152238' }} className="text-white">
-            {/* ---- Upper Footer ---- */}
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-                    {/* Brand + Tagline */}
+        <footer className="bg-[var(--color-navy-base)] border-t border-[var(--color-gold-base)] border-opacity-20 px-[26px] pt-[60px] pb-[30px]">
+            <div className="max-w-[1200px] mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                    
+                    {/* Col 1: Brand */}
                     <div>
-                        <Link href="/" className="flex items-center mb-4">
-                            <Image
-                                src="/images/Logo 3.png"
-                                alt="EZtravelZ Logo"
-                                width={160}
-                                height={40}
-                                className="object-contain"
-                            />
+                        <Link href="/" className="inline-block mb-3">
+                            <span className="font-cinzel text-[18px] text-[var(--color-cream-base)]">
+                                EZtravelZ
+                            </span>
                         </Link>
-                        <p className="text-slate-400 max-w-sm leading-relaxed">
-                            Curated niche travel experiences for people who know what they
-                            love, and want a trip that actually matches it.
+                        <p className="font-sans text-[11px] text-[#A1B2C6] max-w-[200px]">
+                            Not everywhere. Just the places that matter.
                         </p>
                     </div>
 
-                    {/* Newsletter Signup */}
-                    <div className="bg-dark-800 rounded-2xl p-8 text-center">
-                        <h3 className="text-lg font-bold mb-2">Stay in the Loop!</h3>
-                        <p className="text-slate-400 text-sm mb-6">
-                            Subscribe to the EZtravelZ newsletter for exclusive guides exploring the world.
-                        </p>
-                        <div className="flex justify-center my-8">
-                            <a 
-                                href="https://newsletter.eztravelz.com" 
-                                target="_blank" 
-                                rel="noopener noreferrer"
-                                className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:scale-105"
-                            >
-                                Join the EZtravelZ Insider
-                            </a>
-                        </div>
-                    </div>
+                    {/* Col 2: Destinations */}
+                    <FooterColumn title="Destinations" links={headerLinks} />
+
+                    {/* Col 3: The Magazine */}
+                    <FooterColumn title="The Magazine" links={MAGAZINE_LINKS} />
+
+                    {/* Col 4: Social */}
+                    <FooterColumn title="Social" links={SOCIAL_LINKS} />
+
                 </div>
-            </div>
 
-            {/* ---- Bottom Bar ---- */}
-            <div className="border-t border-slate-800">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-slate-500">
-                    <p>&copy; {new Date().getFullYear()} EZtravelZ. All rights reserved.</p>
-                    <nav className="flex items-center gap-6">
-                        <Link href="/privacy-policy" className="hover:text-white transition-colors">
-                            Privacy Policy
+                {/* Bottom Bar */}
+                <div className="border-t border-[#325070] pt-6 flex flex-col md:flex-row items-center justify-between gap-4 font-sans text-[11px] text-[#6A7F96]">
+                    <p>© {new Date().getFullYear()} EZtravelZ. All rights reserved.</p>
+                    <p>
+                        EZtravelZ participates in affiliate programs.{" "}
+                        <Link href="/affiliate-disclosure" className="text-[var(--color-gold-base)] hover:text-[var(--color-cream-base)] transition-colors underline">
+                            Disclosure
                         </Link>
-                        <Link href="/terms-of-service" className="hover:text-white transition-colors">
-                            Terms of Service
-                        </Link>
-                        <Link href="/affiliate-disclosure" className="hover:text-white transition-colors">
-                            Affiliate Disclosure
-                        </Link>
-                    </nav>
+                    </p>
                 </div>
             </div>
         </footer>
