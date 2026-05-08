@@ -46,7 +46,8 @@
               "emoji": "🌮"
             }
           ],
-          "image": "/images/Soco.jpg"
+          "image": "/images/Soco2.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "barton_springs",
@@ -130,7 +131,8 @@
               "emoji": "🔍"
             }
           ],
-          "image": "/images/Brew.jpg?v=1"
+          "image": "/images/Dbrew.jpg",
+          "imagePosition": "center 70%"
         },
         {
           "id": "mirror_pond",
@@ -214,7 +216,7 @@
               "emoji": "🎥"
             }
           ],
-          "image": "/images/Palais.jpg"
+          "image": "/images/Palais2.jpg"
         },
         {
           "id": "le_suquet",
@@ -298,7 +300,7 @@
               "emoji": "🚌"
             }
           ],
-          "image": "/images/gettysburg_battlefield.png"
+          "image": "/images/Cemr.jpg"
         },
         {
           "id": "little_round_top",
@@ -332,7 +334,9 @@
               "emoji": "👻"
             }
           ],
-          "image": "/images/House.jpg"
+          "image": "/images/Fan.jpg",
+          "imagePosition": "center 55%",
+          "imageScale": 1.3
         },
         {
           "id": "triangular_field",
@@ -450,7 +454,7 @@
               "emoji": "🥂"
             }
           ],
-          "image": "/images/Vegas 2.png"
+          "image": "/images/LV.jpg"
         }
       ]
     },
@@ -483,7 +487,7 @@
               "emoji": "🏛️"
             }
           ],
-          "image": "/images/Zol.jpg"
+          "image": "/images/MX.jpg"
         },
         {
           "id": "chapultepec",
@@ -584,7 +588,8 @@
               "emoji": "🎨"
             }
           ],
-          "image": "/images/miami_south_beach.png"
+          "image": "/images/SB.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "little_havana",
@@ -601,7 +606,8 @@
               "emoji": "🍹"
             }
           ],
-          "image": "/images/Hav.jpg"
+          "image": "/images/LM.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "wynwood_walls",
@@ -618,7 +624,8 @@
               "emoji": "🎨"
             }
           ],
-          "image": "/images/miami_wynwood_walls.png"
+          "image": "/images/WW.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "everglades",
@@ -822,7 +829,8 @@
               "emoji": "🚁"
             }
           ],
-          "image": "/images/nyc_brooklyn_bridge.png"
+          "image": "/images/BK.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "statue_of_liberty",
@@ -872,7 +880,7 @@
               "emoji": "🗼"
             }
           ],
-          "image": "/images/Eiffel.jpg"
+          "image": "/images/Eiffel1.jpg"
         },
         {
           "id": "the_louvre",
@@ -990,7 +998,7 @@
               "emoji": "🔍"
             }
           ],
-          "image": "/images/Book.jpg"
+          "image": "/images/PB.jpg"
         },
         {
           "id": "pearl_district",
@@ -1158,7 +1166,7 @@
               "emoji": "👻"
             }
           ],
-          "image": "/images/Alamo 2.jpg"
+          "image": "/images/AL.jpg"
         },
         {
           "id": "river_walk_sa",
@@ -1192,7 +1200,7 @@
               "emoji": "🛵"
             }
           ],
-          "image": "/images/Gov.jpg"
+          "image": "/images/SP.jpg"
         },
         {
           "id": "san_fernando_cathedral",
@@ -1427,7 +1435,8 @@
               "emoji": "⛓️"
             }
           ],
-          "image": "/images/Jail.jpg"
+          "image": "/images/OJ.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "huguenot_cemetery",
@@ -1569,7 +1578,7 @@
     {
       "id": "sydney",
       "name": "Sydney",
-      "emoji": "🇦🇺",
+      "emoji": "🦘",
       "tagline": "Australia's iconic harbour city",
       "coords": {
         "lat": -33.8688,
@@ -1670,7 +1679,7 @@
     {
       "id": "new-zealand",
       "name": "New Zealand",
-      "emoji": "🇳🇿",
+      "emoji": "🐑",
       "tagline": "Middle-earth and beyond",
       "coords": {
         "lat": -44.6693,
@@ -1771,7 +1780,7 @@
     {
       "id": "tokyo",
       "name": "Tokyo",
-      "emoji": "🇯🇵",
+      "emoji": "⛩️",
       "tagline": "Where ancient tradition meets neon future",
       "coords": {
         "lat": 35.6762,
@@ -1797,8 +1806,8 @@
               "emoji": "⛩️"
             }
           ],
-          "image": "/images/Temp.jpg",
-          "imagePosition": "center 50%"
+          "image": "/images/Sen.jpg",
+          "imagePosition": "center 70%"
         },
         {
           "id": "mount_fuji",
@@ -1866,14 +1875,14 @@
               "emoji": "🍜"
             }
           ],
-          "image": "/images/Street.jpg"
+          "image": "/images/SH.jpg"
         }
       ]
     },
     {
       "id": "bangkok",
       "name": "Bangkok",
-      "emoji": "🇹🇭",
+      "emoji": "🛕",
       "tagline": "Temples, markets, and the pulse of Southeast Asia",
       "coords": {
         "lat": 13.7563,
@@ -1899,7 +1908,8 @@
               "emoji": "👑"
             }
           ],
-          "image": "/images/Grand.jpg"
+          "image": "/images/Gpal.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "wat_arun",
@@ -1916,8 +1926,7 @@
               "emoji": "🌅"
             }
           ],
-          "image": "/images/Arun.jpg",
-          "imagePosition": "center 55%"
+          "image": "/images/Wata.jpg"
         },
         {
           "id": "wat_pho",
@@ -1934,8 +1943,8 @@
               "emoji": "🙏"
             }
           ],
-          "image": "/images/Pho.jpg",
-          "imagePosition": "center 50%"
+          "image": "/images/Watp.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "chatuchak_market",
@@ -1976,7 +1985,7 @@
     {
       "id": "rio-de-janeiro",
       "name": "Rio de Janeiro",
-      "emoji": "🇧🇷",
+      "emoji": "🎉",
       "tagline": "Where mountains meet the sea and samba never stops",
       "coords": {
         "lat": -22.9068,
@@ -2078,7 +2087,7 @@
     {
       "id": "lisbon",
       "name": "Lisbon",
-      "emoji": "🇵🇹",
+      "emoji": "⚓",
       "tagline": "Seven hills, fado, and the Age of Discovery",
       "coords": {
         "lat": 38.7223,
@@ -2104,8 +2113,9 @@
               "emoji": "🏰"
             }
           ],
-          "image": "/images/Belman.jpg",
-          "imagePosition": "center center"
+          "image": "/images/Bel.jpg",
+          "imagePosition": "center center",
+          "imageScale": 2.0
         },
         {
           "id": "jeronimos_monastery",
@@ -2181,7 +2191,7 @@
     {
       "id": "reykjavik",
       "name": "Reykjavik",
-      "emoji": "🇮🇸",
+      "emoji": "🌋",
       "tagline": "Fire, ice, and the edge of the Arctic",
       "coords": {
         "lat": 64.1466,
@@ -2444,7 +2454,8 @@
               "emoji": "💧"
             }
           ],
-          "image": "/images/Montmorency.jpg"
+          "image": "/images/MF.jpg",
+          "imagePosition": "center center"
         },
         {
           "id": "plains_of_abraham",
@@ -2563,8 +2574,7 @@
               "emoji": "🐉"
             }
           ],
-          "image": "/images/China.jpg",
-          "imageSize": "contain",
+          "image": "/images/CT.jpg",
           "imagePosition": "center 60%"
         },
         {
@@ -2694,7 +2704,7 @@
     {
       "id": "mumbai",
       "name": "Mumbai",
-      "emoji": "🇮🇳",
+      "emoji": "🕌",
       "tagline": "City of dreams on the Arabian Sea",
       "coords": {
         "lat": 19.0760,
@@ -2719,8 +2729,8 @@
               "emoji": "🚗"
             }
           ],
-          "image": "/images/Gate.jpg",
-          "imagePosition": "center 80%"
+          "image": "/images/GW.jpg",
+          "imagePosition": "center 70%"
         },
         {
           "id": "cst_terminus",
@@ -2789,6 +2799,888 @@
             }
           ],
           "image": "/images/Dho.jpg"
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "name": "Rome",
+      "emoji": "🏛️",
+      "tagline": "The Eternal City",
+      "coords": {
+        "lat": 41.8967,
+        "lng": 12.4822
+      },
+      "zoom": 13,
+      "color": "#dc2626",
+      "locations": [
+        {
+          "id": "colosseum",
+          "name": "Colosseum",
+          "coords": {
+            "lat": 41.8902,
+            "lng": 12.4922
+          },
+          "vibe": "The largest amphitheater ever built still dominates Rome's skyline after 2,000 years. Gladiators once fought here before crowds of 50,000, and the bones of empire are still visible in every arch.",
+          "tours": [
+            {
+              "name": "Colosseum Arena Floor, Roman Forum & Palatine Hill Tour",
+              "url": "http://vi.me/CNS5p?pid=P00291237&mcid=42383&medium=link&campaign=Rome",
+              "emoji": "⚔️"
+            }
+          ],
+          "image": "/images/Col.jpg",
+          "imageSize": "80%"
+        },
+        {
+          "id": "sistine_chapel",
+          "name": "Sistine Chapel",
+          "coords": {
+            "lat": 41.9029,
+            "lng": 12.4534
+          },
+          "vibe": "Michelangelo spent four years on his back painting the ceiling, and the result still stops people mid-sentence. Below it, the Vatican holds two thousand years of art, faith, and quiet power.",
+          "tours": [
+            {
+              "name": "VIP Vatican, Sistine Chapel & St. Peter's Basilica Guided Tour",
+              "url": "http://vi.me/7z8AG?pid=P00291237&mcid=42383&medium=link&campaign=Rome",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/Sis.jpg"
+        },
+        {
+          "id": "trevi_fountain",
+          "name": "Trevi Fountain",
+          "coords": {
+            "lat": 41.9009,
+            "lng": 12.4833
+          },
+          "vibe": "Baroque marble gods burst from a wall of cascading water in a tight piazza tucked between narrow streets. Toss a coin over your shoulder and tradition says you'll return to Rome.",
+          "tours": [
+            {
+              "name": "Trevi Fountain Underground Aqueduct and Spanish Steps Tour",
+              "url": "http://vi.me/C8dY8?pid=P00291237&mcid=42383&medium=link&campaign=Rome",
+              "emoji": "⛲"
+            }
+          ],
+          "image": "/images/Tre.jpg"
+        },
+        {
+          "id": "pantheon",
+          "name": "Pantheon",
+          "coords": {
+            "lat": 41.8986,
+            "lng": 12.4769
+          },
+          "vibe": "A perfect dome with a single round opening to the sky, built by the Romans nearly 2,000 years ago. When rain falls, it falls straight through onto the marble floor below.",
+          "tours": [
+            {
+              "name": "Pantheon, The Best-Preserved Roman Monument Guided Tour",
+              "url": "http://vi.me/rAJqZ?pid=P00291237&mcid=42383&medium=link&campaign=Rome",
+              "emoji": "🏛️"
+            }
+          ],
+          "image": "/images/Pat.jpg"
+        },
+        {
+          "id": "roman_forum",
+          "name": "Roman Forum",
+          "coords": {
+            "lat": 41.8925,
+            "lng": 12.4853
+          },
+          "vibe": "Crumbled columns, arches, and temple steps mark where Caesar walked and the Republic was argued into being. The grass between the ruins is the same earth that held the heart of an empire.",
+          "tours": [
+            {
+              "name": "Guided Tour of Colosseum, Roman Forum & Palatine Hill in Rome",
+              "url": "http://vi.me/8llmg?pid=P00291237&mcid=42383&medium=link&campaign=Rome",
+              "emoji": "🏛️"
+            }
+          ],
+          "image": "/images/For.jpg"
+        }
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "emoji": "🌷",
+      "tagline": "City of canals and culture",
+      "coords": {
+        "lat": 52.3676,
+        "lng": 4.9041
+      },
+      "zoom": 13,
+      "color": "#f97316",
+      "locations": [
+        {
+          "id": "anne_frank_house",
+          "name": "Anne Frank House",
+          "coords": {
+            "lat": 52.3752,
+            "lng": 4.8840
+          },
+          "vibe": "The narrow canal house where a Jewish family hid for two years behind a swinging bookcase. Her diary still sits where she wrote it, and the rooms are kept as she described them.",
+          "tours": [
+            {
+              "name": "Anne Frank's Amsterdam Jewish History WWII Exclusive Guided Tour",
+              "url": "http://vi.me/Qy7pQ?pid=P00291237&mcid=42383&medium=link&campaign=Amsterdam",
+              "emoji": "📖"
+            }
+          ],
+          "image": "/images/AF.jpg"
+        },
+        {
+          "id": "van_gogh_museum",
+          "name": "Van Gogh Museum",
+          "coords": {
+            "lat": 52.3584,
+            "lng": 4.8811
+          },
+          "vibe": "More than 200 paintings trace one man's blazing arc from Dutch potato fields to the wheat fields of Auvers. Stand close enough to see the brush trembling in every stroke.",
+          "tours": [
+            {
+              "name": "Van Gogh Museum Amsterdam Small Group Guided Tour",
+              "url": "http://vi.me/4IPzD?pid=P00291237&mcid=42383&medium=link&campaign=Amsterdam",
+              "emoji": "🎨"
+            }
+          ],
+          "image": "/images/VG.jpg"
+        },
+        {
+          "id": "jordaan",
+          "name": "Jordaan Canal District",
+          "coords": {
+            "lat": 52.3738,
+            "lng": 4.8820
+          },
+          "vibe": "Seventeenth-century merchant houses lean over still water laced with arched bridges. In the Jordaan, narrow alleys open onto hidden courtyards and brown cafés older than most countries.",
+          "tours": [
+            {
+              "name": "Amsterdam 90 minutes Canal Cruise with bar and snacks on board",
+              "url": "http://vi.me/iNAIC?pid=P00291237&mcid=42383&medium=link&campaign=Amsterdam",
+              "emoji": "🚢"
+            }
+          ],
+          "image": "/images/JO.jpg"
+        },
+        {
+          "id": "rijksmuseum",
+          "name": "Rijksmuseum",
+          "coords": {
+            "lat": 52.3600,
+            "lng": 4.8852
+          },
+          "vibe": "Rembrandt's Night Watch hangs at the end of a long marble gallery, and Vermeer's Milkmaid pours her jug in perfect light. Eight hundred years of Dutch art under one grand roof.",
+          "tours": [
+            {
+              "name": "Rijksmuseum Amsterdam Exclusive Guided Tour w/ Reserved Entry",
+              "url": "http://vi.me/ZsttR?pid=P00291237&mcid=42383&medium=link&campaign=Amsterdam",
+              "emoji": "🖼️"
+            }
+          ],
+          "image": "/images/RI.jpg"
+        },
+        {
+          "id": "bloemenmarkt",
+          "name": "Bloemenmarkt",
+          "coords": {
+            "lat": 52.3666,
+            "lng": 4.8913
+          },
+          "vibe": "The world's only floating flower market drifts on barges along the Singel canal. Tulip bulbs by the thousands, sunflowers, and wooden tulips painted every color the eye can hold.",
+          "tours": [
+            {
+              "name": "Amsterdam Food and Cultural Tour with 10 Tastings",
+              "url": "http://vi.me/NC8xS?pid=P00291237&mcid=42383&medium=link&campaign=Amsterdam",
+              "emoji": "🌸"
+            }
+          ],
+          "image": "/images/BL.jpg"
+        },
+        {
+          "id": "red_light_district",
+          "name": "Red Light District",
+          "coords": {
+            "lat": 52.3731,
+            "lng": 4.8983
+          },
+          "vibe": "While most famous for its sex work scene, Amsterdam's Red Light District this controversial neighborhood may not be for everyone, its winding cobblestone streets and narrow alleys evoke Amsterdam's rich history and laid-back culture.",
+          "tours": [
+            {
+              "name": "Amsterdam Red Light District and Coffee Shop Tour (TOP RATED)",
+              "url": "http://vi.me/sZhVO?pid=P00291237&mcid=42383&medium=link&campaign=Amsterdam",
+              "emoji": "🔴"
+            }
+          ],
+          "image": "/images/Red.jpg"
+        }
+      ]
+    },
+    {
+      "id": "madagascar",
+      "name": "Madagascar",
+      "emoji": "🦎",
+      "tagline": "The eighth continent",
+      "coords": {
+        "lat": -18.9,
+        "lng": 47.0
+      },
+      "zoom": 6,
+      "color": "#22c55e",
+      "locations": [
+        {
+          "id": "avenue_of_baobabs",
+          "name": "Avenue of the Baobabs",
+          "coords": {
+            "lat": -20.2508,
+            "lng": 44.4189
+          },
+          "vibe": "A line of ancient giants thicker than houses rises from the red dirt road. At sunset their bare crowns turn black against an orange sky and zebu carts pass between them.",
+          "tours": [
+            {
+              "name": "Morondava: Tour to Kirindy Forest and Baobab Avenue",
+              "url": "http://vi.me/HdDkO?pid=P00291237&mcid=42383&medium=link&campaign=Madagascar",
+              "emoji": "🌳"
+            }
+          ],
+          "image": "/images/Bobo.jpg",
+          "imageSize": "80%"
+        },
+        {
+          "id": "tsingy_de_bemaraha",
+          "name": "Tsingy de Bemaraha",
+          "coords": {
+            "lat": -18.6667,
+            "lng": 44.7167
+          },
+          "vibe": "A forest of needle-sharp limestone spires rises hundreds of feet from the floor of western Madagascar. Lemurs leap between blades that would slice a careless hand, in a landscape unlike any other.",
+          "tours": [
+            {
+              "name": "Tsingy Tour 3 Days",
+              "url": "http://vi.me/lsrbg?pid=P00291237&mcid=42383&medium=link&campaign=Madagascar",
+              "emoji": "🪨"
+            }
+          ],
+          "image": "/images/Tsi.jpg"
+        },
+        {
+          "id": "andasibe",
+          "name": "Andasibe-Mantadia National Park",
+          "coords": {
+            "lat": -18.9333,
+            "lng": 48.4167
+          },
+          "vibe": "Indri lemurs sing across the rainforest at dawn, a haunting wail that carries for miles. The easiest place on earth to meet the country's most famous primates in the wild.",
+          "tours": [
+            {
+              "name": "3 Days Visit of Andasibe National Park in Madagascar",
+              "url": "http://vi.me/HLMmo?pid=P00291237&mcid=42383&medium=link&campaign=Madagascar",
+              "emoji": "🐒"
+            }
+          ],
+          "image": "/images/Lemur.jpg",
+          "imageSize": "80%"
+        },
+        {
+          "id": "nosy_be",
+          "name": "Nosy Be Island",
+          "coords": {
+            "lat": -13.3333,
+            "lng": 48.2667
+          },
+          "vibe": "Volcanic island ringed by white sand and turquoise water off Madagascar's northwest coast. Ylang-ylang flowers scent the breeze, and reef sharks glide through warm shallows minutes from shore.",
+          "tours": [
+            {
+              "name": "Nosy Be: Exclusive 3 day Tour of top attractions",
+              "url": "http://vi.me/pzb4K?pid=P00291237&mcid=42383&medium=link&campaign=Madagascar",
+              "emoji": "🏝️"
+            }
+          ],
+          "image": "/images/Nosy.jpg"
+        },
+        {
+          "id": "ambohimanga",
+          "name": "Royal Hill of Ambohimanga",
+          "coords": {
+            "lat": -18.7600,
+            "lng": 47.5633
+          },
+          "vibe": "The fortified spiritual home of Madagascar's old kings sits on a forested hilltop above Antananarivo. Sacred trees, blue-painted royal tombs, and a sense that something is still being watched over.",
+          "tours": [
+            {
+              "name": "Half Day Visit to the Ambohimanga Sacred Hill",
+              "url": "http://vi.me/0i6dQ?pid=P00291237&mcid=42383&medium=link&campaign=Madagascar",
+              "emoji": "👑"
+            }
+          ],
+          "image": "/images/Amb.jpg"
+        }
+      ]
+    },
+    {
+      "id": "buenos-aires",
+      "name": "Buenos Aires",
+      "emoji": "💃",
+      "tagline": "Tango, tragedy, and timeless elegance",
+      "coords": {
+        "lat": -34.6037,
+        "lng": -58.3816
+      },
+      "zoom": 13,
+      "color": "#6366f1",
+      "locations": [
+        {
+          "id": "recoleta_cemetery",
+          "name": "Recoleta Cemetery",
+          "coords": {
+            "lat": -34.5877,
+            "lng": -58.3934
+          },
+          "vibe": "Marble mausoleums line the alleys of this city of the dead, where Eva Perón is buried among presidents and poets. Stone angels weep over Argentina's most powerful families.",
+          "tours": [
+            {
+              "name": "Recoleta & Cemetery for curious people",
+              "url": "http://vi.me/F7FwT?pid=P00291237&mcid=42383&medium=link&campaign=BuenosAires",
+              "emoji": "⚰️"
+            }
+          ],
+          "image": "/images/Cemb.jpg"
+        },
+        {
+          "id": "casa_rosada",
+          "name": "Casa Rosada",
+          "coords": {
+            "lat": -34.6083,
+            "lng": -58.3712
+          },
+          "vibe": "The salmon-pink presidential palace where Eva Perón once addressed the masses from its famous balcony. Mothers of the disappeared still march in silent protest across Plaza de Mayo each Thursday.",
+          "tours": [
+            {
+              "name": "Buenos Aires Highlights Tour with Driver and Guide",
+              "url": "http://vi.me/AuCEd?pid=P00291237&mcid=42383&medium=link&campaign=BuenosAires",
+              "emoji": "🏛️"
+            }
+          ],
+          "image": "/images/Casa.jpg",
+          "imagePosition": "center 65%"
+        },
+        {
+          "id": "teatro_colon",
+          "name": "Teatro Colón",
+          "coords": {
+            "lat": -34.6011,
+            "lng": -58.3831
+          },
+          "vibe": "Considered one of the five best opera houses in the world for its perfect acoustics. Seven tiers of red velvet and gold rise beneath a hand-painted dome.",
+          "tours": [
+            {
+              "name": "Teatro Colon Guided Tour Admission Ticket",
+              "url": "http://vi.me/tpx3r?pid=P00291237&mcid=42383&medium=link&campaign=BuenosAires",
+              "emoji": "🎭"
+            }
+          ],
+          "image": "/images/Colon.jpg"
+        },
+        {
+          "id": "san_telmo",
+          "name": "San Telmo",
+          "coords": {
+            "lat": -34.6213,
+            "lng": -58.3727
+          },
+          "vibe": "The oldest neighborhood in the city, where Sunday antique markets fill cobbled Plaza Dorrego. Tango was born in these streets and still lives in them after dark.",
+          "tours": [
+            {
+              "name": "Discover Buenos Aires: Walking Tour Through San Telmo & Center!",
+              "url": "http://vi.me/xaKa5?pid=P00291237&mcid=42383&medium=link&campaign=BuenosAires",
+              "emoji": "🚶"
+            }
+          ],
+          "image": "/images/San.jpg"
+        },
+        {
+          "id": "tango_porteno",
+          "name": "Tango Porteño",
+          "coords": {
+            "lat": -34.6049,
+            "lng": -58.3808
+          },
+          "vibe": "Tango Porteño, housed within a former movie theater, stages one of the best tango shows in Buenos Aires. The art deco theater is the perfect place for a trip back to the 1940s, considered the golden age of tango in Argentina.",
+          "tours": [
+            {
+              "name": "Tango Porteño Show with Optional Dinner and Tango Lesson",
+              "url": "http://vi.me/IkHZH?pid=P00291237&mcid=42383&medium=link&campaign=BuenosAires",
+              "emoji": "💃"
+            }
+          ],
+          "image": "/images/Tango.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hawaii",
+      "name": "Hawaii",
+      "emoji": "🌺",
+      "tagline": "Volcanic fire meets Pacific paradise",
+      "coords": {
+        "lat": 20.7984,
+        "lng": -156.3319
+      },
+      "zoom": 7,
+      "color": "#0d9488",
+      "locations": [
+        {
+          "id": "pearl_harbor",
+          "name": "Pearl Harbor",
+          "coords": {
+            "lat": 21.3649,
+            "lng": -157.9507
+          },
+          "vibe": "The USS Arizona Memorial floats above the sunken battleship where 1,177 sailors still rest. Oil droplets called 'black tears' rise to the surface, one for each lost soul.",
+          "tours": [
+            {
+              "name": "Pearl Harbor USS Arizona Memorial & Battleship Missouri",
+              "url": "http://vi.me/fQTCS?pid=P00291237&mcid=42383&medium=link&campaign=Hawaii",
+              "emoji": "⚓"
+            }
+          ],
+          "image": "/images/Ph.jpg",
+          "imagePosition": "center 75%"
+        },
+        {
+          "id": "volcanoes_national_park",
+          "name": "Hawaii Volcanoes National Park",
+          "coords": {
+            "lat": 19.4194,
+            "lng": -155.2885
+          },
+          "vibe": "Active lava flows glow against the night sky on the Big Island, where Kīlauea has been erupting on and off for decades. The earth itself feels alive here.",
+          "tours": [
+            {
+              "name": "Private Tour: Hawaii Volcanoes National Park Eco Tour",
+              "url": "http://vi.me/W7WFT?pid=P00291237&mcid=42383&medium=link&campaign=Hawaii",
+              "emoji": "🌋"
+            }
+          ],
+          "image": "/images/Vh.jpg"
+        },
+        {
+          "id": "road_to_hana",
+          "name": "Road to Hana",
+          "coords": {
+            "lat": 20.9203,
+            "lng": -156.1552
+          },
+          "vibe": "Sixty-four miles of jungle road winding past 600 hairpin turns and 50 one-lane bridges. Waterfalls, black-sand beaches, and bamboo forests reveal themselves around every corner.",
+          "tours": [
+            {
+              "name": "Road to Hana Rainforest, Black Sand Beach, Waterfalls & Lunch",
+              "url": "http://vi.me/J0hDy?pid=P00291237&mcid=42383&medium=link&campaign=Hawaii",
+              "emoji": "🌴"
+            }
+          ],
+          "image": "/images/Hana.jpg",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "waikiki_beach",
+          "name": "Waikiki Beach",
+          "coords": {
+            "lat": 21.2766,
+            "lng": -157.8278
+          },
+          "vibe": "Two miles of golden sand framed by Diamond Head crater and the Pacific's gentlest waves. Surfing was invented on these shores by Hawaiian royalty centuries ago.",
+          "tours": [
+            {
+              "name": "Waikiki Sunset Cocktail Sail on the Moana Catamaran",
+              "url": "http://vi.me/LjMAu?pid=P00291237&mcid=42383&medium=link&campaign=Hawaii",
+              "emoji": "🏄"
+            }
+          ],
+          "image": "/images/Wak.jpg",
+          "imagePosition": "center 65%"
+        },
+        {
+          "id": "diamond_head",
+          "name": "Diamond Head",
+          "coords": {
+            "lat": 21.2622,
+            "lng": -157.8059
+          },
+          "vibe": "This 760-foot crater provides a stunning, instantly recognizable silhouette on the Honolulu skyline. The hiking trail to the summit offers panoramic views of Waikiki, the Pacific Ocean, and Honolulu.",
+          "tours": [
+            {
+              "name": "Diamond Head Hiking Tour with Ticket and Reservation Inclusion",
+              "url": "http://vi.me/2DeUu?pid=P00291237&mcid=42383&medium=link&campaign=Hawaii",
+              "emoji": "🥾"
+            }
+          ],
+          "image": "/images/Dia.jpg",
+          "imagePosition": "center center"
+        }
+      ]
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "emoji": "👑",
+      "tagline": "Crown jewels, cobblestones, and centuries of drama",
+      "coords": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "zoom": 8,
+      "color": "#1e3a5f",
+      "locations": [
+        {
+          "id": "tower_of_london",
+          "name": "Tower of London",
+          "coords": {
+            "lat": 51.5081,
+            "lng": -0.0759
+          },
+          "vibe": "Nine hundred years of royal drama unfolded behind these stone walls: prisons, beheadings, and the Crown Jewels still glittering inside. Ravens patrol the grounds, kept here by ancient tradition.",
+          "tours": [
+            {
+              "name": "VIP Early Access: Opening Ceremony Tower of London & Bridge Entry",
+              "url": "http://vi.me/Z9wjl?pid=P00291237&mcid=42383&medium=link&campaign=London",
+              "emoji": "🏰"
+            }
+          ],
+          "image": "/images/Tolo.jpg",
+          "imagePosition": "center 60%"
+        },
+        {
+          "id": "buckingham_palace",
+          "name": "Buckingham Palace",
+          "coords": {
+            "lat": 51.5014,
+            "lng": -0.1419
+          },
+          "vibe": "The King's London residence draws crowds for the changing of the guard, with red coats and bearskin hats marching in perfect rhythm. The Royal Standard above the gate tells you when he's home.",
+          "tours": [
+            {
+              "name": "Buckingham Palace, St James Palace & Tea at Kensington Palace",
+              "url": "http://vi.me/cCXbD?pid=P00291237&mcid=42383&medium=link&campaign=London",
+              "emoji": "👑"
+            }
+          ],
+          "image": "/images/Buck.jpg"
+        },
+        {
+          "id": "stonehenge",
+          "name": "Stonehenge",
+          "coords": {
+            "lat": 51.1789,
+            "lng": -1.8262
+          },
+          "vibe": "Built over 5,000 years ago, Stonehenge remains mysterious in its true purpose and origins, adding to its allure. Stonehenge's alignment with celestial events, such as the summer and winter solstices, suggests an astronomical purpose.",
+          "tours": [
+            {
+              "name": "Stonehenge and Windsor from London",
+              "url": "http://vi.me/cHigI?pid=P00291237&mcid=42383&medium=link&campaign=London",
+              "emoji": "🗿"
+            }
+          ],
+          "image": "/images/Stone.jpg"
+        },
+        {
+          "id": "london_eye",
+          "name": "London Eye",
+          "coords": {
+            "lat": 51.5033,
+            "lng": -0.1195
+          },
+          "vibe": "A giant glass wheel turning slowly above the Thames, lifting riders 443 feet over the rooftops. On clear days you can see 25 miles in every direction.",
+          "tours": [
+            {
+              "name": "London Eye - Champagne Experience Ticket",
+              "url": "http://vi.me/c3Uez?pid=P00291237&mcid=42383&medium=link&campaign=London",
+              "emoji": "🎡"
+            }
+          ],
+          "image": "/images/Eye.jpg",
+          "imagePosition": "center 70%"
+        },
+        {
+          "id": "westminster_abbey",
+          "name": "Westminster Abbey",
+          "coords": {
+            "lat": 51.4993,
+            "lng": -0.1273
+          },
+          "vibe": "Coronations, royal weddings, and the tombs of kings have filled this Gothic church for nearly a thousand years. Big Ben strikes the hour just across the square.",
+          "tours": [
+            {
+              "name": "Westminster Abbey Guided Private Tour",
+              "url": "http://vi.me/nHnL4?pid=P00291237&mcid=42383&medium=link&campaign=London",
+              "emoji": "⛪"
+            }
+          ],
+          "image": "/images/West.jpg",
+          "imagePosition": "center 55%"
+        }
+      ]
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona",
+      "emoji": "🏗️",
+      "tagline": "Where Gaudí bent the rules of stone",
+      "coords": { "lat": 41.3874, "lng": 2.1686 },
+      "zoom": 13,
+      "color": "#c026d3",
+      "locations": [
+        {
+          "id": "sagrada_familia",
+          "name": "Sagrada Família",
+          "coords": { "lat": 41.4036, "lng": 2.1744 },
+          "vibe": "Antoni Gaudí's unfinished masterpiece soars over the city, its forest of stone columns branching like trees. Stained glass throws ribbons of color across the nave at every hour of the day.",
+          "tours": [
+            {
+              "name": "Sagrada Familia: The Golden Hour with Skip the Line Tickets",
+              "url": "http://vi.me/vt05A?pid=P00291237&mcid=42383&medium=link&campaign=Barcelona",
+              "emoji": "⛪"
+            }
+          ],
+          "image": "/images/Fam.jpg",
+          "imagePosition": "center 40%",
+          "imageRatio": "65%"
+        },
+        {
+          "id": "park_guell",
+          "name": "Park Güell",
+          "coords": { "lat": 41.4145, "lng": 2.1527 },
+          "vibe": "Mosaic dragons, gingerbread gatehouses, and a sweeping serpentine bench of broken tile. Antoni Gaudí's hillside dreamscape opens onto some of the best views across Barcelona's rooftops to the sea.",
+          "tours": [
+            {
+              "name": "Park Güell Entry Tickets",
+              "url": "http://vi.me/OAJjG?pid=P00291237&mcid=42383&medium=link&campaign=Barcelona",
+              "emoji": "🦎"
+            }
+          ],
+          "image": "/images/Park.jpg",
+          "imagePosition": "center 35%"
+        },
+        {
+          "id": "gothic_quarter",
+          "name": "Gothic Quarter",
+          "coords": { "lat": 41.3833, "lng": 2.1761 },
+          "vibe": "Narrow medieval lanes wind past Roman walls and a 14th-century cathedral. Plaça Reial opens like a sudden secret, ringed with palm trees and lamp posts Antoni Gaudí designed before he was famous.",
+          "tours": [
+            {
+              "name": "Barcelona Gothic Quarter Tour and Flamenco Show",
+              "url": "http://vi.me/HFEEg?pid=P00291237&mcid=42383&medium=link&campaign=Barcelona",
+              "emoji": "💃"
+            }
+          ],
+          "image": "/images/Goth.jpg",
+          "imagePosition": "center 30%",
+          "imageRatio": "65%"
+        },
+        {
+          "id": "la_boqueria",
+          "name": "La Boqueria Market",
+          "coords": { "lat": 41.3816, "lng": 2.1719 },
+          "vibe": "Pyramids of jamón, bowls of olives, and paper cones of fresh fruit fill the city's most famous market just off La Rambla. Locals still buy their groceries here, despite the cameras.",
+          "tours": [
+            {
+              "name": "La Boqueria Market and Paella Cooking Class in Barcelona",
+              "url": "http://vi.me/ip5s5?pid=P00291237&mcid=42383&medium=link&campaign=Barcelona",
+              "emoji": "🥘"
+            }
+          ],
+          "image": "/images/Market.jpg",
+          "imagePosition": "center 30%",
+          "imageRatio": "65%"
+        },
+        {
+          "id": "barceloneta_beach",
+          "name": "Barceloneta Beach",
+          "coords": { "lat": 41.3784, "lng": 2.1925 },
+          "vibe": "Once a fishing village, now a kilometer of golden sand at the Mediterranean's edge. Paddleboarders glide past at sunrise, and the chiringuito tapas bars hum until midnight.",
+          "tours": [
+            {
+              "name": "Barcelona Private Sunset Sailing with Drinks",
+              "url": "http://vi.me/r5tj2?pid=P00291237&mcid=42383&medium=link&campaign=Barcelona",
+              "emoji": "⛵"
+            }
+          ],
+          "image": "/images/Beach.jpg"
+        }
+      ]
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "emoji": "🏔️",
+      "tagline": "Rainforest, ocean, mountains in one frame",
+      "coords": { "lat": 49.2827, "lng": -123.1207 },
+      "zoom": 12,
+      "color": "#0f766e",
+      "locations": [
+        {
+          "id": "stanley_park",
+          "name": "Stanley Park",
+          "coords": { "lat": 49.3043, "lng": -123.1441 },
+          "vibe": "A thousand-acre rainforest minutes from downtown, ringed by a seawall path that hugs the Pacific. Towering totem poles and old-growth cedars share the trails with seaplanes overhead.",
+          "tours": [
+            {
+              "name": "The Stanley Park Bicycle Tour by Cycle City Tours",
+              "url": "http://vi.me/O0awh?pid=P00291237&mcid=42383&medium=link&campaign=Vancouver",
+              "emoji": "🚴"
+            }
+          ],
+          "image": "/images/Stan.jpg"
+        },
+        {
+          "id": "granville_island",
+          "name": "Granville Island",
+          "coords": { "lat": 49.2712, "lng": -123.1340 },
+          "vibe": "A former industrial peninsula reborn as a public market and artist colony beneath the bridge. Seafood counters spill onto outdoor benches where buskers play to passing ferry passengers.",
+          "tours": [
+            {
+              "name": "Vancouver Foodie Tour: Granville Island Market Food Tour",
+              "url": "http://vi.me/Inngw?pid=P00291237&mcid=42383&medium=link&campaign=Vancouver",
+              "emoji": "🦀"
+            }
+          ],
+          "image": "/images/Gran.jpg"
+        },
+        {
+          "id": "capilano_bridge",
+          "name": "Capilano Suspension Bridge",
+          "coords": { "lat": 49.3429, "lng": -123.1149 },
+          "vibe": "A 137-meter footbridge sways 70 meters above a rainforest canyon and rushing river. Treetop walkways branch out among the Douglas firs, swinging gently with every step.",
+          "tours": [
+            {
+              "name": "Small Group Vancouver Tour with Capilano Suspension Bridge",
+              "url": "http://vi.me/YJvXd?pid=P00291237&mcid=42383&medium=link&campaign=Vancouver",
+              "emoji": "🌲"
+            }
+          ],
+          "image": "/images/Bri.jpg"
+        },
+        {
+          "id": "grouse_mountain",
+          "name": "Grouse Mountain",
+          "coords": { "lat": 49.3806, "lng": -123.0828 },
+          "vibe": "A gondola climbs 1,200 meters above the city to alpine meadows, grizzly bears, and lumberjack shows. In winter the same slopes glow under floodlights for night skiing.",
+          "tours": [
+            {
+              "name": "Grouse Mountain, Skyride Gondola & Capilano Bridge from Vancouver",
+              "url": "http://vi.me/rxJas?pid=P00291237&mcid=42383&medium=link&campaign=Vancouver",
+              "emoji": "🚡"
+            }
+          ],
+          "image": "/images/Grouse.jpg",
+          "imagePosition": "center 40%",
+          "imageRatio": "65%"
+        },
+        {
+          "id": "gastown",
+          "name": "Gastown",
+          "coords": { "lat": 49.2846, "lng": -123.1088 },
+          "vibe": "Cobblestoned streets, Victorian lampposts, and a steam clock that whistles every quarter hour. Vancouver's oldest neighborhood now houses bistros and indie boutiques inside its 19th-century brick warehouses.",
+          "tours": [
+            {
+              "name": "Vancouver Gastown Brunch Tour: A Morning of Local Flavours",
+              "url": "http://vi.me/5mYpm?pid=P00291237&mcid=42383&medium=link&campaign=Vancouver",
+              "emoji": "☕"
+            }
+          ],
+          "image": "/images/Gast.jpg",
+          "imagePosition": "center 25%",
+          "imageRatio": "65%"
+        }
+      ]
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "emoji": "🌃",
+      "tagline": "Neon and incense above the harbour",
+      "coords": { "lat": 22.3193, "lng": 114.1694 },
+      "zoom": 11,
+      "color": "#db2777",
+      "locations": [
+        {
+          "id": "victoria_peak",
+          "name": "Victoria Peak",
+          "coords": { "lat": 22.2759, "lng": 114.1455 },
+          "vibe": "A tram has climbed the steep granite slope since 1888, opening onto the city's most photographed view. Skyscrapers stack against Victoria Harbour, blazing through every shade of dusk.",
+          "tours": [
+            {
+              "name": "Hong Kong by Night Private Tour",
+              "url": "http://vi.me/BnVFB?pid=P00291237&mcid=42383&medium=link&campaign=HongKong",
+              "emoji": "🌆"
+            }
+          ],
+          "image": "/images/Peak.jpg"
+        },
+        {
+          "id": "tian_tan_buddha",
+          "name": "Tian Tan Buddha",
+          "coords": { "lat": 22.2540, "lng": 113.9050 },
+          "vibe": "A 34-meter bronze Buddha sits in lotus posture atop Lantau Island, reached by 268 steps or a long cable car. The hilltop quiet is the opposite of the city below.",
+          "tours": [
+            {
+              "name": "Private Lantau Tour: Big Buddha, Crystal Cable Car & Tai O Pickup",
+              "url": "http://vi.me/iWgnA?pid=P00291237&mcid=42383&medium=link&campaign=HongKong",
+              "emoji": "🙏"
+            }
+          ],
+          "image": "/images/Bud.jpg",
+          "imagePosition": "center 35%",
+          "imageRatio": "65%"
+        },
+        {
+          "id": "hong_kong_park",
+          "name": "Hong Kong Park",
+          "coords": { "lat": 22.2772, "lng": 114.1614 },
+          "vibe": "Lush, manicured, and impeccably feng shui-ed, Hong Kong Park is a rare oasis of green in one of the world's most densely populated urban areas.",
+          "tours": [
+            {
+              "name": "Half-Day or Full-Day Private Custom Walking Tour of Hong Kong",
+              "url": "http://vi.me/Tb5bD?pid=P00291237&mcid=42383&medium=link&campaign=HongKong",
+              "emoji": "🌿"
+            }
+          ],
+          "image": "/images/Hp.jpg",
+          "imagePosition": "center 40%"
+        },
+        {
+          "id": "temple_street_night_market",
+          "name": "Temple Street Night Market",
+          "coords": { "lat": 22.3057, "lng": 114.1704 },
+          "vibe": "After dark, Kowloon's main thoroughfare fills with red lantern stalls, fortune tellers, and dai pai dong cooks stir-frying clams. Cantonese opera drifts from sidewalk performers near the Tin Hau Temple.",
+          "tours": [
+            {
+              "name": "Best Street Food Tour With a Local Guide in Hong Kong",
+              "url": "http://vi.me/Eqpdg?pid=P00291237&mcid=42383&medium=link&campaign=HongKong",
+              "emoji": "🏮"
+            }
+          ],
+          "image": "/images/Str.jpg",
+          "imagePosition": "center 35%"
+        },
+        {
+          "id": "wong_tai_sin_temple",
+          "name": "Wong Tai Sin Temple",
+          "coords": { "lat": 22.3423, "lng": 114.1934 },
+          "vibe": "Vivid red pillars and golden roofs rise above Kowloon, where worshippers shake fortune sticks before the great immortal. Incense smoke curls past nine dragon murals into the open courtyards.",
+          "tours": [
+            {
+              "name": "Hong Kong: Wong Tai Sin Temple, Zen Gardens & Local Food Tasting",
+              "url": "http://vi.me/Iumub?pid=P00291237&mcid=42383&medium=link&campaign=HongKong",
+              "emoji": "🐉"
+            }
+          ],
+          "image": "/images/Wong.jpg",
+          "imagePosition": "center 30%",
+          "imageRatio": "65%"
         }
       ]
     }

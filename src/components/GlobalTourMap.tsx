@@ -6,7 +6,7 @@ import { useJsApiLoader, GoogleMap, OverlayView, InfoWindow } from '@react-googl
 import citiesData from '@/data/locations.json';
 
 interface AffTour { name: string; url: string; emoji: string; }
-interface TourLocation { id: string; name: string; coords: { lat: number; lng: number }; vibe: string; tours?: AffTour[]; image?: string; imagePosition?: string; imageSize?: string; }
+interface TourLocation { id: string; name: string; coords: { lat: number; lng: number }; vibe: string; tours?: AffTour[]; image?: string; imagePosition?: string; imageSize?: string; imageScale?: number; imageRatio?: string; }
 interface City { id: string; name: string; emoji: string; tagline: string; coords: { lat: number; lng: number }; zoom: number; color: string; pageLink?: string; pageLinkLabel?: string; locations: TourLocation[]; }
 
 const CITIES: City[] = (citiesData as { cities: City[] }).cities;
@@ -112,7 +112,7 @@ function GlobalTourMapInner() {
   const mapH = isMobile ? '300px' : '580px';
 
   const renderSidebar = () => (
-    <div style={{ width: '100%', flexShrink: 0, background: 'rgba(10,15,30,0.92)', backdropFilter: 'blur(12px)', padding: isMobile ? '12px' : '16px 14px', display: 'flex', flexDirection: 'column', gap: '6px', overflowY: 'auto', overflowX: 'hidden', maxHeight: isMobile ? '280px' : '320px', borderTop: '1px solid rgba(255,240,212,0.08)' }}>
+    <div style={{ width: '100%', flexShrink: 0, background: 'rgba(10,15,30,0.92)', backdropFilter: 'blur(12px)', padding: isMobile ? '12px' : '16px 14px', display: 'flex', flexDirection: 'column', gap: '6px', overflowY: 'auto', overflowX: 'hidden', maxHeight: 'none', borderTop: '1px solid rgba(255,240,212,0.08)' }}>
       {view === 'world' ? (
         <>
           <p style={{ color: '#38bdf8', fontSize: '0.68rem', letterSpacing: '0.1em', textTransform: 'uppercase', marginBottom: '4px', fontWeight: 700, flexShrink: 0 }}>Choose Your City</p>
@@ -265,10 +265,10 @@ function GlobalTourMapInner() {
         </div>
 
         {/* ── Image / Street View with overlay arrows ── */}
-        <div style={{ borderRadius: '16px', overflow: 'hidden', border: `2px solid ${activeCity.color}40`, marginBottom: '12px', position: 'relative', paddingBottom: isMobile ? '56%' : '48%' }}>
+        <div style={{ borderRadius: '16px', overflow: 'hidden', border: `2px solid ${activeCity.color}40`, marginBottom: '12px', position: 'relative', paddingBottom: activeLoc.imageRatio ?? (isMobile ? '56%' : '48%') }}>
           {activeLoc.image
             ? <img key={activeLoc.id} src={activeLoc.image} alt={activeLoc.name}
-                style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: (activeLoc.imageSize as React.CSSProperties['objectFit']) ?? 'cover', objectPosition: activeLoc.imagePosition ?? 'top center' }} loading="lazy" />
+                style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: (activeLoc.imageSize as React.CSSProperties['objectFit']) ?? 'cover', objectPosition: activeLoc.imagePosition ?? 'top center', ...(activeLoc.imageScale ? { transform: `scale(${activeLoc.imageScale})` } : {}) }} loading="lazy" />
             : <iframe key={activeLoc.id} src={svUrl(activeLoc.coords.lat, activeLoc.coords.lng)} title={`View: ${activeLoc.name}`}
                 style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 'none' }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
           }
