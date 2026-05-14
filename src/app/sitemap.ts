@@ -50,7 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
     // Site pages
-    const sitePageRoutes = ["/about"].map((route) => ({
+    const sitePageRoutes = ["/about", "/signature-travel"].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,

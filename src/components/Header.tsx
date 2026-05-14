@@ -16,6 +16,7 @@ export const headerLinks = [
     { label: "Sports Travel", href: "/sports-travel" },
     { label: "Cinematic Travel", href: "/cinematic-travel" },
     { label: "Culinary Quests", href: "/culinary-quests" },
+    { label: "Signature Travel", href: "/signature-travel" },
     { label: "All Articles", href: "/blog" },
     { label: "Talking Tours", href: "/talking-tours" },
     { label: "About", href: "/about" },

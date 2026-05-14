@@ -4,14 +4,18 @@ import Footer from "@/components/Footer";
 // Homepage specific components
 import Hero from "@/components/homepage/Hero";
 import About from "@/components/homepage/About";
-import ContentGrid from "@/components/homepage/ContentGrid";
+import SignatureShowcase from "@/components/homepage/SignatureShowcase";
+import ChapterGrid from "@/components/homepage/ChapterSection";
 import TalkingToursPromo from "@/components/homepage/TalkingToursPromo";
 import PlanTheLogistics from "@/components/homepage/PlanTheLogistics";
 import WorkWithUs from "@/components/WorkWithUs";
 
 /**
  * Homepage — The Hub
- * Assembles all major sections of the EZtravelZ landing page.
+ *
+ * Redesigned as a "travel book" — the Signature Travel showcase
+ * establishes the advisory service, then each niche category
+ * unfolds as a chapter with featured articles.
  */
 export default function Home() {
     return (
@@ -20,7 +24,8 @@ export default function Home() {
             <main>
                 <Hero />
                 <About />
-                <ContentGrid />
+                <SignatureShowcase />
+                <ChapterGrid />
                 <TalkingToursPromo />
                 <PlanTheLogistics />
                 <WorkWithUs />

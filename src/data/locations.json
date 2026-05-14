@@ -272,6 +272,106 @@
       ]
     },
     {
+      "id": "cairo",
+      "name": "Cairo",
+      "emoji": "🏺",
+      "tagline": "Five thousand years carved in stone",
+      "coords": {
+        "lat": 30.0444,
+        "lng": 31.2357
+      },
+      "zoom": 12,
+      "color": "#c8a951",
+      "locations": [
+        {
+          "id": "pyramids_of_giza",
+          "name": "Pyramids of Giza",
+          "coords": {
+            "lat": 29.9792,
+            "lng": 31.1342
+          },
+          "vibe": "The only surviving wonder of the ancient world rises from the desert plateau just outside the city. Camels still cross the same horizon they have for over 4,500 years.",
+          "tours": [
+            {
+              "name": "Private Day Tour Giza Pyramids, Memphis and Sakkara Pyramids",
+              "url": "http://vi.me/1JYO5?pid=P00291237&mcid=42383&medium=link&campaign=Cairo",
+              "emoji": "🐫"
+            }
+          ],
+          "image": "/images/Giza.jpg"
+        },
+        {
+          "id": "great_sphinx",
+          "name": "Great Sphinx of Giza",
+          "coords": {
+            "lat": 29.9753,
+            "lng": 31.1376
+          },
+          "vibe": "Carved from a single limestone outcrop, the lion-bodied guardian has watched over the pyramids for forty-five centuries. Its weathered face holds secrets the desert has never given up.",
+          "tours": [
+            {
+              "name": "Giza Pyramids,Sphinx &Grand Egyptian Museum Tour Full Experience",
+              "url": "http://vi.me/vlV6I?pid=P00291237&mcid=42383&medium=link&campaign=Cairo",
+              "emoji": "🦁"
+            }
+          ],
+          "image": "/images/Spx.jpg"
+        },
+        {
+          "id": "khan_el_khalili",
+          "name": "Khan el-Khalili Bazaar",
+          "coords": {
+            "lat": 30.0477,
+            "lng": 31.2625
+          },
+          "vibe": "Lantern-lit alleys snake through a 14th-century souk thick with the scent of cardamom and oud. Coppersmiths hammer, vendors barter, and mint tea is always offered.",
+          "tours": [
+            {
+              "name": "Cairo: Local Markets & Khan el Khalili Private Shopping Tour",
+              "url": "http://vi.me/mKjlu?pid=P00291237&mcid=42383&medium=link&campaign=Cairo",
+              "emoji": "🏮"
+            }
+          ],
+          "image": "/images/Baz.jpg"
+        },
+        {
+          "id": "grand_egyptian_museum",
+          "name": "Grand Egyptian Museum",
+          "coords": {
+            "lat": 29.9949,
+            "lng": 31.1171
+          },
+          "vibe": "The world's largest museum dedicated to a single civilization, holding Tutankhamun's full treasure under one roof. Five thousand years of pharaohs, gods, and golden masks.",
+          "tours": [
+            {
+              "name": "Grand Egyptian Museum & Pyramids & sphinx from Sharm el Sheikh",
+              "url": "http://vi.me/ER8tP?pid=P00291237&mcid=42383&medium=link&campaign=Cairo",
+              "emoji": "👑"
+            }
+          ],
+          "image": "/images/Em.jpg"
+        },
+        {
+          "id": "felucca_nile",
+          "name": "Felucca on the Nile",
+          "coords": {
+            "lat": 30.0459,
+            "lng": 31.2243
+          },
+          "vibe": "Wooden sailboats with billowing white sails drift past Cairo's skyline at sunset. The same crossing, the same evening light Egyptians have known for thousands of years.",
+          "tours": [
+            {
+              "name": "Luxury Felucca on the Nile with Lunch",
+              "url": "http://vi.me/o7VVo?pid=P00291237&mcid=42383&medium=link&campaign=Cairo",
+              "emoji": "⛵"
+            }
+          ],
+          "image": "/images/Fel.jpg",
+          "imageRatio": "65%"
+        }
+      ]
+    },
+    {
       "id": "gettysburg",
       "name": "Gettysburg",
       "emoji": "⚔️",
@@ -1050,6 +1150,105 @@
             }
           ],
           "image": "/images/Wash.jpg?v=4"
+        }
+      ]
+    },
+    {
+      "id": "prague",
+      "name": "Prague",
+      "emoji": "🏰",
+      "tagline": "Spires, cobblestones, and Bohemian ghosts",
+      "coords": {
+        "lat": 50.0755,
+        "lng": 14.4378
+      },
+      "zoom": 13,
+      "color": "#9333ea",
+      "locations": [
+        {
+          "id": "prague_castle",
+          "name": "Prague Castle",
+          "coords": {
+            "lat": 50.0911,
+            "lng": 14.4003
+          },
+          "vibe": "The largest ancient castle complex in the world crowns the hill above the Vltava. Nine centuries of Bohemian kings and Holy Roman Emperors walked these stone courtyards.",
+          "tours": [
+            {
+              "name": "3-hour Private Prague Castle Walking Tour",
+              "url": "http://vi.me/ZsxSK?pid=P00291237&mcid=42383&medium=link&campaign=Prague",
+              "emoji": "🏰"
+            }
+          ],
+          "image": "/images/PC.jpg"
+        },
+        {
+          "id": "charles_bridge",
+          "name": "Charles Bridge",
+          "coords": {
+            "lat": 50.0865,
+            "lng": 14.4114
+          },
+          "vibe": "Thirty baroque saints line a cobbled stone bridge built in 1357. Buskers play violin in the morning mist as the spires of Old Town rise across the river.",
+          "tours": [
+            {
+              "name": "Prague Walking Tour of Old Town, Charles Bridge and Prague Castle",
+              "url": "http://vi.me/4wYSg?pid=P00291237&mcid=42383&medium=link&campaign=Prague",
+              "emoji": "🌉"
+            }
+          ],
+          "image": "/images/Char.jpg"
+        },
+        {
+          "id": "old_town_square",
+          "name": "Old Town Square",
+          "coords": {
+            "lat": 50.0870,
+            "lng": 14.4213
+          },
+          "vibe": "The Astronomical Clock chimes on the hour and a procession of carved apostles parades from a tiny window. Pastel facades and twin Gothic spires watch over the cobbled square.",
+          "tours": [
+            {
+              "name": "Prague Old-Town Secrets Walking Tour",
+              "url": "http://vi.me/QMMcQ?pid=P00291237&mcid=42383&medium=link&campaign=Prague",
+              "emoji": "⏰"
+            }
+          ],
+          "image": "/images/Old.jpg"
+        },
+        {
+          "id": "josefov",
+          "name": "Josefov",
+          "coords": {
+            "lat": 50.0900,
+            "lng": 14.4178
+          },
+          "vibe": "Six surviving synagogues and Europe's oldest active Jewish cemetery, where weathered headstones lean shoulder to shoulder. The neighborhood Kafka wandered, with stories carved into every stone.",
+          "tours": [
+            {
+              "name": "Josefov and the Jewish Museum in Prague",
+              "url": "http://vi.me/LL5Tb?pid=P00291237&mcid=42383&medium=link&campaign=Prague",
+              "emoji": "✡️"
+            }
+          ],
+          "image": "/images/Jew.jpg"
+        },
+        {
+          "id": "john_lennon_wall",
+          "name": "John Lennon Wall",
+          "coords": {
+            "lat": 50.0857,
+            "lng": 14.4069
+          },
+          "vibe": "Layers of graffiti, lyrics, and peace signs stretch across a wall that became a quiet rebellion under communist rule. Painted over countless times, it always returns by morning.",
+          "tours": [
+            {
+              "name": "Grand city tour on Scrooser in Prague",
+              "url": "http://vi.me/tTZLf?pid=P00291237&mcid=42383&medium=link&campaign=Prague",
+              "emoji": "✌️"
+            }
+          ],
+          "image": "/images/Jl.jpg"
         }
       ]
     },

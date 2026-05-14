@@ -4,6 +4,7 @@ import Link from "next/link";
 import { headerLinks } from "./Header";
 
 const MAGAZINE_LINKS = [
+    { label: "Signature Travel", href: "/signature-travel" },
     { label: "All Articles", href: "/all-articles" },
     { label: "The Mission", href: "/about" },
     { label: "Contact", href: "mailto:info@eztravelz.com" },
